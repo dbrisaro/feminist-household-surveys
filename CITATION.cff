@@ -12,9 +12,7 @@ authors:
     family-names: "Fernández Erlauer"
     orcid: "https://orcid.org/0009-0004-8797-746X"
     affiliation: "University of Greenwich"
-license:
-  - MIT
-  - CC-BY-4.0
+license: CC-BY-4.0
 version: "1.0"
 date-released: "2026-10-15"
 keywords:
