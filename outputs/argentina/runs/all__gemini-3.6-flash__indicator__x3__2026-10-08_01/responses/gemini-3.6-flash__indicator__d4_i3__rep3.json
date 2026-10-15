@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "3 ¿Quién es el jefe o jefa del hogar? (anote su nombre en primer lugar y luego continúe con el resto del hogar)",
+          "document": "[C] EPHContinua_CuestVivienda.pdf",
+          "location": "Bloque V, p. 4"
+        },
+        {
+          "text": "03 RELACIÓN DE PARENTESCO ... Jefe/a ... JEFE/A",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        },
+        {
+          "text": "I. IDENTIFICACIÓN ... Respondente",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque I, p. 1"
+        }
+      ],
+      "reasoning": "The survey uses 'jefe o jefa del hogar' / 'Jefe/a' to designate the anchor person rather than a gender-neutral term such as householder or reference person (so neutral_anchor_term is false). The questionnaire asks '¿Quién es el jefe o jefa del hogar?' without stating an explicit selection rule or criterion for choosing who is designated as head (so explicit_selection_rule and rule_not_sex_age_authority are false). The respondent to household-level questions is recorded separately in a dedicated 'Respondente' field in Block I of the household questionnaire, distinct from the reference person (so respondent_separate_or_any_adult is true).",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

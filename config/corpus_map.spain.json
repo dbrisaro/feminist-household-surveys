@@ -1,0 +1,88 @@
+{
+  "country": "spain",
+  "survey": "Encuesta de Población Activa (EPA) ()",
+  "agency": "INE Spain",
+  "doc_dir": "data/raw/spain/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [
+        "epacues21.pdf"
+      ]
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [
+        "compa_paro_2023.pdf",
+        "resumetepa21.pdf",
+        "medida_efecto_epa_cambios2021.pdf",
+        "epa_cambios2021.pdf"
+      ]
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [],
+      "missing_note": "No document of type G (interviewer guides and manuals) was found in the collected corpus for spain. Indicators routed to G are reported as source_missing, not as not_evidenced."
+    }
+  },
+  "estimated_tokens": {
+    "C": 57353,
+    "M": 63893,
+    "G": 0,
+    "C+M": 121246
+  },
+  "excluded": {
+    "epacues05.pdf": "earlier wave, superseded by epacues21.pdf (same lineage, later wave similarity 1.000)",
+    "compa_paro_2021.pdf": "earlier wave, superseded by compa_paro_2023.pdf (content similarity 0.931)",
+    "compa_paro_2019.pdf": "earlier wave, superseded by compa_paro_2023.pdf (content similarity 0.893)",
+    "compa_paro_2017.pdf": "earlier wave, superseded by compa_paro_2023.pdf (content similarity 0.885)",
+    "compa_empleo_bp11_2016.pdf": "earlier wave, superseded by compa_empleo_bp11_2018.pdf (content similarity 0.816)",
+    "compa_paro_2015.pdf": "earlier wave, superseded by compa_paro_2023.pdf (same lineage, later wave similarity 1.000)",
+    "compa_empleo_bp11_2014.pdf": "earlier wave, superseded by compa_empleo_bp11_2018.pdf (same lineage, later wave similarity 1.000)",
+    "compa_paro_2013.pdf": "earlier wave, superseded by compa_paro_2023.pdf (same lineage, later wave similarity 1.000)",
+    "compa_empleo_bp11_2012.pdf": "earlier wave, superseded by compa_empleo_bp11_2018.pdf (same lineage, later wave similarity 1.000)",
+    "compa_paro_bp11_2011.pdf": "earlier wave, superseded by compa_paro_2023.pdf (same lineage, later wave similarity 1.000)",
+    "compa_paro_bp11_2009.pdf": "earlier wave, superseded by compa_paro_2023.pdf (same lineage, later wave similarity 1.000)",
+    "compa_paro_bp11_2007.pdf": "earlier wave, superseded by compa_paro_2023.pdf (same lineage, later wave similarity 1.000)",
+    "compa_paro_bp11_2005.pdf": "earlier wave, superseded by compa_paro_2023.pdf (same lineage, later wave similarity 1.000)",
+    "resumetepa.pdf": "earlier wave, superseded by resumetepa21.pdf (same lineage, later wave similarity 1.000)",
+    "compa_empleo_bp11_2018.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "submuestra.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "epa_meto_tasas_desestacionalizadas.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "epa21_disenc.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "epa05_disenc.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "cohe_empleo_b10.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "compa_empleo_bp11_2016_microdatos.pdf": "title page: microdata file, not instrument or methodology",
+    "epa_2016_m.pdf": "title page: press release presenting module results",
+    "epa_2017_m.pdf": "title page: press release presenting module results",
+    "epa_2018_m.pdf": "title page: press release presenting module results by sex",
+    "epa_2019_m.pdf": "title page: press release presenting module results",
+    "epa_2020_m.pdf": "title page: press release presenting module results",
+    "evolucion_epa.pdf": "title page: analytical report on labor force evolution",
+    "nota_epa_decil.pdf": "title page: statistical exploitation note on salaries",
+    "nota_epa_retro0009.pdf": "title page: double coding matrices for classifications",
+    "nota_epa_retro0011.pdf": "title page: double coding matrices for classifications",
+    "np417.pdf": "title page: press release presenting module results",
+    "np459.pdf": "title page: press release presenting module results",
+    "np508.pdf": "title page: press release presenting module results",
+    "np560.pdf": "title page: press release presenting module results",
+    "np608.pdf": "title page: press release presenting module results",
+    "np663.pdf": "title page: press release presenting module results",
+    "np716.pdf": "title page: press release presenting module results",
+    "np785.pdf": "title page: press release presenting module results",
+    "np839.pdf": "title page: press release with minimal extractable content",
+    "np849.pdf": "title page: press release presenting module results",
+    "np912.pdf": "title page: press release presenting module results"
+  },
+  "unclassified": {
+    "C_epacues21.pdf": "no rule matched, title page not read",
+    "M_epa_meto_tasas_desestacionalizadas.pdf": "no rule matched, title page not read",
+    "M_np839.pdf": "no rule matched, title page not read"
+  },
+  "non_textual": {
+    ".xls": 14,
+    ".xlsx": 11,
+    ".csv": 1
+  }
+}

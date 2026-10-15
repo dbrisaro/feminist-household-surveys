@@ -1,0 +1,98 @@
+{
+  "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+  "note": "final run 2026-10-08, option B",
+  "planned_utc": "20261008T123357Z",
+  "provider": "google",
+  "country": "peru",
+  "settings": {
+    "model": [
+      "gemini-3.6-flash"
+    ],
+    "mode": [
+      "indicator"
+    ],
+    "effort": null,
+    "effort_note": "--effort medium accepted but not sent: the google API takes no equivalent parameter",
+    "repeat": 3,
+    "only": null,
+    "budget_usd": 1.7,
+    "api_key_var": "GEMINI_API_KEY_PAID",
+    "executed": true,
+    "max_tokens": {
+      "indicator": 4000
+    },
+    "thinking": null
+  },
+  "framework": {
+    "source_file": "Prompting/gender_survey_framework.html",
+    "n_indicators": 17
+  },
+  "corpus": {
+    "n_documents": 5,
+    "documents": [
+      {
+        "source_code": "C",
+        "doc": "2024/CED-01A-500 ENAHO 2024.pdf",
+        "text_file": "data/processed/text/peru/2024__CED-01A-500 ENAHO 2024.txt",
+        "chars": 97940,
+        "sha256": "866ce9675d08a97bb4f47f0ed008e05648598adaa0e97c7f1f1f2eb64b89eaa4",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "C",
+        "doc": "2024/CED-01-200-2024.pdf",
+        "text_file": "data/processed/text/peru/2024__CED-01-200-2024.txt",
+        "chars": 23255,
+        "sha256": "183f3275e60af360adec9ceb83bf366b38d3b200e067e67c7b94be452a60c20a",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "C",
+        "doc": "2024/CED-01-100-2024.pdf",
+        "text_file": "data/processed/text/peru/2024__CED-01-100-2024.txt",
+        "chars": 36316,
+        "sha256": "4d400ec4a6deb87624a78228624ee138420666d86376e715bc9e9211cfe903e9",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "2024/FichaTecnica.pdf",
+        "text_file": "data/processed/text/peru/2024__FichaTecnica.txt",
+        "chars": 64396,
+        "sha256": "0c227d8e1b92ae51bb8a931d55b22a6c3677403d73b2cd6c87e80c242bac3b53",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "2024/DefinicionValoresMonetariosBasedeDatos.pdf",
+        "text_file": "data/processed/text/peru/2024__DefinicionValoresMonetariosBasedeDatos.txt",
+        "chars": 5858,
+        "sha256": "5a5f812300ccf8819cde958f2ad9bafb374d2b99285c6a97ffdeffd438e908ec",
+        "part": 1,
+        "n_parts": 1
+      }
+    ]
+  },
+  "plan": {
+    "n_calls": 51,
+    "n_source_missing": 0,
+    "projected_input_usd": 1.0077,
+    "projected_worst_case_usd": 4.0677
+  },
+  "cost": {
+    "spent_usd": 1.0321,
+    "notional_usd_on_paid_key": null,
+    "billing": "paid",
+    "requests_used": null,
+    "requests_per_day_limit": null,
+    "budget_usd": 1.7,
+    "n_calls_planned": 51,
+    "started_utc": "20261008T123357Z",
+    "finished_utc": "20261008T124622Z"
+  },
+  "command": "scripts/llm/run_eval_gemini.py --country peru --model gemini-3.6-flash --mode indicator --repeat 3 --billing paid --api-key-var GEMINI_API_KEY_PAID --max-output-tokens 16000 --budget-usd 1.70 --note final run 2026-10-08, option B --go"
+}

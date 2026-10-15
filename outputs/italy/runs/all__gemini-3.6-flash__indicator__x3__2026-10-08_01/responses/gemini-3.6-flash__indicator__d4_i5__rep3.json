@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "QSF16. Relazione di parentela\n RICODIFICATA NELLA VARIABILE RUOLOFAM",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        },
+        {
+          "text": "RUOLOFAM Ruolo in famiglia\n  Unipersonale 1\n  Genitore in coppia 2\n  Monogenitore 3\n  Coniuge senza figli 4\n  Figlio 5\n  Figlio di monogenitore 6\n  Altro 7",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Variabili ricostruite, p. 23"
+        },
+        {
+          "text": "Tali stime si riferiscono a tutti i componenti delle famiglie residenti in Italia al netto dei membri permanenti delle convivenze (ospizi, brefotrofi, istituti religiosi, caserme, ecc.) .",
+          "document": "[M] 2025/METADATI/ISTAT_MFR_RCFL_Long3_NotaMetodologicaIndagine_2025_Terzo_trimestre.pdf",
+          "location": "1. Introduzione, p. 3"
+        },
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti 3|_|",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC29, p. 8"
+        }
+      ],
+      "reasoning": "1. member_to_member_relationships: Relationships are recorded via QSF16 and recoded into RUOLOFAM (role in family), which captures individual family roles relative to the household context rather than using a full triangular grid or pointer variables (such as mother ID, father ID, partner ID). Therefore, member-to-member relationships are false.\n2. extended_ties: Specific extended family ties beyond spouse and parent-child (such as grandparents, siblings, non-kin, or same-sex partners) are not separately identified in RUOLOFAM, falling instead into category 7 ('Altro'). Therefore, extended ties are false.\n3. multiple_household_criteria: The supplied documents define households in general terms (excluding members of institutional residences) but do not state operational criteria for separating multiple households residing within the same dwelling. Therefore, multiple household criteria are false.\n4. sub_units: Although RUOLOFAM distinguishes single-parent vs. couple roles (e.g., 'Figlio di monogenitore'), the instrument does not provide a mechanism or variable to identify secondary family sub-units within a household. Therefore, sub-units are false.\n5. caregiving_relationships: Items such as QC29 record care responsibility as a reason for part-time work or non-employment ('Si prende cura dei figli e/o di altri familiari non autosufficienti'), but the instrument does not record who specifically provides care to whom. Therefore, caregiving relationships are false.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": false,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": false,
+        "sub_units": false
+      }
+    }
+  ]
+}

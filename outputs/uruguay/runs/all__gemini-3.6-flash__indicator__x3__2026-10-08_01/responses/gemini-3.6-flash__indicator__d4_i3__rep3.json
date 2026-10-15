@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "e.22 ¿Cuál es su relación de parentesco con la persona referente del hogar (integrante del hogar N° 1)? Referente del hogar.......................................................... 1",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "Section E, question e.22, page 4"
+        },
+        {
+          "text": "e.5 Si la persona era referente del hogar en la visita anterior. Esta persona era referente del hogar en la entrevista anterior, ¿cuál persona pasa a ser el referente del hogar?",
+          "document": "C_Cuestionario_seguimiento_2024.pdf",
+          "location": "Section E, question e.5, page 2"
+        },
+        {
+          "text": "c.1 Informante de los datos del hogar. Anote el número de informante del hogar..........................................",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "Section C, question c.1, page 1"
+        },
+        {
+          "text": "e.14 ¿Cuál miembro del hogar responde? Anote el N° de persona......................................................................",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "Section E, question e.14, page 4"
+        },
+        {
+          "text": "La información del hogar y de todos sus integrantes es proporcionada por un informante calificado.",
+          "document": "Metodologia_ECH_2021.pdf",
+          "location": "Section 7.1, page 20"
+        }
+      ],
+      "reasoning": "The survey uses the gender-neutral term 'persona referente del hogar' (or 'referente del hogar') rather than 'head of household' to designate the anchor person (integrante N° 1). The documentation mentions that household information is provided by a qualified informant ('informante calificado') and explicitly records the respondent separately from the reference person (via c.1 and e.14). However, the supplied documentation does not state an explicit rule or criterion for choosing who is designated as the reference person ('referente del hogar').",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

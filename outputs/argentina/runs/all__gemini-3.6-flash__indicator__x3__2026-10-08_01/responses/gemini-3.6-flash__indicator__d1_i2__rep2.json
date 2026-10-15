@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "04\nSEXO\n(Anote en cada caso)\n1. varón\n2. mujer",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        }
+      ],
+      "reasoning": "The survey collects demographic information on sex in Bloque IV of EPHContinua_CuestHogar.pdf with binary categories ('1. varón', '2. mujer'). It does not contain any variable collecting gender identity, nor does it mention gender identities beyond the binary anywhere in the instrument.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

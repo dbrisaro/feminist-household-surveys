@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "5. ¿Qué parentesco tiene con la jefa o jefe del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE A, p. 2, PREGUNTA 5"
+        },
+        {
+          "text": "28. ¿Cuántos días a la semana trabaja regularmente en su ocupación?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE B, p. 8, PREGUNTA 28"
+        },
+        {
+          "text": "29. ¿Cuántas horas en promedio trabaja al día en su ocupación?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE B, p. 8, PREGUNTA 29"
+        },
+        {
+          "text": "33. ¿Cuánto es su salario líquido, excluyendo los descuentos de ley (AFP, IVA, IT)?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE C, p. 9, PREGUNTA 33"
+        },
+        {
+          "text": "37. ¿Cuánto es su ingreso total en su ocupación principal?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE C, p. 9, PREGUNTA 37"
+        }
+      ],
+      "reasoning": "The instrument asks for household headship in question 5 ('¿Qué parentesco tiene con la jefa o jefe del hogar?'). Examining each of the four specified dimensions: 1. Economic maintenance: While Questions 33 and 37 capture income from employment at the individual level, the questionnaire does not capture income across all sources (such as remittances, pensions, or non-labor support) per member. 2. Labor burden: Questions 28 and 29 record hours worked in paid employment, but there are no questions collecting hours spent in unpaid domestic or care work. 3. Property and asset control: The questionnaire contains no questions recording individual member ownership or control of dwelling, land, or assets. 4. Decision-making: The questionnaire contains no questions on who makes decisions across household spheres. Therefore, none of these dimensions are captured separately as specified.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

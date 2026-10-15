@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "COMIENCE POR LA PERSONA «CABEZA» JEFE(A) DEL HOGAR, y continúe registrando las personas del hogar de acuerdo con las instrucciones del manual.",
+          "document": "[G] G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf",
+          "location": "Section 5.5, p. 35"
+        },
+        {
+          "text": "Pregunta 5. ¿Cuál es el parentesco de... con el jefe o jefa del hogar?",
+          "document": "[G] G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf",
+          "location": "Section 5.6, p. 37"
+        },
+        {
+          "text": "Se considera jefe (a) del hogar, a la persona que, por su edad, por ser el principal sostén económico de la familia o por otras razones, es reconocido por sus miembros como tal. Puede ser hombre o mujer.",
+          "document": "[G] G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf",
+          "location": "Section 4, p. 16"
+        },
+        {
+          "text": "Para esta pregunta de parentesco, la determinación de la jefatura del hogar se establece teniendo en cuenta: a. La consideración subjetiva por parte de los miembros del hogar al establecer la persona como «jefe del hogar». b. La persona que dentro del hogar aporta la mayor parte de la manutención, de acuerdo con los ingresos aportados.",
+          "document": "[G] G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf",
+          "location": "Section 5.6, p. 37"
+        },
+        {
+          "text": "Solicitar la presencia del jefe o jefa del hogar, cónyuge o de una persona mayor de 18 años que resida habitualmente en el hogar para que informe sobre los datos generales de la encuesta.",
+          "document": "[G] G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf",
+          "location": "Section 4, p. 16"
+        },
+        {
+          "text": "(Para ser diligenciado por el jefe[a] del hogar o su cónyuge, o una persona mayor de 18 años miembro del hogar que no sea del servicio doméstico).",
+          "document": "[G] G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf",
+          "location": "Section 5.3, p. 23"
+        },
+        {
+          "text": "Pregunta 1. Número de orden de la persona que proporciona la información.",
+          "document": "[G] G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf",
+          "location": "Section 5.6, p. 36"
+        }
+      ],
+      "reasoning": "The survey documentation uses 'jefe(a) del hogar' or 'jefe o jefa del hogar' to identify the anchor person rather than a gender-neutral term. It explicitly defines selection rules for determining the head of household, based on subjective recognition, age, or being the primary earner. Because age ('por su edad') and breadwinner status ('principal sostén económico' / 'aporta la mayor parte de la manutención') are explicitly stated criteria, the selection rule is based on seniority and presumed economic authority. Finally, household-level questions may be answered by any adult resident (18 years or older) or the spouse, and the respondent's order number is recorded separately.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

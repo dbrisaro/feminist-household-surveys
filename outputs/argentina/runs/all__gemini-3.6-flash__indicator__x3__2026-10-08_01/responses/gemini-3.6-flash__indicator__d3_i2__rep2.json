@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "3b. ¿Cuántas horas semanales trabaja habitualmente en todos sus empleos / ocupaciones...",
+          "document": "[C] EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 3, p. 3"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII, p. 6"
+        }
+      ],
+      "reasoning": "The survey individual questionnaire captures hours worked in paid employment (e.g., Bloque 3, questions 3b, 3e, 3f). The household questionnaire (Bloque VII) asks who performs most household tasks, but does not record the time devoted to unpaid work. No questions record time spent on leisure or self-care. Under the rule established for this indicator, if the instrument only records hours of paid work with no time recorded for any other daily activity, all four statements are false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

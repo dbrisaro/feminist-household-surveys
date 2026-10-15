@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "¿En qué actividad ocupó ... la mayor parte del tiempo la semana pasada? a. Trabajando Pase a 2A b. Buscando trabajo Pase a 3 c. Estudiando Pase a 3 d. Oficios del hogar Pase a 3",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo H, Pregunta 2, p. 20"
+        },
+        {
+          "text": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, p. 84"
+        }
+      ],
+      "reasoning": "In Section H (Labor Force), unpaid domestic and care tasks are not included within the economic activity category ('a. Trabajando'). Instead, 'd. Oficios del hogar' is listed as a separate activity status alongside studying or looking for work. Unpaid care and domestic work are captured in a distinct module outside the primary labor force section (Capítulo K, 'Otras formas de trabajo'). Therefore, the main activity category does not classify or analytically incorporate unpaid domestic and care work as economic activity, treating it instead as a different category.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

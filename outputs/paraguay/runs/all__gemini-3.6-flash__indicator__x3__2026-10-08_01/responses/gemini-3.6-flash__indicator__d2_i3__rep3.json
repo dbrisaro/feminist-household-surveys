@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "Mínimo de horas trabajadas: Actividad no agropecuaria: Cuando la persona que declaró dedicarse a actividades no agropecuarias ha totalizado por lo menos 1 hora de trabajo en el periodo de referencia (últimos 7 días). Actividad agropecuaria: Cuando la persona que declaró dedicarse a actividades agropecuarias ha totalizado por lo menos 7 horas de trabajo en el periodo de referencia (últimos 7 días). Familiar no remunerado: Se considera a la persona que trabaja sin remuneración en una empresa familiar por lo menos 15 horas en el periodo de referencia (últimos 7 días).",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "p. 13"
+        },
+        {
+          "text": "Durante los últimos 7 días ¿ha realizado algún trabajo ya sea como empleado, por cuenta propia, empleador (patrón) o como familiar no remunerado?",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6: EMPLEO E INGRESO, PARTE A, Pregunta 2"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................................ 6",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6: EMPLEO E INGRESO, PARTE A, Pregunta 8"
+        }
+      ],
+      "reasoning": "The questionnaire defines work and economic activity in Section 6 as wage employment, self-employment, employer activity, or unpaid work in a family business or farm. Unpaid domestic and care work within the household (\"labores del hogar\") is not included in the definition of work or economic activity; instead, it is explicitly listed as a reason for not seeking work or not being economically active (Section 6, Part A, Pregunta 8, Code 6: \"Se dedica exclusivamente a las labores del hogar\").",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

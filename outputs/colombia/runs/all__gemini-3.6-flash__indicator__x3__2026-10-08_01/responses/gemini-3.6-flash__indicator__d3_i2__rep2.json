@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "¿Cuántas horas a la semana trabaja normalmente.... en este trabajo?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo I, Pregunta 52, p. 56"
+        },
+        {
+          "text": "¿Cuántas horas trabajó durante la semana pasada en este trabajo?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo I, Pregunta 54, p. 56"
+        },
+        {
+          "text": "Cocinar, lavar los platos, poner la mesa en: a. Su hogar? Sí 1 Días Horas día No 2",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, Pregunta 1, p. 84"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar? Sí 1 Días Horas día No 2",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, Pregunta 4, p. 86"
+        }
+      ],
+      "reasoning": "The survey instrument records time spent on paid work in Chapter I (e.g., Q52 and Q54 ask for usual weekly hours and actual hours worked last week). It also records time devoted to unpaid domestic and care work in Chapter K, Questions 1 to 6, recording both days per week and hours per day spent on tasks such as cooking, cleaning, clothes care, childcare, eldercare, and helping with schoolwork. However, the instrument does not include any questions or modules capturing time allocated to leisure or self-care (such as sleeping, eating, or personal care).",
+      "elements": {
+        "leisure": false,
+        "paid work": true,
+        "self-care": false,
+        "unpaid work": true
+      }
+    }
+  ]
+}

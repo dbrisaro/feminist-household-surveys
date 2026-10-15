@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "SOLO PARA EL ENCUESTADOR ANOTE EL CÓDIGO DE IDENTIFICACIÓN DEL CÓNYUGE, PADRE Y MADRE DE CADA PERSONA MIEMBRO DEL HOGAR. SI NO CORRESPONDE ANOTE \"00\"",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1: CARACTERÍSTICAS DE LA POBLACIÓN, Pregunta 5"
+        },
+        {
+          "text": "Nieto/a ..................... 5 Yerno/Nuera ............................ 6 Padre/Madre ............................ 7 Suegro/a .................................. 8 Otro pariente............................ 9 No pariente ............................ 10",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1: CARACTERÍSTICAS DE LA POBLACIÓN, Pregunta 3"
+        },
+        {
+          "text": "1. DEBEN INCLUIRSE COMO MIEMBROS DEL HOGAR A: • Las personas que viven habitualmente en la vivienda visitada.",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Página 2, numeral 1"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................ 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6: EMPLEO E INGRESO, Pregunta 8"
+        }
+      ],
+      "reasoning": "The questionnaire records pointer variables (spouse ID, father ID, mother ID) for each household member in Question 5, establishing that member-to-member relationships are recorded beyond relationship to the household head. Extended ties beyond spouse and parent-child can be identified via relationship codes in Question 3 (e.g. grandchildren, parents, in-laws, other relatives, and non-relatives). Sub-units (secondary family nuclei) within a larger household can be identified using the pointer variables in Question 5 in conjunction with relationship to head and marital status codes. However, no specific criteria are provided for distinguishing or separating multiple households within a single dwelling (household inclusion rules exist, but no household division criteria like shared cooking or budget are stated). Additionally, caregiving relationships (who cares for whom) are not collected by the instrument.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": true,
+        "multiple_household_criteria": false,
+        "sub_units": true
+      }
+    }
+  ]
+}

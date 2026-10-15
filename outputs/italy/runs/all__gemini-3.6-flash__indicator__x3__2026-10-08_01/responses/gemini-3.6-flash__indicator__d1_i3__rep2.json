@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "QSF11. Sesso del componente\n RICODIFICATA NELLA VARIABILE SESSO\n                           •   Maschio          1\n                           •   Femmina          2",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 2, QSF11"
+        }
+      ],
+      "reasoning": "In the supplied questionnaire [C], question QSF11 collects 'Sesso del componente' with categories 'Maschio' (1) and 'Femmina' (2). The questionnaire contains no definition of sex or gender and no instructions to the interviewer regarding how to record sex or gender. Interviewer instructions/manuals (document type G) were not supplied in this run.",
+      "extracted_text": "No instruction is given."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "¿Cuántas horas trabajó (…) la semana pasada o la última semana que trabajó? En todos sus trabajos",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 24, p. 5"
+        },
+        {
+          "text": "¿Cuál es la razón por la que (…) no desea o no está disponible para trabajar más horas: - Tiene a cargo el cuidado de algún miembro de su hogar?.......................... 1",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 29a, p. 6"
+        },
+        {
+          "text": "Ama de casa?................... 4",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 36, p. 8"
+        }
+      ],
+      "reasoning": "The questionnaire contains questions on hours devoted to paid work across primary, secondary, and other occupations (Pregunta 24 and Pregunta 51). It does not ask respondents to record time allocated to other daily activities such as unpaid household work, caregiving, education, or leisure. Care activities and household duties are only mentioned as reasons for non-availability or as categories of inactivity (Pregunta 29a and Pregunta 36). Therefore, the instrument does not capture time allocation across daily activities beyond paid work.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

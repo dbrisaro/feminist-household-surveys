@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "QSF16. Relazione di parentela RICODIFICATA NELLA VARIABILE RUOLOFAM",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        },
+        {
+          "text": "RUOLOFAM Ruolo in famiglia  Unipersonale 1  Genitore in coppia 2  Monogenitore 3  Coniuge senza figli 4  Figlio 5  Figlio di monogenitore 6  Altro 7",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Caratteristiche individuali e familiari, p. 23-24"
+        }
+      ],
+      "reasoning": "The supplied instrument records relationship to family members in item QSF16 (\"Relazione di parentela\"), which is recoded into the variable RUOLOFAM (\"Ruolo in famiglia\"). The questionnaire does not collect or designate a household head, nor does it specify any method (whether self-declared, designated by respondent, or assigned by an explicit criterion) for identifying a household head. Therefore, none of the specified options apply.",
+      "selected": ""
+    }
+  ]
+}

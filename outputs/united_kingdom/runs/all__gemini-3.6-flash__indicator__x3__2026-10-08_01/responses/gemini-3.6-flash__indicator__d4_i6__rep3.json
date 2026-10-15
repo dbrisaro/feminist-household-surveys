@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "Are you… 1 single, that is never married 2 married and living with your husband/wife 3 a civil partner in a legally-recognised Civil Partnership 4 married and separated from your husband/wife 5 Divorced 6 or widowed",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "XMARSTA, page 11"
+        },
+        {
+          "text": "Is [Name’s] husband/wife/civil partner a member of the household? 1 Yes 2 No",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "MARCHK, page 11"
+        },
+        {
+          "text": "I would now like to ask how all the people in your household are related to each other. Code relationship of [Name] to [Name]",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "R, page 12"
+        },
+        {
+          "text": "You told me that [NumHhldrs] people jointly own or rent the accommodation. Which of you/them has the highest income (from earnings, benefits, pensions and any other sources)?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "HIHNUM, page 231"
+        },
+        {
+          "text": "CONTENTS",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "CONTENTS, page 1"
+        }
+      ],
+      "reasoning": "The survey allows distinguishing de jure vs de facto headship status because it collects marital status in XMARSTA alongside explicit partner presence/absence in MARCHK and LIV12W. It allows identifying unpartnered mother-child units across the household through the person-to-person relationship matrix R combined with cohabitation and marital status variables. However, it does not identify women-maintained households/units through the main provider regardless of reference person, as HIHNUM only asks for the person with highest income among joint owners/renters rather than across all household members. Lastly, the questionnaire contains no module or mechanism to link mother-child units/hearth-holds to their own consumption, production, or care activity.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

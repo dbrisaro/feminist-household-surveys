@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "pers2. De las personas que mencionó previamente, ¿Quién es el proveedor principal del hogar? Recuerde, la persona proveedora principal siempre debe ir en la línea 1",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, Cuestionario Sociodemográfico, pers2"
+        },
+        {
+          "text": "pers7. Registre a la persona que sea informante idóneo del hogar durante la entrevista",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, Cuestionario Sociodemográfico, pers7"
+        },
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de proveedora principal]?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, Cuestionario Sociodemográfico, pers8"
+        },
+        {
+          "text": "Informante idóneo Persona apropiada para proporcionar la información que requiere una operación estadística, pues tiene la capacidad y conocimientos de responder sobre el tema o temas de estudio (INE, 2022a). Esta persona puede responder por sí misma o por los integrantes del hogar en el caso de la ENE, teniendo como requisito ser mayor de edad.",
+          "document": "[M] glosario-ene.pdf",
+          "location": "p. 5, ítem 21"
+        }
+      ],
+      "reasoning": "The survey does not use 'head of household' ('jefe de hogar') to identify the anchor person, using instead 'proveedor/a principal' (pers2, pers8). Explicit rules exist for selecting the reference person (pers2 specifies that the main earner must always be listed on line 1) and the survey respondent (pers7 and Glossary define the 'informante idóneo' as an adult member with knowledge). Because the criterion to select the reference person is breadwinner status ('proveedor principal' / main earner), the criterion relies on main earner status, so the rule_not_sex_age_authority element is false. The respondent ('informante idóneo', pers7) is recorded separately from the reference person ('proveedor principal', pers2), and any knowledgeable adult member may answer.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

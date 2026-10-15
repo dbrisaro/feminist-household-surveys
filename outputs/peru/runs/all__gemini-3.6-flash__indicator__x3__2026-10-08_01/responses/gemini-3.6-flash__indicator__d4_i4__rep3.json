@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "500. EMPLEO (Para todas las personas de 14 años y más de edad)",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Page 12, Question 500"
+        },
+        {
+          "text": "556. EN LOS ÚLTIMOS 6 MESES, DE…..... A......…, ¿RECIBIÓ UD. INGRESOS POR CONCEPTO DE:",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Page 19, Question 556"
+        },
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Page 12, Question 501"
+        },
+        {
+          "text": "105. LA VIVIENDA QUE OCUPA SU HOGAR ES:",
+          "document": "2024/CED-01-100-2024.pdf",
+          "location": "Page 2, Question 105"
+        },
+        {
+          "text": "106A. ¿ESTA VIVIENDA TIENE TÍTULO DE PROPIEDAD?",
+          "document": "2024/CED-01-100-2024.pdf",
+          "location": "Page 2, Question 106A"
+        }
+      ],
+      "reasoning": "For economic_maintenance (true): Chapter 500 collects individual income data at the member level for persons aged 14 and older across all labor and non-labor sources (dependent/independent work, pensions, social programs, remittances, and property income).\n\nFor labor_burden (false): Chapter 500 measures weekly hours spent in paid work (questions 513, 518) but explicitly excludes domestic chores ('Sin contar los quehaceres del hogar' in q501), and the survey does not capture hours spent in unpaid domestic or care work across household members.\n\nFor property_asset_control (false): Chapter 100 measures dwelling tenure and property titles (questions 105 and 106A) at the aggregate household level, without recording individual member ownership or titling rights.\n\nFor decision_making (false): The provided instrument does not contain questions regarding decision-making authority or intra-household decision spheres.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

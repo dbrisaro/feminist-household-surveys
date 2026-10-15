@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "¿Qué relación de parentesco tiene (…) con el jefe del hogar? Jefe……………… 1 Cónyuge…………… 2 Hijo ó hija………….. 3 Yerno ó nuera…….. 4 Nieto ó nieta………. 5 Padres ó suegros… 6 Otros parientes…… 7 Empleado(a) Doméstico(a)……… 8 Otros no parientes… 9",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 1: REGISTRO E INFORMACIÓN DE LOS MIEMBROS DEL HOGAR, p. 20, Q4"
+        },
+        {
+          "text": "¿Cuál es su estado civil ó conyugal actual: Casado (a)?.... 1 Separado (a)?. 2 Divorciado (a)? 3 Viudo (a)?........ 4 Unión Libre?... 5 Soltero (a)?..... 6",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 1: REGISTRO E INFORMACIÓN DE LOS MIEMBROS DEL HOGAR, p. 20, Q6"
+        },
+        {
+          "text": "¿Recibió en el mes de ABRIL, dinero o especies enviado por parte de familiares o amigos que vivan en el exterior?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3: INGRESOS - PARA PERSONAS DE 5 AÑOS Y MÁS, p. 16, Q74"
+        },
+        {
+          "text": "En el mes de ABRIL, en su ocupación como (…) ¿cuánto dinero líquido recibió por concepto de sueldo o salario y otros ingresos?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3: INGRESOS - PARA PERSONAS DE 5 AÑOS Y MÁS, p. 15, Q66"
+        },
+        {
+          "text": "SECCIÓN 5: DATOS DE LA VIVIENDA Y EL HOGAR JEFE O CÓNYUGE",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 5: DATOS DE LA VIVIENDA Y EL HOGAR JEFE O CÓNYUGE, p. 19"
+        }
+      ],
+      "reasoning": "1. de_jure_vs_de_facto: True. The instrument collects marital status (Sección 1, Q6), household composition relative to the head (Sección 1, Q4), and remittances from relatives abroad (Sección 3, Q74). Combining marital status (e.g., married/union head without partner present in roster or receiving remittances) with non-partnered marital states (single, separated, divorced, widowed) allows distinguishing de facto from de jure female headship.\n2. unpartnered_mother_child_units: False. Relationship to head (Sección 1, Q4) is measured solely relative to the household head ('con el jefe del hogar'). The roster does not collect parental pointers (mother/father line numbers) for non-head members, so unpartnered mother-child units residing inside larger households cannot be unambiguously identified.\n3. women_maintained_by_provider: True. The survey collects detailed individual income data across all sources (salaries in Q66, self-employment profits in Q63, secondary jobs in Q69, capital in Q71, pensions in Q72, transfers in Q73-78) for each person aged 5 and above. This allows determining the household's main economic provider directly from income variables, regardless of who is designated as the reference person ('Jefe').\n4. mother_child_unit_activity: False. Housing characteristics and consumption/amenity indicators (Sección 5) are gathered strictly at the aggregate household level. No variable captures sub-household or mother-child unit ('hearth-hold') consumption, production, or care activities.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": false,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "SEXO\n8\n... es\n1 hombre\n2 mujer",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Sección VI, Pregunta 8, página 4"
+        },
+        {
+          "text": "Pregunta 8\nSEXO\nObjetivo. Conocer el sexo de los integrantes del hogar, es decir, si es hombre o mujer.\nConcepto:\nSexo. Condición biológica que distingue a las personas en hombres y mujeres.\nInstrucciones:\n• Anota la clave 1 si es hombre o la 2 si es mujer, respetando la declaración del informante.\n• Si alguna persona tiene un nombre que puede ser utilizado para ambos sexos, como Inés, Guadalupe, Abigaíl, Dolores, y tienes duda de si es hombre o mujer, no trates de adivinarlo, es mejor que preguntes “¿Inés es hombre o mujer?”",
+          "document": "[G] G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf",
+          "location": "Capítulo 7, página 118"
+        }
+      ],
+      "reasoning": "In the Sociodemographic Questionnaire (page 4), Question 8 captures sex with options '1 hombre' and '2 mujer'. The interviewer manual (page 118) provides the objective ('Conocer el sexo de los integrantes del hogar, es decir, si es hombre o mujer'), defines sex as 'Condición biológica que distingue a las personas en hombres y mujeres', and instructs the interviewer to record code 1 for man or 2 for woman, respecting the informant's declaration. In cases where a name can be used for both sexes, the interviewer is instructed to ask directly '¿[Nombre] es hombre o mujer?' rather than guessing.",
+      "extracted_text": "SEXO\n8\n... es\n1 hombre\n2 mujer\n\nPregunta 8\nSEXO\nObjetivo. Conocer el sexo de los integrantes del hogar, es decir, si es hombre o mujer.\nConcepto:\nSexo. Condición biológica que distingue a las personas en hombres y mujeres.\nInstrucciones:\n• Anota la clave 1 si es hombre o la 2 si es mujer, respetando la declaración del informante.\n• Si alguna persona tiene un nombre que puede ser utilizado para ambos sexos, como Inés, Guadalupe, Abigaíl, Dolores, y tienes duda de si es hombre o mujer, no trates de adivinarlo, es mejor que preguntes “¿Inés es hombre o mujer?”"
+    }
+  ]
+}

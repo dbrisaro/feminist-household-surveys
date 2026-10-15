@@ -1,0 +1,42 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "(203) ¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR? Jefe/Jefa ............ 1 Esposa(o) /compañero(a) .... 2 Hijo(a)/hijastro(a) 3 Yerno/Nuera ....... 4 Nieto/a ................ 5 Padres/Suegros . 6 Hermano(a) ..... 11 Otros parientes .. 7 Trabaj. Hogar ..... 8 Pensionista......... 9 Otros No Parientes .......... 10",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203"
+        },
+        {
+          "text": "(203-A) N° DE NÚCLEO FAMILIAR",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203-A"
+        },
+        {
+          "text": "(203-B) RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL NÚCLEO FAMILIAR (Sólo relación Padres e Hijos) (UTILICE LOS CÓDIGOS DE LA PGTA. 203)",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203-B"
+        },
+        {
+          "text": "10. TOTAL DE HOGARES QUE OCUPAN LA VIVIENDA Sr(a).: Si HOGAR es la persona o grupo de personas que se alimentan de una misma olla y atienden en común otras necesidades básicas. ¿Cuántos hogares ocupan esta vivienda?",
+          "document": "2024/CED-01-100-2024.pdf",
+          "location": "Carátula / Características de la Vivienda, Pregunta 10"
+        },
+        {
+          "text": "LA SEMANA PASADA, DEL...... AL....., ¿LA TAREA QUE REALIZÓ EN EL HOGAR O FUERA DE ÉL FUE: Ayudó en el negocio de la casa o de un familiar? ................................ 1 Ayudó realizando labores domésticas en otra vivienda?......... 2 Ayudó a elaborar productos para la venta? ......................................... 3 Ayudó en la chacra o pastoreo de animales? ....................................... 4 Vendió productos: caramelos, dulces, etc.? ................................... 5 Prestó servicios: Lavando carros, lustrando calzado, etc.? ................. 6 Elaboró productos: chompas, etc.? ................................................ 7 Sólo realizó quehaceres del hogar? ............................................ 8 Solo estuvo estudiando? ................ 9 Otro? (especifique) ....................... 10",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 211A"
+        }
+      ],
+      "reasoning": "member_to_member_relationships is FALSE because relationships are recorded relative to the household head (P203) or head of the family nucleus (P203-B), without triangular matrix grids or individual pointer variables (such as mother's ID or partner's ID).\n\nextended_ties is TRUE because P203 provides distinct codes for relations beyond spouse and parent-child, including grandchildren (Nieto/a), siblings (Hermano/a), parents/parents-in-law (Padres/Suegros), domestic workers (Trabaj. Hogar), boarders (Pensionista), and other non-relatives (Otros No Parientes).\n\nmultiple_household_criteria is TRUE because Pregunta 10 of ENAHO.01 explicitly defines the criterion for separating multiple households within a dwelling as individuals who share meals from the same pot (\"se alimentan de una misma olla\") and attend to basic needs in common.\n\nsub_units is TRUE because Preguntas 203-A and 203-B assign each household member a family nucleus number (\"N° DE NÚCLEO FAMILIAR\") and record their relationship to the head of that nucleus, identifying sub-units within the household.\n\ncaregiving_relationships is FALSE because while the instrument records general household chores or minor activities (e.g., P211A), it does not record who provides care to whom within or across households.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

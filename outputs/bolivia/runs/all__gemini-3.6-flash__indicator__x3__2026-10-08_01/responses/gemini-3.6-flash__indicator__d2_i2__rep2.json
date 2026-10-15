@@ -1,0 +1,40 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "6. POR REALIZAR LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE B, Pregunta 14"
+        },
+        {
+          "text": "11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 6"
+        },
+        {
+          "text": "2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 7"
+        },
+        {
+          "text": "6. DEJÓ DE TRABAJAR PARA DEDICARSE A LOS QUEHACERES DEL HOGAR/CUIDAR DE UN MIEMBRO DE SU FAMILIA",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 13a"
+        },
+        {
+          "text": "6. Por realizar labores de casa/cuidado de miembros del hogar",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE H, Pregunta 60"
+        }
+      ],
+      "reasoning": "The instrument does not contain questions satisfying any of the three elements. Regarding responsibility, Q7 mentions 'responsable de los quehaceres del hogar', but this is an activity status category rather than an explicit question about who is in charge of or organizes domestic tasks. Regarding performance, domestic and care work appear in Q14, Q6, Q7, Q13a, and Q60 as reasons for non-attendance at school, reasons for not seeking work, activity status, reasons for leaving a job, or reasons for not working more hours; per the indicator guidelines, activity status classifications, inactivity categories, and reasons for not working or seeking work do not count as asking whether a person carries out domestic or care tasks. Regarding magnitude, hours questions (Q28, Q29, Q29a) strictly record time devoted to employment/economic activities and do not record time or frequency spent on unpaid domestic or care work.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

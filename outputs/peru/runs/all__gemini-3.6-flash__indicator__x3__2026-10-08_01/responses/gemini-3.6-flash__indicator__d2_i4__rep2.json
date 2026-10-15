@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "501"
+        },
+        {
+          "text": "Quehaceres del hogar? ............................. 5",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "546"
+        },
+        {
+          "text": "Los quehaceres del hogar no le permiten ............................................. 6",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "549"
+        },
+        {
+          "text": "Sólo realizó quehaceres del hogar? ............................................ 8",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "211A"
+        }
+      ],
+      "reasoning": "Question 501 explicitly excludes household tasks from employment by instructing the interviewer to ask if the respondent had a job \"without counting household tasks\" (\"Sin contar los quehaceres del hogar\"). Domestic tasks are otherwise mentioned only as categories of inactivity or reasons for not working or searching for work (question 546 option 5, question 549 option 6, and question 211A option 8). The questionnaire does not contain dedicated questions to record time devoted to domestic or care work separately for each person. Thus, the proposition does not hold.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

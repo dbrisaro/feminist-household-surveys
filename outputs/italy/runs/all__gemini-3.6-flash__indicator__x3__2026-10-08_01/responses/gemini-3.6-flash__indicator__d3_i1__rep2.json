@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "QC32 “NOME” di solito quante ore lavora a settimana? Indichi anche frazioni di ore (ed escluda l’interruzione per i pasti e gli spostamenti casa lavoro)..",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC32"
+        },
+        {
+          "text": "QD08 In genere “NOME” quante ore dedica a settimana a questo secondo lavoro? Indichi anche frazioni di ore.",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QD08"
+        },
+        {
+          "text": "QC29 Per quale tra questi motivi lavora part time (a tempo parziale):\n • Studia o segue corsi di formazione 1|_|(passare a QC31)\n • Malattia, problemi di salute personali 2|_|(passare a\n    QC31)\n • Si prende cura dei figli e/o di altri familiari non autosufficienti 3|_|\n • Altri motivi familiari (ad esempio si occupa della casa, è in attesa di un figlio,\n    vuole più tempo per la famiglia) 4|_|(passare a QC31)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC29"
+        }
+      ],
+      "reasoning": "The survey asks respondents to report hours spent working in paid employment in their main job (QC32) and secondary job (QD08). While reasons for working part-time or not seeking work include caregiving or domestic responsibilities (e.g., QC29), the instrument does not ask respondents how they allocate or spend time across daily activities, nor does it record time devoted to unpaid work, care, education, or leisure.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

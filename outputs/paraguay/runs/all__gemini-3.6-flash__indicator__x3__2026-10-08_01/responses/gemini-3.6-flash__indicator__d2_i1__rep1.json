@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar .........................3",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE A, Question 5"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................................ 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE A, Question 8"
+        }
+      ],
+      "reasoning": "The survey instrument does not contain a separate module on domestic or care work. Domestic duties ('labores del hogar') are only mentioned in Sección 6 as response options for inactivity or reasons for not seeking work.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

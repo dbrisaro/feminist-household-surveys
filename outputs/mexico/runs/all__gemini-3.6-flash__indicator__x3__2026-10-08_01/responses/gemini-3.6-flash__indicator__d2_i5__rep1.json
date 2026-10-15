@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, item 2, page 12"
+        }
+      ],
+      "reasoning": "Section IX, Question 9, item 2 of the Cuestionario de Ocupación y Empleo asks about time dedicated to caring for children, elderly, sick, or disabled household members, but restricts this to care provided on an exclusive basis ('de manera exclusiva'). The instrument contains no question asking whether a person supervises or remains available to care for household members while carrying out other activities.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

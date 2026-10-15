@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "3. DATOS DEL INFORMANTE Y DEL HOGAR\nNombre del Jefe del Hogar:\nNombre del Informante Calificado:",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Carátula, Sección 3"
+        },
+        {
+          "text": "¿Qué relación de parentesco tiene (…) con el jefe del hogar?\nJefe………………… 1",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, Pregunta 4"
+        },
+        {
+          "text": "JEFE DEL HOGAR\nEs aquella persona que es reconocida como tal por los demás miembros del hogar, por razones de dependencia, afinidad, edad, autoridad, respeto, etc. Sí una persona vive sola (Hogar unipersonal), es él, el Jefe del Hogar. La edad mínima para ser considerado jefe es de 12 años. El hogar de la vivienda seleccionada debe tener un solo Jefe de hogar.",
+          "document": "202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "Página 10"
+        },
+        {
+          "text": "Jefe del Hogar. - Es aquella persona que siendo residente habitual es reconocida como jefe por los demás miembros del hogar, ya sea por una mayor responsabilidad en las decisiones, por prestigio, ancianidad y razones económicas, o tradiciones sociales y culturales.",
+          "document": "202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "Página 32"
+        },
+        {
+          "text": "Informante calificado. - Es aquella persona que reside habitualmente en la vivienda, preferiblemente el jefe del hogar o su cónyuge. En ausencia de las personas mencionadas, la información puede ser suministrada por una persona mayor de 18 años perteneciente al hogar en referencia, que tenga un buen conocimiento de las actividades de los miembros del hogar, excepto empleadas (os) domésticas (os) que sean miembros del hogar.",
+          "document": "202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "Página 32"
+        },
+        {
+          "text": "Nombre del Informante Calificado:\nRegistre el nombre de la persona que va a proporcionar la información de todos los miembros del hogar, de preferencia debe ser el Jefe del Hogar o su cónyuge. De no estar los padres, es importante que usted señor encuestador con buen criterio identifique al informante calificado adecuado (mayor de edad, residente habitual, que tenga un buen conocimiento de las actividades de los miembros del hogar).",
+          "document": "202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "Página 48"
+        }
+      ],
+      "reasoning": "Evaluating each element against the supplied documentation:\n- neutral_anchor_term: False. The survey uses 'Jefe del Hogar' (head of household) in both the questionnaire cover and Section 1, Question 4, as well as throughout the manual, rather than a gender-neutral term.\n- explicit_selection_rule: True. The manual explicitly states a rule for choosing the head of household: 'Es aquella persona que es reconocida como tal por los demás miembros del hogar...'.\n- rule_not_sex_age_authority: False. The rule explicitly includes criteria based on seniority ('edad', 'ancianidad'), presumed authority ('autoridad'), and breadwinner status ('dependencia', 'razones económicas').\n- respondent_separate_or_any_adult: True. The cover page records 'Nombre del Informante Calificado' separately from 'Nombre del Jefe del Hogar', and the manual explicitly permits any knowledgeable adult member (aged 18 or older) to act as the qualified informant when the head or spouse is unavailable.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

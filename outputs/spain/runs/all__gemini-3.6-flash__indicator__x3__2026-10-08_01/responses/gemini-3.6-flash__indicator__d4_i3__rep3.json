@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "Si alguna no pudiera hacerlo, responderá en su lugar el informante de la vivienda, que será la persona, preferiblemente de 18 o más años, que ustedes consideren para que conteste por el resto de miembros que no puedan hacerlo por ellos mismos.",
+          "document": "[C] epacues21.pdf",
+          "location": "PANTALLA nº1"
+        },
+        {
+          "text": "I1. Por favor, indíqueme quién es el informante de la vivienda",
+          "document": "[C] epacues21.pdf",
+          "location": "I1"
+        },
+        {
+          "text": "¿Cuál es su relación con la persona de referencia? RELPP\n1. Persona de referencia (p.r.)",
+          "document": "[C] epacues21.pdf",
+          "location": "RELPP"
+        }
+      ],
+      "reasoning": "The survey uses the neutral term 'persona de referencia (p.r.)' rather than 'head of household' (neutral_anchor_term: true). The questionnaire explicitly states a rule for selecting the respondent ('informante de la vivienda'): 'la persona, preferiblemente de 18 o más años, que ustedes consideren' (explicit_selection_rule: true). However, the supplied documentation does not state any criterion or selection rule for designating which household member is chosen as the 'persona de referencia' (rule_not_sex_age_authority: false). The respondent ('informante de la vivienda', variable INFORM1) is recorded separately from the reference person (variable RELPP), and any knowledgeable adult chosen by the household may answer (respondent_separate_or_any_adult: true).",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

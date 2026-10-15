@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "¿Cuál fue su sexo al nacer?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 2, p. 6"
+        },
+        {
+          "text": "Leer: “A continuación se harán dos preguntas para que usted las lea en silencio. Por favor, nombre la letra que corresponde a su opción de respuesta. Le informo que sus respuestas serán confidenciales y usadas solo con fines estadísticos, de manera que sea posible generar indicadores de mercado laboral para distintos grupos poblacionales”",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo R, p. 142"
+        },
+        {
+          "text": "Una vez leída la anterior introducción, muestre la tarjeta para que la persona la lea mentalmente e indique una única opción de respuesta. Lea la pregunta únicamente si la persona no puede leer o ver de lejos. En caso de no tener tarjetas, por favor, entregue el DMC para que la fuente marque la respuesta, para las preguntas referenciadas a continuación:",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo R, p. 142"
+        },
+        {
+          "text": "Si el sexo asignado al nacer difiere del género diligenciado en la última pregunta. Por favor, confirme que la última respuesta es correcta.",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo R, p. 142"
+        }
+      ],
+      "reasoning": "The questionnaire contains specific instructions for the interviewer regarding sex at birth and gender identity. In Chapter E, question 2 asks for sex at birth without additional instructions on the page. In Chapter R, for questions 4 and 4A (administered to individuals aged 18 and older), explicit interviewer instructions are provided: the interviewer must read a confidentiality introduction, show a card for silent reading and response selection, read the question aloud only if the respondent cannot read or see, or hand over the DMC if cards are unavailable. Finally, an instruction at the bottom of page 142 directs the interviewer: 'Si el sexo asignado al nacer difiere del género diligenciado en la última pregunta. Por favor, confirme que la última respuesta es correcta.' No formal definitions of sex or gender are provided in the questionnaire document itself, and interviewer manuals were not supplied in this run.",
+      "extracted_text": "Leer: “A continuación se harán dos preguntas para que usted las lea en silencio. Por favor, nombre la letra que corresponde a su opción de respuesta. Le informo que sus respuestas serán confidenciales y usadas solo con fines estadísticos, de manera que sea posible generar indicadores de mercado laboral para distintos grupos poblacionales”\n\nUna vez leída la anterior introducción, muestre la tarjeta para que la persona la lea mentalmente e indique una única opción de respuesta. Lea la pregunta únicamente si la persona no puede leer o ver de lejos. En caso de no tener tarjetas, por favor, entregue el DMC para que la fuente marque la respuesta, para las preguntas referenciadas a continuación:\n\nSi el sexo asignado al nacer difiere del género diligenciado en la última pregunta. Por favor, confirme que la última respuesta es correcta."
+    }
+  ]
+}

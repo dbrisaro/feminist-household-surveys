@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "SEXO (Anote en cada caso) 1. varón 2. mujer",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "IV. CARACTERÍSTICAS DE LOS MIEMBROS DEL HOGAR, columna 04"
+        }
+      ],
+      "reasoning": "In the supplied questionnaire documents, the only instruction provided to the interviewer for recording sex is the prompt '(Anote en cada caso)' under the heading 'SEXO' in Bloque IV of [C] EPHContinua_CuestHogar.pdf, with binary response options '1. varón' and '2. mujer'. No definition of sex or gender is provided in the questionnaire text. Further instructions or definitions that would be contained in an interviewer manual or methodological manual cannot be assessed as those document types were not supplied in this run.",
+      "extracted_text": "(Anote en cada caso)"
+    }
+  ]
+}

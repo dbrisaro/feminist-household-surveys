@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "5 SEXO Hombre. .... 1 Mujer......... 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Pregunta 5"
+        }
+      ],
+      "reasoning": "Section 1, Question 5 of the questionnaire explicitly collects the respondent's sex (\"SEXO\") with response options for \"Hombre\" (1) and \"Mujer\" (6). This directly establishes that the instrument collects a sex variable.",
+      "value": true
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "f.38 ¿Cuántas horas trabajó en la semana de referencia en este trabajo? Dígame día por día.",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.38"
+        },
+        {
+          "text": "f.42 ¿Cuántas horas trabaja habitualmente por semana en este trabajo?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.42"
+        },
+        {
+          "text": "d.16 ¿Este hogar paga (en dinero o de otra forma) a personas para que limpien la vivienda, cuiden niños o ancianos o realicen alguna otra tarea doméstica?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "d.16"
+        },
+        {
+          "text": "d.17 Sin mediar pago alguno, este hogar, ¿recibe ayuda de otros familiares o conocidos que no integran el hogar para limpiar la vivienda, cuidar niños o ancianos o para realizar alguna otra tarea doméstica?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "d.17"
+        },
+        {
+          "text": "f.82 ¿Usted es… … quien realiza los quehaceres del hogar?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.82"
+        }
+      ],
+      "reasoning": "The instrument records hours devoted to paid work (e.g. questions f.38 and f.42). However, it does not collect time spent on unpaid domestic or care work, leisure, or self-care (questions such as d.16, d.17, and f.82 only capture paid domestic help, domestic assistance received, or activity status without capturing time allocated). Following the specification for this indicator that all four statements are false if the instrument only records hours of paid work with no time recorded for any other daily activity, all four elements evaluate to false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "RELACIÓN DE PARENTESCO (Anote en el orden siguiente) Jefe/a Cónyuge/Pareja Hijo/a/Hijastro/a Yerno/Nuera Nieto/a Madre/Padre Suegro/a Hermano/a Otros Familiares No Familiares",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, Columna 03, p. 2"
+        },
+        {
+          "text": "Hogar: Persona o grupo de personas, parientes o no, que habitan bajo el mismo techo y comparten los gastos de alimentación y/o otros gastos esenciales para vivir.",
+          "document": "[C] EPHContinua_CuestVivienda.pdf",
+          "location": "Bloque III, p. 1"
+        },
+        {
+          "text": "En términos de la EPH un hogar se define como una persona o grupo de personas, parientes o no, que habitan bajo un mismo techo en un régimen de tipo familiar; es decir, comparten sus gastos en alimentación u otros esenciales para vivir.",
+          "document": "[M] metodologia_eph_continua_2003_sin_anexo2.pdf",
+          "location": "Sección 2.3.1, p. 6"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa? 2. ¿Qué otras personas ayudan en las tareas de la casa? 3. ¿Hay en el hogar alguna persona con discapacidad?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII, p. 6"
+        }
+      ],
+      "reasoning": "Regarding member_to_member_relationships: In Block IV of the household questionnaire, relationships are recorded strictly relative to the household head ('Jefe/a'), not member-to-member (there are no pointer variables for parent/partner IDs or triangular matrices). Therefore, member_to_member_relationships is false.\nRegarding extended_ties: Column 03 of Block IV explicitly includes categories beyond spouse and parent-child, such as grandchildren ('Nieto/a'), siblings ('Hermano/a'), parents-in-law ('Suegro/a'), sons/daughters-in-law ('Yerno/Nuera'), other relatives ('Otros Familiares'), and non-relatives ('No Familiares'). Therefore, extended_ties is true.\nRegarding multiple_household_criteria: Block III of the Housing Questionnaire defines a household and states criteria for distinguishing multiple households within a dwelling based on living under the same roof and sharing food and other essential living expenses. Therefore, multiple_household_criteria is true.\nRegarding sub_units: The survey instruments do not contain questions or pointer mechanisms to identify sub-units or secondary family nuclei within a household. Therefore, sub_units is false.\nRegarding caregiving_relationships: Block VII of the Household Questionnaire collects information on who performs or helps with general household chores ('tareas de la casa') and whether any member has a disability, but does not capture specific caregiving relationships (who cares for whom inside or across households). Therefore, caregiving_relationships is false.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": false
+      }
+    }
+  ]
+}

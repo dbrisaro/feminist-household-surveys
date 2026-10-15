@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "(207) SEXO Hombre 1 Mujer 2",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 207"
+        }
+      ],
+      "reasoning": "The survey instrument directly collects a sex variable in Chapter 200 (Characteristics of Household Members), Question 207, labeled 'SEXO', with response categories 'Hombre' (1) and 'Mujer' (2).",
+      "value": true
+    }
+  ]
+}

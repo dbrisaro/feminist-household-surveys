@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "501"
+        },
+        {
+          "text": "Quehaceres del hogar? ............................. 5",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "546"
+        },
+        {
+          "text": "Los quehaceres del hogar no le permiten ............................................. 6",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "549"
+        }
+      ],
+      "reasoning": "The provided instrument does not ask whether a person supervises or remains available to care for other household members while performing other activities or without care being their primary activity. Household chores ('quehaceres del hogar') are referenced in question 501 (explicitly excluding them from work), question 546 (as an activity status for inactive persons), and question 549 (as a reason for not looking for work). Per the indicator definition, care given as a reason for not seeking work does not count, and supervisory or passive care availability is not mentioned anywhere in the survey text.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

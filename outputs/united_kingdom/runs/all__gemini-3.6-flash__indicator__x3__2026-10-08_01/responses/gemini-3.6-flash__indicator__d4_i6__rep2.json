@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "Are you… 1 single, that is never married 2 married and living with your husband/wife 3 a civil partner in a legally-recognised Civil Partnership 4 married and separated from your husband/wife 5 Divorced 6 or widowed",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "XMARSTA, page 11"
+        },
+        {
+          "text": "Is [Name’s] husband/wife/civil partner a member of the household? 1 Yes 2 No",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "MARCHK, page 11"
+        },
+        {
+          "text": "I would now like to ask how all the people in your household are related to each other. Code relationship of [Name] to [Name]",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "R, page 12"
+        },
+        {
+          "text": "Which of you/them has the highest income (from earnings, benefits, pensions and any other sources)?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "HIHNUM, page 231"
+        },
+        {
+          "text": "May I just check, was the main reason that you did not look for work because... 1 Were you caring for children below school age, 2 Were you caring for other children,, 3 Were you caring for a dependent adult relative, 4 or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "NOLWF, page 120"
+        }
+      ],
+      "reasoning": "1. de_jure_vs_de_facto (True): Variable XMARSTA records marital status and variable MARCHK asks if the spouse/partner is a member of the household. This combination directly establishes whether a person's spouse/partner is de facto present or absent in the household.\n2. unpartnered_mother_child_units (True): Variable R collects a complete matrix of relationships between all household members ('how all the people in your household are related to each other'), allowing unpartnered mother-child units to be identified even inside larger complex households.\n3. women_maintained_by_provider (False): The survey only asks about highest income in HIHNUM to determine the Household Reference Person among joint householders, but does not identify the main economic provider for the household or sub-units regardless of headship or housing tenure.\n4. mother_child_unit_activity (False): While individual questions such as NOLWF ask about childcare responsibilities for non-seeking workers, the instrument does not measure or link consumption, production, or care activity to the mother-child unit level.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

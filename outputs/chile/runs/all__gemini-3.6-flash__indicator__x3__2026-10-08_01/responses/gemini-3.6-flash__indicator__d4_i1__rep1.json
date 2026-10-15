@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "La captura de preguntas sociodemográficas permite caracterizar a la población a partir de ciertas variables básicas, dentro de las cuales se indaga sobre el sexo, la edad, fecha de nacimiento, el estado civil, el nivel educacional, el parentesco, el proveedor principal, la nacionalidad, migración, pueblos índigenas, entre otras.",
+          "document": "[M] metodologia-ene-2020.pdf",
+          "location": "Section 3.2.1, p. 21"
+        },
+        {
+          "text": "Para caracterizar a los miembros del hogar, se deben responder 28 preguntas, que abordan características atingentes a la relación de los miembros del hogar con la fuerza de trabajo. Primero, se abordan características básicas como parentesco con el proveedor principal del hogar, y después se registran elementos sociodemográficos como: sexo, edad, estado conyugal, migración, nacionalidad, pertenencia a un pueblo originario y educación.",
+          "document": "[M] metodologia-ene-2020.pdf",
+          "location": "Section 5.2.2.2, p. 102"
+        },
+        {
+          "text": "Listado de conceptos\n\n1. Actividad económica\n2. Busca trabajo por primera vez (BTPV)\n3. Categoría ocupacional\n4. Cesante\n5. Condición de actividad\n6. Dependiente\n7. Desocupado/a (DO)\n8. Encuesta Suplementaria de Ingresos (ESI)\n9. Estadística experimental\n10. Familiar no remunerado\n11. Fuera de la fuerza de trabajo (FFT)\n12. Fuerza de trabajo (FT)\n13. Fuerza de trabajo ampliada (FTA)\n14. Fuerza de trabajo potencial (FTP)\n15. Grupo ocupacional\n16. Horas efectivas\n17. Horas habituales\n18. Inactivos habituales (IH)\n19. Inadecuación de calificación según nivel educativo\n20. Independiente\n21. Informante idóneo\n22. Iniciadores/as\n23. Ocupación principal\n24. Ocupación a través de plataformas digitales\n25. Ocupado/a (O)\n26. Ocupado/a a tiempo parcial involuntario (TPI)\n27. Ocupado/a ausente\n28. Ocupado/a informal\n29. Organización Internacional del Trabajo (OIT)\n30. Personas jóvenes que no estudian y no están ocupadas\n31. Población en edad de trabajar (PET)\n32. Población objetivo\n33. Sector informal\n34. Semana de referencia\n35. Subutilización de la fuerza de trabajo\n36. Tasa de desocupación (TD)\n37. Tasa de desocupación con ajuste estacional\n38. Tasa de ocupación (TO)\n39. Tasa de participación (TP)\n40. Tasa de desocupación con iniciadores disponibles (SU1)\n41. Tasa combinada de desocupación y tiempo parcial involuntario (SU2)\n42. Tasa combinada de desocupación y fuerza de trabajo potencial (SU3)\n43. Tasa global de subutilización (SU4)\n44. Tasa de asociatividad en la ocupación principal (TAOP)\n45. Tasa de ocupación en el sector informal (TOSI)\n46. Tasa de ocupación informal (TOI)\n47. Tasa de presión laboral\n48. Trabajo\n49. Trabajo en la ocupación\n50. Trimestre móvil\n51. Turno de trabajo\n52. Vivienda particular",
+          "document": "[M] glosario-ene.pdf",
+          "location": "p. 1"
+        }
+      ],
+      "reasoning": "The supplied documentation for the survey does not contain a conceptual definition of household headship ('jefe/a de hogar'). The methodological report ('metodologia-ene-2020.pdf') notes that demographic data collected include relationship ('parentesco') to the main provider ('proveedor principal') of the household (Sections 3.2.1 and 5.2.2.2), but does not provide a conceptual definition of household headship or head of household. The technical glossary ('glosario-ene.pdf') does not include an entry for household headship or head of household either.",
+      "extracted_text": ""
+    }
+  ]
+}

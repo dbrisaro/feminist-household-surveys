@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "h3 Habitualmente, ¿cuántas horas y días trabaja a la semana? h3a Actividad principal Horas diarias Días Total horas h3b Actividad secundaria Horas diarias Días Total horas",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN H, h3"
+        }
+      ],
+      "reasoning": "Section H (questions h3a and h3b) records the time a person devotes to paid work in their main and secondary economic activities. However, the instrument does not contain a time-use module or questions recording time devoted to any other daily activities, such as unpaid domestic or care work, leisure, or self-care. Per the explicit instruction for this indicator, if the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "- Dedicado a las labores del hogar",
+          "document": "epacues21.pdf",
+          "location": "H. SITUACIONES DIVERSAS, 1"
+        },
+        {
+          "text": "- Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "D. BUSQUEDA DE EMPLEO, 6"
+        }
+      ],
+      "reasoning": "The survey questionnaire (epacues21.pdf) does not include a domestic or care work module separate from the main questionnaire. Unpaid domestic and care activities are instead recorded as categories of inactivity ('Dedicado a las labores del hogar' in section H) or as reasons for not seeking or working full-time ('Responsabilidades de cuidado de hijos u otros familiares' in section D and section C).",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

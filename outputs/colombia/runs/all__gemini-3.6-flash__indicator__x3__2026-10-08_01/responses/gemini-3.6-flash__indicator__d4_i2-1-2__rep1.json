@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "C. DATOS DEL HOGAR (PARA TODOS LOS HOGARES DE LA VIVIENDA) (PARA EL [LA] JEFE(A) DEL HOGAR O SU CÓNYUGE)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo C, p. 3"
+        },
+        {
+          "text": "¿Cuál es el parentesco de ... con el jefe o jefa del hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 5, p. 6"
+        },
+        {
+          "text": "a. Jefe(a) del hogar",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 5, p. 6"
+        },
+        {
+          "text": "Nota: Tenga en cuenta; No acepte como jefe(a) de hogar a persona menor de 15 años.",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 5, p. 6"
+        }
+      ],
+      "reasoning": "In Chapter E, Question 5, relationship is recorded relative to the household head (\"Jefe(a) del hogar\"), and an age restriction note states that a person under 15 years old cannot be accepted as head of household. However, the instrument does not establish a method for identifying the household head (whether self-declared by household members, designated by the respondent, or assigned by an explicit rule such as main earner or property owner). As specified by the instructions, when the instrument does not establish a method, the selection field is left empty.",
+      "selected": ""
+    }
+  ]
+}

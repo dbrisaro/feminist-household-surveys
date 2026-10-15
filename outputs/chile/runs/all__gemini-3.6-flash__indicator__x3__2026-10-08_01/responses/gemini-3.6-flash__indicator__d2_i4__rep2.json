@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "5 Cuidado de personas dependientes",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "h16"
+        },
+        {
+          "text": "3 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "j7"
+        },
+        {
+          "text": "2 Cuidado de niños o de adultos enfermos o incapacitados",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "j24"
+        }
+      ],
+      "reasoning": "The questionnaire does not record unpaid domestic and care work for each person through dedicated questions or time-use modules. Domestic and care responsibilities appear in the instrument only as response options for why a person worked fewer hours (h16, option 5: \"Cuidado de personas dependientes\"), why a person did not look for work (j7, option 3: \"Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)\"), or why a person resigned from their last job (j24, option 2: \"Cuidado de niños o de adultos enfermos o incapacitados\"). Under the definition provided, listing domestic work only as a reason for inactivity or working fewer hours does not satisfy the requirement for dedicated measurement of domestic work.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

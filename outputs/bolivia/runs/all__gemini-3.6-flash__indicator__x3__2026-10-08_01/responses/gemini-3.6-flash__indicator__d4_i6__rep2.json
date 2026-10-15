@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "2. ¿Es hombre o mujer? 1. Hombre 2. Mujer",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 1, Sección 1, Parte A, Pregunta 2"
+        },
+        {
+          "text": "5. ¿Qué parentesco tiene con la jefa o jefe del hogar? 1. JEFA O JEFE DEL HOGAR 2. ESPOSA/O O CONVIVIENTE O CONCUBINA(O) 3. HIJA O HIJO 4. HIJASTRA O HIJASTRO 5. NUERA O YERNO 6. NIETA O NIETO 7. HERMANA O HERMANO 8. CUÑADA O CUÑADO 9. MADRE O PADRE 10. SUEGRA O SUEGRO 11. ABUELA O ABUELO 12. OTRO PARIENTE 13. OTRO QUE NO ES PARIENTE 14. TRABAJADOR(A) DEL HOGAR CAMA ADENTRO Y SUS FAMILIARES",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 2, Sección 1, Parte A, Pregunta 5"
+        },
+        {
+          "text": "16. ¿Cuál es su estado civil o conyugal actual? 1. SOLTERA/O 2. CASADA/O 3. CONVIVIENTE O CONCUBINA/O 4. SEPARADA/O 5. DIVORCIADA/O 6. VIUDA/O",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 3, Sección 1, Parte B, Pregunta 16"
+        },
+        {
+          "text": "37. ¿Cuánto es su ingreso total en su ocupación principal?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 9, Sección 2, Parte C, Pregunta 37"
+        },
+        {
+          "text": "38. Una vez descontadas todas sus obligaciones (sueldos, salarios, compra de materiales, compra de mercaderías, etc.), ¿cuánto le queda para su hogar? (Ingreso disponible)",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 9, Sección 2, Parte C, Pregunta 38"
+        }
+      ],
+      "reasoning": "For de_jure_vs_de_facto: True. Section 1 records sex (Q2), relationship to household head (Q5, including code 1 for head and code 2 for spouse/partner), and marital status (Q16: soltera, casada, conviviente, separada, divorciada, viuda). Combining information on female household heads (Q2=2, Q5=1) with marital status (Q16) and partner presence/absence in the household roster (presence of code 2) permits distinguishing de jure female heads (unpartnered: single, separated, divorced, widowed) from de facto female heads (married/cohabiting head whose spouse/partner is absent from the household).\n\nFor unpartnered_mother_child_units: False. Question 5 records relationships strictly relative to the household head ('¿Qué parentesco tiene con la jefa o jefe del hogar?'). The questionnaire lacks maternal line/mother ID pointers to link children directly to their mothers when residing as sub-units inside larger households.\n\nFor women_maintained_by_provider: False. Although individual labor income is captured in Section 2 (Q37, Q38), non-labor incomes (pensions, remittances, social transfers) are not captured in this instrument, nor is there a question establishing the main economic provider of the household or sub-household unit.\n\nFor mother_child_unit_activity: False. The instrument contains no questions linking mother-child sub-units to their own consumption, production, or care activities.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": false,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

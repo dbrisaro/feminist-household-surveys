@@ -1,0 +1,35 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "Realiza labores en el hogar .... 13",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 4, Pregunta 10"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar .........................3",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE A, Pregunta 5"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................................ 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE A, Pregunta 8"
+        },
+        {
+          "text": "Demasiado ocupado en tareas del hogar, estudio,etc .................................................................... 10",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE B, Pregunta 5"
+        }
+      ],
+      "reasoning": "The supplied questionnaire does not contain questions asking about responsibility for unpaid domestic or care work, performance of unpaid domestic or care work, or the magnitude of such work. The only occurrences of domestic tasks appear as options in lists of reasons: reason for not attending educational institutions (Sección 4, Pregunta 10: 'Realiza labores en el hogar'), reasons for not working or not seeking work (Sección 6, Parte A, Preguntas 5 and 8: 'Se dedica exclusivamente a las labores del hogar'), and reasons for working fewer hours than usual in an economic activity (Sección 6, Parte B, Pregunta 5: 'Demasiado ocupado en tareas del hogar, estudio,etc'). According to the indicator guidelines, inactivity categories or reasons for not working do not count towards performance. There are also no questions asking who is responsible for or in charge of domestic or care work (responsibility is false), nor any questions recording the time or frequency spent on unpaid domestic or care work (magnitude is false).",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

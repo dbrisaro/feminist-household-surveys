@@ -1,0 +1,84 @@
+{
+  "country": "paraguay",
+  "survey": "Encuesta Permanente de Hogares Continua (EPH-PY) ()",
+  "agency": "INE Paraguay",
+  "doc_dir": "data/raw/paraguay/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [
+        "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf"
+      ]
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [],
+      "missing_note": "No document of type M (methodological notes and technical reports) was found in the collected corpus for paraguay. Indicators routed to M are reported as source_missing, not as not_evidenced."
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [],
+      "missing_note": "No document of type G (interviewer guides and manuals) was found in the collected corpus for paraguay. Indicators routed to G are reported as source_missing, not as not_evidenced."
+    }
+  },
+  "estimated_tokens": {
+    "C": 54669,
+    "M": 0,
+    "G": 0,
+    "C+M": 54669
+  },
+  "excluded": {
+    "2025/T4/30dfb-Cuestionario_EPHC_4º Trim 2025.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2025/T3/a28e1-Cuestionario_EPHC_3er Trim 2025.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.999)",
+    "2025/T2/617bd-Cuestionario_EPHC_2º Trim 2025.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.894)",
+    "2025/T1/4f99a-Cuestionario_EPHC_1er Trim 2025.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.993)",
+    "2024/T4/627f2-Cuestionario_EPHC_4º Trim 2024.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2024/T3/c50a1-Cuestionario_EPHC_3er Trim 2024.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.993)",
+    "2024/T2/2b0fa-Cuestionario_EPHC_2º Trim 2024.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.992)",
+    "2024/T1/fdf06-Cuestionario_EPHC_1er Trim 2024.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.989)",
+    "2023/T4/53a0f-Cuestionario 4to Trimestre 2023.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 0.785)",
+    "2023/T3/a5fa0-Cuestionario_EPHC_3er Trim 2023.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.989)",
+    "2023/T2/c4874-Cuestionario_EPHC_2º Trim 2023.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.934)",
+    "2023/T1/8b7e1-Cuestionario_EPHC_1er Trim 2023.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.989)",
+    "2022/T4/948a0-Cuestionario_EPHC_4to Trim 2022.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2022/T3/d05cc-Cuestionario_EPHC_3er Trim 2022.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.987)",
+    "2022/T2/9a7c4-Cuestionario_EPHC_2 Trim 2022.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.987)",
+    "2022/T1/bb79f-Cuestionario_EPHC_1er Trim 2022.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.987)",
+    "2021/T4/f6a7f-Cuestionario_EPHC_4º Trim 2021.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2021/T3/54fdb-Cuestionario_EPHC_3er Trim 2021.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.942)",
+    "2021/T2/84922-Cuestionario_EPHC_2º Trim 2021.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2021/T1/246e6-Cuestionario_EPHC_1er Trim 2021.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.964)",
+    "2020/T4/37b75-Cuestionario_EPHC_4° Trimestre 2020.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2020/T3/b0004-Cuestionario_EPHC_3er Trim 2020.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2020/T2/d6d27-Cuestionario_EPHC_2º Trim 2020.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2020/T1/de564-Cuestionario_EPHC_1er Trim 2020..pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.948)",
+    "2019/T4/299e4-Cuestionario_EPHC_4º Trim 2019.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2019/T3/e3044-Cuestionario_EPHC_3er Trim 2019.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.880)",
+    "2019/T2/c7fbc-Cuestionario_EPHC_2º Trim 2019.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.881)",
+    "2019/T1/84645-Cuestionario_EPHC_1er Trim 2019.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.925)",
+    "2018/T4/c9545-Cuestionario_EPHC_4º Trim 2018.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2018/T3/2daf6-Cuestionario_EPHC_3er Trim 2018.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (content similarity 0.909)",
+    "2018/T2/53e98-Cuestionario_EPHC_2º Trim 2018.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2018/T1/ca9ff-Cuestionario_EPHC_1er Trim 2018.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2017/T4/b2836-CUESTIONARIO_EPHC_4º Trim 2017.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2017/T3/99672-CUESTIONARIO_EPHC_3er Trim 2017.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2017/T2/6866c-CUESTIONARIO_EPHC_2º Trim 2017.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "2017/T1/5568d-CUESTIONARIO_EPHC_1er Trim 2017.pdf": "earlier wave, superseded by 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf (same lineage, later wave similarity 1.000)",
+    "CUESTIONARIO MICS PARAGUAY 2016.pdf": "[manual] documents MICS 2016 (UNICEF multiple-indicator cluster survey), a different instrument from the EPHC",
+    "Cuestionario EUT 2016_Py.pdf": "[manual] documents the EUT 2016 time-use survey, a different instrument from the EPHC",
+    "Manual_encuestador_EUT_2016 FINAL.docx": "[manual] documents the EUT 2016 time-use survey, not the EPHC",
+    "triptico Principales Resultados EUT2016.pdf": "bulletin, tabulation or press material"
+  },
+  "unclassified": {},
+  "manual_review": {
+    "source": "config/manual_overrides.json",
+    "applied": 3,
+    "note": "The DGEEC publishes several surveys from one page, so the scraper collected instruments that are not the EPHC. No filename or title-page rule can tell that EUT and MICS are different surveys rather than other documents of this one; it takes knowing the survey landscape."
+  },
+  "non_textual": {
+    ".xls": 37,
+    ".xlsx": 1,
+    ".csv": 1
+  }
+}

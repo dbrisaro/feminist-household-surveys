@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "f.1 Sin considerar los quehaceres del hogar, ¿trabajó algún día en la semana comprendida entre el {+NOM_DIA1_SEMREF+} 1 y el {+NOM_DIA7_SEMREF+} 7 de {+NOM_MES_SEMREF+}?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.1"
+        },
+        {
+          "text": "f.38 ¿Cuántas horas trabajó en la semana de referencia en este trabajo? Dígame día por día.",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.38"
+        },
+        {
+          "text": "f.1 Sin considerar los quehaceres del hogar, ¿trabajó algún día en la semana comprendida entre el [+NOM_DIA1_SEMREF+] 1 y el [+NOM_DIA7_SEMREF+] 7 de [+NOM_MES_SEMREF+]?",
+          "document": "[C] C_Cuestionario_seguimiento_2024.pdf",
+          "location": "f.1"
+        }
+      ],
+      "reasoning": "The survey instruments capture hours of work only for paid work/economic activity (e.g. question f.38). They do not include a time use module or questions asking respondents to record time allocated across daily activities such as unpaid care, household chores, or leisure. Question f.1 explicitly instructs respondents to evaluate work 'without considering household tasks' ('Sin considerar los quehaceres del hogar'). Since questions recording only paid work hours do not satisfy the indicator, the condition is false and classified as explicitly excluded.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

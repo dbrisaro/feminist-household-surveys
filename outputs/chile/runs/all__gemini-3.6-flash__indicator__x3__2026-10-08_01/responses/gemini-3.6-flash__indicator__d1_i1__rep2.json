@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "pers9.ŶŔ Ƌ‡đŶÄŤŶÄđŶŤÄǬĮŶ¸ÄŶ£ġĮĜžŝÄŶ¸ÄŶ ŅÄŝŤĮġ†¤œ 1 Hombre 2 Mujer",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6"
+        }
+      ],
+      "reasoning": "The instrument explicitly collects the sex of household members in question pers9 of the Cuestionario Sociodemográfico, providing response categories for '1 Hombre' and '2 Mujer'.",
+      "value": true
+    }
+  ]
+}

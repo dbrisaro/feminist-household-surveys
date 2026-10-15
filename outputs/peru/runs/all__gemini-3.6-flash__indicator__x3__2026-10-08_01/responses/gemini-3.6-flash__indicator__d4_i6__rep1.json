@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "203 ¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR? Jefe/Jefa ............ 1 Esposa(o) /compañero(a) .... 2",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Page 6, Section 200, Question 203"
+        },
+        {
+          "text": "(203-A) N° DE NÚCLEO FAMILIAR",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Page 6, Section 200, Question 203-A"
+        },
+        {
+          "text": "(203-B) RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL NÚCLEO FAMILIAR (Sólo relación Padres e Hijos) (UTILICE LOS CÓDIGOS DE LA PGTA. 203)",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Page 6, Section 200, Question 203-B"
+        },
+        {
+          "text": "(205) ¿SE ENCUENTRA AUSENTE DEL HOGAR 30 DÍAS O MÁS? (206) ¿ESTA PRESENTE EN EL HOGAR 30 DÍAS O MÁS?",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Page 6, Section 200, Questions 205-206"
+        },
+        {
+          "text": "(209) ¿CUÁL ES SU ESTADO CIVIL O CONYUGAL? Conviviente .......1 Casado(a) .........2 Viudo(a) ............3 Divorciado(a).....4 Separado(a) ......5 Soltero(a) ..........6",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Page 6, Section 200, Question 209"
+        },
+        {
+          "text": "556. EN LOS ÚLTIMOS 6 MESES, DE…..... A......…, ¿RECIBIÓ UD. INGRESOS POR CONCEPTO DE: 1. Pensión de divorcio o separación? ... 2. Pensión por alimentación? ... 3. Remesas de otros hogares o personas?",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Page 19, Section 500, Question 556"
+        },
+        {
+          "text": "559. ALIMENTOS CONSUMIDOS FUERA DEL HOGAR",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Page 22, Section 500, Question 559"
+        }
+      ],
+      "reasoning": "The survey design allows distinguishing de jure vs de facto female-headed households because marital status (Q209), presence/absence of partner (Q205, Q206), and incoming remittances/alimony (Q556) are collected individually for household members. Unpartnered mother-child units can be identified through Q203-A (Nº DE NÚCLEO FAMILIAR) and Q203-B (RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL NÚCLEO FAMILIAR), which explicitly identify family sub-units within larger households alongside member sex and marital status. Women-maintained households or units can be identified through individual income collection for all members aged 14 and older in Module 500, enabling identification of the main economic provider regardless of who is recorded as household head. However, the instrument does not link mother-child sub-units to their own consumption, production, or care activities, as expenditure and consumption items (e.g. Q559, Q560) are recorded at the overall household level or per individual respondent, rather than mapped onto the family nucleus.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

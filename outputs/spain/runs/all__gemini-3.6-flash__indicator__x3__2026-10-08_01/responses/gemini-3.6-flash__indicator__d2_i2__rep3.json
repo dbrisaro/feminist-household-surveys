@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "- Dedicado a las labores del hogar",
+          "document": "epacues21.pdf",
+          "location": "Section H, Question 1 (SIDIV1)"
+        },
+        {
+          "text": "- Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "Section C, Question 26 (PARCO2)"
+        },
+        {
+          "text": "- Quiere cuidar personalmente de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "Section C, Question 27 (PCONC1)"
+        }
+      ],
+      "reasoning": "Regarding 'responsibility', the instrument contains no questions asking who is in charge, plans, organizes, or is responsible for domestic or care work.\n\nRegarding 'performance', the instrument features options such as '- Dedicado a las labores del hogar' in Section H (SIDIV1) and care responsibilities as reasons for part-time work or inactivity (e.g., '- Responsabilidades de cuidado de hijos u otros familiares' in PARCO2 and '- Quiere cuidar personally de hijos u otros familiares' in PCONC1). However, per the indicator definition, activity status categories and reasons for working part-time or not seeking work do not count as questions asking whether a person carries out domestic or care tasks.\n\nRegarding 'magnitude', the instrument records time spent only for paid employment and work-related absences, and contains no questions measuring hours or frequency of unpaid domestic or care work.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

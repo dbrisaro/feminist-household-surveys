@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "¿Cada cuándo obtiene... sus ingresos o le pagan? ¿Cuánto ganó o en cuánto calcula sus ingresos?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "VI. INGRESOS, ATENCIÓN MÉDICA Y LUGAR DE TRABAJO, Pregunta 6b"
+        },
+        {
+          "text": "¿Qué días y cuántas horas le dedicó... a su trabajo la semana pasada?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "V. JORNADA Y REGULARIDAD LABORAL, Pregunta 5b"
+        },
+        {
+          "text": "2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "IX. OTRAS ACTIVIDADES, Pregunta 9"
+        },
+        {
+          "text": "7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "IX. OTRAS ACTIVIDADES, Pregunta 9"
+        },
+        {
+          "text": "LISTA DE PERSONAS",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS"
+        }
+      ],
+      "reasoning": "Regarding economic_maintenance: Question 6b of the Cuestionario de Ocupación y Empleo collects employment/business earnings at the individual member level, but the instrument does not capture income or financial support across all non-labor sources (such as pensions or remittances) per member. Regarding labor_burden: Question 5b captures hours in paid employment per member, while Question 9 captures hours dedicated to unpaid care work and unpaid domestic chores per member. Regarding property_asset_control: Neither supplied questionnaire contains questions regarding dwelling tenure, land, or asset ownership per member. Regarding decision_making: Neither supplied questionnaire contains questions on intra-household decision-making across any sphere.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": true,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar .........................3",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte A, Pregunta 6"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................ 6",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte A, Pregunta 8"
+        },
+        {
+          "text": "Demasiado ocupado en tareas del hogar, estudio,etc .................................................................... 10",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte B, Pregunta 5"
+        }
+      ],
+      "reasoning": "The survey instrument does not contain any question asking whether a person supervises or remains available to care for other household members while performing other activities or without care being their primary activity. Care and domestic work appear in the questionnaire only as reasons for not being available to start work (Sección 6, Parte A, Pregunta 6), for not seeking work (Sección 6, Parte A, Pregunta 8), or for working fewer hours than usual (Sección 6, Parte B, Pregunta 5). As explicitly noted in the indicator instructions, care given as a reason for not working or not working more hours does not satisfy the requirement.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

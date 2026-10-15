@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "TOTUS1\nHow many hours per week do you usually work in your (main)\njob/business – please exclude meal breaks?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "HOURS WORKED (MAIN JOB), page 82"
+        },
+        {
+          "text": "ACTHR\nThinking now about the seven days ending Sunday the …, how many\nhours did you actually work in your (main) job/business – please\nexclude meal breaks and overtime?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "HOURS WORKED (MAIN JOB), page 84"
+        }
+      ],
+      "reasoning": "The survey instrument records hours of paid work in questions such as TOTUS1 and ACTHR under the 'HOURS WORKED (MAIN JOB)' section. However, an examination of the entire questionnaire specification reveals no questions that record the time a respondent devotes to unpaid domestic or care work, leisure, or self-care. Per the task instructions, if the instrument only records hours of paid work with no time recorded for any other daily activity, all four statements are false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

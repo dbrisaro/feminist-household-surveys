@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "Durante los últimos 7 días, ¿cuántas horas diarias trabajó efectivamente en su OCUPACIÓN PRINCIPAL ...[NOMBRE]...?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6 : EMPLEO E INGRESO, PARTE B, Pregunta 3"
+        },
+        {
+          "text": "¿Cuántas horas semanales trabaja habitualmente en esta ocupación ...[NOMBRE]...?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6 : EMPLEO E INGRESO, PARTE B, Pregunta 6"
+        }
+      ],
+      "reasoning": "The survey instrument records the hours worked daily and weekly in the respondent's primary, secondary, and tertiary economic occupations (e.g., Sección 6, Parte B, Preguntas 3 and 6). However, it does not contain questions or a module capturing how respondents allocate or spend their time across daily activities such as unpaid household work, care work, or leisure. Questions that only record hours of paid work do not count toward this indicator.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

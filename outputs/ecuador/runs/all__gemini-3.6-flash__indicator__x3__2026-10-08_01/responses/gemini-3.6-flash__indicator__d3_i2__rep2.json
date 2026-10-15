@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "¿Cuántas horas trabajó (…) la semana pasada o la última semana que trabajó?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 24, p. 5"
+        },
+        {
+          "text": "HORAS HABITUALES ¿Cuántas horas trabaja (…) habitualmente a la semana en su: OCUPACIÓN PRINCIPAL? OCUPACIÓN SECUNDARIA? OTRAS OCUPACIONES?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 51, p. 12"
+        },
+        {
+          "text": "Ayudó o se dedicó a otras labores del hogar o la familia?..................................................................…",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 4, Pregunta 2, p. 18"
+        }
+      ],
+      "reasoning": "The instrument records hours spent on paid/occupational work in Section 2, Pregunta 24 (\"¿Cuántas horas trabajó (…) la semana pasada o la última semana que trabajó?\") and Pregunta 51 (\"HORAS HABITUALES ¿Cuántas horas trabaja (…) habitualmente a la semana en su: OCUPACIÓN PRINCIPAL? OCUPACIÓN SECUNDARIA? OTRAS OCUPACIONES?\"). However, it does not record time spent on any other daily activities, such as unpaid domestic/care work, leisure, or self-care (for instance, Section 4 Pregunta 2 asks if an unemployed person \"Ayudó o se dedicó a otras labores del hogar o la familia?\", but records no duration or hours for this activity). Following the indicator instruction (\"If the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false\"), all four elements are set to false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

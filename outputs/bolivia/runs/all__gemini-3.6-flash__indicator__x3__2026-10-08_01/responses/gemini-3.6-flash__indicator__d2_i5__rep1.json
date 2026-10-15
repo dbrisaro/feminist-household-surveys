@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2. EMPLEO, PARTE A: CONDICIÓN DE ACTIVIDAD, Pregunta 6"
+        },
+        {
+          "text": "2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2. EMPLEO, PARTE A: CONDICIÓN DE ACTIVIDAD, Pregunta 7"
+        },
+        {
+          "text": "6. Por realizar labores de casa/cuidado de miembros del hogar",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2. EMPLEO, PARTE H: SUBUTILIZACIÓN DE LA MANO DE OBRA, Pregunta 60"
+        }
+      ],
+      "reasoning": "The questionnaire does not contain any questions asking whether a person supervises or remains available to care for other household members (such as children) while performing other activities or as a secondary activity. Where care of household members is mentioned in the instrument, it is captured exclusively as a reason for not seeking work (Pregunta 6), a category of inactivity (Pregunta 7), or a reason for not working more hours (Pregunta 60). Therefore, the proposition is false and care is treated as other.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

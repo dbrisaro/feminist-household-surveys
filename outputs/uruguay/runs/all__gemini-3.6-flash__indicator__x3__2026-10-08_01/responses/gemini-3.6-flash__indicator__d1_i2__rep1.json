@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "e.19 Solo para personas de 12 años o más. ¿Cuál es su identidad de género? E563 Mujer............................................................................................................ 1 Mujer trans. ................................................................................................... 2 Varón............................................................................................................. 3 Varón trans.................................................................................................... 4 Otra_ ______________________________________________________ E563_1 5 especificar No sabe / No contesta................................................................................... 6",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.19"
+        },
+        {
+          "text": "e.19 Solo para personas de 12 años o más ¿Cuál es su identidad de género? E563 Mujer............................................................................................................ 1 Mujer trans. ................................................................................................... 2 Varón............................................................................................................. 3 Varón trans.................................................................................................... 4 Otra_ ______________________________________________________ E563_1 5 especificar No sabe / No contesta................................................................................... 6",
+          "document": "[C] C_Cuestionario_seguimiento_2024.pdf",
+          "location": "e.19"
+        }
+      ],
+      "reasoning": "The survey instrument explicitly collects a gender identity variable in question e.19 ('¿Cuál es su identidad de género?'), which is asked for persons aged 12 years or older in both the implementation and follow-up questionnaires. The response categories include 'Mujer', 'Mujer trans', 'Varón', 'Varón trans', 'Otra', and 'No sabe / No contesta'.",
+      "value": true
+    }
+  ]
+}

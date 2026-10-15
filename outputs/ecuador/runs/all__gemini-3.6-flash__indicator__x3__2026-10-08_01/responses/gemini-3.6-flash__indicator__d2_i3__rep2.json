@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "¿Realizó (…) la semana pasada alguna actividad dentro o fuera de su casa para ayudar al mantenimiento del hogar, tal como: Atender negocio propio?............ 1 Fabricar algún producto?........... 2 Hacer algo en casa por un ingreso?..................................... 3 Brindar algún servicio?............... 4 Ayudar en algún negocio familiar?...................................... 5 Ayudar en el trabajo de algún familiar?...................................... 6 Como aprendiz remunerado en dinero o en especie?.................. 7 Labores agrícolas o cuidado de animales?................................... 8 Estudiante que realizó algún trabajo?...................................... 9 Trabajar para otra familia?......... 10 Otra actividad por un ingreso? 11 No realizó ninguna actividad? 12",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 21, p. 4"
+        },
+        {
+          "text": "¿ (…) es: Rentista?........................... 1 Jubilado o pensionado?.... 2 Estudiante?....................... 3 Ama de casa?................... 4 Incapacitado?.................... 5 Otro, cuál? (Especifique)…… 6",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 36, p. 8"
+        },
+        {
+          "text": "¿Cuál es la razón por la que (…) no desea o no está disponible para trabajar más horas: - Tiene a cargo el cuidado de algún miembro de su hogar?.......................... 1",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 29a, p. 6"
+        }
+      ],
+      "reasoning": "The survey instrument defines economic activity and work in Questions 20 and 21. While Question 21 asks about activities done to maintain the household, the options listed are restricted to market-oriented, income-generating, agricultural, or business activities. Unpaid domestic and care work for one's own household is not included in the definition of work or economic activity; instead, it is mentioned and classified under inactive status (e.g., Question 36 lists \"Ama de casa\") or as a reason for not working additional hours (e.g., Question 29a option 1). Thus, unpaid domestic and care work is treated as another category rather than incorporated into the main activity category.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "pers2. De las personas que mencionó previamente, ¿Quién es el proveedor principal del hogar?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Cuestionario Sociodemográfico, page 6"
+        },
+        {
+          "text": "h3 Habitualmente, ¿cuántas horas y días trabaja a la semana?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Sección H, page 13"
+        },
+        {
+          "text": "y1 Esta vivienda, ¿es arrendada?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Sección Y, page 48"
+        },
+        {
+          "text": "d10 En su trabajo, ¿quién decide sobre:",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Sección D, page 10"
+        }
+      ],
+      "reasoning": "The questionnaire does not capture the distinct dimensions into which 'headship' is typically collapsed across household members: 1) Economic maintenance: question pers2 designates a 'proveedor principal' (main provider), but individual income or support across all sources (wages, pensions, remittances, etc.) is not collected per member in this instrument. 2) Labor burden: Section H (question h3) captures hours worked in paid employment (main and secondary activities), but hours spent on unpaid domestic or care work are not collected for household members. 3) Property and asset control: question y1 records dwelling tenure at the household level rather than recording property ownership or asset control disaggregated by individual member. 4) Decision-making: question d10 collects decision-making authority regarding self-employed business operations, but no questions exist on intra-household decision-making across spheres such as child-rearing, daily consumption, or major financial choices.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

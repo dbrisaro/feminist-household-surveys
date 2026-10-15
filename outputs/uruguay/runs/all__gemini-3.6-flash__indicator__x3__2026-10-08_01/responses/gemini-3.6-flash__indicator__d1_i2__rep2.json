@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "e.19 Solo para personas de 12 años o más. ¿Cuál es su identidad de género?\nE563\nMujer. ............................................................................................................ 1\nMujer trans. ................................................................................................... 2\nVarón............................................................................................................. 3\nVarón trans.................................................................................................... 4\nOtra_ ______________________________________________________\nE563_1\nespecificar\nNo sabe / No contesta................................................................................... 6",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.19"
+        },
+        {
+          "text": "e.19 Solo para personas de 12 años o más ¿Cuál es su identidad de género?\nE563\nMujer. ............................................................................................................ 1\nMujer trans. ................................................................................................... 2\nVarón............................................................................................................. 3\nVarón trans.................................................................................................... 4\nOtra_ ______________________________________________________\nE563_1\nespecificar\nNo sabe / No contesta................................................................................... 6",
+          "document": "[C] C_Cuestionario_seguimiento_2024.pdf",
+          "location": "e.19"
+        }
+      ],
+      "reasoning": "The survey instruments in both the implantation and follow-up questionnaires explicitly include question e.19 asking '¿Cuál es su identidad de género?' for individuals aged 12 and older, with response options for woman, trans woman, man, trans man, and other. This establishes directly that the instrument collects a gender identity variable.",
+      "value": true
+    }
+  ]
+}

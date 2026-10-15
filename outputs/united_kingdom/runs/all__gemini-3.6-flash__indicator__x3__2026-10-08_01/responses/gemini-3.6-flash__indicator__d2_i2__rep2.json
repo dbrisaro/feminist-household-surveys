@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "YPTCIA May I just check, is the main reason because you were... 1 ...looking after children? 2 looking after an incapacitated adult? 3 or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 52, YPTCIA"
+        },
+        {
+          "text": "NOLWF May I just check, was the main reason that you did not look for work because... 1 Were you caring for children below school age, 2 Were you caring for other children,, 3 Were you caring for a dependent adult relative, 4 or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 120, NOLWF"
+        },
+        {
+          "text": "BEFOR What were you doing before you started to look for paid work, were you... 1 working 2 in full-time education or training or on a government scheme 3 looking after the family or home 4 Or were you doing something else?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 128, BEFOR"
+        }
+      ],
+      "reasoning": "The survey instrument does not contain questions inquiring who is responsible for, who performs, or the magnitude of unpaid domestic and care work. Questions such as YPTCIA, NOLWF, and BEFOR capture caring for family or looking after the home only as reasons for working part-time, reasons for not seeking work, or activity status prior to searching for work. Under the operational definitions provided, reasons for not working or activity status classifications do not count as performance, responsibility, or magnitude of unpaid care work.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

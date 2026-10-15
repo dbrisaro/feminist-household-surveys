@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 2, Parte A, Pregunta 6, página 4"
+        },
+        {
+          "text": "6. DEJÓ DE TRABAJAR PARA DEDICARSE A LOS QUEHACERES DEL HOGAR/CUIDAR DE UN MIEMBRO DE SU FAMILIA",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 2, Parte A, Pregunta 13a, página 5"
+        },
+        {
+          "text": "6. Por realizar labores de casa/cuidado de miembros del hogar",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 2, Parte H, Pregunta 60, página 10"
+        }
+      ],
+      "reasoning": "The indicator evaluates whether the questionnaire explicitly asks whether a person supervises or remains available to care for household members while performing other activities or without care being their main activity. The supplied questionnaire does not contain any questions on supervisory or concurrent care activities. Care for household members appears exclusively as a reason for not seeking work (Pregunta 6, opción 11), a reason for leaving a previous job (Pregunta 13a, opción 6), or a reason for not working more hours (Pregunta 60, opción 6). Per the indicator definition, care given as a reason for not working or not working more hours does not fulfill the requirement. Therefore, the value is false and care is treated as an option/reason under inactivity or underutilization categories.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

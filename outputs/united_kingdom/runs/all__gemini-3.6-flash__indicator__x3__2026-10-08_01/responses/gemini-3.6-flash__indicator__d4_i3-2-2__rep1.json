@@ -1,0 +1,9 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [],
+      "reasoning": "The survey questionnaire document [C] and interviewer manual [G], which document the survey instrument items, the selection rules for the household reference person, and the administration of household-level questions, were not supplied in this run. Only the methodological notes document [M] (volume1main2024updatedfeb25.pdf) was provided. Because the content addressed by this indicator would be documented in the questionnaire or interviewer manual, which were not supplied, no quotes are provided and output fields are left empty."
+    }
+  ]
+}

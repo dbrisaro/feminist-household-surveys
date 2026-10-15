@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "Durante los últimos 7 días, ¿cuántas horas diarias trabajó efectivamente en su OCUPACIÓN PRINCIPAL ...[NOMBRE]...?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6: EMPLEO E INGRESO, PARTE B, Pregunta 3"
+        }
+      ],
+      "reasoning": "The questionnaire contains questions on hours worked in main, secondary, and tertiary employment (e.g., Section 6, Part B, Question 3), but does not ask respondents how they allocate or spend their time across daily activities generally or across multiple types of activities such as unpaid care, housework, or leisure.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "p. 12, P501"
+        },
+        {
+          "text": "Quehaceres del hogar? ............................. 5",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "p. 18, P546"
+        },
+        {
+          "text": "Los quehaceres del hogar no le permiten ............................................. 6",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "p. 18, P549"
+        },
+        {
+          "text": "210. LA SEMANA PASADA, DEL.......AL................... (Nombre) ¿ESTUVO TRABAJANDO O REALIZANDO ALGUNA TAREA EN EL HOGAR O FUERA DE ÉL PARA OBTENER ALGÚN INGRESO?",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "p. 7, P210"
+        },
+        {
+          "text": "Sólo realizó quehaceres del hogar? ............................ 8",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "p. 7, P211A"
+        }
+      ],
+      "reasoning": "Responsibility: The instrument contains no question asking who is in charge of, plans, organises, or holds responsibility for domestic or care work in the household. Performance: Question 501 explicitly excludes household chores ('Sin contar los quehaceres del hogar'). Question 546 (option 5) and Question 549 (option 6) record household duties as categories of inactivity or reasons for not seeking work. In Question 211A, option 8 ('Sólo realizó quehaceres del hogar?') acts as an activity status filter following Question 210 regarding work to obtain income. Under the operational definitions, questions classifying activity status, inactivity categories, or reasons for not working do not count as measuring performance of domestic/care tasks. Magnitude: Time spent (hours worked) is recorded only for income-generating activities and economic employment (e.g., P513, P518, P519, P211D). The instrument does not measure the time or frequency dedicated to unpaid domestic or care work.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

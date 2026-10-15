@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "QB01. “LA SCORSA SETTIMANA” “NOME” ha svolto almeno un’ora di lavoro da cui ha ricavato o ricaverà un guadagno?",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE B, QB01, p. 4"
+        },
+        {
+          "text": "QB02 Sempre nella settimana che va “DA LUNEDI’ … A DOMENICA…”, “NOME” ha lavorato almeno un’ora, senza essere pagata/o, presso la ditta di un familiare?",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE B, QB02, p. 4"
+        },
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti 5|_| (passare a QF09)\n • Altri motivi familiari (ad esempio fa la casalinga/o, in attesa di un figlio, vuole più tempo per la famiglia) 6|_| (passare a QF10)",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE F, QF07, p. 14"
+        },
+        {
+          "text": "In generale “NOME” si considera occupata/o, disoccupata/o, ritirata/o dal lavoro, inabile al lavoro, studentessa/e o casalinga/o?",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE J, QJ01, p. 20"
+        }
+      ],
+      "reasoning": "The survey instrument defines work in QB01 as work for pay or profit ('da cui ha ricavato o ricaverà un guadagno') and in QB02 as unpaid work in a family business ('presso la ditta di un familiare'). Unpaid domestic and care work is not included within the category of work/economic activity. Instead, domestic duties and family care are treated as reasons for working part-time (QC29), reasons for non-employment or not seeking work (QF07, QF12, QF13), or non-employed self-perceived status options like 'casalinga/o' (QJ01).",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

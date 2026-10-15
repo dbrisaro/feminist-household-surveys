@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "f.1 Sin considerar los quehaceres del hogar, ¿trabajó algún día en la semana comprendida entre el {+NOM_DIA1_SEMREF+} 1 y el {+NOM_DIA7_SEMREF+} 7 de {+NOM_MES_SEMREF+}?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.1"
+        },
+        {
+          "text": "d.16 ¿Este hogar paga (en dinero o de otra forma) a personas para que limpien la vivienda, cuiden niños o ancianos o realicen alguna otra tarea doméstica?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "d.16"
+        },
+        {
+          "text": "No tiene tiempo por su trabajo doméstico, el cuidado de niños/as u otras personas dependientes.......................... 5",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.71"
+        },
+        {
+          "text": "… quien realiza los quehaceres del hogar?..........................................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.82"
+        }
+      ],
+      "reasoning": "The provided questionnaires do not record unpaid domestic and care work for each person through specific questions (such as time-use or activity modules) separately from employment questions. Question f.1 explicitly excludes household chores from work. Questions d.16 and d.17 capture domestic and care assistance at the household level rather than per individual. Domestic and care responsibilities appear in the individual questionnaire only as reasons for not working, not seeking work, or working fewer hours (e.g. f.71), or as an inactivity/activity status option in question f.82 (\"… quien realiza los quehaceres del hogar?\"). As specified in the indicator definition, mentioning domestic work only as a category of inactivity, as a reason for not working, or in a single household-level question does not meet the requirement.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

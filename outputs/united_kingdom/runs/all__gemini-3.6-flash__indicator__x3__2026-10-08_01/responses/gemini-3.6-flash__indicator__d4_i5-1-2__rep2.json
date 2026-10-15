@@ -1,0 +1,57 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "I would now like to ask how all the people in your household are related to each other. Code relationship of [Name] to [Name]",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Question R, page 12"
+        },
+        {
+          "text": "In the household matrix approach, information is obtained on the relationship between each pair of household members, and a matrix of relationships is produced from which the number and composition of families and households can be derived automatically.",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "Section 4, Page 9"
+        },
+        {
+          "text": "1 Spouse 2 Cohabiting partner 3 Son/daughter (incl. adopted) 4 Step-son/daughter 5 Foster child 6 Son-in-law/daughter-in-law 7 Parent/guardian 8 Step-parent 10 Foster parent 11 Parent-in-law 12 Brother/sister (incl. adopted) 13 Step-brother/sister 14 Foster brother/sister 15 Brother/sister-in-law 16 Grand-child 17 Grand-parent 18 Other relative 19 Other non-relative 20 Civil Partner",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Question R, page 12"
+        },
+        {
+          "text": "A household is defined as a single person, or a group of people living at the same address who have the address as their only or main residence and either share one main meal a day or share the living accommodation (or both).",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "Section 2, Page 2"
+        },
+        {
+          "text": "A LFS family unit comprises either a single person, or a married or cohabiting couple on their own, or with their never-married children who have no children of their own, or lone parents with such children.",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "Section 2, Page 2"
+        },
+        {
+          "text": "In most cases the household and the family unit are the same, but it is not uncommon for a household to contain more than one family unit.",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "Section 3, Page 4"
+        },
+        {
+          "text": "May I just check, was the main reason that you did not look for work because... 1 Were you caring for children below school age, 2 Were you caring for other children,, 3 Were you caring for a dependent adult relative, 4 or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Question NOLWF, page 120"
+        },
+        {
+          "text": "3 Looking after family/home/children 4 Caring for a disabled or elderly person",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Question CONPRR, page 58"
+        }
+      ],
+      "reasoning": "The supplied documents establish the following: 1) Member-to-member relationships are recorded using a matrix format where relationships between each pair of household members are collected (Question R in [C], Section 4 in [M]). 2) Extended ties beyond nuclear spouse/parent-child are explicitly captured in Question R (grandparents, grandchildren, siblings, foster ties, in-laws, same-sex partners, and non-relatives). 3) Criteria for defining households and separating multiple households within a dwelling are explicitly stated in Section 2 of [M] (living at the same address as main residence and sharing one main meal a day or living accommodation). 4) Sub-units (family units) within a larger household can be identified through the LFS family unit definition and variables (Section 2 and 3 of [M]). 5) Caregiving relationships (identifying specifically who provides care to whom) cannot be identified; while individual reasons for working part-time or not seeking work include caring for children or adult relatives, the instrument does not map specific caregiver-to-care-recipient links inside or across households.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": true,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

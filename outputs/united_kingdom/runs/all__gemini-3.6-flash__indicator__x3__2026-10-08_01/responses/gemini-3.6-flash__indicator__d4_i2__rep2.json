@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "Record if [Name] is person in whose name this accommodation is owned or rented",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "HRPID, page 12"
+        },
+        {
+          "text": "You told me that [NumHhldrs] people jointly own or rent the accommodation. Which of you/them has the highest income (from earnings, benefits, pensions and any other sources)?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "HIHNUM, page 231"
+        },
+        {
+          "text": "Enter person number of the eldest (joint householder) from those listed below",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "JNTELDA, page 231"
+        },
+        {
+          "text": "Interviewer check – The Household Reference Person (HRP) has been computed as [name]",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "HRPCHECK, page 231"
+        }
+      ],
+      "reasoning": "The survey determines the Household Reference Person (HRP) using explicit algorithmic criteria. First, HRPID checks if the accommodation is owned or rented in a person's name. If multiple people jointly own or rent it, HIHNUM selects the individual with the highest income. If incomes are equal or unknown, JNTELDA/JNTELDB selects the eldest joint householder. Finally, HRPCHECK establishes that the HRP is computed based on these set rules rather than being self-declared by the household or designated arbitrarily by the respondent.",
+      "selected": "assigned by an explicit criterion"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "5 SEXO Hombre. .... 1 Mujer......... 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1: CARACTERÍSTICAS DE LA POBLACIÓN, Pregunta 5"
+        }
+      ],
+      "reasoning": "In Section 1, Question 5, the questionnaire collects information on sex (\"SEXO\") with binary response categories: \"Hombre\" (1) and \"Mujer\" (6). The instrument does not include any question collecting a gender identity variable, nor does it mention gender identity.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

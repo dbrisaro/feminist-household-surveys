@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad",
+          "document": "[C] epacues21.pdf",
+          "location": "PANTALLA nº6"
+        }
+      ],
+      "reasoning": "The instrument records biological sex (\"SEXO h/m\") in PANTALLA nº6 with binary response categories (hombre/mujer). It does not collect a gender identity variable or include non-binary options.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

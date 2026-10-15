@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de proveedora principal]?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 6, pers8"
+        },
+        {
+          "text": "hog2 De las personas que residen habitualmente en esta vivienda, ¿todas comparten los gastos para alimentación?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 1, hog2"
+        },
+        {
+          "text": "hog3 Entonces, contando el de usted: ¿cuántos grupos tienen gastos separados para alimentación?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 1, hog3"
+        },
+        {
+          "text": "3 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 16, j7"
+        }
+      ],
+      "reasoning": "1. member_to_member_relationships: False. Question pers8 records relationship solely relative to the main provider (proveedora principal), rather than using a full matrix or member-to-member pointer variables. 2. extended_ties: True. Question pers8 includes categories beyond spouse and parent-child, such as siblings (Hermano/a), grandparents/grandchildren (Abuelo/a, Nieto/a), in-laws, and non-kin (No pariente). 3. multiple_household_criteria: True. Questions hog2 and hog3 explicitly define sharing food expenses (gastos para alimentación) as the criterion to separate households within a dwelling. 4. sub_units: False. The instrument records individual relationships relative to the main provider and provides no method or variables to group members into secondary family units or nuclei. 5. caregiving_relationships: False. Although j7 includes care of dependents as a reason for not seeking work, the survey does not record who cares for whom inside or across households.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": false
+      }
+    }
+  ]
+}

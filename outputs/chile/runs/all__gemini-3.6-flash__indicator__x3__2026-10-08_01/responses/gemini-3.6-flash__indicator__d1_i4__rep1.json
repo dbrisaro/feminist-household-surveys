@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de persona de proveedora principal]? 1 Proveedor principal 2 Esposo/a o cónyuge 3 Conviviente por unión civil 4 Conviviente de hecho o pareja 5 Hijo/a 6 Hijo/a del cónyuge, conviviente o pareja 7 Hermano/a 8 Padre o madre 9 Cuñado/a 10 Suegro/a 11 Yerno o nuera 12 Nieto/a 13 Abuelo/a 14 Otro pariente 15 No pariente 16 Servicio doméstico puertas adentro 88 No sabe 99 No responde",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 6, CUESTIONARIO SOCIODEMOGRÁFICO, pers8"
+        },
+        {
+          "text": "pers9. ¿Cuál es el sexo de [Nombre de persona]? 1 Hombre 2 Mujer 88 No sabe 99 No responde",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 6, CUESTIONARIO SOCIODEMOGRÁFICO, pers9"
+        },
+        {
+          "text": "pers13. ¿Cuál es el estado conyugal actual de [Nombre de persona]? 1 Casado/a 2 Conviviente o pareja sin acuerdo de unión civil 3 Conviviente civil (con acuerdo de unión civil) 4 Anulado/a 5 Separado/a 6 Divorciado/a 7 Viudo/a 8 Soltero/a 88 No sabe 99 No responde",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 6, CUESTIONARIO SOCIODEMOGRÁFICO, pers13"
+        }
+      ],
+      "reasoning": "The questionnaire records sex in question pers9 using the options 'Hombre' and 'Mujer'. To refer to relationships within the household and conjugal status, questions pers8 and pers13 use the terms 'Proveedor principal', 'Esposo/a o cónyuge', 'Conviviente por unión civil', 'Conviviente de hecho o pareja', 'Hijo/a', 'Hijo/a del cónyuge, conviviente o pareja', 'Hermano/a', 'Padre o madre', 'Cuñado/a', 'Suegro/a', 'Yerno o nuera', 'Nieto/a', 'Abuelo/a', 'Otro pariente', 'No pariente', 'Servicio doméstico puertas adentro', 'Casado/a', 'Conviviente o pareja sin acuerdo de unión civil', 'Conviviente civil (con acuerdo de unión civil)', 'Anulado/a', 'Separado/a', 'Divorciado/a', 'Viudo/a', 'Soltero/a'.",
+      "extracted_text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de persona de proveedora principal]? 1 Proveedor principal 2 Esposo/a o cónyuge 3 Conviviente por unión civil 4 Conviviente de hecho o pareja 5 Hijo/a 6 Hijo/a del cónyuge, conviviente o pareja 7 Hermano/a 8 Padre o madre 9 Cuñado/a 10 Suegro/a 11 Yerno o nuera 12 Nieto/a 13 Abuelo/a 14 Otro pariente 15 No pariente 16 Servicio doméstico puertas adentro 88 No sabe 99 No responde pers9. ¿Cuál es el sexo de [Nombre de persona]? 1 Hombre 2 Mujer 88 No sabe 99 No responde pers13. ¿Cuál es el estado conyugal actual de [Nombre de persona]? 1 Casado/a 2 Conviviente o pareja sin acuerdo de unión civil 3 Conviviente civil (con acuerdo de unión civil) 4 Anulado/a 5 Separado/a 6 Divorciado/a 7 Viudo/a 8 Soltero/a 88 No sabe 99 No responde"
+    }
+  ]
+}

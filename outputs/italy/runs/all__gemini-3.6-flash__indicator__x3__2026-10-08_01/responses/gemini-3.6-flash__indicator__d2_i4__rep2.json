@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "QC29 Per quale tra questi motivi lavora part time (a tempo parziale):\n • Studia o segue corsi di formazione 1|_|(passare a QC31)\n • Malattia, problemi di salute personali 2|_|(passare a\n QC31)\n • Si prende cura dei figli e/o di altri familiari non autosufficienti 3|_|\n • Altri motivi familiari (ad esempio si occupa della casa, è in attesa di un figlio,\n vuole più tempo per la famiglia) 4|_|(passare a QC31)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC29, page 8"
+        },
+        {
+          "text": "QF07 Qual è il motivo principale per cui “NOME” non ha cercato un lavoro nelle 4 settimane che vanno “DAL…\nAL…”?\n... \n • Si prende cura dei figli e/o di altri familiari non autosufficienti 5|_| (passare a QF09)\n • Altri motivi familiari (ad esempio fa la casalinga/o, in attesa di\n un figlio, vuole più tempo per la famiglia) 6|_| (passare a QF10)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QF07, page 14"
+        },
+        {
+          "text": "QJ01.Passiamo ora a parlare di come [NOME] si percepisce, al di là di quello che ha dichiarato fino ad ora. In\ngenerale “NOME” si considera occupata/o, disoccupata/o, ritirata/o dal lavoro, inabile al lavoro,\nstudentessa/e o casalinga/o?\n...\n • Casalinga/o 6|_|",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QJ01, page 20"
+        }
+      ],
+      "reasoning": "The survey instrument does not record unpaid domestic work for each individual through specific questions measuring time spent or activities performed separately from main or secondary jobs. Domestic work and caregiving are only mentioned as reasons for working part-time (QC29), reasons for not seeking work (QF07), or as categories of self-perceived status (QJ01). Per the operational definition, mentioning domestic work only as a reason for working part-time/not seeking work or as a category of inactivity/status does not fulfill the indicator.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

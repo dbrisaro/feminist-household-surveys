@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "RELACIÓN DE PARENTESCO\n(Anote en el orden siguiente)\nJefe/a\nCónyuge/Pareja\nHijo/a/Hijastro/a\nYerno/Nuera\nNieto/a\nMadre/Padre\nSuegro/a\nHermano/a\nOtros Familiares\nNo Familiares",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        },
+        {
+          "text": "SEXO\n(Anote en cada caso)\n1. varón\n2. mujer",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        },
+        {
+          "text": "SITUACIÓN CONYUGAL\n¿Actualmente está......\n1... unido/a?\n2... casado/a?\n3... separado/a o divorciado/a?\n4... viudo/a?\n5... soltero/a?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        },
+        {
+          "text": "3 ¿Quién es el jefe o jefa del hogar?",
+          "document": "[C] EPHContinua_CuestVivienda.pdf",
+          "location": "Bloque V, p. 4"
+        }
+      ],
+      "reasoning": "The household questionnaire records sex using the categories 'varón' and 'mujer'. Relationships within the household and marital status are recorded using both masculine/feminine slashes and gender-neutral terms: 'Jefe/a', 'Cónyuge/Pareja', 'Hijo/a/Hijastro/a', 'Yerno/Nuera', 'Nieto/a', 'Madre/Padre', 'Suegro/a', 'Hermano/a', 'Otros Familiares', 'No Familiares', as well as 'unido/a', 'casado/a', 'separado/a o divorciado/a', 'viudo/a', 'soltero/a', and 'jefe o jefa del hogar'.",
+      "extracted_text": "SEXO: 1. varón, 2. mujer. RELACIÓN DE PARENTESCO: Jefe/a, Cónyuge/Pareja, Hijo/a/Hijastro/a, Yerno/Nuera, Nieto/a, Madre/Padre, Suegro/a, Hermano/a, Otros Familiares, No Familiares. SITUACIÓN CONYUGAL: 1... unido/a?, 2... casado/a?, 3... separado/a o divorciado/a?, 4... viudo/a?, 5... soltero/a?. CONDICIÓN DE RESIDENCIA: ¿Quién es el jefe o jefa del hogar?"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "34.   ¿Cuántas horas semanales trabaja habitualmente en este empleo? No tenga en cuenta el tiempo para comer.                                                                                     HORASH",
+          "document": "[C] epacues21.pdf",
+          "location": "Sección C, Cuestionario, p. 11"
+        },
+        {
+          "text": "1. En su opinión, ¿cuál de las siguientes opciones refleja mejor su situación actual? Le leo las opciones:                                                                                     SIDIV1 - Trabajando o con empleo - Parado - Percibía una pensión de jubilación o unos ingresos de prejubilación - Incapacitado permanente para trabajar - Estudiante (aunque esté de vacaciones) - Dedicado a las labores del hogar - Percibiendo una pensión distinta a la de jubilación (o prejubilación) - Realizando sin remuneración trabajos sociales, actividades benéficas… - Otras situaciones No sabe",
+          "document": "[C] epacues21.pdf",
+          "location": "Sección H, Cuestionario, p. 18"
+        }
+      ],
+      "reasoning": "The questionnaire collects hours worked in paid employment (Section C, question 34) and lists 'Dedicado a las labores del hogar' as a qualitative status category (Section H, question 1). However, it does not contain any questions asking respondents how they allocate or spend their time across daily activities, nor does it record time devoted to unpaid work, domestic labor, or care work.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

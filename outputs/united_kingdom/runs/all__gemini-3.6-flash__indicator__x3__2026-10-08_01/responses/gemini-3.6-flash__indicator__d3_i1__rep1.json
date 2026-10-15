@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "Did you do any unpaid work in that week (ending Sunday the [date] for any business that you own?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "OWNBUS, page 41"
+        },
+        {
+          "text": "...or (any unpaid work for a business) that a relative owns?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "RELBUS, page 41"
+        },
+        {
+          "text": "How many hours per week do you usually work in your (main) job/business – please exclude meal breaks?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "TOTUS1, page 82"
+        }
+      ],
+      "reasoning": "The survey asks about hours worked in main and second jobs, overtime, unpaid work for an own or relative's business, and hours spent on training. It does not ask respondents to report how they allocate or spend their time across daily activities including domestic, unpaid care work, or leisure. Questions that only record hours of paid work (or unpaid work for a business) do not satisfy the indicator, and daily activity time allocation is not mentioned.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

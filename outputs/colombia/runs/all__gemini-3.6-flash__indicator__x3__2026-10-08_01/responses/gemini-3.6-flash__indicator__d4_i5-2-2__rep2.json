@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "Características generales. Sexo, edad, parentesco con el jefe del hogar, estado civil, identificación de población campesina, y autorreconocimiento étnico.",
+          "document": "[M] DSO-GEIH-FME-001-V11.pdf",
+          "location": "Variables, page 6"
+        },
+        {
+          "text": "Datos del hogar. Lugar y energía para preparar alimentos, eliminación de basuras, tipo de tenencia de la vivienda, productos financieros.",
+          "document": "[M] DSO-GEIH-FME-001-V11.pdf",
+          "location": "Variables, page 6"
+        },
+        {
+          "text": "Otras formas de trabajo. Actividades no remuneradas y ayudas, pasantías, autoconsumo y voluntariado.",
+          "document": "[M] DSO-GEIH-FME-001-V11.pdf",
+          "location": "Variables, page 6"
+        }
+      ],
+      "reasoning": "The provided methodological document DSO-GEIH-FME-001-V11.pdf specifies the household and demographic variables collected. Regarding member-to-member relationships, the text explicitly states that relationship is recorded relative to the head ('parentesco con el jefe del hogar'), not member-to-member. Regarding extended ties, the text mentions collecting relationship to the household head but does not provide specific response categories to establish that extended ties (such as grandparent-grandchild, siblings, non-kin, or same-sex partners) can be identified. Regarding multiple household criteria, the text lists general household variables but does not state specific criteria for separating multiple households within a single dwelling. Regarding sub-units, the text contains no mention of mechanisms to identify secondary family sub-units or nuclei within a household. Regarding caregiving relationships, while unpaid work activities are mentioned ('Actividades no remuneradas y ayudas'), the text does not establish that caregiving relationships specifying who provides care to whom are recorded. Therefore, all elements evaluate to false.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": false,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": false,
+        "sub_units": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "¿Cuál es el nombre de los integrantes de este hogar empezando por el jefe o la jefa?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, Pregunta 5"
+        },
+        {
+          "text": "¿Qué es ... del jefe(a) de este hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, Pregunta 7"
+        },
+        {
+          "text": "Jefe(a)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, Pregunta 7"
+        },
+        {
+          "text": "... es 1 hombre 2 mujer",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, Pregunta 8"
+        },
+        {
+          "text": "(Solo para mujeres) ¿En total cuántas hijas e hijos que nacieron vivos ha tenido?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, Pregunta 18"
+        },
+        {
+          "text": "¿Actualmente... 1 vive con su pareja en unión libre? 2 está separado(a)? 3 está divorciado(a)? 4 está viudo(a)? 5 está casado(a)? 6 está soltero(a)?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, Pregunta 19"
+        }
+      ],
+      "reasoning": "The terms used to refer to respondents and relationships within the household in the questionnaire wording and response categories are directly documented in Section VI of the Cuestionario Sociodemográfico.",
+      "extracted_text": "¿Cuál es el nombre de los integrantes de este hogar empezando por el jefe o la jefa? / ¿Qué es ... del jefe(a) de este hogar? / Jefe(a) / ... es 1 hombre 2 mujer / (Solo para mujeres) ¿En total cuántas hijas e hijos que nacieron vivos ha tenido? / ¿Actualmente... 1 vive con su pareja en unión libre? 2 está separado(a)? 3 está divorciado(a)? 4 está viudo(a)? 5 está casado(a)? 6 está soltero(a)?"
+    }
+  ]
+}

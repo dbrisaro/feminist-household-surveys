@@ -1,0 +1,62 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "Code relationship of [Name] to [Name]",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 12, Question R"
+        },
+        {
+          "text": "In the household matrix approach, information is obtained on the relationship between each pair of household members, and a matrix of relationships is produced from which the number and composition of families and households can be derived automatically.",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "Section 4, Page 9"
+        },
+        {
+          "text": "1 Spouse\n    2 Cohabiting partner\n    3 Son/daughter (incl. adopted)\n    4 Step-son/daughter\n    5 Foster child\n    6 Son-in-law/daughter-in-law\n    7 Parent/guardian\n    8 Step-parent\n    10 Foster parent\n    11 Parent-in-law\n    12 Brother/sister (incl. adopted)\n    13 Step-brother/sister\n    14 Foster brother/sister\n    15 Brother/sister-in-law\n    16 Grand-child\n    17 Grand-parent\n    18 Other relative\n    19 Other non-relative\n    20 Civil Partner",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 12, Question R"
+        },
+        {
+          "text": "An extended family includes all people within a household who are related in some way: partners; parents; children; grandparents; grandchildren; brothers and sisters; relatives by marriage; guardians; and other relatives.",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "Section 2, Page 2"
+        },
+        {
+          "text": "A household is defined as a single person, or a group of people living at the same address who have the address as their only or main residence and either share one main meal a day or share the living accommodation (or both).",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "Section 2, Page 2"
+        },
+        {
+          "text": "A LFS family unit comprises either a single person, or a married or cohabiting couple on their own, or with their never-married children who have no children of their own, or lone parents with such children.",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "Section 2, Page 2"
+        },
+        {
+          "text": "In most cases the household and the family unit are the same, but it is not uncommon for a household to contain more than one family unit.",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "Section 3, Page 4"
+        },
+        {
+          "text": "4 Caring for a disabled or elderly person",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 58, Question CONPRR"
+        },
+        {
+          "text": "1 Were you caring for children below school age,\n    2 Were you caring for other children,,\n    3 Were you caring for a dependent adult relative,\n    4 or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 120, Question NOLWF"
+        }
+      ],
+      "reasoning": "The supplied documents establish the following regarding household recording:\n1. Member-to-member relationships: The survey collects relationship data using a household matrix approach where relationship is coded for each pair of individuals ('Code relationship of [Name] to [Name]'), not solely relative to the household head.\n2. Extended ties: Question R and Section 2 explicit categories allow identification of relationships beyond spouse and parent-child, including grandparents, grandchildren, siblings, in-laws, foster ties, non-kin, and cohabiting/same-sex partners.\n3. Multiple household criteria: Section 2 defines a household based on living at the same address as main residence and sharing one main meal a day or living accommodation.\n4. Sub-units: Secondary family units within a larger household are identified and assigned via the LFS family unit definition and variables (e.g. FUSERIAL).\n5. Caregiving relationships: While the survey asks questions regarding reasons for not seeking work or leaving employment related to care (e.g. CONPRR, NOLWF), it does not record specific caregiving relationships identifying who cares for whom inside or across households.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": true,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

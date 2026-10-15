@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "SEX By sex we are referring to current sex 1 Male 2 Female",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 10, Question SEX"
+        },
+        {
+          "text": "IRGENID Is the gender you identify with the same as your sex registered at birth? 1 Yes 2 No 3 Prefer not to say",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 230, Question IRGENID"
+        }
+      ],
+      "reasoning": "The instrument collects binary current sex via question SEX (offering options 'Male' and 'Female') and asks whether gender identity aligns with sex registered at birth in Northern Ireland via question IRGENID (offering options 'Yes', 'No', 'Prefer not to say'). It does not collect a gender identity variable itself.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

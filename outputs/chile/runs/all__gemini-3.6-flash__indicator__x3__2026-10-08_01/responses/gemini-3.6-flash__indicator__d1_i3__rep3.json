@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "pers9. ¿Cuál es el sexo de [Nombre de persona]? 1 Hombre 2 Mujer 88 No sabe 99 No responde",
+          "document": "cuestionario-ene-2020.pdf",
+          "location": "Page 6, Cuestionario Sociodemográfico, question pers9"
+        },
+        {
+          "text": "rr4 Sexo 1 Hombre 2 Mujer 9 No se logra determinar",
+          "document": "cuestionario-ene-2020.pdf",
+          "location": "Page 3, Hoja de Ruta, item rr4"
+        }
+      ],
+      "reasoning": "In the supplied questionnaire document [C] (cuestionario-ene-2020.pdf), question pers9 on page 6 collects sex with options 1 Hombre, 2 Mujer, 88 No sabe, and 99 No responde, and item rr4 on page 3 records sex with options 1 Hombre, 2 Mujer, and 9 No se logra determinar. No instructions or definitions for recording sex or gender are provided to the interviewer in the questionnaire text. Document type [G] (interviewer manual), where detailed instructions to interviewers would be documented, was not supplied in this run.",
+      "extracted_text": ""
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "e.15 Sexo al nacer:\nE26\nhombre........................................................................................................... 1\nmujer.............................................................................................................. 2",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "E.1 CARACTERÍSTICAS GENERALES, p. 4"
+        },
+        {
+          "text": "e.19 Solo para personas de 12 años o más. ¿Cuál es su identidad de género?\nE563\nMujer. ............................................................................................................ 1\nMujer trans. ................................................................................................... 2\nVarón............................................................................................................. 3\nVarón trans.................................................................................................... 4\nOtra_ ______________________________________________________\n                                E563_1\n                                                       especificar 5\nNo sabe / No contesta................................................................................... 6",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "E.1 CARACTERÍSTICAS GENERALES, p. 4"
+        },
+        {
+          "text": "e.15 Sexo al nacer.\nE26\nHombre.......................................................................................................... 1\nMujer. ............................................................................................................ 2",
+          "document": "C_Cuestionario_seguimiento_2024.pdf",
+          "location": "E.1 CARACTERÍSTICAS GENERALES, p. 2"
+        },
+        {
+          "text": "e.19 Solo para personas de 12 años o más ¿Cuál es su identidad de género?\nE563\nMujer. ............................................................................................................ 1\nMujer trans. ................................................................................................... 2\nVarón............................................................................................................. 3\nVarón trans.................................................................................................... 4\nOtra_ ______________________________________________________\n                                E563_1\n                                                       especificar 5\nNo sabe / No contesta................................................................................... 6",
+          "document": "C_Cuestionario_seguimiento_2024.pdf",
+          "location": "E.1 CARACTERÍSTICAS GENERALES, p. 2"
+        }
+      ],
+      "reasoning": "An examination of questions e.15 ('Sexo al nacer') and e.19 ('¿Cuál es su identidad de género?') in both supplied questionnaires reveals that no definitions of sex or gender nor interviewer instructions for recording them are provided within the questionnaire instruments. Any detailed interviewer instructions or conceptual definitions would typically be contained in an interviewer manual ([G]), which was not supplied in this run.",
+      "extracted_text": "No instructions or definitions for recording sex or gender are provided in the questionnaires."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "¿Cuál es el nombre de cada una de las personas que viven habitualmente en este hogar? ANOTE EN EL SIGUIENTE ORDEN : a. JEFE/A DEL HOGAR",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 3, Question 1"
+        },
+        {
+          "text": "RELACIÓN DE PARENTESCO CON EL/LA JEFE/A DEL HOGAR",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 4, Section 1, Question 3"
+        },
+        {
+          "text": "1. DEBEN INCLUIRSE COMO MIEMBROS DEL HOGAR A: • Las personas que viven habitualmente en la vivienda visitada.",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 2, Section 1"
+        }
+      ],
+      "reasoning": "The questionnaire uses the term 'JEFE/A DEL HOGAR' rather than a gender-neutral term like 'reference person' or 'householder'. It does not provide an explicit rule or criterion for choosing who is selected as the head of household or reference person, and thus does not establish a rule excluding sex, age, or authority status. Finally, for general household-level sections (such as Section 2 on housing), the questionnaire does not state that any knowledgeable adult may answer or systematically record a separate household respondent.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": false,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

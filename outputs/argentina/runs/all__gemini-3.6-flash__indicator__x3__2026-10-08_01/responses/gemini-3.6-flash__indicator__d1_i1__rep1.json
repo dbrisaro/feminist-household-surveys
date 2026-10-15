@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "SEXO 04 (Anote en cada caso) 1. varón 2. mujer",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        }
+      ],
+      "reasoning": "In EPHContinua_CuestHogar.pdf, Section IV (CARACTERÍSTICAS DE LOS MIEMBROS DEL HOGAR), column 04 explicitly records the variable 'SEXO' for each household component, offering response options '1. varón' and '2. mujer'. This establishes directly that the instrument collects a sex variable.",
+      "value": true
+    }
+  ]
+}

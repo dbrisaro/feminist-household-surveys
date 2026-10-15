@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "¿Cuál fue su sexo al nacer? 2 Masculino 1 Femenino 2",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 2, página 6"
+        }
+      ],
+      "reasoning": "The instrument collects a sex variable in Chapter E (Características generales), Question 2, which asks '¿Cuál fue su sexo al nacer?' with response options 'Masculino' and 'Femenino'.",
+      "value": true
+    }
+  ]
+}

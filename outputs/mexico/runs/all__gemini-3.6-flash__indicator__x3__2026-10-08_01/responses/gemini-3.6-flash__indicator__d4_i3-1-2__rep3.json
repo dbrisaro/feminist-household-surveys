@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "¿Cuál es el nombre de los integrantes de este hogar empezando por el jefe o la jefa?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 5"
+        },
+        {
+          "text": "¿Qué es ... del jefe(a) de este hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 7"
+        },
+        {
+          "text": "Jefe del hogar. Persona reconocida como tal por los residentes habituales de la vivienda seleccionada. Ten presente que el jefe de hogar necesariamente debe ser residente habitual de la vivienda.",
+          "document": "[G] G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf",
+          "location": "Chapter 7, Section 7.6, p. 113"
+        },
+        {
+          "text": "Solo si hay dudas para definir quién es el jefe del hogar, ayuda a definirlo preguntando quién es la persona que toma las decisiones importantes del hogar o la que es responsable del ingreso del hogar.",
+          "document": "[G] G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf",
+          "location": "Chapter 7, Section 7.6, p. 113"
+        },
+        {
+          "text": "Puede haber dificultades para identificar a una persona como jefe de hogar cuando en la vivienda seleccionada residen personas sin relación de parentesco: amigos, estudiantes, trabajadores. En esta situación, el jefe puede ser el propietario o responsable de la vivienda o el de mayor edad.",
+          "document": "[G] G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf",
+          "location": "Chapter 7, Section 7.6, p. 113"
+        },
+        {
+          "text": "El informante preferentemente será el jefe o jefa del hogar; de no ser posible, debes identificar al menos a uno de los integrantes como informante adecuado. Este último es aquella persona de 15 o más años que es residente habitual de la vivienda seleccionada e integrante del hogar que conoce la información del resto de las personas que lo conforman.",
+          "document": "[G] G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf",
+          "location": "Chapter 2, Section 2.3, p. 15"
+        },
+        {
+          "text": "SI EL INFORMANTE FUE MÁS DE UNA PERSONA REGISTRA LA CLAVE 97",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section IX"
+        }
+      ],
+      "reasoning": "1. `neutral_anchor_term`: False. The instrument uses 'jefe o jefa' and 'jefe(a)' explicitly in Question 5 and Question 7 of the questionnaire, as well as throughout the manual ('Jefe del hogar'), rather than using a neutral term like reference person or householder.\n2. `explicit_selection_rule`: True. The manual provides explicit rules for identifying both the reference person ('jefe del hogar') and the respondent ('informante adecuado').\n3. `rule_not_sex_age_authority`: False. The manual instructs interviewers to resolve doubts or situations with non-relatives by selecting 'quién es la persona que toma las decisiones importantes del hogar' (authority), 'la que es responsable del ingreso del hogar' (breadwinner status), or 'el de mayor edad' (seniority). Thus, the criteria include authority, breadwinner status, and seniority.\n4. `respondent_separate_or_any_adult`: True. The respondent ('informante') is recorded separately by line number in Section IX of the questionnaire, and the manual states that any knowledgeable resident member aged 15 or older can be selected as the respondent if the household head is unavailable.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

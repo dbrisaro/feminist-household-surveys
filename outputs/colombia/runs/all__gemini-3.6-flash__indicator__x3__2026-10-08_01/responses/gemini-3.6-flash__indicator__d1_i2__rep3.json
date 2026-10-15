@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "¿Usted se reconoce como? 4A a. Hombre 1 b. Mujer 2 c. Persona no binaria (ni hombre, ni mujer) 3 d. Prefiere identificarse de otra forma ¿Cuál? 5",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo R, Pregunta 4A"
+        },
+        {
+          "text": "Si el sexo asignado al nacer difiere del género diligenciado en la última pregunta. Por favor, confirme que la última respuesta es correcta.",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo R, nota al pie de la pregunta 4A"
+        }
+      ],
+      "reasoning": "In Chapter R, Question 4A, the questionnaire asks respondents aged 18 and over how they recognize themselves ('¿Usted se reconoce como?'), offering options including 'Hombre', 'Mujer', 'Persona no binaria (ni hombre, ni mujer)', and 'Prefiere identificarse de otra forma'. Furthermore, the interviewer note at the bottom of the page explicitly describes Question 4A as collecting 'género', contrasting it with 'sexo asignado al nacer' collected in Chapter E, Question 2. Therefore, the instrument directly establishes that it collects a gender identity variable.",
+      "value": true
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [],
+      "reasoning": "The conceptual definition of household headship is typically documented in the interviewer manual or survey conceptual guide, which were not supplied in this run. The supplied documents consist only of technical notes and sample design reports [M], which mention household headship as a sampling and model variable but do not provide its conceptual definition.",
+      "extracted_text": ""
+    }
+  ]
+}

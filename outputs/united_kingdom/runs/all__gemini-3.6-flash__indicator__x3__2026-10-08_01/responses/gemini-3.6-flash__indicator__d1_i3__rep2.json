@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "SEX By sex we are referring to current sex 1 Male 2 Female",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 10, Question SEX"
+        },
+        {
+          "text": "IRGENID Is the gender you identify with the same as your sex registered at birth? 1 Yes 2 No 3 Prefer not to say",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 230, Question IRGENID"
+        }
+      ],
+      "reasoning": "The survey questionnaire defines sex under the variable SEX on page 10 with the text: 'By sex we are referring to current sex' and provides the instruction 'CODE 1ST THAT APPLIES'. Additionally, on page 230, the question IRGENID asks 'Is the gender you identify with the same as your sex registered at birth?'. No other definition or interviewer instruction regarding recording sex or gender is provided in the supplied text.",
+      "extracted_text": "By sex we are referring to current sex"
+    }
+  ]
+}

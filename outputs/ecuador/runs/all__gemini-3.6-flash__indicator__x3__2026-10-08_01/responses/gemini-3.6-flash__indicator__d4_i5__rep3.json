@@ -1,0 +1,42 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "PARENTESCO: ¿Qué relación de parentesco tiene (…) con el jefe del hogar? Jefe... 1, Cónyuge... 2, Hijo ó hija... 3, Yerno ó nuera... 4, Nieto ó nieta... 5, Padres ó suegros... 6, Otros parientes... 7, Empleado(a) Doméstico(a)... 8, Otros no parientes... 9",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "GEPH-ENEMDU-05-2026, Sección 1, Pregunta 4, p. 20"
+        },
+        {
+          "text": "MIEMBROS DEL HOGAR: Registre el nombre de todas las personas que comen y duermen habitualmente en este hogar.",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "GEPH-ENEMDU-05-2026, Sección 1, p. 20"
+        },
+        {
+          "text": "11. ¿El servicio de DUCHA con que cuenta el HOGAR es: - Exclusivo del hogar? 1 - Compartido con otros hogares? 2 - No tiene? 3",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "GEPH-ENEMDU-05-2026, Sección 5, Pregunta 11, p. 19"
+        },
+        {
+          "text": "¿Cuál es la razón por la que (…) no desea o no está disponible para trabajar más horas: - Tiene a cargo el cuidado de algún miembro de su hogar? 1",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "GEPH-ENEMDU-05-2026, Sección 2, Pregunta 29a, p. 6"
+        },
+        {
+          "text": "¿Recibe el BONO POR EL CUIDADO BRINDADO A UNA PERSONA DISCAPACITADA DEL HOGAR? SI 1 NO 2",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "GEPH-ENEMDU-05-2026, Sección 3, Pregunta 77, p. 17"
+        }
+      ],
+      "reasoning": "The assessment evaluates how the instrument records relationships and delimits household sub-units and criteria:\n\n1. `member_to_member_relationships`: False. Section 1 Question 4 explicitly measures relationship relative to the head of household ('con el jefe del hogar'). It does not use pointer variables (e.g., Mother's ID, Father's ID, Partner's ID) or a matrix/triangular grid to map member-to-member relationships.\n\n2. `extended_ties`: True. Section 1 Question 4 includes categories beyond spouse and parent-child, specifically capturing 'Yerno ó nuera' (4), 'Nieto ó nieta' (5), 'Padres ó suegros' (6), 'Otros parientes' (7), 'Empleado(a) Doméstico(a)' (8), and 'Otros no parientes' (9).\n\n3. `multiple_household_criteria`: True. The instrument defines household boundary criteria in Section 1 as people who 'comen y duermen habitualmente en este hogar' (sharing meals and sleeping in the home), and acknowledges multi-household dwelling units in Section 5 Question 11 ('Compartido con otros hogares').\n\n4. `sub_units`: False. Because relationships are only recorded relative to the head of household, secondary family units or sub-nuclei (e.g., distinguishing which grandchild belongs to which adult child) cannot be identified or linked.\n\n5. `caregiving_relationships`: False. Questions 29a and 77 capture whether a respondent has care responsibilities or receives a disability care bonus, but do not record specific member-to-member care pairs (who specifically provides care to whom).",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "Se considera jefe (a) del hogar, a la persona que, por su edad, por ser el principal sostén económico de la familia o por otras razones, es reconocido por sus miembros como tal. Puede ser hombre o mujer.",
+          "document": "[G] G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf",
+          "location": "Capítulo 4. Procedimientos generales, A. Personal Operativo, página 16, nota al pie 7"
+        },
+        {
+          "text": "Para esta pregunta de parentesco, la determinación de la jefatura del hogar se establece teniendo en cuenta: a. La consideración subjetiva por parte de los miembros del hogar al establecer la persona como «jefe del hogar». b. La persona que dentro del hogar aporta la mayor parte de la manutención, de acuerdo con los ingresos aportados.",
+          "document": "[G] G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf",
+          "location": "Capítulo 5.6 Capítulo E. Características Generales, Pregunta 5, página 37"
+        }
+      ],
+      "reasoning": "The manual provides explicit definitions for household headship. In footnote 7 on page 16, it defines the head of household as the person recognized as such by household members due to age, being the main economic supporter, or other reasons. Additionally, on page 37 (Chapter E, Question 5), it specifies that headship is determined by subjective recognition by household members and/or being the person who contributes the main financial support.",
+      "extracted_text": "Se considera jefe (a) del hogar, a la persona que, por su edad, por ser el principal sostén económico de la familia o por otras razones, es reconocido por sus miembros como tal. Puede ser hombre o mujer. [...] Para esta pregunta de parentesco, la determinación de la jefatura del hogar se establece teniendo en cuenta: a. La consideración subjetiva por parte de los miembros del hogar al establecer la persona como «jefe del hogar». b. La persona que dentro del hogar aporta la mayor parte de la manutención, de acuerdo con los ingresos aportados."
+    }
+  ]
+}

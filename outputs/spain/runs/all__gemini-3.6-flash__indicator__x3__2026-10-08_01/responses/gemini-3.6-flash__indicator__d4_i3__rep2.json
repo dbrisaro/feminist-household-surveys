@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "¿Cuál es su relación con la persona de referencia? RELPP\n1. Persona de referencia (p.r.)",
+          "document": "epacues21.pdf",
+          "location": "Page 8, section RELPP"
+        },
+        {
+          "text": "A continuación, cada persona que resida en la vivienda de manera habitual, deberá cumplimentar un cuestionario relativo a ella misma. Si alguna no pudiera hacerlo, responderá en su lugar el informante de la vivienda, que será la persona, preferiblemente de 18 o más años, que ustedes consideren para que conteste por el resto de miembros que no puedan hacerlo por ellos mismos.",
+          "document": "epacues21.pdf",
+          "location": "Page 4, PANTALLA nº1"
+        },
+        {
+          "text": "I1. Por favor, indíqueme quién es el informante de la vivienda INFORM1",
+          "document": "epacues21.pdf",
+          "location": "Page 7, question I1"
+        }
+      ],
+      "reasoning": "For neutral_anchor_term: The instrument uses the term 'persona de referencia (p.r.)' rather than 'jefe de hogar' (head of household) to identify the anchor person. For explicit_selection_rule: The survey explicitly defines the selection rule for the household respondent ('informante de la vivienda') as the person, preferably 18 or older, whom the household members consider appropriate to answer on behalf of those who cannot. For rule_not_sex_age_authority: Although the questionnaire identifies household relationships relative to the 'persona de referencia', neither the questionnaire nor the provided methodological documentation states the rule or criterion by which the 'persona de referencia' itself is selected among household members. Therefore, the supplied text does not establish a criterion for choosing the reference person that is free of sex, age, or authority criteria. For respondent_separate_or_any_adult: The respondent ('informante', variable INFORM1 / PROXY) is recorded as a separate variable from the reference person ('persona de referencia', variable RELPP), and any adult considered appropriate by the household (preferably 18+) may respond on behalf of others.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

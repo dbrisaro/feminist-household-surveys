@@ -1,0 +1,98 @@
+{
+  "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+  "note": "final run 2026-10-08, option B",
+  "planned_utc": "20261008T120335Z",
+  "provider": "google",
+  "country": "bolivia",
+  "settings": {
+    "model": [
+      "gemini-3.6-flash"
+    ],
+    "mode": [
+      "indicator"
+    ],
+    "effort": null,
+    "effort_note": "--effort medium accepted but not sent: the google API takes no equivalent parameter",
+    "repeat": 3,
+    "only": null,
+    "budget_usd": 1.5,
+    "api_key_var": "GEMINI_API_KEY_PAID",
+    "executed": true,
+    "max_tokens": {
+      "indicator": 4000
+    },
+    "thinking": null
+  },
+  "framework": {
+    "source_file": "Prompting/gender_survey_framework.html",
+    "n_indicators": 17
+  },
+  "corpus": {
+    "n_documents": 5,
+    "documents": [
+      {
+        "source_code": "C",
+        "doc": "CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+        "text_file": "data/processed/text/bolivia/CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.txt",
+        "chars": 79057,
+        "sha256": "b5e8ea6fde47a7f062261bdc11069e9351c418728add3002b888a879b68b20af",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "Nota tecnica_ECE02_2020_trat sesgos.pdf",
+        "text_file": "data/processed/text/bolivia/Nota tecnica_ECE02_2020_trat sesgos.txt",
+        "chars": 28384,
+        "sha256": "f1d782eebd54f20672e272bd0039abba23fa5709506a319e6047febda2432d99",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "NT_ECE03_2020.pdf",
+        "text_file": "data/processed/text/bolivia/NT_ECE03_2020.txt",
+        "chars": 5549,
+        "sha256": "8234f2d683d5d8a81dd717a0919bb41acb246503e89db99410189ee4aba9a165",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "NOTA TEC_ECE01_2020.pdf",
+        "text_file": "data/processed/text/bolivia/NOTA TEC_ECE01_2020.txt",
+        "chars": 20350,
+        "sha256": "5d569552c2fe13f04ee950f7dd3e4798003c92d3f4fade990bcb0ec26c2e3530",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "DISEÑO DE MUESTRA ECE_v3_BOLIVIA act.pdf",
+        "text_file": "data/processed/text/bolivia/DISEÑO DE MUESTRA ECE_v3_BOLIVIA act.txt",
+        "chars": 111232,
+        "sha256": "3bed7fe8266cbeb267db1db3e88ea3835d82dbdc2c9648104acbedc9c58b2ef3",
+        "part": 1,
+        "n_parts": 1
+      }
+    ]
+  },
+  "plan": {
+    "n_calls": 51,
+    "n_source_missing": 0,
+    "projected_input_usd": 0.669,
+    "projected_worst_case_usd": 3.729
+  },
+  "cost": {
+    "spent_usd": 0.7837,
+    "notional_usd_on_paid_key": null,
+    "billing": "paid",
+    "requests_used": null,
+    "requests_per_day_limit": null,
+    "budget_usd": 1.5,
+    "n_calls_planned": 51,
+    "started_utc": "20261008T120335Z",
+    "finished_utc": "20261008T121459Z"
+  },
+  "command": "scripts/llm/run_eval_gemini.py --country bolivia --model gemini-3.6-flash --mode indicator --repeat 3 --billing paid --api-key-var GEMINI_API_KEY_PAID --max-output-tokens 16000 --budget-usd 1.50 --note final run 2026-10-08, option B --go"
+}

@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "Ama de casa?................... 4",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2: BÚSQUEDA DE TRABAJO - PARA PERSONAS DE 5 AÑOS Y MÁS, Pregunta 36"
+        },
+        {
+          "text": "- Tiene a cargo el cuidado de algún miembro de su hogar?.......................... 1",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2: CARACTERÍSTICAS OCUPACIONALES - PARA PERSONAS DE 5 AÑOS Y MÁS, Pregunta 29a"
+        },
+        {
+          "text": "Ayudó o se dedicó a otras labores del hogar o la familia?..................................................................… 4",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 4: ASPECTOS GENERALES DE LOS DESEMPLEADOS (AS), Pregunta 2"
+        }
+      ],
+      "reasoning": "The supplied questionnaire C_202605_Formulario_ENEMDU.pdf does not contain a separate module dedicated to domestic or care work. Unpaid care and domestic activities are mentioned in the instrument, but only as a category of inactivity (Pregunta 36: 'Ama de casa'), a reason for not being available or wishing to work more hours (Pregunta 29a: '- Tiene a cargo el cuidado de algún miembro de su hogar?'), or an activity performed during unemployment (Sección 4, Pregunta 2: 'Ayudó o se dedicó a otras labores del hogar o la familia').",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

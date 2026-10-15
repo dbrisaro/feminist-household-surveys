@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "501.    LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "500. EMPLEO, pregunta 501"
+        },
+        {
+          "text": "Quehaceres del hogar? ............................. 5",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "500. EMPLEO, pregunta 546"
+        },
+        {
+          "text": "Los quehaceres del hogar no le permiten ............................................. 6",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "500. EMPLEO, pregunta 549"
+        }
+      ],
+      "reasoning": "In section 500 (Empleo), Question 501 explicitly excludes unpaid household tasks from the definition of work when asking whether the person had any work in the reference week: '(Sin contar los quehaceres del hogar)'. Furthermore, household chores ('Quehaceres del hogar') are categorized as non-work activities or reasons for not seeking employment (pregunta 546 option 5 and pregunta 549 option 6). Therefore, unpaid domestic and care work is explicitly excluded from the category of work.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad",
+          "document": "epacues21.pdf",
+          "location": "PANTALLA nº6"
+        },
+        {
+          "text": "SEXO h/m",
+          "document": "epacues21.pdf",
+          "location": "PANTALLA nº6"
+        }
+      ],
+      "reasoning": "The questionnaire explicitly collects a sex variable in PANTALLA nº6, asking to record or confirm 'sexo' with the variable name SEXO and values 'h/m'. Therefore, the instrument collects a sex variable.",
+      "value": true
+    }
+  ]
+}

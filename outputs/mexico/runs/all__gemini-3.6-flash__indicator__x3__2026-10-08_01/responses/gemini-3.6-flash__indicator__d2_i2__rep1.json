@@ -1,0 +1,40 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a\n\n(Lee las opciones, circula las indicadas, pregunta y anota el tiempo)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9"
+        },
+        {
+          "text": "2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, item 2"
+        },
+        {
+          "text": "3 realizar compras, llevar cuentas o realizar trámites para el hogar o encargarse de la seguridad? (como guardar el automóvil)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, item 3"
+        },
+        {
+          "text": "4 llevar a algún miembro del hogar a la escuela, cita médica u otra actividad?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, item 4"
+        },
+        {
+          "text": "7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, item 7"
+        }
+      ],
+      "reasoning": "For 'responsibility': The instrument contains no questions regarding who is in charge of, plans, organizes, or is responsible for domestic or care work. Therefore, responsibility is false.\n\nFor 'performance': Question 9 in Section IX of the COE asks whether each respondent aged 12 and older spent time performing specific unpaid care and domestic activities during the past week (such as caring for children/elderly/sick, doing household chores, or running errands for the household). Because this is asked directly to all individuals aged 12 and above rather than serving as an inactivity filter or reason for not working, performance is true.\n\nFor 'magnitude': Question 9 records the specific duration in hours and minutes dedicated to each of these unpaid domestic and care tasks during the reference week. Therefore, magnitude is true.",
+      "elements": {
+        "magnitude": true,
+        "performance": true,
+        "responsibility": false
+      }
+    }
+  ]
+}

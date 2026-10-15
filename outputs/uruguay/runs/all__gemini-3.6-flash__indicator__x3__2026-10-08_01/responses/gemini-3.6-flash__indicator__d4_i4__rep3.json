@@ -1,0 +1,56 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "g.3 ¿Cuánto recibió el mes pasado en su empleo asalariado al que le dedica la mayor carga horaria? Sueldos o jornales líquidos. ..............................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "g.3, p. 14"
+        },
+        {
+          "text": "g.30 ¿Cuánto recibió el mes pasado por jubilaciones?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "g.30, p. 17"
+        },
+        {
+          "text": "g.43 ¿Recibe usted una pensión alimenticia o alguna contribución por divorcio o separación?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "g.43, p. 17"
+        },
+        {
+          "text": "f.42 ¿Cuántas horas trabaja habitualmente por semana en este trabajo?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.42, p. 11"
+        },
+        {
+          "text": "… quien realiza los quehaceres del hogar?.......................................... Sí 1 No 2",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.82, p. 13"
+        },
+        {
+          "text": "h.7 Si el hogar es propietario de la vivienda. ¿Cuál o cuáles miembros del hogar son los propietarios/as? Anote el N° de persona......................................................................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "h.7, p. 20"
+        },
+        {
+          "text": "h.8 Sin considerar la vivienda en la que vive, ¿algún miembro de este hogar es propietario/a de otra vivienda o local?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "h.8, p. 20"
+        },
+        {
+          "text": "f.24 ¿Quién decide sobre… … su horario de trabajo? … el tipo de producto o servicio ofrecido? … el precio de los productos o servicios?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.24, p. 9"
+        }
+      ],
+      "reasoning": "The instrument captures individual economic maintenance and property/asset control at the member level, but does not fully capture labor burden or household decision-making spheres:\n- economic_maintenance: TRUE. Section G captures individual income at member level across various sources (wages in g.3, pensions in g.30, alimony in g.43, independent work earnings in g.23).\n- labor_burden: FALSE. While hours in paid work are captured at member level (f.42), the instrument does not capture hours spent on unpaid domestic or care work (f.82 only captures a binary Yes/No on performing household chores).\n- property_asset_control: TRUE. Section H records property ownership at the member level, identifying specific member numbers for dwelling ownership (h.7) and asking about individual ownership of other real estate/assets (h.8, h.10, h.14, h.16, h.20).\n- decision_making: FALSE. The questionnaire includes decision-making questions only regarding independent business management (f.24) and lacks questions on intra-household decision-making across spheres such as child-rearing, daily consumption, or major financial choices.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": true
+      }
+    }
+  ]
+}

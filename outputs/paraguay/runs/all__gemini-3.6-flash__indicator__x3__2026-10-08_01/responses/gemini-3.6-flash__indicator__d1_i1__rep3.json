@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "SEXO Hombre. .... 1 Mujer......... 6",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1: CARACTERÍSTICAS DE LA POBLACIÓN, Columna 5"
+        }
+      ],
+      "reasoning": "In Section 1 (Características de la población), column 5 explicitly asks for the sex ('SEXO') of each household member, with response options for 'Hombre' (1) and 'Mujer' (6). This establishes directly from the text that the survey instrument collects a sex variable.",
+      "value": true
+    }
+  ]
+}

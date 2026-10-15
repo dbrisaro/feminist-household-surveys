@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "¿La semana pasada… realizó sin que le pagaran alguna de las siguientes actividades:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS), p. 84"
+        },
+        {
+          "text": "Cocinar, lavar los platos, poner la mesa en: a. Su hogar? Sí 1 Días Horas día No 2",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS), p. 84, Q1"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar? Sí 1 Días Horas día No 2",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS), p. 86, Q4"
+        }
+      ],
+      "reasoning": "Regarding responsibility: The instrument contains no questions asking who is in charge of, plans, organizes, or takes responsibility for domestic or care work. Therefore, responsibility is false.\n\nRegarding performance: Chapter K explicitly asks respondents whether they performed specific unpaid domestic and care activities in the past week (e.g., cooking, washing dishes, laundry, cleaning, child care, care of sick/elderly/disabled members, helping with schoolwork). Therefore, performance is true.\n\nRegarding magnitude: For each unpaid domestic and care task performed, Chapter K records time spent as days per week ('Días') and hours per day ('Horas día'). Therefore, magnitude is true.",
+      "elements": {
+        "magnitude": true,
+        "performance": true,
+        "responsibility": false
+      }
+    }
+  ]
+}

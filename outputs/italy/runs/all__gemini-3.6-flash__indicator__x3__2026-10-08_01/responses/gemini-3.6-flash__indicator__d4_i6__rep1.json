@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "QSF11. Sesso del componente\n RICODIFICATA NELLA VARIABILE SESSO\n • Maschio 1\n • Femmina 2",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        },
+        {
+          "text": "QSF16. Relazione di parentela\n RICODIFICATA NELLA VARIABILE RUOLOFAM",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        },
+        {
+          "text": "QSF33. Stato civile\n RICODIFICATA NELLA VARIABILE STACIM",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        },
+        {
+          "text": "STACIM Stato civile\n  Celibe/nubile 1\n  Coniugato/a coabitante o non coabitante con il coniuge 2\n  Separato/a di fatto/ Separato/a legalmente/Divorziato/a 3\n  Vedovo/a 6",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Caratteristiche individuali e familiari, p. 23"
+        },
+        {
+          "text": "RUOLOFAM Ruolo in famiglia\n  Unipersonale 1\n  Genitore in coppia 2\n  Monogenitore 3\n  Coniuge senza figli 4\n  Figlio 5\n  Figlio di monogenitore 6\n  Altro 7",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Caratteristiche individuali e familiari, p. 23"
+        },
+        {
+          "text": "SEZIONE L: NOTIZIE SULLA FAMIGLIA",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SCHEMA DELLE SEZIONI DEL QUESTIONARIO INDIVIDUALE, p. 3"
+        }
+      ],
+      "reasoning": "For de_jure_vs_de_facto: True. The reconstructed variable STACIM (p. 23) distinguishes legal marital status from cohabitation status with a spouse ('Coniugato/a coabitante o non coabitante con il coniuge') and de facto separation from legal separation/divorce ('Separato/a di fatto/ Separato/a legalmente/Divorziato/a').\n\nFor unpartnered_mother_child_units: True. The reconstructed variable RUOLOFAM (p. 23) explicitly categorizes individual family roles including 'Monogenitore' (single parent) and 'Figlio di monogenitore' (child of a single parent), which, when cross-analyzed with female sex (SESSO = 2, p. 2), enables the identification of unpartnered mother-child units even within larger households.\n\nFor women_maintained_by_provider: False. The instrument does not include any variables or questions identifying the household's main economic provider or primary breadwinner.\n\nFor mother_child_unit_activity: False. The questionnaire collects individual labor and demographic information, but contains no measures linking consumption, production, or care activities specifically to a sub-household mother-child unit (hearth-hold).",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

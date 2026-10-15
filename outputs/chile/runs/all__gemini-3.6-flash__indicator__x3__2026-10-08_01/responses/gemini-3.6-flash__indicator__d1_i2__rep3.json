@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "pers9. ¿Cuál es el sexo de [Nombre de persona]? 1 Hombre 2 Mujer 88 No sabe 99 No responde",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "CUESTIONARIO SOCIODEMOGRÁFICO, pers9"
+        }
+      ],
+      "reasoning": "Question pers9 collects sex ('sexo') with options for 'Hombre' and 'Mujer'. The questionnaire does not collect a gender identity variable, nor does it mention gender identity anywhere in the text.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

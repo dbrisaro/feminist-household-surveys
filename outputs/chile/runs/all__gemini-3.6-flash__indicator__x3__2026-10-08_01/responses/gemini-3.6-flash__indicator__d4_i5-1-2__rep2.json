@@ -1,0 +1,42 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "hog2 De las personas que residen habitualmente en esta vivienda, ¿todas comparten los gastos para alimentación? 1 Sí 2 No hog3 Entonces, contando el de usted: ¿cuántos grupos tienen gastos separados para alimentación?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 1, hog2-hog3"
+        },
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de proveedora principal]?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, pers8"
+        },
+        {
+          "text": "7 Hermano/a 8 Padre o madre 9 Cuñado/a 10 Suegro/a 11 Yerno o nuera 12 Nieto/a 13 Abuelo/a 14 Otro pariente 15 No pariente",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, pers8"
+        },
+        {
+          "text": "5 Cuidado de personas dependientes",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 14, h16"
+        },
+        {
+          "text": "3 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 16, j7"
+        }
+      ],
+      "reasoning": "In [C] cuestionario-ene-2020.pdf, relationship among household members is captured in question pers8 strictly relative to the primary provider ('[Nombre de proveedora principal]'), rather than through member-to-member pointers or a triangular grid; thus member_to_member_relationships is false. Extended ties beyond spouse and parent-child (such as siblings, grandparents, grandchildren, in-laws, and non-relatives) are explicitly listed as options in pers8, making extended_ties true. Criteria for distinguishing multiple households within a dwelling are stated in hog2 and hog3 based on whether individuals share food expenses ('gastos para alimentación'), making multiple_household_criteria true. There are no mechanisms or variables in the instrument to delineate family sub-units or secondary nuclei within a household, so sub-units is false. Finally, although reasons for reduced hours or non-search mention caregiving (e.g., h16 option 5 and j7 option 3), the survey does not record caregiving relationships showing who provides care to whom; thus caregiving_relationships is false.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": false
+      }
+    }
+  ]
+}

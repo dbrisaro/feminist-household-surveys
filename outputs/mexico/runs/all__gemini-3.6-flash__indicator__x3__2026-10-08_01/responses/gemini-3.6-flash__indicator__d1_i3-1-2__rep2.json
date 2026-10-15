@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "Pregunta 8 SEXO Objetivo. Conocer el sexo de los integrantes del hogar, es decir, si es hombre o mujer. Concepto: Sexo. Condición biológica que distingue a las personas en hombres y mujeres. Instrucciones: • Anota la clave 1 si es hombre o la 2 si es mujer, respetando la declaración del informante. • Si alguna persona tiene un nombre que puede ser utilizado para ambos sexos, como Inés, Guadalupe, Abigaíl, Dolores, y tienes duda de si es hombre o mujer, no trates de adivinarlo, es mejor que preguntes “¿Inés es hombre o mujer?”",
+          "document": "[G] G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf",
+          "location": "Capítulo 7, Sección 7.6, Pregunta 8, p. 118"
+        },
+        {
+          "text": "SEXO 8 ... es 1 hombre 2 mujer",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Sección VI, Pregunta 8, p. 4"
+        }
+      ],
+      "reasoning": "The survey documentation defines sex as a biological condition distinguishing people into men and women ('Condición biológica que distingue a las personas en hombres y mujeres'). The interviewer manual instructs the interviewer to record code 1 for man or code 2 for woman, respecting the respondent's declaration ('Anota la clave 1 si es hombre o la 2 si es mujer, respetando la declaración del informante'). In cases of ambiguous/gender-neutral names, the interviewer is instructed not to guess but to ask directly whether the person is a man or a woman ('¿[Nombre] es hombre o mujer?').",
+      "extracted_text": "Concepto: Sexo. Condición biológica que distingue a las personas en hombres y mujeres. Instrucciones: • Anota la clave 1 si es hombre o la 2 si es mujer, respetando la declaración del informante. • Si alguna persona tiene un nombre que puede ser utilizado para ambos sexos, como Inés, Guadalupe, Abigaíl, Dolores, y tienes duda de si es hombre o mujer, no trates de adivinarlo, es mejor que preguntes “¿Inés es hombre o mujer?”"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "1. La semana de referencia, ¿trabajó aunque sólo fuera una hora?",
+          "document": "epacues21.pdf",
+          "location": "Section B, B.1"
+        },
+        {
+          "text": "3. Si TRA=6,0:\n     La semana de referencia, ¿ayudó en la empresa, negocio o explotación de un familiar\n     sin que le paguen por ello?",
+          "document": "epacues21.pdf",
+          "location": "Section B, B.3"
+        },
+        {
+          "text": "- Dedicado a las labores del hogar",
+          "document": "epacues21.pdf",
+          "location": "Section H, H.1"
+        }
+      ],
+      "reasoning": "The survey defines economic activity in Section B in terms of paid work, profit, or unpaid help in a family business ('ayuda familiar'). Unpaid domestic and care work is not included in this definition of work. Instead, in Section H (question H1), 'Dedicado a las labores del hogar' is categorized as a separate situation outside of employment. Therefore, unpaid domestic and care work is not included in the activity category of work and is treated as a separate category of inactivity.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

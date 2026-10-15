@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "CUESTIONARIO SOCIODEMOGRÁFICO",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6"
+        },
+        {
+          "text": "CUESTIONARIO CENTRAL",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 8"
+        }
+      ],
+      "reasoning": "The survey questionnaire comprises a sociodemographic section and a central labor questionnaire divided into sections A through J. An examination of the instrument shows that there is no separate module dedicated to unpaid domestic or care work. Although caregiving and family responsibilities appear as options for why a person worked fewer hours or did not seek employment (e.g., in questions h16, j7, j12, and j24), these are individual response categories within labor market sections rather than a separate module containing more than two questions on unpaid care or domestic work.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

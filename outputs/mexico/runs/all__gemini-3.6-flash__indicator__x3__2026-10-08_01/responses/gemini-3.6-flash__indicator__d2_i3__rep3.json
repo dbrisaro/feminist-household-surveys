@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "ATENCIÓN: Si la respuesta en la pregunta 3 se refiere a: Quehaceres domésticos de su hogar Corrige la secuencia en batería 1 y haz la pregunta 2",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section III, Question 3, page 5"
+        },
+        {
+          "text": "4 una persona que se dedica a los quehaceres de su hogar?",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section II, Question 2e, page 4"
+        },
+        {
+          "text": "2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        },
+        {
+          "text": "7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        }
+      ],
+      "reasoning": "The definition of work in Section I (CONDICIÓN DE OCUPACIÓN) covers activities for pay, profit, or helping in a family/other business or land. In Section III (Question 3), the questionnaire explicitly instructs the interviewer that if tasks refer to domestic chores ('Quehaceres domésticos de su hogar'), they must correct the sequence in Battery 1 and jump to Question 2 (Section II. NO OCUPADOS). Furthermore, Question 2e classifies spending time on household chores as a non-occupied category ('4 una persona que se dedica a los quehaceres de su hogar?'), and unpaid care/domestic activities are captured separately under Section IX ('IX. OTRAS ACTIVIDADES'). Thus, unpaid domestic and care work is not included in the activity/work category definition.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

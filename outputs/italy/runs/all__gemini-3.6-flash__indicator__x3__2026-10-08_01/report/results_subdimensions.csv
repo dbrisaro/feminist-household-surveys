@@ -1,0 +1,5 @@
+country,model,mode,subdimension_id,subdimension_title,met,partially_met,unmet,insufficient_evidence,not_labelled,n_indicators,n_labelled,pct_met,score,mean_stability
+italy,gemini-3.6-flash,indicator,d1,Gender-diverse disaggregation,1,0,1,0,2,4,2,0.5,0.5,1.0
+italy,gemini-3.6-flash,indicator,d2,Care / unpaid care work coverage,0,0,5,0,0,5,5,0.0,0.0,1.0
+italy,gemini-3.6-flash,indicator,d3,Time use management,0,0,2,0,0,2,2,0.0,0.0,1.0
+italy,gemini-3.6-flash,indicator,d4,Household composition and headship,0,1,3,0,2,6,4,0.0,0.125,0.983

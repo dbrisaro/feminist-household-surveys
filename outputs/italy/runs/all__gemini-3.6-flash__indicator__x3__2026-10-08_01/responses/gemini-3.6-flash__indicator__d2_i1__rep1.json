@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "SCHEMA DELLE SEZIONI DEL QUESTIONARIO INDIVIDUALE\n\n      SEZIONE A: CHI RISPONDE AI QUESITI\n\n      SEZIONE B: SITUAZIONE LAVORATIVA NELLA SETTIMANA DI RIFERIMENTO\n\n      SEZIONE C: ATTIVITÀ LAVORATIVA PRINCIPALE\n\n      SEZIONE D: ATTIVITÀ LAVORATIVA SECONDARIA\n\n      SEZIONE GIG: ATTIVITÀ LAVORATIVA IN PIATTAFORMA\n      SEZIONE E: PRECEDENTI ESPERIENZE LAVORATIVE\n\n      SEZIONE F: RICERCA DI LAVORO\n\n      SEZIONE J: CONDIZIONE AUTOPERCEPITA ATTUALE E PENSIONI\n\n      SEZIONE G: SERVIZI PER L’IMPIEGO E AGENZIE PER IL LAVORO\n\n      SEZIONE H: ISTRUZIONE E FORMAZIONE PROFESSIONALE\n\n      SEZIONE I: CONDIZIONE AUTOPERCEPITA UN ANNO PRIMA\n\n      SEZIONE L: NOTIZIE SULLA FAMIGLIA\n\n      SEZIONE M: A CURA DELL’INTERVISTATORE\n\n      SEZIONE N: CODIFICHE IN SOSPESO",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SCHEMA DELLE SEZIONI DEL QUESTIONARIO INDIVIDUALE, p. 3"
+        },
+        {
+          "text": "QC29 Per quale tra questi motivi lavora part time (a tempo parziale):\n • Studia o segue corsi di formazione 1|_|(passare a QC31)\n • Malattia, problemi di salute personali 2|_|(passare a QC31)\n • Si prende cura dei figli e/o di altri familiari non autosufficienti 3|_|\n • Altri motivi familiari (ad esempio si occupa della casa, è in attesa di un figlio, vuole più tempo per la famiglia) 4|_|(passare a QC31)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC29, p. 8"
+        },
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti 5|_| (passare a QF09)\n • Altri motivi familiari (ad esempio fa la casalinga/o, in attesa di un figlio, vuole più tempo per la famiglia) 6|_| (passare a QF10)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QF07, p. 14"
+        },
+        {
+          "text": "• Casalinga/o 6|_|",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QJ01, p. 20"
+        }
+      ],
+      "reasoning": "The survey outline and individual questionnaire sections show that there is no standalone module dedicated to measuring domestic or care work. Instead, unpaid care and domestic responsibilities are mentioned as reasons for working part-time (QC29), reasons for not seeking employment (QF07), or categories of inactivity/self-perception such as 'casalinga/o' (QJ01). Therefore, the instrument does not contain a separate module for domestic or care work, and treats care activities as reasons for working part-time or inactive statuses.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "QB01. “LA SCORSA SETTIMANA” “NOME” ha svolto almeno un’ora di lavoro da cui ha ricavato o ricaverà un guadagno?",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE B, QB01, p. 4"
+        },
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti 5|_| • Altri motivi familiari (ad esempio fa la casalinga/o, in attesa di un figlio, vuole più tempo per la famiglia) 6|_|",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE F, QF07, p. 14"
+        },
+        {
+          "text": "• Casalinga/o 6|_|",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE J, QJ01, p. 20"
+        }
+      ],
+      "reasoning": "The definition of work used to identify economic activity in Section B (QB01) is restricted to work performed for gain or profit (or unpaid work performed for a family business in QB02). Unpaid domestic and care work is not classified or incorporated as economic activity. Instead, taking care of children or family members and domestic tasks are explicitly listed as reasons for not seeking work (QF07) or categorized as non-economic self-perceptions such as 'Casalinga/o' (QJ01). Therefore, unpaid domestic and care work is treated as a category of inactivity or reason for not working rather than included within the definition of work.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

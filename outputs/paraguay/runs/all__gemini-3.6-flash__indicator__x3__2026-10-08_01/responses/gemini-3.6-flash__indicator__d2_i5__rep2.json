@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................................ 6",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte A, Pregunta 8"
+        },
+        {
+          "text": "Demasiado ocupado en tareas del hogar, estudio,etc .................................................................... 10",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte B, Pregunta 5"
+        }
+      ],
+      "reasoning": "The questionnaire contains no questions asking whether a respondent supervises or remains available to care for other household members (such as children) while engaged in other activities. The only mentions of care or household tasks appear as reasons for not seeking work or for working fewer hours than usual (e.g., in Section 6, Part A, Question 8 and Part B, Question 5), which do not meet the criteria for this indicator.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

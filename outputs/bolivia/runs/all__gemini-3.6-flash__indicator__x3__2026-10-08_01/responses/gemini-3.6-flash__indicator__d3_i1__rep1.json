@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "28. ¿Cuántos días a la semana trabaja regularmente en su ocupación? 29. ¿Cuántas horas en promedio trabaja al día en su ocupación? 29a. A diferencia de las horas promedio que trabaja habitualmente cuántas horas efectivas por día trabajó la semana pasada?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE B, Página 8"
+        },
+        {
+          "text": "6. Por qué no buscó trabajo? ... 11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Página 4"
+        },
+        {
+          "text": "7. Es usted: ... 2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Página 4"
+        },
+        {
+          "text": "60. ¿Por qué no trabajó más horas a la semana? ... 6. Por realizar labores de casa/cuidado de miembros del hogar",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE H, Página 10"
+        }
+      ],
+      "reasoning": "The survey instrument measures hours worked solely in relation to paid work or main employment (Section 2, Part B, Q28, Q29, Q29a). It does not contain a time-use module or questions asking respondents how they allocate or spend time across daily activities such as unpaid domestic or care work. Unpaid care and household duties are only mentioned as response categories for inactivity, reasons for not seeking work, or reasons for not working more hours (Section 2, Part A, Q6 item 11, Q7 item 2; Section 2, Part H, Q60 item 6).",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

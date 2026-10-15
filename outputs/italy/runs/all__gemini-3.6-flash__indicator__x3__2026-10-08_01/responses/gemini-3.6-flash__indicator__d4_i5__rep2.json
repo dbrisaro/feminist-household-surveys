@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "QSF16. Relazione di parentela",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 2"
+        },
+        {
+          "text": "RUOLOFAM Ruolo in famiglia \n  Unipersonale 1 \n  Genitore in coppia 2 \n  Monogenitore 3 \n  Coniuge senza figli 4 \n  Figlio 5 \n  Figlio di monogenitore 6 \n  Altro 7",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 23-24"
+        },
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti 3|_|",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC29, Page 8"
+        },
+        {
+          "text": "Tali stime si riferiscono a tutti i componenti delle famiglie residenti in Italia al netto dei membri permanenti delle convivenze (ospizi, brefotrofi, istituti religiosi, caserme, ecc.) .",
+          "document": "[M] 2025/METADATI/ISTAT_MFR_RCFL_Long3_NotaMetodologicaIndagine_2025_Terzo_trimestre.pdf",
+          "location": "Section 1, Page 3"
+        }
+      ],
+      "reasoning": "The survey records relationship to the household through variable QSF16 / RUOLOFAM, which categorizes family roles into single person, parent in couple, single parent, spouse without children, child, child of single parent, and other. It does not record member-to-member relationships via a matrix or pointer variables (member_to_member_relationships: false). Beyond basic nuclear family roles, specific extended ties like grandparents, siblings, non-kin, or same-sex partners are not categorized separately (extended_ties: false). The methodological notes define the survey coverage as resident households excluding institutional cohabitations, but do not state criteria for separating multiple households within a single dwelling (multiple_household_criteria: false). Although family roles distinguish children of single parents from other children, the instrument does not establish a framework for identifying distinct sub-units or secondary families within a household (sub_units: false). Finally, while questions such as QC29 ask whether care for children/dependent relatives is a reason for part-time work, the questionnaire does not identify specific caregiving relationships mapping who cares for whom (caregiving_relationships: false).",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": false,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": false,
+        "sub_units": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "6 Razones personales o responsabilidades familiares",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Sección H, h12"
+        },
+        {
+          "text": "5 Cuidado de personas dependientes",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Sección H, h16"
+        },
+        {
+          "text": "3 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Sección J, j7"
+        },
+        {
+          "text": "4 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Sección J, j12"
+        }
+      ],
+      "reasoning": "The survey instrument does not ask questions regarding responsibility for, performance of, or magnitude of unpaid domestic and care work. Regarding responsibility, no question asks who is in charge of, plans, or organizes domestic or care work. Regarding performance, care duties are only mentioned as response options for reasons for working fewer hours (h12, h16) or reasons for not seeking work/inactivity (j7, j12), which do not count according to the definition. Regarding magnitude, Section H measures hours worked only for paid primary and secondary employment activities, and no question measures time or frequency spent on unpaid domestic or care work.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

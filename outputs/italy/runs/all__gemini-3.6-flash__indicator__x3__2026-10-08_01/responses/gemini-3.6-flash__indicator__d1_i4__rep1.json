@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "QSF11. Sesso del componente\n RICODIFICATA NELLA VARIABILE SESSO\n • Maschio 1\n • Femmina 2",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        },
+        {
+          "text": "QSF16. Relazione di parentela\n RICODIFICATA NELLA VARIABILE RUOLOFAM",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        },
+        {
+          "text": "QB02 Sempre nella settimana che va “DA LUNEDI’ … A DOMENICA…”, “NOME” ha lavorato almeno un’ora, senza essere pagata/o, presso la ditta di un familiare?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE B, p. 4"
+        },
+        {
+          "text": "QC03 “NOME” svolge:\n RICODIFICATA anche NELLA VARIABILE DIPIND\n • Un lavoro come dipendente 1|_| (passare a QC05)\n Un lavoro di:\n • Collaborazione coordinata e continuativa (con o senza progetto) 2|_| (passare a QC07)\n • Prestazione d’opera occasionale 3|_| (passare a QC07)\n Un lavoro autonomo come:\n • Imprenditrice/ore 4|_| (passare a QC04)\n • Libera/o professionista 5|_| (passare a QC04)\n • Lavoratrice/ore in proprio 6|_| (passare a QC04)\n • Coadiuvante nell’azienda di un familiare (non retribuita/o) 7|_|",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE C, p. 5"
+        },
+        {
+          "text": "QJ01.Passiamo ora a parlare di come [NOME] si percepisce, al di là di quello che ha dichiarato fino ad ora. In generale “NOME” si considera occupata/o, disoccupata/o, ritirata/o dal lavoro, inabile al lavoro, studentessa/e o casalinga/o?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE J, p. 20"
+        }
+      ],
+      "reasoning": "In the survey instrument, sex is collected in item QSF11 with binary response categories: \"Maschio\" (1) and \"Femmina\" (2). Item QSF16 collects household relationship under \"Relazione di parentela\", but the questionnaire indicates that response categories are recoded into the variable RUOLOFAM without providing raw item categories in the questionnaire text. Throughout the questionnaire, respondents are addressed by name (\"NOME\") using slash options for male and female inflections across titles, occupations, and self-perceived status (e.g., \"pagata/o\", \"Imprenditrice/ore\", \"Libera/o professionista\", \"Lavoratrice/ore in proprio\", \"occupata/o, disoccupata/o, ritirata/o dal lavoro, inabile al lavoro, studentessa/e o casalinga/o\"). Household relationship references in questions use terms such as \"ditta di un familiare\" and \"Coadiuvante nell’azienda di un familiare\".",
+      "extracted_text": "QSF11. Sesso del componente\n • Maschio 1\n • Femmina 2\n\nQSF16. Relazione di parentela\n RICODIFICATA NELLA VARIABILE RUOLOFAM\n\nQB02 Sempre nella settimana che va “DA LUNEDI’ … A DOMENICA…”, “NOME” ha lavorato almeno un’ora, senza essere pagata/o, presso la ditta di un familiare?\n\nQC03 “NOME” svolge:\n • Un lavoro come dipendente\n • Collaborazione coordinata e continuativa (con o senza progetto)\n • Prestazione d’opera occasionale\n • Imprenditrice/ore\n • Libera/o professionista\n • Lavoratrice/ore in proprio\n • Coadiuvante nell’azienda di un familiare (non retribuita/o)\n\nQJ01. In generale “NOME” si considera occupata/o, disoccupata/o, ritirata/o dal lavoro, inabile al lavoro, studentessa/e o casalinga/o?"
+    }
+  ]
+}

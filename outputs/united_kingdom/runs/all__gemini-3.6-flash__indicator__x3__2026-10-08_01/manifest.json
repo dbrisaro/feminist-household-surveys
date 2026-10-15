@@ -1,0 +1,80 @@
+{
+  "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+  "note": "final run 2026-10-08, option B",
+  "planned_utc": "20261008T201755Z",
+  "provider": "google",
+  "country": "united_kingdom",
+  "settings": {
+    "model": [
+      "gemini-3.6-flash"
+    ],
+    "mode": [
+      "indicator"
+    ],
+    "effort": null,
+    "effort_note": "--effort medium accepted but not sent: the google API takes no equivalent parameter",
+    "repeat": 3,
+    "only": null,
+    "budget_usd": 3.7,
+    "api_key_var": "GEMINI_API_KEY_PAID",
+    "executed": true,
+    "max_tokens": {
+      "indicator": 4000
+    },
+    "thinking": null
+  },
+  "framework": {
+    "source_file": "Prompting/gender_survey_framework.html",
+    "n_indicators": 17
+  },
+  "corpus": {
+    "n_documents": 3,
+    "documents": [
+      {
+        "source_code": "C",
+        "doc": "volume2octtodec2025.pdf",
+        "text_file": "data/processed/text/united_kingdom/volume2octtodec2025.txt",
+        "chars": 507864,
+        "sha256": "6e390d7af36d6e6220aa1e11e18101c6b95122b9c137f8656984306830c26f03",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "lfsugvoltcm77238281.pdf",
+        "text_file": "data/processed/text/united_kingdom/lfsugvoltcm77238281.txt",
+        "chars": 234017,
+        "sha256": "fa3d31577b7a2fd8d9f50e318b8b6cf8ce2f7694ae9974b791b64d76b003f6c2",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "volume1main2024updatedfeb25.pdf",
+        "text_file": "data/processed/text/united_kingdom/volume1main2024updatedfeb25.txt",
+        "chars": 336992,
+        "sha256": "8707d77cc69cec145d6a6a3d64f24b17aeccb8af9ed8c7f30146005edab44da6",
+        "part": 1,
+        "n_parts": 1
+      }
+    ]
+  },
+  "plan": {
+    "n_calls": 57,
+    "n_source_missing": 0,
+    "projected_input_usd": 4.621,
+    "projected_worst_case_usd": 8.041
+  },
+  "cost": {
+    "spent_usd": 2.7134,
+    "notional_usd_on_paid_key": null,
+    "billing": "paid",
+    "requests_used": null,
+    "requests_per_day_limit": null,
+    "budget_usd": 3.7,
+    "n_calls_planned": 57,
+    "started_utc": "20261008T201755Z",
+    "finished_utc": "20261008T205134Z"
+  },
+  "command": "scripts/llm/run_eval_gemini.py --country united_kingdom --model gemini-3.6-flash --mode indicator --repeat 3 --billing paid --api-key-var GEMINI_API_KEY_PAID --max-output-tokens 16000 --budget-usd 3.70 --note final run 2026-10-08, option B --go"
+}

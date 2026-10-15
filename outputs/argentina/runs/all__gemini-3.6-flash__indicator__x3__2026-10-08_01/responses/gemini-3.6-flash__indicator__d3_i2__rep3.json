@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "3b. ¿Cuántas horas semanales trabaja habitualmente en todos sus empleos / ocupaciones...",
+          "document": "EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 3, p. 3"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa?",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII, p. 6"
+        }
+      ],
+      "reasoning": "The questionnaire records time spent on paid employment (e.g. question 3b and 3e in EPHContinua_CuestIndividual.pdf). Section VII of EPHContinua_CuestHogar.pdf asks who performs household tasks, but does not record the time spent doing so. No time allocation questions are included for unpaid domestic or care work, leisure, or self-care. Following the explicit instruction that if the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false, all four elements are marked false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "500. EMPLEO (Para todas las personas de 14 años y más de edad) Persona N°",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Page 12, Section 500"
+        },
+        {
+          "text": "524. ¿CUÁNTO FUE SU INGRESO TOTAL EN EL (LA)………...…. Frecuencia ANTERIOR, INCLUYENDO HORAS EXTRAS, BONIFICACIONES, PAGO POR CONCEPTO DE REFRIGERIO, MOVILIDAD, COMISIONES, ETC.?",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Page 16, Question 524"
+        },
+        {
+          "text": "556. EN LOS ÚLTIMOS 6 MESES, DE…..... A......…, ¿RECIBIÓ UD. INGRESOS POR CONCEPTO DE:",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Page 19, Question 556"
+        },
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Page 12, Question 501"
+        },
+        {
+          "text": "105. LA VIVIENDA QUE OCUPA SU HOGAR ES:",
+          "document": "2024/CED-01-100-2024.pdf",
+          "location": "Page 2, Question 105"
+        }
+      ],
+      "reasoning": "Economic maintenance is collected at the individual member level for persons aged 14 and above across various income sources including wages, self-employment, pensions, and transfers in Section 500 (e.g., questions 524, 530, 538, 541, 556). Labor burden is incomplete because while paid employment hours are recorded, unpaid domestic and care work hours are excluded from employment questions (e.g., question 501 explicitly specifies 'Sin contar los quehaceres del hogar') and no member-level time-use module for domestic work is included. Property and asset control is not captured at the individual level; dwelling tenure (question 105) is asked at the household level. Finally, decision-making dynamics across household spheres are not included in the supplied questionnaire.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

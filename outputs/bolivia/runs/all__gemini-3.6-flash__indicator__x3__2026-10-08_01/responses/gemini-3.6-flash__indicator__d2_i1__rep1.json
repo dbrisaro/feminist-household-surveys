@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "SECCIÓN 1. CARACTERÍSTICAS GENERALES DEL HOGAR Y SUS MIEMBROS",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 1"
+        },
+        {
+          "text": "SECCIÓN 2. EMPLEO",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 4"
+        }
+      ],
+      "reasoning": "The provided questionnaire comprises only two sections: 'SECCIÓN 1. CARACTERÍSTICAS GENERALES DEL HOGAR Y SUS MIEMBROS' and 'SECCIÓN 2. EMPLEO'. It does not include a separate domestic or care work module. Unpaid domestic and care work is only referenced as response options for why a respondent does not attend school or is not working/seeking work.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

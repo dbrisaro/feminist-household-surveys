@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "5b. ¿Qué días y cuántas horas le dedicó... a su trabajo la semana pasada?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section V, Question 5b, page 8"
+        },
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        },
+        {
+          "text": "2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        },
+        {
+          "text": "7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        }
+      ],
+      "reasoning": "The instrument captures time spent on paid work through Question 5b, which records hours and minutes dedicated to work during the previous week. It also captures time spent on unpaid domestic or care work through Question 9 (items 2, 3, 4, 6, and 7), which records time spent caring for household members, performing domestic chores, shopping, and housing maintenance. However, Question 9 and the rest of the questionnaire do not include any items or options to record time devoted to leisure or self-care activities (such as sleeping, eating, or personal care).",
+      "elements": {
+        "leisure": false,
+        "paid work": true,
+        "self-care": false,
+        "unpaid work": true
+      }
+    }
+  ]
+}

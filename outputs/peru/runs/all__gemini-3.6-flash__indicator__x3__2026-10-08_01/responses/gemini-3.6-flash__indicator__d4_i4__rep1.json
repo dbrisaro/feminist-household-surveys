@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "500. EMPLEO (Para todas las personas de 14 años y más de edad)",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Section 500, page 12"
+        },
+        {
+          "text": "556. EN LOS ÚLTIMOS 6 MESES, DE…..... A......…, ¿RECIBIÓ UD. INGRESOS POR CONCEPTO DE: 1. Pensión de divorcio o separación? 2. Pensión por alimentación? 3. Remesas de otros hogares o personas? 4. Pensión de jubilación /cesantía? 5. Pensión por viudez, orfandad o sobrevivencia? 6. Transferencia del Programa JUNTOS? 7. Transferencia del Programa Pensión 65? 8. Otras transferencias de las instituciones públicas o privadas? 9. Otras transferencias de hogares?",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Section 500, Question 556, page 19"
+        },
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Section 500, Question 501, page 12"
+        },
+        {
+          "text": "105. LA VIVIENDA QUE OCUPA SU HOGAR ES:",
+          "document": "[C] 2024/CED-01-100-2024.pdf",
+          "location": "Section 100, Question 105, page 2"
+        }
+      ],
+      "reasoning": "The survey design is evaluated across the four specific dimensions: 1) economic_maintenance: TRUE. Section 500 of [C] 2024/CED-01A-500 ENAHO 2024.pdf captures individual income and economic support at the member level for all individuals aged 14 and older across wages, independent/informal work, pensions, remittances, and social transfers (Q524, Q530, Q556). 2) labor_burden: FALSE. While hours in paid work are captured per individual (Q513, Q518, Q519), unpaid domestic work is explicitly excluded in Question 501 ('Sin contar los quehaceres del hogar'), and no hours spent in unpaid domestic or care work are recorded. 3) property_asset_control: FALSE. Housing tenure (Question 105 in [C] 2024/CED-01-100-2024.pdf) and property titles are collected at the household level rather than disaggregated to individual member ownership. 4) decision_making: FALSE. The supplied questionnaire modules contain no questions on intra-household decision-making across any sphere.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

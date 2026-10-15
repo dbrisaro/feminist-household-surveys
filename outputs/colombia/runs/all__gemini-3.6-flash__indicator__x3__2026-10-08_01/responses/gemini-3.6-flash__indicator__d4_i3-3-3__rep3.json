@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "Jefe o Jefa de hogar. Es el residente habitual que es reconocido por los demás miembros del hogar como \"jefe(a)\" (ONU, 1998).",
+          "document": "[M] DSO-GEIH-MET-001-V11.pdf",
+          "location": "GLOSARIO"
+        },
+        {
+          "text": "Características generales: sexo, edad, parentesco con el jefe del hogar, estado civil, identificación de población campesina, y autorreconocimiento étnico.",
+          "document": "[M] DSO-GEIH-MET-001-V11.pdf",
+          "location": "2.1.5. Definición de variables y construcción de indicadores estadísticos"
+        },
+        {
+          "text": "La encuesta utiliza un entrevistado/encuestado directo (persona que da la información sobre sí mismo) para las personas de 18 años y más y para aquellas de 10 a 17 años que trabajen o estén buscando trabajo. Para los demás, se acepta entrevistado/encuestado idóneo (persona del hogar mayor de 18 años que, a falta del entrevistado/encuestado directo, pueda responder las preguntas correctamente).",
+          "document": "[M] DSO-GEIH-MET-001-V11.pdf",
+          "location": "2.3.1. Métodos y estrategias de recolección o acopio de datos"
+        }
+      ],
+      "reasoning": "The provided methodological documentation (DSO-GEIH-MET-001-V11.pdf) establishes the following regarding the household anchor person and respondent selection:\n- neutral_anchor_term: False. The documentation uses \"Jefe o Jefa de hogar\" and \"jefe del hogar\" rather than a neutral term or avoiding the category.\n- explicit_selection_rule: True. The glossary explicitly specifies the rule for identifying the household head (\"Es el residente habitual que es reconocido por los demás miembros del hogar como 'jefe(a)'\").\n- rule_not_sex_age_authority: True. The explicit criterion is recognition by other household members, which is not sex, age/seniority, or assumed authority/earner status.\n- respondent_separate_or_any_adult: True. Section 2.3.1 states that any adult household member aged 18 or over who can answer correctly (\"entrevistado/encuestado idóneo\") may respond on behalf of other members.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": true
+      }
+    }
+  ]
+}

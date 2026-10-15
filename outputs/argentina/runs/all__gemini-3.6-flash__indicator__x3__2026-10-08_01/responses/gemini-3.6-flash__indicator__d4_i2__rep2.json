@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "3 ¿Quién es el jefe o jefa del hogar? (anote su nombre en primer lugar y luego continúe con el resto del hogar)",
+          "document": "[C] EPHContinua_CuestVivienda.pdf",
+          "location": "Bloque V, Pregunta 3"
+        },
+        {
+          "text": "RELACIÓN DE PARENTESCO (Anote en el orden siguiente) Jefe/a Cónyuge/Pareja Hijo/a/Hijastro/a Yerno/Nuera Nieto/a Madre/Padre Suegro/a Hermano/a Otros Familiares No Familiares",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, Columna 03"
+        }
+      ],
+      "reasoning": "The questionnaire asks the respondent directly \"¿Quién es el jefe o jefa del hogar?\" without establishing an explicit rule (such as main earner or oldest member) or specifying that the head must be recognised collectively by all household members. The identification of the household head relies on the respondent naming/designating that person.",
+      "selected": "designated by the respondent"
+    }
+  ]
+}

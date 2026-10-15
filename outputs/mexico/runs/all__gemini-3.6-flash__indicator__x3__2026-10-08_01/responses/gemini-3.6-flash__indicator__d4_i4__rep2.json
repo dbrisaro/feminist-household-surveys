@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "5b. ¿Qué días y cuántas horas le dedicó... a su trabajo la semana pasada?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section V, Question 5b, page 8"
+        },
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        },
+        {
+          "text": "2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, item 2, page 12"
+        },
+        {
+          "text": "7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, item 7, page 12"
+        },
+        {
+          "text": "6b. ¿Cada cuándo obtiene... sus ingresos o le pagan?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section VI, Question 6b, page 9"
+        },
+        {
+          "text": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, page 4"
+        }
+      ],
+      "reasoning": "The survey is evaluated across the four specified elements:\n- economic_maintenance: False. Question 6b in the Cuestionario de Ocupación y Empleo (COE) captures individual earnings/income from paid employment for persons aged 12 and older. However, the supplied instruments do not capture non-labor income sources (such as pensions, remittances, or social transfers) at the member level across all potential sources.\n- labor_burden: True. The COE captures hours dedicated to paid work at the individual member level in Question 5b, and captures hours dedicated to unpaid care work (Question 9, item 2) and unpaid domestic work (Question 9, item 7) for household members aged 12 and older.\n- property_asset_control: False. An examination of Section VI of the Cuestionario Sociodemográfico and the COE shows that there are no questions recording property, land, dwelling tenure, or asset ownership by individual member.\n- decision_making: False. An examination of the supplied instruments shows no questions on intra-household decision-making across spheres such as child-rearing, daily consumption, or financial choices.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": true,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

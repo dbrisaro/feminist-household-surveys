@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "5. De las personas relacionadas anteriormente, ¿alguna de ellas es su (Codificar 00 si no tiene o no reside en la vivienda) - conyuge o pareja? En tal caso, dígame su nombre: NCONY - padre? En tal caso, dígame su nombre: NPADRE - madre? En tal caso , dígame su nombre: NMADRE",
+          "document": "epacues21.pdf",
+          "location": "A. DATOS GENERALES, Q5"
+        },
+        {
+          "text": "6. ¿Cuál es su estado civil legal? - Soltero 1 - Casado 2 - Viudo 3 - Separado o divorciado 4 - No sabe",
+          "document": "epacues21.pdf",
+          "location": "A. DATOS GENERALES, Q6"
+        },
+        {
+          "text": "DR3. Para cada una de las personas que estuvieron ausentes de este domicilio la mayor parte de los días del “ “ al “ “ (semana de referencia), por favor, indique cuál fue la causa de esa ausencia.",
+          "document": "epacues21.pdf",
+          "location": "GESTIÓN ENTREVISTA / INICIAR CUESTIONARIO, DR3"
+        },
+        {
+          "text": "HG1. Si INFORM1=1 ¿Todas las personas de la vivienda forman un mismo hogar, en el sentido de que comparten presupuesto de manutención con usted, independientemente de los gastos fijos de vivienda, como la luz, el agua, la comunidad, etc.?",
+          "document": "epacues21.pdf",
+          "location": "GESTIÓN ENTREVISTA / INICIAR CUESTIONARIO, HG1"
+        }
+      ],
+      "reasoning": "The questionnaire collects legal marital status (ECIV1: Soltero, Casado, Viudo, Separado o divorciado), presence/absence of a partner in the household (NCONY), and reasons for temporary or prolonged absence of members (DR1-DR3), which allows distinguishing de jure unpartnered women from de facto unpartnered women whose spouse is absent (de_jure_vs_de_facto: true). In Section A Q5, explicit pointer variables identify each individual's mother (NMADRE), father (NPADRE), and spouse/partner (NCONY), allowing unpartnered mother-child units to be identified within any household configuration (unpartnered_mother_child_units: true). The questionnaire does not collect household income or identify the main economic provider of the household (women_maintained_by_provider: false), nor does it collect consumption, hearth-hold production, or care activity linked directly to the mother-child unit (mother_child_unit_activity: false).",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

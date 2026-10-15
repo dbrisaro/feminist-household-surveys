@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "Sin considerar los quehaceres del hogar, ¿trabajó algún día en la semana comprendida entre el [+NOM_DIA1_SEMREF+] 1 y el [+NOM_DIA7_SEMREF+] 7 de [+NOM_MES_SEMREF+]?",
+          "document": "[C] C_Cuestionario_seguimiento_2024.pdf",
+          "location": "f.1"
+        },
+        {
+          "text": "Sin considerar los quehaceres del hogar, ¿trabajó algún día en la semana comprendida entre el {+NOM_DIA1_SEMREF+} 1 y el {+NOM_DIA7_SEMREF+} 7 de {+NOM_MES_SEMREF+}?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.1"
+        }
+      ],
+      "reasoning": "In both questionnaires, question f.1 explicitly instructs to exclude household tasks (\"Sin considerar los quehaceres del hogar\") when determining whether a person worked during the reference week. Unpaid domestic and care work is therefore explicitly excluded from the category of work/employment.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

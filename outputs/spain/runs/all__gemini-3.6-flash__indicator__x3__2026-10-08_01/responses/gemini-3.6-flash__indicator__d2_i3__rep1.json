@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "1. La semana de referencia, ¿trabajó aunque sólo fuera una hora?",
+          "document": "[C] epacues21.pdf",
+          "location": "Section B, question 1, page 9"
+        },
+        {
+          "text": "(Se refiere a empleos remunerados y a negocios en los que se trabaje habitualmente al menos 1 hora a la semana. Incluidos ayudas familiares).",
+          "document": "[C] epacues21.pdf",
+          "location": "Section B, question 4, page 9"
+        },
+        {
+          "text": "- Dedicado a las labores del hogar",
+          "document": "[C] epacues21.pdf",
+          "location": "Section H, question 1, page 21"
+        }
+      ],
+      "reasoning": "The definition of work and economic activity in Section B (questions B1 to B4) is restricted to paid work, work performed for economic profit, and unpaid help in a family business. Unpaid domestic and care work is not included within the activity category of work. In Section H (question H1), 'Dedicado a las labores del hogar' is presented as a separate category distinct from 'Trabajando o con empleo'. Therefore, unpaid domestic and care work is mentioned but treated as a different category rather than incorporated as economic activity.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

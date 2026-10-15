@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "e.22 ¿Cuál es su relación de parentesco con la persona referente del hogar (integrante del hogar N° 1)?\n\nReferente del hogar.......................................................... 1",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Page 4, question e.22"
+        },
+        {
+          "text": "e.5 Si la persona era referente del hogar en la visita anterior. Esta persona era referente del hogar en la entrevista anterior, ¿cuál persona pasa a ser el referente del hogar?\nE1_2_CV\nAnote el N° de persona......................................................",
+          "document": "[C] C_Cuestionario_seguimiento_2024.pdf",
+          "location": "Page 2, question e.5"
+        }
+      ],
+      "reasoning": "The survey documents reference a 'persona referente del hogar (integrante del hogar N° 1)' in question e.22 of the implantation questionnaire and question e.5 of the follow-up questionnaire. However, the questionnaire text does not establish or define a method for identifying or selecting this household head (whether self-declared, designated by the respondent, or assigned by an explicit criterion). Therefore, the selection is left empty.",
+      "selected": ""
+    }
+  ]
+}

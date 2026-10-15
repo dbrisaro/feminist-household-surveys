@@ -1,0 +1,11 @@
+# API keys and local settings
+.env
+*.env
+# Survey documents, microdata and extracted text are not redistributed
+data/raw/
+data/processed/
+data/external/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

@@ -1,0 +1,5 @@
+country,model,mode,subdimension_id,subdimension_title,met,partially_met,unmet,insufficient_evidence,not_labelled,n_indicators,n_labelled,pct_met,score,mean_stability
+colombia,gemini-3.6-flash,indicator,d1,Gender-diverse disaggregation,2,0,0,0,2,4,2,1.0,1.0,1.0
+colombia,gemini-3.6-flash,indicator,d2,Care / unpaid care work coverage,2,1,2,0,0,5,5,0.4,0.5,0.933
+colombia,gemini-3.6-flash,indicator,d3,Time use management,1,1,0,0,0,2,2,0.5,0.75,1.0
+colombia,gemini-3.6-flash,indicator,d4,Household composition and headship,0,4,0,0,2,6,4,0.0,0.5,1.0

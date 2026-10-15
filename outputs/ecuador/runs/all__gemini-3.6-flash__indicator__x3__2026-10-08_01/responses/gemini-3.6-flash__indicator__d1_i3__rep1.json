@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "SEXO Hombre... 1 Mujer... 2",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, p. 20"
+        },
+        {
+          "text": "PREGUNTA 2. SEXO Marque en el casillero correspondiente al sexo de cada uno de los miembros integrantes del hogar encuestado, conforme al código que se indica. Debe tener precaución al anotar la respuesta porque hay nombres poco conocidos que se utilizan indistintamente para ambos sexos. Por ejemplo: René. HOMBRE = 1 / MUJER = 2",
+          "document": "[G] 202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "Capítulo VII, Sección 1, p. 56"
+        }
+      ],
+      "reasoning": "The questionnaire provides binary response categories for sex ('Hombre... 1', 'Mujer... 2'). The interviewer manual instructs the interviewer to mark the corresponding code for each household member and cautions to be careful when recording the response because some names are used for both sexes, providing 'René' as an example. No formal definition of sex or gender is provided, nor are any instructions given regarding gender identities beyond the binary options.",
+      "extracted_text": "PREGUNTA 2. SEXO Marque en el casillero correspondiente al sexo de cada uno de los miembros integrantes del hogar encuestado, conforme al código que se indica. Debe tener precaución al anotar la respuesta porque hay nombres poco conocidos que se utilizan indistintamente para ambos sexos. Por ejemplo: René. HOMBRE = 1 / MUJER = 2"
+    }
+  ]
+}

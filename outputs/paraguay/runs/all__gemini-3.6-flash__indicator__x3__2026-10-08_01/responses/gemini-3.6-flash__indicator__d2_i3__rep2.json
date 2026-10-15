@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "Mínimo de horas trabajadas:\nActividad no agropecuaria: Cuando la persona que declaró dedicarse a actividades no agropecuarias ha totalizado por lo menos 1 hora de trabajo en el periodo de referencia (últimos 7 días).\nActividad agropecuaria: Cuando la persona que declaró dedicarse a actividades agropecuarias ha totalizado por lo menos 7 horas de trabajo en el periodo de referencia (últimos 7 días).\nFamiliar no remunerado: Se considera a la persona que trabaja sin remuneración en una empresa familiar por lo menos 15 horas en el periodo de referencia (últimos 7 días).",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page preceding Section 6"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar .........................3",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte A, Pregunta 5"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................................ 6",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte A, Pregunta 8"
+        }
+      ],
+      "reasoning": "The definition of work in the instrument encompasses non-agricultural work, agricultural work, and unpaid work performed for a family business (\"empresa familiar\"). It does not classify unpaid domestic and care work as an economic activity or work. Furthermore, household tasks (\"labores del hogar\") are explicitly listed as non-work reasons for not being available to work (Pregunta 5, option 3) or for not seeking work (Pregunta 8, option 6). Therefore, unpaid domestic and care work is not included in the category of work and is instead treated as a category of inactivity/non-work.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

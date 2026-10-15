@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "SEXO",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        },
+        {
+          "text": "(Anote en cada caso)",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        },
+        {
+          "text": "1. varón",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        },
+        {
+          "text": "2. mujer",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        }
+      ],
+      "reasoning": "In the supplied questionnaire EPHContinua_CuestHogar.pdf (Bloque IV, column 04), the prompt for 'SEXO' includes the instruction '(Anote en cada caso)' with response options '1. varón' and '2. mujer'. No definition of sex or gender is provided in the questionnaire text. Interviewer manuals or guides (document type [G]) were not supplied in this run to check for further instructions.",
+      "extracted_text": "(Anote en cada caso) 1. varón 2. mujer"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "le famiglie con capofamiglia straniero, che vengono sempre intervistate con tecnica CAPI;",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_NotaMetodologicaIndagine_2025_Terzo_trimestre.pdf",
+          "location": "Section 4, page 6"
+        },
+        {
+          "text": "QSF16. Relazione di parentela\n RICODIFICATA NELLA VARIABILE RUOLOFAM",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), page 2"
+        },
+        {
+          "text": "SEZIONE A: CHI RISPONDE AI QUESITI",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SCHEMA DELLE SEZIONI DEL QUESTIONARIO INDIVIDUALE, page 3"
+        }
+      ],
+      "reasoning": "Regarding neutral_anchor_term: The methodological notes ([M], page 6) explicitly use the non-neutral term 'capofamiglia' ('le famiglie con capofamiglia straniero'), failing the neutral anchor requirement. Regarding explicit_selection_rule: Neither questionnaire [C] nor methodological notes [M] state an explicit rule for selecting the reference person or household respondent (interviewer instructions for respondent selection are typically found in the interviewer manual [G], which was not supplied in this run). Regarding rule_not_sex_age_authority: Because no rule for selecting the reference person is stated in the provided text, the capability is not substantiated. Regarding respondent_separate_or_any_adult: While Section A (QA03) records direct vs proxy respondents for individual modules, the supplied text does not establish an explicit rule permitting any knowledgeable adult to answer household-level questions or recording a separate household respondent.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": false,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

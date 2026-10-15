@@ -1,0 +1,52 @@
+{
+  "country": "argentina",
+  "survey": "Encuesta Permanente de Hogares (EPH) ()",
+  "agency": "INDEC",
+  "doc_dir": "data/raw/argentina/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [
+        "EPHContinua_CuestVivienda.pdf",
+        "EPHContinua_CuestIndividual.pdf",
+        "EPHContinua_CuestHogar.pdf"
+      ]
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [
+        "metodologia_eph_continua_2003_sin_anexo2.pdf",
+        "EPH_consideraciones_metodologicas_2t20.pdf",
+        "EPH_nota_metodologica_1_trim_2019.pdf",
+        "metodologia_informalidad_laboral.pdf"
+      ]
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [],
+      "missing_note": "No document of type G (interviewer guides and manuals) was found in the collected corpus for argentina. Indicators routed to G are reported as source_missing, not as not_evidenced."
+    }
+  },
+  "estimated_tokens": {
+    "C": 37509,
+    "M": 118227,
+    "G": 0,
+    "C+M": 155736
+  },
+  "excluded": {
+    "eph_muestras_74-03.pdf": "beyond --max-per-source 4; 1 pinned and the newest 3 kept for this source",
+    "anexo_informe_eph_23_08_16.pdf": "bulletin, tabulation or press material",
+    "eph_proyecciones_ago2005.pdf": "bulletin, tabulation or press material",
+    "metodologia_eph_continua_2003.pdf": "[manual] superseded by the derived metodologia_eph_continua_2003_sin_anexo2.pdf. Pages 27-62 of the original (36 of 69) are Anexo 2, the 2003 questionnaires; leaving them in lets a 2003 form be cited as evidence about the current instrument"
+  },
+  "unclassified": {},
+  "manual_review": {
+    "source": "config/manual_overrides.json",
+    "applied": 2,
+    "note": "metodologia_eph_continua_2003_sin_anexo2.pdf is a derived document: the original with Anexo 2 removed. It sits in doc_dir and the triage picks it up as an ordinary candidate; only the original needs suppressing. Derivation: qpdf metodologia_eph_continua_2003.pdf --pages . 1-26,63-69 -- metodologia_eph_continua_2003_sin_anexo2.pdf (2026-08-20, 70,179 -> 36,229 tokens). The derived file is pinned to M: it dates to 2003, so the vintage sort plus --max-per-source 4 pushes it out otherwise, which silently undoes the split."
+  },
+  "non_textual": {
+    ".csv": 1
+  }
+}

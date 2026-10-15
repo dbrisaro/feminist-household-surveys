@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "¿Cuál es la razón por la que (…) no desea o no está disponible para trabajar más horas:\n\n\n- Tiene a cargo el cuidado de algún\nmiembro de su hogar?.......................... 1",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2: CARACTERÍSTICAS OCUPACIONALES - PARA PERSONAS DE 5 AÑOS Y MÁS, Pregunta 29a"
+        },
+        {
+          "text": "¿ (…) es:\n\n Rentista?........................... 1\n Jubilado o pensionado?.... 2\n Estudiante?....................... 3\n Ama de casa?................... 4\n Incapacitado?.................... 5\n Otro, cuál? (Especifique)…… 6",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2: BÚSQUEDA DE TRABAJO - PARA PERSONAS DE 5 AÑOS Y MÁS, Pregunta 36"
+        }
+      ],
+      "reasoning": "The questionnaire does not contain any question asking whether a person supervises or remains available to care for other household members while performing other activities or without care being their main activity. Care for household members is only mentioned as a reason for not being available or desiring to work more hours (Question 29a) or as a status category for inactive persons (\"Ama de casa\" in Question 36). As the indicator definition explicitly specifies that care given as a reason for not working or for not working more hours does not count, the proposition is false.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "6. Por qué no buscó trabajo? ... 11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 2, Parte A, Pregunta 6, página 4"
+        },
+        {
+          "text": "7. Es usted: ... 2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 2, Parte A, Pregunta 7, página 4"
+        }
+      ],
+      "reasoning": "The instrument does not contain a dedicated set of questions to record unpaid domestic and care work per person. Domestic and care work appears only as a category of inactivity (Pregunta 7, option 2: 'Ama de casa / responsable de los quehaceres del hogar') or as a reason for not seeking work (Pregunta 6, option 11: 'LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR'). According to the indicator definition, mentioning domestic work only as a category of inactivity or a reason for not working does not count as recording domestic work through its own questions. Therefore, the proposition is false and domestic work is treated as other.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

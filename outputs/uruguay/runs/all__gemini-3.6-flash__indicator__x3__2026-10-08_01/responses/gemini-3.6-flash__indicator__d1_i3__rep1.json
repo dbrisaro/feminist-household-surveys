@@ -1,0 +1,10 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [],
+      "reasoning": "Interviewer instructions and definitions for recording sex or gender are documented in interviewer manuals [G]. No interviewer manual document was supplied in this run (only questionnaire documents [C] were provided), and the supplied questionnaires do not contain explicit instructions or definitions for the interviewer regarding the recording of sex or gender.",
+      "extracted_text": ""
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [],
+      "reasoning": "Interviewer instructions and definitions for recording sex or gender are documented in interviewer manuals ([G]), which were not supplied in this run. The supplied questionnaire documents ([C]) were examined (specifically Capítulo 200, Pregunta 207), but contain no interviewer instructions or definitions for recording sex or gender beyond listing the binary response options 'Hombre' and 'Mujer'. Because document type [G] was not supplied in this run, the quotes field and output field are left empty.",
+      "extracted_text": ""
+    }
+  ]
+}

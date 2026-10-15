@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "d.17 Sin mediar pago alguno, este hogar, ¿recibe ayuda de otros familiares o conocidos que no integran el hogar para limpiar la vivienda, cuidar niños o ancianos o para realizar alguna otra tarea doméstica?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "d.17"
+        },
+        {
+          "text": "No tiene tiempo por su trabajo doméstico, el cuidado de niños/as u otras personas dependientes.......................... 5",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.71"
+        },
+        {
+          "text": "f.82 ¿Usted es… … quien realiza los quehaceres del hogar?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.82"
+        }
+      ],
+      "reasoning": "Responsibility: The instrument does not contain any questions asking who is in charge of, plans, or organises unpaid domestic or care work. Performance: Question f.82 captures doing household chores only as an activity status choice (¿Usted es...?), and question f.71 captures domestic/care work only as a reason for not seeking work. Per the indicator rules, activity status classification and reasons for not working do not count. Question d.17 asks about help received from non-household members, not about tasks performed by household members. Magnitude: The survey does not record the time or frequency of unpaid domestic or care work performed by household members. Question d.17 records the frequency of unpaid help received from persons outside the household, which does not measure work done by household members.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "QSF16. Relazione di parentela RICODIFICATA NELLA VARIABILE RUOLOFAM",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 2"
+        },
+        {
+          "text": "RUOLOFAM Ruolo in famiglia  Unipersonale 1  Genitore in coppia 2  Monogenitore 3  Coniuge senza figli 4  Figlio 5  Figlio di monogenitore 6  Altro 7",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 23"
+        },
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti 3|_|",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 8"
+        },
+        {
+          "text": "Tali stime si riferiscono a tutti i componenti delle famiglie residenti in Italia al netto dei membri permanenti delle convivenze (ospizi, brefotrofi, istituti religiosi, caserme, ecc.) .",
+          "document": "[M] 2025/METADATI/ISTAT_MFR_RCFL_Long3_NotaMetodologicaIndagine_2025_Terzo_trimestre.pdf",
+          "location": "Page 3"
+        }
+      ],
+      "reasoning": "The instrument records relationship data via QSF16 recoded into individual family roles (RUOLOFAM). It does not record member-to-member relationships using a matrix or pointer IDs (member_to_member_relationships is false). Extended ties like grandparent-grandchild, siblings, non-kin, or same-sex partners are not explicitly categorized, as non-core relationships are merged into 'Altro' (extended_ties is false). The supplied documents mention household residence but do not state criteria for separating multiple households sharing a dwelling (multiple_household_criteria is false). While RUOLOFAM captures individual roles (e.g., monogenitore, figlio), the documents do not establish that secondary family nuclei or sub-units within a household can be formally identified or linked (sub_units is false). Questions such as QC29 record caring for children or non-self-sufficient relatives as a reason for part-time work or inactivity, but do not record specific caregiving relationships mapping who cares for whom (caregiving_relationships is false).",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": false,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": false,
+        "sub_units": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "(207) SEXO\nHombre .......1\nMujer .........2",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "200. CARACTERÍSTICAS DE LOS MIEMBROS DEL HOGAR, p. 6"
+        }
+      ],
+      "reasoning": "In the supplied questionnaire instruments ([C] 2024/CED-01-200-2024.pdf, page 6), question 207 captures sex (\"SEXO\") with the response options \"Hombre\" (1) and \"Mujer\" (2). No instructions or definitions regarding how to record sex or gender are included in the questionnaire. Interviewer manuals (document type G) were not supplied in this run, so any instructions that may be documented in interviewer manuals cannot be verified.",
+      "extracted_text": "No instruction is given in the questionnaire."
+    }
+  ]
+}

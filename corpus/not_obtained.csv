@@ -1,0 +1,19 @@
+country,source_type,reason,documents_in_final_corpus,verified
+argentina,C,"INDEC serves EPH documentation from a JS-rendered page. The /ftp/cuadros/menusuperior/eph/ paths answer 200 with the site's HTML shell rather than a PDF, so they cannot be used; the 3 questionnaires on disk were downloaded by hand.",3,yes
+argentina,M,same JS-rendered page as C; the 5 methodology PDFs on disk were downloaded by hand.,4,yes
+argentina,G,INDEC does not publish the EPH interviewer manual.,0,yes
+bolivia,C,ine.gob.bo is JS-rendered with no direct file links; the 13 questionnaires on disk (v1–v9 by period) were obtained by hand.,1,no
+bolivia,G,not published.,0,no
+brazil,C,"the whole PNAD-C FTP tree holds dictionaries, inputs and deflators only; the questionnaire is served from the JS-rendered documentation tab on www.ibge.gov.br.",0,yes
+brazil,G,not published.,0,yes
+chile,G,not published.,0,no
+colombia,M,"the catalogue's methodology entries redirect to dane.isolucion.co, a login portal. DSO-GEIH-MET-001-V11.pdf and DSO-GEIH-FME-001-V11.pdf are already on disk and are the same documents.",3,yes
+italy,G,not published.,0,no
+italy,C,questionnaires ship inside the longitudinal microdata ZIPs rather than as standalone PDFs; 83 are already on disk.,1,no
+mexico,M,'Cómo se hace la ENOE' resolves to an inegi.org.mx/app/biblioteca ficha whose API is in maintenance.,0,yes
+paraguay,M,not published separately from the results bulletins.,0,no
+paraguay,G,"the only manual published is for the EUT time-use survey, a different instrument; it must not be mapped as EPHC's G.",0,no
+peru,G,not reachable: inei.gob.pe listings are JS-rendered and the ENAHO manual is not in the microdata packages already held.,0,yes
+spain,G,not published.,0,yes
+united_kingdom,G,"ONS publishes interviewer instructions only inside the user-guide volumes, not as a separate document.",0,no
+uruguay,G,not published.,0,yes

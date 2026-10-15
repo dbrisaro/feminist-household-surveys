@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "6 SEXO Hombre. .... 1 Mujer......... 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1, Pregunta 6"
+        }
+      ],
+      "reasoning": "In the supplied questionnaire document [C], Question 6 under Section 1 consists solely of the column header 'SEXO' and the binary options 'Hombre. .... 1' and 'Mujer......... 6'. The instrument contains no instructions or definitions for recording sex or gender. Interviewer manuals or guidelines (document type G), which might document interviewer instructions or definitions, were not supplied in this run.",
+      "extracted_text": "No instruction or definition for recording sex or gender is given in the questionnaire beyond the variable heading 'SEXO' and the response options 'Hombre. .... 1' and 'Mujer......... 6'."
+    }
+  ]
+}

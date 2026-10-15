@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "03 RELACIÓN DE PARENTESCO\n(Anote en el orden siguiente)\nJefe/a\nCónyuge/Pareja\nHijo/a/Hijastro/a\nYerno/Nuera\nNieto/a\nMadre/Padre\nSuegro/a\nHermano/a\nOtros Familiares\nNo Familiares",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        },
+        {
+          "text": "2. ¿Todas las personas que residen en esta vivienda comparten los gastos de comida y/o de alquiler, impuestos, servicios, etc.?\nHogar: Persona o grupo de personas, parientes o no, que habitan bajo el mismo techo y comparten los gastos de alimentación y/o otros gastos esenciales para vivir.",
+          "document": "[C] EPHContinua_CuestVivienda.pdf",
+          "location": "Bloque III, Q2, p. 1"
+        },
+        {
+          "text": "En términos de la EPH un hogar se define como una persona o grupo de personas, parientes o no, que habitan bajo un mismo techo en un régimen de tipo familiar; es decir, comparten sus gastos en alimentación u otros esenciales para vivir.",
+          "document": "[M] metodologia_eph_continua_2003_sin_anexo2.pdf",
+          "location": "Section 2.3.1, p. 6"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa?\n2. ¿Qué otras personas ayudan en las tareas de la casa?\n3. ¿Hay en el hogar alguna persona con discapacidad?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII, Q1-Q3, p. 6"
+        }
+      ],
+      "reasoning": "For member_to_member_relationships: The instrument records relationships strictly relative to the household head (column 03 of Bloque IV in EPHContinua_CuestHogar.pdf). It does not collect member-to-member relationship matrices, triangular grids, or pointer variables (such as mother's ID, father's ID, or partner's ID). Thus, member_to_member_relationships is false.\n\nFor extended_ties: Column 03 of Bloque IV lists relationship categories beyond spouse and parent-child, including grandchild ('Nieto/a'), parent/in-law ('Madre/Padre', 'Suegro/a'), sibling ('Hermano/a'), other relatives ('Otros Familiares'), and non-kin ('No Familiares'). Thus, extended_ties is true.\n\nFor multiple_household_criteria: EPHContinua_CuestVivienda.pdf (Bloque III, Q2) and methodology documents explicitly define household separation criteria based on living under the same roof and sharing food and essential living expenses. Thus, multiple_household_criteria is true.\n\nFor sub_units: Because relationships are only recorded relative to the head, secondary family nuclei or sub-units within a household cannot be identified. Thus, sub_units is false.\n\nFor caregiving_relationships: Bloque VII in EPHContinua_CuestHogar.pdf asks about general household tasks ('tareas de la casa') and the presence of a person with a disability, but does not capture caregiving relationships (who provides care to whom). Thus, caregiving_relationships is false.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": false
+      }
+    }
+  ]
+}

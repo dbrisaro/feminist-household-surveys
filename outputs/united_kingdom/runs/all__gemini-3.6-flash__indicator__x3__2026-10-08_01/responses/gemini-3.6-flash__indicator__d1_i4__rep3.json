@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "By sex we are referring to current sex 1 Male 2 Female",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 10, Question SEX"
+        },
+        {
+          "text": "Are you… 1 single, that is never married 2 married and living with your husband/wife 3 a civil partner in a legally-recognised Civil Partnership 4 married and separated from your husband/wife 5 Divorced 6 or widowed 7 Spontaneous only - In a legally-recognised Civil Partnership and separated from his/her civil partner 8 Spontaneous only - Formerly a civil partner, the Civil Partnership now legally dissolved 9 Spontaneous only - A surviving civil partner: his/her partner having since died",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 11, Question XMARSTA"
+        },
+        {
+          "text": "Is [Name’s] husband/wife/civil partner a member of the household?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 11, Question MARCHK"
+        },
+        {
+          "text": "Code relationship of [Name] to [Name] Treat relatives of Civil Partners as though the Civil Partners were married. Also, treat relatives of cohabiting members of the household as though the cohabiting couple were married, unless the couple are a same sex couple but not in a Civil Partnership. 1 Spouse 2 Cohabiting partner 3 Son/daughter (incl. adopted) 4 Step-son/daughter 5 Foster child 6 Son-in-law/daughter-in-law 7 Parent/guardian 8 Step-parent 10 Foster parent 11 Parent-in-law 12 Brother/sister (incl. adopted) 13 Step-brother/sister 14 Foster brother/sister 15 Brother/sister-in-law 16 Grand-child 17 Grand-parent 18 Other relative 19 Other non-relative 20 Civil Partner",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 12, Question R"
+        },
+        {
+          "text": "Is the gender you identify with the same as your sex registered at birth? 1 Yes 2 No 3 Prefer not to say",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 230, Question IRGENID"
+        }
+      ],
+      "reasoning": "The questionnaire contains specific questions and response options referring to respondents and household relationships. The variable SEX asks for current sex with response options 'Male' and 'Female'. Marital status (XMARSTA) and household checks (MARCHK) use gendered binary terms ('husband/wife', 'his/her'). The relationship matrix (R) uses a mix of gendered binary terms ('Son/daughter', 'Step-son/daughter', 'Son-in-law/daughter-in-law', 'Step-parent', 'Foster parent', 'Parent-in-law', 'Brother/sister', 'Step-brother/sister', 'Foster brother/sister', 'Brother/sister-in-law') and gender-neutral terms ('Spouse', 'Cohabiting partner', 'Foster child', 'Parent/guardian', 'Grand-child', 'Grand-parent', 'Other relative', 'Other non-relative', 'Civil Partner'). Additionally, the Northern Ireland section includes question IRGENID asking 'Is the gender you identify with the same as your sex registered at birth?' with response options 'Yes', 'No', 'Prefer not to say'.",
+      "extracted_text": "SEX: By sex we are referring to current sex (1 Male, 2 Female). XMARSTA: Are you… (1 single, that is never married, 2 married and living with your husband/wife, 3 a civil partner in a legally-recognised Civil Partnership, 4 married and separated from your husband/wife, 5 Divorced, 6 or widowed, 7 Spontaneous only - In a legally-recognised Civil Partnership and separated from his/her civil partner, 8 Spontaneous only - Formerly a civil partner, the Civil Partnership now legally dissolved, 9 Spontaneous only - A surviving civil partner: his/her partner having since died). MARCHK: Is [Name’s] husband/wife/civil partner a member of the household? R: Relationship matrix (1 Spouse, 2 Cohabiting partner, 3 Son/daughter (incl. adopted), 4 Step-son/daughter, 5 Foster child, 6 Son-in-law/daughter-in-law, 7 Parent/guardian, 8 Step-parent, 10 Foster parent, 11 Parent-in-law, 12 Brother/sister (incl. adopted), 13 Step-brother/sister, 14 Foster brother/sister, 15 Brother/sister-in-law, 16 Grand-child, 17 Grand-parent, 18 Other relative, 19 Other non-relative, 20 Civil Partner). IRGENID: Is the gender you identify with the same as your sex registered at birth? (1 Yes, 2 No, 3 Prefer not to say)."
+    }
+  ]
+}

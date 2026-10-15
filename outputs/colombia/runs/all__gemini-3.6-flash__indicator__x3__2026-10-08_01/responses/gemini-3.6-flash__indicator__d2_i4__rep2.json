@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "EMPLEO PRINCIPAL (DETERMINE CUÁNTOS EMPLEOS TIENE LA PERSONA Y ESTABLEZCA CUÁL ES EL PRINCIPAL)",
+          "document": "[C]",
+          "location": "Capítulo I, p. 28"
+        },
+        {
+          "text": "Además de la ocupación principal, ¿... tenía la semana pasada otro trabajo o negocio?",
+          "document": "[C]",
+          "location": "Capítulo I, pregunta 68, p. 64"
+        },
+        {
+          "text": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)",
+          "document": "[C]",
+          "location": "Capítulo K, p. 84"
+        },
+        {
+          "text": "¿La semana pasada… realizó sin que le pagaran alguna de las siguientes actividades: Cocinar, lavar los platos, poner la mesa en: a. Su hogar?",
+          "document": "[C]",
+          "location": "Capítulo K, pregunta 1, p. 84"
+        },
+        {
+          "text": "Lavar, colgar, planchar la ropa, reparar ropa en: a. Su hogar?",
+          "document": "[C]",
+          "location": "Capítulo K, pregunta 2, p. 84"
+        },
+        {
+          "text": "Limpiar o arreglar la casa, tender las camas, barrer trapear, sacar la basura en: a. Su hogar?",
+          "document": "[C]",
+          "location": "Capítulo K, pregunta 3, p. 84"
+        }
+      ],
+      "reasoning": "The questionnaire collects main and secondary employment in Section I ('EMPLEO PRINCIPAL' and 'TRABAJO SECUNDARIO') and captures unpaid domestic work individually for each person in Section K ('K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)'), asking specific questions on activities such as cooking, washing clothes, and cleaning the home, recording the number of days and daily hours devoted to each. Thus, domestic work is recorded separately from main and secondary work for each individual.",
+      "value": true
+    }
+  ]
+}

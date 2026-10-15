@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "03 RELACIÓN DE PARENTESCO (Anote en el orden siguiente) Jefe/a Cónyuge/Pareja Hijo/a/Hijastro/a Yerno/Nuera Nieto/a Madre/Padre Suegro/a Hermano/a Otros Familiares No Familiares",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        },
+        {
+          "text": "07 SITUACIÓN CONYUGAL ¿Actualmente está...... 1... unido/a? 2... casado/a? 3... separado/a o divorciado/a? 4... viudo/a? 5... soltero/a?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        },
+        {
+          "text": "12 … cuotas de alimentos o ayuda en dinero de personas que no viven en el hogar?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque V, p. 4"
+        },
+        {
+          "text": "8d. ¿Cuánto cobró por ese mes por todos esos conceptos?",
+          "document": "[C] EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 8, p. 8"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII, p. 6"
+        }
+      ],
+      "reasoning": "The survey captures individual marital status (Bloque IV, Col 07), relationship to head (Bloque IV, Col 03), and external support/remittances (Bloque V, item 12), enabling de jure female heads (soltero/a, separado/a, divorciado/a, viudo/a) to be distinguished from de facto female heads (married/partnered female head without a spouse present in the household roster). Individual labor and non-labor income are recorded for each individual member 10 years and older (CuestIndividual and CuestHogar Bloque VI), allowing identification of the primary earner/provider (women-maintained household/unit) regardless of who is designated as the reference person/head. However, relationship to head (Col 03) is recorded only in relation to the designated household head, meaning parent-child links cannot be constructed for non-head mothers inside larger households to identify unpartnered mother-child units. Additionally, care, consumption, and production tasks are collected only at the household level (Bloque VII), not for sub-household mother-child units.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": false,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

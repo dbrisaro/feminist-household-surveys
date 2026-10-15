@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "Jefe del hogar. Persona reconocida como tal por los residentes habituales de la vivienda seleccionada. Ten presente que el jefe de hogar necesariamente debe ser residente habitual de la vivienda.",
+          "document": "G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf",
+          "location": "7.6 Sección VI. Características sociodemográficas, Pregunta 5, p. 113"
+        },
+        {
+          "text": "• Solo si hay dudas para definir quién es el jefe del hogar, ayuda a definirlo preguntando quién es la persona que toma las decisiones importantes del hogar o la que es responsable del ingreso del hogar. Si es necesario aclara que, para propósito de la encuesta, es necesario nombrar a una persona como jefe del hogar.",
+          "document": "G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf",
+          "location": "7.6 Sección VI. Características sociodemográficas, Pregunta 5, p. 113"
+        }
+      ],
+      "reasoning": "The provided interviewer manual explicitly defines the conceptual definition of household headship under Question 5 of Section VI as 'Persona reconocida como tal por los residentes habituales de la vivienda seleccionada. Ten presente que el jefe de hogar necesariamente debe ser residente habitual de la vivienda.' Furthermore, in cases of doubt, the interviewer is instructed to ask who makes important decisions or who is responsible for household income.",
+      "extracted_text": "Jefe del hogar. Persona reconocida como tal por los residentes habituales de la vivienda seleccionada. Ten presente que el jefe de hogar necesariamente debe ser residente habitual de la vivienda."
+    }
+  ]
+}

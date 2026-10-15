@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "5 SEXO Hombre. .... 1 Mujer......... 6",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1, Pregunta 5"
+        }
+      ],
+      "reasoning": "In Section 1, Question 5 records sex ('SEXO') with only two binary options: 'Hombre' (Man) and 'Mujer' (Woman). The questionnaire does not include any question collecting gender identity. Therefore, the instrument does not collect a gender identity variable, and gender identity is not mentioned in the text.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

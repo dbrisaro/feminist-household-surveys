@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "QC32 “NOME” di solito quante ore lavora a settimana? Indichi anche frazioni di ore (ed escluda l’interruzione per i pasti e gli spostamenti casa lavoro)..",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE C, p. 9"
+        },
+        {
+          "text": "QD08 In genere “NOME” quante ore dedica a settimana a questo secondo lavoro? Indichi anche frazioni di ore.",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE D, p. 13"
+        }
+      ],
+      "reasoning": "The instrument asks for hours spent on paid main and secondary employment (e.g., QC32, QD08), but contains no questions or modules recording the allocation of time across daily activities such as unpaid care work, domestic work, education, or leisure. The text does not mention recording time allocation across daily activities beyond paid work.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

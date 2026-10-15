@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "By sex we are referring to current sex\n   1       Male\n   2       Female\nCODE 1ST THAT APPLIES",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 10, Question SEX"
+        },
+        {
+          "text": "Is the gender you identify with the same as your sex registered at birth?\n   1       Yes\n   2       No\n   3       Prefer not to say",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 230, Question IRGENID"
+        }
+      ],
+      "reasoning": "The survey instrument specifies for the variable SEX: 'By sex we are referring to current sex', with categorical options '1 Male' and '2 Female' and the interviewer instruction 'CODE 1ST THAT APPLIES'. Additionally, for Northern Ireland (question IRGENID), it asks 'Is the gender you identify with the same as your sex registered at birth?' with response options '1 Yes', '2 No', '3 Prefer not to say'. No further definitions or expanded instructions for recording sex or gender beyond these binary categories/questions are provided in the supplied questionnaire document.",
+      "extracted_text": "By sex we are referring to current sex\n   1       Male\n   2       Female\n\nIs the gender you identify with the same as your sex registered at birth?\n   1       Yes\n   2       No\n   3       Prefer not to say"
+    }
+  ]
+}

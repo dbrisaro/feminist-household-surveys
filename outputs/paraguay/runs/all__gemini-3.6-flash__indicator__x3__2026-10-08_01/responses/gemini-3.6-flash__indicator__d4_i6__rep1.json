@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "7 ¿Cuál es el estado civil o conyugal de ...[NOMBRE]...? Casado ............. 1 Unido ................ 2 Separado .......... 3 Viudo ................ 4 Soltero .............. 5 Divorciado ........ 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Pregunta 7"
+        },
+        {
+          "text": "ANOTE EL CÓDIGO DE IDENTIFICACIÓN DEL CÓNYUGE, PADRE Y MADRE DE CADA PERSONA MIEMBRO DEL HOGAR. SI NO CORRESPONDE ANOTE \"00\"",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Pregunta 5"
+        },
+        {
+          "text": "2 ¿Algún miembro de este hogar recibió remesas durante los últimos 12 meses?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte E, Pregunta 2"
+        },
+        {
+          "text": "ANOTE EN EL SIGUIENTE ORDEN : ... c. HIJOS/AS , HIJASTROS/AS SOLTEROS/AS SIN HIJOS d. HIJOS/AS, HIJASTROS/AS SOLTEROS/AS CON HIJOS e. HIJOS/AS, HIJASTROS/AS CASADOS/AS O UNIDOS/AS CON/SIN HIJOS",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Página 3, Pregunta 1"
+        },
+        {
+          "text": "¿Podría informarme sobre los ingresos mensuales que habitualmente recibe?. (SI LA RESPUESTA ES NADA, ESCRIBIR \"0\") ... TOTAL",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte E, Pregunta 1"
+        },
+        {
+          "text": "Durante el último mes, ¿cuál fue el valor de lo producido o comprado por este ...[ESTABLECIMIENTO O NEGOCIO]... para la venta que fue destinado al consumo del hogar ?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 7, Parte B, Pregunta 8"
+        },
+        {
+          "text": "¿Qué cantidad de...[CULTIVO]...han destinado al uso en el hogar durante los últimos 12 meses?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 8, Parte D, Pregunta 10"
+        }
+      ],
+      "reasoning": "The instrument allows distinguishing de jure vs de facto female-headed households through marital status (Sección 1, Pregunta 7), presence/absence of spouse (Pregunta 5 line ID), and remittance reception (Sección 6 Parte E Pregunta 2). Unpartnered mother-child units can be uniquely identified within any household structure using Pregunta 5 (line IDs for spouse and mother) combined with marital status in Pregunta 7 and the roster structure. Women-maintained households or units can be identified through the individual income reporting for all members 10 and older in Sección 6 Parte E Pregunta 1, allowing the determination of the main income provider regardless of who is reported as household head. However, consumption and production are measured only at the aggregate household level (e.g., Sección 7 Parte B Pregunta 8 and Sección 8 Parte D Pregunta 10) and care work activities are not measured, so mother-child units cannot be linked to their own consumption, production, or care activity.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

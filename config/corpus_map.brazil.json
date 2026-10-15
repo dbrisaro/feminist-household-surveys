@@ -1,0 +1,64 @@
+{
+  "country": "brazil",
+  "survey": "Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD-C) ()",
+  "agency": "IBGE",
+  "doc_dir": "data/raw/brazil/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [],
+      "missing_note": "No document of type C (questionnaire / data collection instrument) was found in the collected corpus for brazil. Indicators routed to C are reported as source_missing, not as not_evidenced."
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [
+        "Nota_Tecnica_02_2021_Sobre_o_processo_de_ponderacao.pdf",
+        "Nota_Tecnica_01_2021_Harmonizacao_das_Estatisticas_de_Rendimentos.pdf",
+        "Nota_Tecnica_Divulgacao_Trabalho_Criancas_e_Adolescentes_2020_11_17.pdf",
+        "Nota_Tecnica_Divulgacao_2Tri2020_Agosto_2020.pdf"
+      ]
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [],
+      "missing_note": "No document of type G (interviewer guides and manuals) was found in the collected corpus for brazil. Indicators routed to G are reported as source_missing, not as not_evidenced."
+    }
+  },
+  "estimated_tokens": {
+    "C": 0,
+    "M": 6814,
+    "G": 0,
+    "C+M": 6814
+  },
+  "excluded": {
+    "Nota_Tecnica_Aspectos_Metodologicos_Trabalho_de_Criancas_e_Adolescentes_2019_20210517.pdf": "earlier wave, superseded by Nota_Tecnica_Divulgacao_Trabalho_Criancas_e_Adolescentes_2020_11_17.pdf (same lineage, later wave similarity 0.625)",
+    "Nota_Tecnica_022017.pdf": "earlier wave, superseded by 2016_03_07_nota_tecnica_pnadc.pdf (same lineage, later wave similarity 0.667)",
+    "Nota_Tecnica_022016.pdf": "earlier wave, superseded by 2016_03_07_nota_tecnica_pnadc.pdf (same lineage, later wave similarity 0.667)",
+    "Nota_Tecnica_012017.pdf": "earlier wave, superseded by 2016_03_07_nota_tecnica_pnadc.pdf (same lineage, later wave similarity 0.667)",
+    "Nota_Tecnica_012016.pdf": "earlier wave, superseded by 2016_03_07_nota_tecnica_pnadc.pdf (same lineage, later wave similarity 0.667)",
+    "Nota_Tecnica_012014.pdf": "earlier wave, superseded by 2016_03_07_nota_tecnica_pnadc.pdf (same lineage, later wave similarity 0.667)",
+    "M_notas_metodologicas.pdf": "earlier wave, superseded by notas_metodologicas.pdf (content similarity 1.000)",
+    "M_Nota_tecnica_diferencas_metodologicas_entre_o_CAGED_e_a_PNAD_continua.pdf": "earlier wave, superseded by Nota_tecnica_diferencas_metodologicas_entre_o_CAGED_e_a_PNAD_continua.pdf (content similarity 1.000)",
+    "M_Nota_Tecnica_Diferencas_Metodologicas_das_pesquisas_PNAD_PME_e_PNAD_Co.pdf": "earlier wave, superseded by Nota_Tecnica_Diferencas_Metodologicas_das_pesquisas_PNAD_PME_e_PNAD_Continua.pdf (content similarity 1.000)",
+    "NotaTecnica_Coleta_da_PNAD_Continua_Abril_2020.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "NotaTecnica_Calendario_Agosto_2020.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "2016_03_07_nota_tecnica_pnadc.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "2015_08_25_nota_tecnica_pnad_continua.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "2015_04_09_pnadc_calculo_dos_deflatores.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "notas_metodologicas.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "Nota_tecnica_diferencas_metodologicas_entre_o_CAGED_e_a_PNAD_continua.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "Nota_Tecnica_Sobre_definicao_e_analise_da_distribuicao_de_renda.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "Nota_Tecnica_Revisao_da_serie_de_rendimentos_do_trabalho_da_PNAD_Continua.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "Nota_Tecnica_Estimativas_da_populacao_para_o_calculo_dos_pesos_para_a_expansao_da_amostra_da_PNAD_Continua_e_reponderacao.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "Nota_Tecnica_Diferencas_Metodologicas_das_pesquisas_PNAD_PME_e_PNAD_Continua.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "M_Nota_Tecnica_Aspectos_Metodologicos_Trabalho_de_Criancas_e_Adolescente.pdf": "beyond --max-per-source 4; newest 4 kept for this source",
+    "2013_12_09_nota_pnad_continua.pdf": "title page: announces upcoming results release date",
+    "2015_07_07_alt_calend_div_pnadc.pdf": "title page: notice of release calendar change",
+    "Mulheres_no_Mercado_de_Trabalho_2018.pdf": "title page: special results bulletin on women workers"
+  },
+  "unclassified": {},
+  "non_textual": {
+    ".csv": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "¿Cuántas horas trabajó (…) la semana pasada o la última semana que trabajó?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "p. 5, Pregunta 24"
+        },
+        {
+          "text": "HORAS HABITUALES\n¿Cuántas horas trabaja (…) habitualmente a la semana en su:\nOCUPACIÓN PRINCIPAL?   OCUPACIÓN SECUNDARIA?   OTRAS OCUPACIONES?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "p. 12, Pregunta 51"
+        }
+      ],
+      "reasoning": "The instrument records hours spent on economic/occupational activities in Pregunta 24 and Pregunta 51, but contains no time-use module or questions recording how respondents allocate time across daily activities (such as unpaid care, domestic work, education, or leisure). Therefore, it does not record time devoted to more than one kind of activity as required by the indicator.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

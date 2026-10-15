@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "¿Qué relación de parentesco tiene (…) con el jefe del hogar?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, p. 20"
+        },
+        {
+          "text": "¿Cuál es su estado civil ó conyugal actual:",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, p. 20"
+        },
+        {
+          "text": "¿Recibió en el mes de ABRIL, dinero o especies enviado por parte de familiares o amigos que vivan en el exterior?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 3, p. 16"
+        },
+        {
+          "text": "SECCIÓN 3: INGRESOS - PARA PERSONAS DE 5 AÑOS Y MÁS",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 3, p. 15"
+        },
+        {
+          "text": "SECCIÓN 5: DATOS DE LA VIVIENDA Y EL HOGAR JEFE O CÓNYUGE",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 5, p. 19"
+        }
+      ],
+      "reasoning": "For de_jure_vs_de_facto: The instrument captures marital status (Section 1, Col. 6), relationship to household head (Section 1, Col. 4), and international remittances (Section 3, Q74). Combining marital status with the presence or absence of a resident spouse/partner in the household roster and remittance reception allows distinguishing de jure female heads (e.g. divorced, widowed, single) from de facto female heads (e.g. married with an absent/migrated spouse). Thus, de_jure_vs_de_facto is true.\n\nFor unpartnered_mother_child_units: Relationship to household head (Section 1, Col. 4) is recorded only relative to the head of household. The questionnaire lacks maternal or parental line pointers to directly link children to non-head mothers within extended or multi-unit households. Therefore, unpartnered mother-child units inside larger households cannot be identified. Thus, unpartnered_mother_child_units is false.\n\nFor women_maintained_by_provider: Section 3 collects comprehensive individual income data across all labor, capital, pension, transfer, and bonus sources for each household member aged 5 and older (COD PER). This allows identifying the primary economic provider of the household regardless of who is designated as the household head. Thus, women_maintained_by_provider is true.\n\nFor mother_child_unit_activity: Housing, living conditions, and consumption characteristics (Section 5 and Section 6) are measured at the aggregate household level ('este HOGAR'). The instrument does not measure consumption, production, or care activities for sub-household mother-child hearth-hold units. Thus, mother_child_unit_activity is false.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": false,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "¿Qué es ... del jefe(a) de este hogar?",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 7, page 4"
+        },
+        {
+          "text": "¿Actualmente... 1 vive con su pareja en unión libre? 2 está separado(a)? 3 está divorciado(a)? 4 está viudo(a)? 5 está casado(a)? 6 está soltero(a)?",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 19, page 5"
+        },
+        {
+          "text": "(Solo para mujeres) ¿En total cuántas hijas e hijos que nacieron vivos ha tenido?",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 18, page 5"
+        },
+        {
+          "text": "¿Todas estas personas comparten el mismo gasto para comer?",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section V, Question 2, page 3"
+        },
+        {
+          "text": "¿Cada cuándo obtiene... sus ingresos o le pagan? ¿Cuánto ganó o en cuánto calcula sus ingresos?",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section VI, Question 6b, page 9"
+        },
+        {
+          "text": "2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados?",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        }
+      ],
+      "reasoning": "For de_jure_vs_de_facto: The instrument captures household headship (Q7) and individual marital status (Q19) for persons aged 12 and older. By cross-referencing a female head's marital status with the presence or absence of a partner on the household roster, de jure female heads (unmarried, widowed, divorced, or separated women) can be distinguished from de facto female heads (married women whose partners are absent). For unpartnered_mother_child_units: Relationship (Q7) is only reported relative to the household head. Although Q18 captures total live births for women, the questionnaire does not link specific children to mothers who are not the head of household, making it impossible to identify sub-household mother-child units. For women_maintained_by_provider: Individual labor earnings are recorded in Q6b, but non-labor income (such as remittances or transfers) is not captured, and there is no question identifying the primary financial maintainer/provider independent of headship. For mother_child_unit_activity: Shared spending (Q2) is assessed only at the household level, and care work (Q9) is collected individually without linking to a specific mother-child sub-household unit.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": false,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

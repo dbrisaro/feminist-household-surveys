@@ -1,0 +1,56 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR?",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Page 6, Question 203"
+        },
+        {
+          "text": "N° DE NÚCLEO FAMILIAR",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Page 6, Question 203-A"
+        },
+        {
+          "text": "RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL NÚCLEO FAMILIAR (Sólo relación Padres e Hijos)",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Page 6, Question 203-B"
+        },
+        {
+          "text": "¿SE ENCUENTRA AUSENTE DEL HOGAR 30 DÍAS O MÁS?",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Page 6, Question 205"
+        },
+        {
+          "text": "SEXO",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Page 6, Question 207"
+        },
+        {
+          "text": "¿CUÁL ES SU ESTADO CIVIL O CONYUGAL?",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Page 6, Question 209"
+        },
+        {
+          "text": "500. EMPLEO (Para todas las personas de 14 años y más de edad)",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Page 12, Section 500 Header"
+        },
+        {
+          "text": "100. CARACTERÍSTICAS DE LA VIVIENDA Y DEL HOGAR",
+          "document": "2024/CED-01-100-2024.pdf",
+          "location": "Page 2, Section 100 Header"
+        }
+      ],
+      "reasoning": "Regarding de_jure_vs_de_facto: Question 203 identifies the household head, Question 207 records sex, Question 209 records marital status, and Questions 205/206 capture household presence or absence. This allows distinguishing between de jure female-headed households (unpartnered female heads who are single, widowed, divorced, or separated) and de facto female-headed households (married/cohabiting female heads whose spouse or partner is absent). Thus, this element is true.\n\nRegarding unpartnered_mother_child_units: Question 203-A identifies the family nucleus number ('N° DE NÚCLEO FAMILIAR') and Question 203-B records relationship to the nucleus head within the household. Combined with sex (P207) and marital status (P209), unpartnered mothers and their children can be identified as distinct nuclear units even within larger extended households. Thus, this element is true.\n\nRegarding women_maintained_by_provider: Section 500 collects comprehensive monetary and non-monetary labor, transfer, and property income individually for every household member aged 14 and older. Household members' total income contributions can be compared to identify the main income provider (woman-maintained unit or household) regardless of who is self-reported as the reference person ('Jefe/Jefa') in Question 203. Thus, this element is true.\n\nRegarding mother_child_unit_activity: While family nuclei are identified in Section 200, housing, expenditure, and consumption characteristics (Section 100, P535) are collected at the overall household level or individual employment level, and care activities are not recorded at the sub-household unit level. There are no variables linking a mother-child unit to its own separate consumption, production, or care activity (the 'hearth-hold'). Thus, this element is false.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

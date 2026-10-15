@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "Posteriormente, se identifican los hogares dentro de las viviendas seleccionadas y se encuestan todas las personas del hogar que cumplen los criterios de elegibilidad.",
+          "document": "[M] Metodologia_ECH_2021.pdf",
+          "location": "Sección 5, p. 11"
+        },
+        {
+          "text": "Glosario",
+          "document": "[M] Metodologia_ECH_2021.pdf",
+          "location": "Glosario, p. 69"
+        }
+      ],
+      "reasoning": "The supplied methodological document [M] Metodologia_ECH_2021.pdf does not contain a conceptual definition of household headship or household head (\"jefe/a de hogar\"). The sections addressing household selection (Section 5, p. 11) and the Glosario (pp. 69-70) do not define household headship.",
+      "extracted_text": ""
+    }
+  ]
+}

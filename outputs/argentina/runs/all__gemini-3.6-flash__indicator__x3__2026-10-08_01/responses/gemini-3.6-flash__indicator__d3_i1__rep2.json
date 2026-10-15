@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "1a. ¿En la semana pasada, trabajó por lo menos una hora? (sin contar las tareas de su hogar)",
+          "document": "EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 1, Pregunta 1a, página 1"
+        },
+        {
+          "text": "3e. En su ocupación ... (la que habitualmente le lleva más horas) La semana pasada, ¿trabajó el ... (marque con cruz) ¿Cuántas horas trabajó el ...",
+          "document": "EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 3, Pregunta 3e, página 3"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa? N° Nombre ... 2. ¿Qué otras personas ayudan en las tareas de la casa? N° Nombre",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII, Preguntas 1 y 2, página 6"
+        }
+      ],
+      "reasoning": "The survey measures hours dedicated to economic activities (paid employment/occupations) in questions 3b, 3e, and 3f of the Individual Questionnaire, explicitly excluding household chores from the definition of work in question 1a. In Bloque VII of the Household Questionnaire, the survey identifies which household members perform or help with domestic tasks, but does not collect data on the time or hours devoted to these tasks or any other daily activities. There is no time-use module or question recording time spent across multiple daily activities.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

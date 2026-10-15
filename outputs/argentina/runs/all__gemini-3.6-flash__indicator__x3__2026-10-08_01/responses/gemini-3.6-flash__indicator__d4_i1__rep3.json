@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "En términos de la EPH un hogar se define como una persona o grupo de personas, parientes o no, que habitan bajo un mismo techo en un régimen de tipo familiar; es decir, comparten sus gastos en alimentación u otros esenciales para vivir.",
+          "document": "metodologia_eph_continua_2003_sin_anexo2.pdf",
+          "location": "2.3.1. Condición de residencia, p. 6"
+        },
+        {
+          "text": "A las variables tradicionalmente captadas: sexo, edad, relación de parentesco, situación conyugal y educación, se incorporó la existencia de cobertura médica para el conjunto de la población.",
+          "document": "metodologia_eph_continua_2003_sin_anexo2.pdf",
+          "location": "2.3.3. Características sociodemográficas, p. 6"
+        },
+        {
+          "text": "* Relación de parentesco",
+          "document": "metodologia_eph_continua_2003_sin_anexo2.pdf",
+          "location": "2.5 Universos temáticas y variables, p. 13"
+        },
+        {
+          "text": "Nivel educativo del jefe",
+          "document": "EPH_consideraciones_metodologicas_2t20.pdf",
+          "location": "Cuadro 3. Variables incluidas en el modelo de probabilidad de respuesta, p. 11"
+        }
+      ],
+      "reasoning": "The supplied documents define the concept of household (\"hogar\") and list variables such as \"relación de parentesco\" and \"nivel educativo del jefe\", but they do not state or provide a conceptual definition of household headship (\"jefatura de hogar\"). As the supplied text does not contain a conceptual definition for household headship, the extracted_text field is left empty.",
+      "extracted_text": ""
+    }
+  ]
+}

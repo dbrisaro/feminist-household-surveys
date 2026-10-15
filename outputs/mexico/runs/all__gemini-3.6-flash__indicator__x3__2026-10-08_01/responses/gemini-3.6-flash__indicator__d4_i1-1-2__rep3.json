@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "Jefe del hogar. Persona reconocida como tal por los residentes habituales de la vivienda seleccionada. Ten presente que el jefe de hogar necesariamente debe ser residente habitual de la vivienda.",
+          "document": "G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf",
+          "location": "7.6 Sección VI. Características sociodemográficas, Pregunta 5, p. 113"
+        }
+      ],
+      "reasoning": "The interviewer manual explicitly defines household headship ('Jefe del hogar') in Section 7.6, under the conceptual definitions for Question 5, as the person recognized as such by the habitual residents of the selected dwelling, with the requirement that the head must be a habitual resident.",
+      "extracted_text": "Jefe del hogar. Persona reconocida como tal por los residentes habituales de la vivienda seleccionada. Ten presente que el jefe de hogar necesariamente debe ser residente habitual de la vivienda."
+    }
+  ]
+}

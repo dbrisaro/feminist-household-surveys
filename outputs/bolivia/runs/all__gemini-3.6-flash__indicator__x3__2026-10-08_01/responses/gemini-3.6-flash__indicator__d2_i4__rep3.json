@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "6. POR REALIZAR LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 1, Parte B, Pregunta 14"
+        },
+        {
+          "text": "11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 2, Parte A, Pregunta 6"
+        },
+        {
+          "text": "2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 2, Parte A, Pregunta 7"
+        },
+        {
+          "text": "6. DEJÓ DE TRABAJAR PARA DEDICARSE A LOS QUEHACERES DEL HOGAR/CUIDAR DE UN MIEMBRO DE SU FAMILIA",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 2, Parte A, Pregunta 13a"
+        },
+        {
+          "text": "6. Por realizar labores de casa/cuidado de miembros del hogar",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 2, Parte H, Pregunta 60"
+        }
+      ],
+      "reasoning": "The instrument does not include dedicated questions to record domestic and care work for each person separately from main or secondary employment. Unpaid domestic work and care of household members appear only as response categories for inactivity, reasons for not seeking work, reasons for non-attendance at school, reasons for leaving a previous job, or reasons for not working more hours.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

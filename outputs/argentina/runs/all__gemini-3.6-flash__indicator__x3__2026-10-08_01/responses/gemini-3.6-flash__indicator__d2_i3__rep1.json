@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "1a. ¿En la semana pasada, trabajó por lo menos una hora? (sin contar las tareas de su hogar)",
+          "document": "[C] EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 1, Pregunta 1a, p. 1"
+        },
+        {
+          "text": "... no podía trabajar por razones personales? (cuidado del hogar, estudios, incapacidad)",
+          "document": "[C] EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 1, Pregunta 1e, p. 1"
+        }
+      ],
+      "reasoning": "The definition of work in Question 1a explicitly excludes domestic household tasks using the parenthetical qualifier '(sin contar las tareas de su hogar)'. Furthermore, care and domestic responsibilities are categorized in Question 1e as personal reasons for not being able to work ('cuidado del hogar') rather than being included in the economic activity category. Therefore, unpaid domestic and care work is not included within the activity category of work.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

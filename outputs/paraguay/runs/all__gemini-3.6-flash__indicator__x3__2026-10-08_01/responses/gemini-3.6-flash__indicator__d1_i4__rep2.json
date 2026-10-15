@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "a. JEFE/A DEL HOGAR\nb. ESPOSO/A, COMPAÑERO/A DEL JEFE/A\nc. HIJOS/AS , HIJASTROS/AS SOLTEROS/AS SIN HIJOS\nd. HIJOS/AS, HIJASTROS/AS SOLTEROS/AS CON HIJOS\ne. HIJOS/AS, HIJASTROS/AS CASADOS/AS O UNIDOS/AS CON/SIN HIJOS\nf. NIETOS /AS DEL JEFE/A\ng. YERNOS Y/O NUERAS DEL JEFE/A\nh. PADRE Y/O MADRE DEL JEFE/A\ni. SUEGRO Y/O SUEGRA DEL JEFE/A\nj. OTROS PARIENTES\nk. OTROS NO PARIENTES\nl. TRABAJADOR/A DOMESTICO/A\nm. HIJOS/AS Y/O PARIENTES DEL TRABAJADOR/A DOMÉSTICO/A",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 3, Question 1"
+        },
+        {
+          "text": "RELACIÓN DE PARENTESCO CON EL/LA JEFE/A DEL HOGAR\nJefe/a ....................................... 1\nEsposo/a, compañero/a .......... 2\nHijo/a ........................................ 3\nHijastro/a.................................. 4\nNieto/a ..................................... 5\nYerno/Nuera ............................ 6\nPadre/Madre ............................ 7\nSuegro/a .................................. 8\nOtro pariente............................ 9\nNo pariente ............................ 10\nTrabajador doméstico.............11\nFamiliar del trabajador doméstico .............................. 12",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 4, Sección 1, Question 3"
+        },
+        {
+          "text": "SU CÓNYUGE SU PADRE SU MADRE",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 4, Sección 1, Question 5"
+        },
+        {
+          "text": "SEXO\nHombre. .... 1\nMujer......... 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 4, Sección 1, Question 6"
+        },
+        {
+          "text": "¿Cuál es el estado civil o conyugal de ...[NOMBRE]...?\nCasado ............. 1\nUnido ................ 2\nSeparado .......... 3\nViudo ................ 4\nSoltero .............. 5\nDivorciado ........ 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 4, Sección 1, Question 7"
+        }
+      ],
+      "reasoning": "The quoted passages from the questionnaire establish the terms used to address respondents and record household relationships. Household members are referred to using '...[NOMBRE]...' in question wordings. Relationships to the head of household are categorized using gender-slashed or paired terms ('JEFE/A', 'EL/LA JEFE/A', 'ESPOSO/A, COMPAÑERO/A', 'HIJOS/AS', 'HIJASTROS/AS', 'NIETOS /AS', 'YERNOS Y/O NUERAS', 'PADRE Y/O MADRE', 'SUEGRO Y/O SUEGRA', 'TRABAJADOR/A DOMESTICO/A', 'Hijo/a', 'Hijastro/a', 'Nieto/a', 'Yerno/Nuera', 'Padre/Madre', 'Suegro/a'). Column 5 uses 'SU CÓNYUGE', 'SU PADRE', 'SU MADRE'. Question 6 records sex using 'Hombre' and 'Mujer'. Question 7 records marital status using masculine singular forms ('Casado', 'Unido', 'Separado', 'Viudo', 'Soltero', 'Divorciado'). These terms are transcribed verbatim into extracted_text.",
+      "extracted_text": "Page 3, Question 1:\na. JEFE/A DEL HOGAR\nb. ESPOSO/A, COMPAÑERO/A DEL JEFE/A\nc. HIJOS/AS , HIJASTROS/AS SOLTEROS/AS SIN HIJOS\nd. HIJOS/AS, HIJASTROS/AS SOLTEROS/AS CON HIJOS\ne. HIJOS/AS, HIJASTROS/AS CASADOS/AS O UNIDOS/AS CON/SIN HIJOS\nf. NIETOS /AS DEL JEFE/A\ng. YERNOS Y/O NUERAS DEL JEFE/A\nh. PADRE Y/O MADRE DEL JEFE/A\ni. SUEGRO Y/O SUEGRA DEL JEFE/A\nj. OTROS PARIENTES\nk. OTROS NO PARIENTES\nl. TRABAJADOR/A DOMESTICO/A\nm. HIJOS/AS Y/O PARIENTES DEL TRABAJADOR/A DOMÉSTICO/A\n\nPage 4, Sección 1, Question 3:\nRELACIÓN DE PARENTESCO CON EL/LA JEFE/A DEL HOGAR\nJefe/a ....................................... 1\nEsposo/a, compañero/a .......... 2\nHijo/a ........................................ 3\nHijastro/a.................................. 4\nNieto/a ..................................... 5\nYerno/Nuera ............................ 6\nPadre/Madre ............................ 7\nSuegro/a .................................. 8\nOtro pariente............................ 9\nNo pariente ............................ 10\nTrabajador doméstico.............11\nFamiliar del trabajador doméstico .............................. 12\n\nPage 4, Sección 1, Question 5:\nSU CÓNYUGE SU PADRE SU MADRE\n\nPage 4, Sección 1, Question 6:\nSEXO\nHombre. .... 1\nMujer......... 6\n\nPage 4, Sección 1, Question 7:\n¿Cuál es el estado civil o conyugal de ...[NOMBRE]...?\nCasado ............. 1\nUnido ................ 2\nSeparado .......... 3\nViudo ................ 4\nSoltero .............. 5\nDivorciado ........ 6"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "C. DATOS DEL HOGAR (PARA TODOS LOS HOGARES DE LA VIVIENDA) (PARA EL [LA] JEFE(A) DEL HOGAR O SU CÓNYUGE)",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo C, p. 3"
+        },
+        {
+          "text": "Número de orden de la persona que proporciona la información:",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, p. 2"
+        },
+        {
+          "text": "¿Cuál es el parentesco de ... con el jefe o jefa del hogar? a. Jefe(a) del hogar",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 5, p. 6"
+        },
+        {
+          "text": "Nota: Tenga en cuenta; No acepte como jefe(a) de hogar a persona menor de 15 años.",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 5, p. 6"
+        }
+      ],
+      "reasoning": "Regarding neutral_anchor_term: The questionnaire explicitly uses 'jefe o jefa del hogar' / 'Jefe(a) del hogar' as the category for identifying the anchor person, rather than a neutral term. Thus, neutral_anchor_term is false. Regarding explicit_selection_rule: The questionnaire specifies an exclusion rule ('No acepte como jefe(a) de hogar a persona menor de 15 años'), but does not state an explicit rule for selecting or defining who among household members is chosen as the reference person. Thus, explicit_selection_rule is false. Regarding rule_not_sex_age_authority: Because no selection criterion is stated for choosing the reference person (other than an age restriction), the instrument does not establish a selection rule free of sex, age, or authority assumptions. Thus, rule_not_sex_age_authority is false. Regarding respondent_separate_or_any_adult: The questionnaire explicitly records the order number of the respondent separately ('Número de orden de la persona que proporciona la información') and allows another household member such as the spouse ('O SU CÓNYUGE') to answer household-level questions. Thus, respondent_separate_or_any_adult is true.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

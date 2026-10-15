@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "¿Cuántas horas trabajó (…) la semana pasada o la última semana que trabajó?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 24, p. 5"
+        },
+        {
+          "text": "¿Cuántas horas trabaja (…) habitualmente a la semana en su:",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 51, p. 12"
+        },
+        {
+          "text": "¿La semana pasada que no tenía trabajo USTED, qué actividades realizó:",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 4, Pregunta 2, p. 18"
+        }
+      ],
+      "reasoning": "The survey records hours worked in paid work and employment activities (Pregunta 24 and Pregunta 51). However, it does not record time allocated to unpaid domestic or care work, leisure, or self-care (Pregunta 2 in Section 4 lists qualitative activities performed by unemployed individuals but does not measure time allocated to them). According to the indicator instructions, if the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

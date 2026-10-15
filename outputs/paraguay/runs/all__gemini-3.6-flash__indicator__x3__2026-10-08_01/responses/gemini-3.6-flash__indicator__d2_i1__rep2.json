@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar .........................3",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE A, Pregunta 5"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................................ 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE A, Pregunta 8"
+        },
+        {
+          "text": "Labores del hogar ................................... 12",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE A, Pregunta 18"
+        },
+        {
+          "text": "Demasiado ocupado en tareas del hogar, estudio,etc .................................................................... 10",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE B, Pregunta 5"
+        }
+      ],
+      "reasoning": "The supplied instrument does not contain a domestic or care work module separate from the main questionnaire. Domestic work is only referenced within Section 6 (Employment and Income) as an option for why a person could not start working (Part A, Question 5), why a person did not seek work (Part A, Question 8), why a person left their previous job (Part A, Question 18), or why a person worked fewer hours than usual (Part B, Question 5). Because unpaid domestic and care work is treated as a reason for inactivity or working fewer hours rather than measured in a dedicated module, the value is false and the exclusion type is treated_as_other.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

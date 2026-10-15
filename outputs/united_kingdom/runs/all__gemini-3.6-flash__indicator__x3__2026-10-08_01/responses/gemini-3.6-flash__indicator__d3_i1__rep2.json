@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "How many hours per week do you usually work in your (main) job/business – please exclude meal breaks?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 82, TOTUS1"
+        },
+        {
+          "text": "Thinking of your (main) job/ business, how many hours per week do you usually work – please exclude meal breaks and overtime?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 82, USUHR"
+        }
+      ],
+      "reasoning": "The survey instrument collects data on hours worked in paid main and second jobs (including basic hours, paid overtime, and unpaid overtime), as well as travel time to work and hours spent in education or training courses. However, it does not include any time-use module, diary, or questions asking respondents how they allocate or spend their time across daily activities such as unpaid care work, domestic chores, or leisure activities. As specified in the indicator, questions that only record hours of paid work do not satisfy the indicator.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

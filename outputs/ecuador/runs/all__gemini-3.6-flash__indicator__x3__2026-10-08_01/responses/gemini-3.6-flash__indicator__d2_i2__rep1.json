@@ -1,0 +1,40 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "Por ayudar en quehaceres del hogar.          8",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 1: INFORMACIÓN DE LOS MIEMBROS DEL HOGAR, Pregunta 9, p. 2"
+        },
+        {
+          "text": "Por cuidado de los hijos……………..              15",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 1: INFORMACIÓN DE LOS MIEMBROS DEL HOGAR, Pregunta 9, p. 2"
+        },
+        {
+          "text": "- Tiene a cargo el cuidado de algún miembro de su hogar?.......................... 1",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2: CARACTERÍSTICAS OCUPACIONALES, Pregunta 29a, p. 6"
+        },
+        {
+          "text": "Ama de casa?................... 4",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2: BÚSQUEDA DE TRABAJO, Pregunta 36, p. 8"
+        },
+        {
+          "text": "Ayudó o se dedicó a otras labores del hogar o la familia?..................................................................… 4",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 4: ASPECTOS GENERALES DE LOS DESEMPLEADOS (AS), Pregunta 2, p. 18"
+        }
+      ],
+      "reasoning": "For responsibility: The instrument contains no questions regarding who is responsible for, plans, or organizes domestic or care tasks within the household.\n\nFor performance: The instrument includes response categories regarding household tasks or care, such as reasons for not attending school (Pregunta 9: 'Por ayudar en quehaceres del hogar', 'Por cuidado de los hijos'), reasons for not being available/wishing to work more hours (Pregunta 29a: 'Tiene a cargo el cuidado de algún miembro de su hogar'), inactivity categories (Pregunta 36: 'Ama de casa'), and activities performed while unemployed (SECCIÓN 4 Pregunta 2: 'Ayudó o se dedicó a otras labores del hogar o la familia'). However, per the defined criteria, activity status classifications, reasons for not working or studying, and activities done instead of working do not count as explicit questions about whether a person carries out domestic or care work. The questionnaire contains no direct question asking whether a household member performs unpaid domestic or care work.\n\nFor magnitude: The instrument records hours of paid work/economic activity (e.g., Pregunta 24 and Pregunta 51), but does not record the time spent or frequency of unpaid domestic or care work.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

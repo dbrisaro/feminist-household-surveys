@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "¿Podría informarme sobre los ingresos mensuales que habitualmente recibe?. (SI LA RESPUESTA ES NADA, ESCRIBIR \"0\")",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6: EMPLEO E INGRESO, PARTE E, p. 29"
+        },
+        {
+          "text": "Nro. de línea de la persona que recibe",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6: EMPLEO E INGRESO, PARTE E, p. 30"
+        },
+        {
+          "text": "Durante los últimos 7 días, ¿cuántas horas diarias trabajó efectivamente en su OCUPACIÓN PRINCIPAL ...[NOMBRE]...?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6: EMPLEO E INGRESO, PARTE B, p. 18"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................ 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6: EMPLEO E INGRESO, PARTE A, p. 15"
+        },
+        {
+          "text": "16 ¿Esta vivienda... es propia? ......................................... 1",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 2: CARACTERÍSTICAS DE LA VIVIENDA, p. 5"
+        },
+        {
+          "text": "3 ¿Tienen ustedes lotes propios?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 8: ACTIVIDAD INDEPENDIENTE AGROPECUARIA, PARTE A, p. 33"
+        },
+        {
+          "text": "SECCIÓN 1: CARACTERÍSTICAS DE LA POBLACIÓN",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1: CARACTERÍSTICAS DE LA POBLACIÓN, p. 2"
+        }
+      ],
+      "reasoning": "For economic_maintenance: The instrument captures individual income line by line for each household member across paid work, rent, pensions, social assistance, food support, and remittances (Sección 6 Parte E).\n\nFor labor_burden: The instrument records hours spent in paid work (Sección 6 Parte B), but does not record hours spent on unpaid domestic or care work (labores del hogar is only captured as a qualitative reason for not working or working fewer hours).\n\nFor property_asset_control: Housing tenure, land ownership, and household goods are recorded at the household level (Sección 2 and Sección 8), not disaggregated or recorded by individual member line number.\n\nFor decision_making: The questionnaire contains no questions regarding intra-household decision-making in any sphere.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

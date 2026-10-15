@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "pers2. De las personas que mencionó previamente, ¿Quién es el proveedor principal del hogar?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, pers2"
+        },
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de persona de proveedora principal]?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, pers8"
+        }
+      ],
+      "reasoning": "The survey instrument does not identify or ask for a household head (\"jefe/a de hogar\"). Instead, question pers2 identifies the main earner/provider (\"proveedor principal\") and question pers8 establishes relationship categories relative to the main provider. Since the instrument does not measure household headship or establish a method for identifying a household head, none of the provided options apply.",
+      "selected": ""
+    }
+  ]
+}

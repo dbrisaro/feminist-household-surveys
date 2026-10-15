@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "Este formulario sirve para elaborar un listado de viviendas, jefes de hogar, población y establecimientos económicos en los sectores dispersos a nivel de localidad.",
+          "document": "[M] M_202605_Metodologia_ENEMDU.pdf",
+          "location": "p. 35"
+        },
+        {
+          "text": "Consiste en realizar entrevistas directas con el jefe de hogar o informante calificado, miembros del hogar con la finalidad de levantar información referente a la Encuesta Nacional de Empleo, Desempleo y Subempleo.",
+          "document": "[M] M_202605_Metodologia_ENEMDU.pdf",
+          "location": "p. 39"
+        },
+        {
+          "text": "Esta sección está dirigida al jefe del hogar o su cónyuge, contiene preguntas que investigan el Índice de Confianza al Consumidor, sobre cómo percibe el encuestado la situación económica del hogar, el consumo del hogar en alimentación, así como la percepción acerca de la situación económica del país.",
+          "document": "[M] M_202605_Metodologia_ENEMDU.pdf",
+          "location": "p. 53"
+        }
+      ],
+      "reasoning": "The provided documentation uses the non-neutral term 'jefe de hogar' (head of household) to identify the anchor person (e.g. p. 35, 39, 53). The documents do not provide an explicit rule or criterion for choosing who is selected as the 'jefe de hogar' (reference person). However, the documentation establishes that household-level questions or general survey interviews can be answered by any knowledgeable adult ('informante calificado') or spouse ('cónyuge') in addition to the head of household.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

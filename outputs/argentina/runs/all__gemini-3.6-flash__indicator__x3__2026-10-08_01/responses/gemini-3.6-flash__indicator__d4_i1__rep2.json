@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "En términos de la EPH un hogar se define como una persona o grupo de personas, parientes o no, que habitan bajo un mismo techo en un régimen de tipo familiar; es decir, comparten sus gastos en alimentación u otros esenciales para vivir.",
+          "document": "metodologia_eph_continua_2003_sin_anexo2.pdf",
+          "location": "Section 2.3.1, page 6"
+        },
+        {
+          "text": "A las variables tradicionalmente captadas: sexo, edad, relación de parentesco, situación conyugal y educación, se incorporó la existencia de cobertura médica para el conjunto de la población.",
+          "document": "metodologia_eph_continua_2003_sin_anexo2.pdf",
+          "location": "Section 2.3.3, page 6"
+        }
+      ],
+      "reasoning": "The supplied methodological documents define the concept of household ('hogar') and mention 'relación de parentesco' as a sociodemographic variable, but they do not contain a conceptual definition of household headship ('jefe/a de hogar'). Therefore, no text can be extracted for this indicator.",
+      "extracted_text": ""
+    }
+  ]
+}

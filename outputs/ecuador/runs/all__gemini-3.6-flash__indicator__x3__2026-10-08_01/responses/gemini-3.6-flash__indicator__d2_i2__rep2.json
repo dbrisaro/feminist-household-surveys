@@ -1,0 +1,35 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "¿Cuál es la razón principal para que (…) no asista actualmente a la escuela, colegio o universidad? ... Por ayudar en quehaceres del hogar ... 8 ... Por cuidado de los hijos ... 15",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 1, Pregunta 9"
+        },
+        {
+          "text": "¿Cuál es la razón por la que (…) no desea o no está disponible para trabajar más horas: - Tiene a cargo el cuidado de algún miembro de su hogar?.......................... 1",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 29a"
+        },
+        {
+          "text": "¿ (...) es: ... Ama de casa?................... 4",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 36"
+        },
+        {
+          "text": "¿La semana pasada que no tenía trabajo USTED, qué actividades realizó: ... Ayudó o se dedicó a otras labores del hogar o la familia?..................................................................… 4",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 4, Pregunta 2"
+        }
+      ],
+      "reasoning": "For responsibility: False. The instrument does not contain any question asking who is responsible for, in charge of, plans, or organises unpaid domestic or care work in the household. For performance: False. While domestic and care work appear as response options for reasons for not attending school (Pregunta 9: 'Por ayudar en quehaceres del hogar', 'Por cuidado de los hijos'), reasons for not being available/wishing to work more hours (Pregunta 29a: 'Tiene a cargo el cuidado de algún miembro de su hogar'), inactive status (Pregunta 36: 'Ama de casa'), or activities during unemployment (SECCIÓN 4, Pregunta 2: 'Ayudó o se dedicó a otras labores del hogar o la familia'), the operational definition explicitly specifies that inactivity categories, reasons for not working/studying, and questions asking what a person did instead of working do not count as asking whether a person performs domestic or care work. The questionnaire contains no standalone direct question asking whether members carry out unpaid domestic or care tasks. For magnitude: False. The instrument records hours worked only for paid or economic employment (Preguntas 24, 29, 51) and does not measure the time or frequency spent on unpaid domestic or care work.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

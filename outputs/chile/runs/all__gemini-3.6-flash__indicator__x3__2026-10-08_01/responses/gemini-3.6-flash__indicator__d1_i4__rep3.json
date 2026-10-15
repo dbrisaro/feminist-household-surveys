@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de persona de proveedora principal]? 1 Proveedor principal 2 Esposo/a o cónyuge 3 Conviviente por unión civil 4 Conviviente de hecho o pareja 5 Hijo/a 6 Hijo/a del cónyuge, conviviente o pareja 7 Hermano/a 8 Padre o madre 9 Cuñado/a 10 Suegro/a 11 Yerno o nuera 12 Nieto/a 13 Abuelo/a 14 Otro pariente 15 No pariente 16 Servicio doméstico puertas adentro 88 No sabe 99 No responde",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Página 6, pers8"
+        },
+        {
+          "text": "pers9. ¿Cuál es el sexo de [Nombre de persona]? 1 Hombre 2 Mujer 88 No sabe 99 No responde",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Página 6, pers9"
+        },
+        {
+          "text": "pers13. ¿Cuál es el estado conyugal actual de [Nombre de persona]? 1 Casado/a 2 Conviviente o pareja sin acuerdo de unión civil 3 Conviviente civil (con acuerdo de unión civil) 4 Anulado/a 5 Separado/a 6 Divorciado/a 7 Viudo/a 8 Soltero/a 88 No sabe 99 No responde",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Página 6, pers13"
+        },
+        {
+          "text": "pers2. De las personas que mencionó previamente, ¿quién es el proveedor principal del hogar? 1 Proveedor/a principal 2 Otro integrante del hogar",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Página 6, pers2"
+        }
+      ],
+      "reasoning": "The questionnaire uses specific terms in question wording and response categories to refer to respondents, household members, and their relationships. Relationship to the primary provider (pers8) is captured with options: 1 Proveedor principal, 2 Esposo/a o cónyuge, 3 Conviviente por unión civil, 4 Conviviente de hecho o pareja, 5 Hijo/a, 6 Hijo/a del cónyuge, conviviente o pareja, 7 Hermano/a, 8 Padre o madre, 9 Cuñado/a, 10 Suegro/a, 11 Yerno o nuera, 12 Nieto/a, 13 Abuelo/a, 14 Otro pariente, 15 No pariente, 16 Servicio doméstico puertas adentro. Sex (pers9) is asked as '¿Cuál es el sexo de [Nombre de persona]?' with options '1 Hombre' and '2 Mujer'. Marital status (pers13) includes gender-binary/inclusive slash notation: 1 Casado/a, 2 Conviviente o pareja sin acuerdo de unión civil, 3 Conviviente civil (con acuerdo de unión civil), 4 Anulado/a, 5 Separado/a, 6 Divorciado/a, 7 Viudo/a, 8 Soltero/a. Reference to the main provider in pers2 uses 'Proveedor/a principal'.",
+      "extracted_text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de persona de proveedora principal]? 1 Proveedor principal 2 Esposo/a o cónyuge 3 Conviviente por unión civil 4 Conviviente de hecho o pareja 5 Hijo/a 6 Hijo/a del cónyuge, conviviente o pareja 7 Hermano/a 8 Padre o madre 9 Cuñado/a 10 Suegro/a 11 Yerno o nuera 12 Nieto/a 13 Abuelo/a 14 Otro pariente 15 No pariente 16 Servicio doméstico puertas adentro; pers9. ¿Cuál es el sexo de [Nombre de persona]? 1 Hombre 2 Mujer; pers13. ¿Cuál es el estado conyugal actual de [Nombre de persona]? 1 Casado/a 2 Conviviente o pareja sin acuerdo de unión civil 3 Conviviente civil (con acuerdo de unión civil) 4 Anulado/a 5 Separado/a 6 Divorciado/a 7 Viudo/a 8 Soltero/a; pers2. De las personas que mencionó previamente, ¿quién es el proveedor principal del hogar? 1 Proveedor/a principal 2 Otro integrante del hogar"
+    }
+  ]
+}

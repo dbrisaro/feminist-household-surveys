@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "La captura de preguntas sociodemográficas permite caracterizar a la población a partir de ciertas variables básicas, dentro de las cuales se indaga sobre el sexo, la edad, fecha de nacimiento, el estado civil, el nivel educacional, el parentesco, el proveedor principal, la nacionalidad, migración, pueblos índigenas, entre otras.",
+          "document": "metodologia-ene-2020.pdf",
+          "location": "Section 3.2.1, p. 21"
+        },
+        {
+          "text": "El Cuestionario Sociodemográfico recoge información brindada por el informante sobre sus características sociodemográficas y las de su hogar. Como instrumento, tiene un doble objetivo: por un lado, busca identificar la cantidad de hogares al interior de una vivienda seleccionada, y por otro, busca caracterizar a todos los miembros de cada hogar. Para caracterizar a los miembros del hogar, se deben responder 28 preguntas, que abordan características atingentes a la relación de los miembros del hogar con la fuerza de trabajo. Primero, se abordan características básicas como parentesco con el proveedor principal del hogar, y después se registran elementos sociodemográficos como: sexo, edad, estado conyugal, migración, nacionalidad, pertenencia a un pueblo originario y educación.",
+          "document": "metodologia-ene-2020.pdf",
+          "location": "Section 5.2.2.2, pp. 101-102"
+        }
+      ],
+      "reasoning": "The supplied methodological document specifies that relationship within the household is captured as 'parentesco con el proveedor principal del hogar' (relationship relative to the main provider of the household), rather than member-to-member relationships. The text does not detail or substantiate categories for extended ties (such as grandparent-grandchild, siblings, non-kin, or same-sex partners). Although the document states that the questionnaire aims to identify the number of households within a selected dwelling, it does not state the criteria for separating multiple households. Furthermore, the text provides no evidence that the survey identifies sub-units (secondary family nuclei) within a household or specific caregiving relationships (who cares for whom).",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": false,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": false,
+        "sub_units": false
+      }
+    }
+  ]
+}

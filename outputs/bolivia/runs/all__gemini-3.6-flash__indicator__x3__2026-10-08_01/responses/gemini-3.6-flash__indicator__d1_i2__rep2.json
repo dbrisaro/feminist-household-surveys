@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "2. ¿Es hombre o mujer? 1. Hombre 2. Mujer",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 1, SECCIÓN 1, PARTE A, Pregunta 2"
+        }
+      ],
+      "reasoning": "In Section 1, Part A, Question 2 asks '¿Es hombre o mujer?' with response options restricted to '1. Hombre' and '2. Mujer'. The questionnaire does not collect a gender identity variable or include response categories beyond the binary sex options.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

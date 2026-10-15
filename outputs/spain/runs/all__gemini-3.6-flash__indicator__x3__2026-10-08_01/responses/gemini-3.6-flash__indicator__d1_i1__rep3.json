@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad",
+          "document": "[C] epacues21.pdf",
+          "location": "PANTALLA nº6"
+        },
+        {
+          "text": "FECHA DE NACIMIENTO EDAD SEXO NACIONALIDAD",
+          "document": "[C] epacues21.pdf",
+          "location": "PANTALLA nº6"
+        }
+      ],
+      "reasoning": "The survey explicitly collects data on the respondent's sex in PANTALLA nº6, where the interviewer is instructed to fill in or confirm 'sexo' with options indicated under the SEXO column.",
+      "value": true
+    }
+  ]
+}

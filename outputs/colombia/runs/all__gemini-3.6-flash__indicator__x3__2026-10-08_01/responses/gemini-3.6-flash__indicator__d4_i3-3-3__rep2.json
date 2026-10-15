@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "Jefe o Jefa de hogar. Es el residente habitual que es reconocido por los demás miembros del hogar como \"jefe(a)\" (ONU, 1998).",
+          "document": "DSO-GEIH-MET-001-V11.pdf",
+          "location": "GLOSARIO, p. 29"
+        },
+        {
+          "text": "E. CARACTERISTICAS GENERALES: se caracteriza la población de acuerdo con su edad, sexo, estado civil y parentesco con el jefe del hogar, se identifica la población campesina y los grupos étnicos con el objetivo de relacionar esta información con el resto de la operación.",
+          "document": "DSO-GEIH-MET-001-V11.pdf",
+          "location": "2.1.8. Diseño del cuestionario, p. 10"
+        },
+        {
+          "text": "La encuesta utiliza un entrevistado/encuestado directo (persona que da la información sobre sí mismo) para las personas de 18 años y más y para aquellas de 10 a 17 años que trabajen o estén buscando trabajo. Para los demás, se acepta entrevistado/encuestado idóneo (persona del hogar mayor de 18 años que, a falta del entrevistado/encuestado directo, pueda responder las preguntas correctamente).",
+          "document": "DSO-GEIH-MET-001-V11.pdf",
+          "location": "2.3.1. Métodos y estrategias de recolección o acopio de datos, p. 19"
+        }
+      ],
+      "reasoning": "The documented anchor term is 'Jefe o Jefa de hogar', so neutral_anchor_term is false. The documentation explicitly provides a selection rule ('el residente habitual que es reconocido por los demás miembros del hogar como jefe(a)'), so explicit_selection_rule is true. This rule relies on recognition by other household members rather than sex, seniority, or presumed economic authority, so rule_not_sex_age_authority is true. Finally, any adult household member capable of providing correct answers ('informante idóneo') may respond, so respondent_separate_or_any_adult is true.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": true
+      }
+    }
+  ]
+}

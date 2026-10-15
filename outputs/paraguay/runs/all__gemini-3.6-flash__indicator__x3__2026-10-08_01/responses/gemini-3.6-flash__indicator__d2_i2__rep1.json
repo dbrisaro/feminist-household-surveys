@@ -1,0 +1,25 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................................ 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE A, Pregunta 8"
+        },
+        {
+          "text": "Demasiado ocupado en tareas del hogar, estudio,etc .................................................................... 10",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE B, Pregunta 5"
+        }
+      ],
+      "reasoning": "The questionnaire refers to domestic tasks only within categories of inactivity, reasons for not seeking work (such as SECCIÓN 6, PARTE A, Pregunta 8: 'Se dedica exclusivamente a las labores del hogar'), or reasons for working fewer hours than usual (SECCIÓN 6, PARTE B, Pregunta 5: 'Demasiado ocupado en tareas del hogar, estudio,etc'). Per the indicator definition: 1) Responsibility: The instrument does not ask who is responsible for, in charge of, or plans unpaid domestic or care work. 2) Performance: The instrument does not ask whether a person carries out domestic or care tasks; options indicating domestic work as a reason for inactivity or not working do not count. 3) Magnitude: The instrument does not record the time or frequency spent on unpaid domestic or care work.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

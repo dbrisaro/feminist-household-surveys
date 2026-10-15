@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "¿Qué relación de parentesco tiene (…) con el jefe del hogar? Jefe... 1 Cónyuge... 2 Hijo ó hija... 3 Yerno ó nuera... 4 Nieto ó nieta... 5 Padres ó suegros... 6 Otros parientes... 7 Empleado(a) Doméstico(a)... 8 Otros no parientes... 9",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 1: REGISTRO E INFORMACIÓN DE LOS MIEMBROS DEL HOGAR, Pregunta 4"
+        },
+        {
+          "text": "Registre el nombre de todas las personas que comen y duermen habitualmente en este hogar.",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 1: REGISTRO E INFORMACIÓN DE LOS MIEMBROS DEL HOGAR"
+        },
+        {
+          "text": "- Tiene a cargo el cuidado de algún miembro de su hogar?.......................... 1",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2: CARACTERÍSTICAS OCUPACIONALES, Pregunta 29a"
+        },
+        {
+          "text": "¿Recibe el BONO POR EL CUIDADO BRINDADO A UNA PERSONA DISCAPACITADA DEL HOGAR?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3: INGRESOS, Pregunta 77"
+        }
+      ],
+      "reasoning": "In Section 1 Question 4, relationships are captured exclusively relative to the head of the household (e.g. Jefe, Cónyuge, Hijo/a, Yerno/nuera, Nieto/a, Padres/suegros, Otros parientes, Empleado doméstico, Otros no parientes). No member-to-member matrix or pointer variables (such as mother, father, or partner ID) are collected, so member_to_member_relationships is false. However, extended ties beyond spouse and parent-child can be identified relative to the head (such as grandchild, parent-in-law, son/daughter-in-law, other parientes, and non-kin), so extended_ties is true. The criterion for defining and separating a household is explicitly stated in Section 1 ('persons who usually eat and sleep in this household'), so multiple_household_criteria is true. Sub-units (such as family nuclei or secondary families) cannot be identified because no pointer variables or sub-unit codes exist, making sub_units false. Finally, while Section 2 Question 29a option 1 and Section 3 Question 77 capture general care responsibilities and care bonus receipt, the survey does not record who specifically provides care to whom inside or across households, so caregiving_relationships is false.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": false
+      }
+    }
+  ]
+}

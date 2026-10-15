@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR?\nJefe/Jefa ............ 1",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Section 200, Question 203"
+        },
+        {
+          "text": "Informante N°",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Section 200 header"
+        },
+        {
+          "text": "12. NOMBRES Y APELLIDOS DEL JEFE(A) DEL HOGAR",
+          "document": "[C] 2024/CED-01-100-2024.pdf",
+          "location": "Item 12"
+        },
+        {
+          "text": "(Para el jefe(a) de hogar, cónyuge o persona responsable del hogar)",
+          "document": "[C] 2024/CED-01-100-2024.pdf",
+          "location": "Page 5"
+        },
+        {
+          "text": "IX. INFORMANTES\na. Jefe del Hogar\nb. Cónyuge\nc. Perceptores (se refiere a la población de 14 años y más de edad que recibe ingresos monetarios)\nd. Personas de 12 años y más (a partir de esta edad de realiza la entrevista directa de la población, con respecto a los menores de 12 años la información la proporciona una persona responsable del hogar)\ne. Personas de 18 años y más (corresponde a la población que es seleccionada para proporcionar información del módulo de opinión).",
+          "document": "[M] 2024/FichaTecnica.pdf",
+          "location": "Section IX"
+        }
+      ],
+      "reasoning": "The survey documents use 'Jefe(a) del hogar' as the anchor category rather than avoiding headship terminology or using a neutral reference term, so neutral_anchor_term is false. The provided text does not state an explicit rule or criterion for selecting who is identified as the household head, rendering explicit_selection_rule and rule_not_sex_age_authority false. The instrument records the respondent separately using the 'Informante N°' field and permits the head, spouse, or any responsible person to answer household questions, making respondent_separate_or_any_adult true.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

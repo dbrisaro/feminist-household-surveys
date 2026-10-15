@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, Item 2"
+        },
+        {
+          "text": "09 No tiene quién le cuide a sus hijos pequeños, ancianos o enfermos",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section II, Question 2g, Item 09"
+        },
+        {
+          "text": "10 Cuidar o atender a niños, enfermos o ancianos",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section V, Question 5e, Item 10"
+        }
+      ],
+      "reasoning": "In Question 9, item 2 of the Cuestionario de Ocupación y Empleo, the instrument asks about unpaid care work provided 'de manera exclusiva' (exclusively). It does not ask whether a person supervises or remains available to care for household members while engaged in other activities or when care is not their main activity. Other mentions of care (such as Question 2g, option 09, and Question 5e, option 10) capture care as a reason for not seeking work or not working habitual hours, which do not meet the criteria for this indicator. Supervisory or passive care while doing other activities is not mentioned.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

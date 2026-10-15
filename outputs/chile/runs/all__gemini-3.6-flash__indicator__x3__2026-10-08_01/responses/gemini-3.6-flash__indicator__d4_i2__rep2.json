@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "pers2. De las personas que mencionó previamente, ¿quién es el proveedor principal del hogar?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, pers2"
+        },
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de persona de proveedora principal]?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, pers8"
+        }
+      ],
+      "reasoning": "The instrument does not include or define the concept of a household head ('jefe/a de hogar'). Instead, in questions pers2 and pers8, it identifies the 'proveedor principal' (main provider) as the reference person for registering household members and determining relationship ties. As the instrument does not designate or identify a household head, it does not establish a method for doing so. Therefore, none of the categorical choices apply and the selection is left empty.",
+      "selected": ""
+    }
+  ]
+}

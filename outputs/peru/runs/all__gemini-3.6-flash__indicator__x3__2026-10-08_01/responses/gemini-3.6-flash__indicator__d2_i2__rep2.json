@@ -1,0 +1,35 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "501"
+        },
+        {
+          "text": "Quehaceres del hogar? ............................. 5",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "546"
+        },
+        {
+          "text": "Los quehaceres del hogar no le permiten ............................................. 6",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "549"
+        },
+        {
+          "text": "Sólo realizó quehaceres del hogar? ............................ 8",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "211A"
+        }
+      ],
+      "reasoning": "The survey instrument does not ask about the responsibility for, performance of, or magnitude of unpaid domestic and care work:\n- responsibility: False. The instrument contains no question asking who is responsible for, in charge of, or plans/organises household domestic or care tasks.\n- performance: False. Although domestic chores are mentioned in P501 (\"Sin contar los quehaceres del hogar\"), P546 (\"Quehaceres del hogar?\"), P549 (\"Los quehaceres del hogar no le permiten\"), and P211A (\"Sólo realizó quehaceres del hogar?\"), these items serve to explicitly exclude unpaid work from economic work, classify activity status, or register reasons for not seeking work. Per the evaluation rules, questions classifying activity status or asking what a person did instead of working do not count as measuring performance.\n- magnitude: False. The hours recorded in P513, P518, P519 (Module 500) and P211D (Module 200) strictly cover paid work and income-generating tasks. Persons answering option 8 (\"Sólo realizó quehaceres del hogar\") in P211A are explicitly directed to skip P211D. No question records the amount of time or frequency spent on unpaid domestic or care work.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

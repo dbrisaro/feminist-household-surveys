@@ -1,0 +1,82 @@
+{
+  "country": "peru",
+  "survey": "Encuesta Nacional de Hogares (ENAHO) ()",
+  "agency": "INEI",
+  "doc_dir": "data/raw/peru/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [
+        "2024/CED-01A-500 ENAHO 2024.pdf",
+        "2024/CED-01-200-2024.pdf",
+        "2024/CED-01-100-2024.pdf"
+      ]
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [
+        "2024/FichaTecnica.pdf",
+        "2024/DefinicionValoresMonetariosBasedeDatos.pdf"
+      ]
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [],
+      "missing_note": "No document of type G (interviewer guides and manuals) was found in the collected corpus for peru. Indicators routed to G are reported as source_missing, not as not_evidenced."
+    }
+  },
+  "estimated_tokens": {
+    "C": 35939,
+    "M": 25915,
+    "G": 0,
+    "C+M": 61854
+  },
+  "excluded": {
+    "2023/CED-01A-500 ENAHO 2023.pdf": "earlier wave, superseded by 2024/CED-01A-500 ENAHO 2024.pdf (content similarity 0.978)",
+    "2022/CED-01A-500.pdf": "earlier wave, superseded by 2024/CED-01A-500 ENAHO 2024.pdf (content similarity 0.978)",
+    "2021/CED-01A-500 ENAHO 2021.pdf": "earlier wave, superseded by 2024/CED-01A-500 ENAHO 2024.pdf (content similarity 0.887)",
+    "2020/CED-01A-500 2020.pdf": "earlier wave, superseded by 2024/CED-01A-500 ENAHO 2024.pdf (content similarity 0.888)",
+    "2019/CED-01A-500 2019.pdf": "earlier wave, superseded by 2024/CED-01A-500 ENAHO 2024.pdf (content similarity 0.931)",
+    "2018/CED-01A-500 2018.pdf": "earlier wave, superseded by 2024/CED-01A-500 ENAHO 2024.pdf (content similarity 0.927)",
+    "2017/CED-01A-500 2017.pdf": "earlier wave, superseded by 2024/CED-01A-500 ENAHO 2024.pdf (content similarity 0.911)",
+    "2016/CED-01A-500 2016.pdf": "earlier wave, superseded by 2024/CED-01A-500 ENAHO 2024.pdf (content similarity 0.899)",
+    "2015/CED-01A-500 2015.pdf": "earlier wave, superseded by 2024/CED-01A-500 ENAHO 2024.pdf (content similarity 0.899)",
+    "2023/FichaTecnica.pdf": "earlier wave, superseded by 2024/FichaTecnica.pdf (content similarity 0.943)",
+    "2023/DefinicionValoresMonetariosBasedeDatos.pdf": "earlier wave, superseded by 2024/DefinicionValoresMonetariosBasedeDatos.pdf (content similarity 1.000)",
+    "2022/FICHA TECNICA 2022.pdf": "earlier wave, superseded by 2024/FichaTecnica.pdf (content similarity 0.924)",
+    "2021/FichaTecnica.pdf": "earlier wave, superseded by 2024/FichaTecnica.pdf (content similarity 0.887)",
+    "2021/ENAHO_DefinicionValoresMonetariosBasedeDatos.pdf": "earlier wave, superseded by 2024/DefinicionValoresMonetariosBasedeDatos.pdf (content similarity 0.986)",
+    "2020/FichaTecnica.pdf": "earlier wave, superseded by 2024/FichaTecnica.pdf (content similarity 0.885)",
+    "2019/FichaTecnica_2019.pdf": "earlier wave, superseded by 2024/FichaTecnica.pdf (content similarity 0.926)",
+    "2019/ENAHO_DefinicionValoresMonetariosBasedeDatos.pdf": "earlier wave, superseded by 2024/DefinicionValoresMonetariosBasedeDatos.pdf (content similarity 0.986)",
+    "2018/Ficha Tecnica_2018.pdf": "earlier wave, superseded by 2024/FichaTecnica.pdf (content similarity 0.878)",
+    "2017/FichaTecnica_2017.pdf": "earlier wave, superseded by 2024/FichaTecnica.pdf (content similarity 0.830)",
+    "2016/FichaTecnica_2016.pdf": "earlier wave, superseded by 2024/FichaTecnica.pdf (content similarity 0.809)",
+    "2015/FichaTecnica_2015.pdf": "earlier wave, superseded by 2024/FichaTecnica.pdf (content similarity 0.811)",
+    "2015/CodigoConglomerado_6_digitos.pdf": "title page: file description explaining variable code change",
+    "2015/Diccionario2015.pdf": "title page: codebook dictionary of collected dataset",
+    "2016/CodigoConglomerado_6_digitos.pdf": "title page: file description explaining variable code change",
+    "2016/Diccionario2016.pdf": "title page: codebook dictionary of collected dataset",
+    "2017/CodigoConglomerado_6_digitos.pdf": "title page: file description explaining variable code change",
+    "2017/Diccionario_2017.pdf": "title page: codebook dictionary of collected dataset",
+    "2018/CodigoConglomerado_6_digitos.pdf": "title page: file description explaining variable code change",
+    "2018/Diccionario_2018.pdf": "title page: codebook dictionary of collected dataset",
+    "2019/CodigoConglomerado_6_digitos.pdf": "title page: file description explaining variable code change",
+    "2019/Diccionario_2019.pdf": "title page: codebook dictionary of collected dataset",
+    "2020/CodigoConglomerado_6_digitos.pdf": "title page: file description explaining variable code change",
+    "2020/Diccionario_2020.pdf": "title page: codebook dictionary of collected dataset",
+    "2021/CodigoConglomerado_6_digitos.pdf": "title page: file description explaining variable code change",
+    "2021/Diccionario_2021.pdf": "title page: codebook dictionary of collected dataset",
+    "2022/DICCIONARIO_2022_anual.pdf": "title page: codebook dictionary of collected dataset",
+    "2023/Diccionario2023.pdf": "title page: codebook dictionary of collected dataset",
+    "2024/Diccionario2024.pdf": "title page: codebook dictionary of collected dataset",
+    "2024/Estratificacion del Marco.pdf": "bulletin, tabulation or press material"
+  },
+  "unclassified": {},
+  "non_textual": {
+    ".xlsx": 50,
+    ".xls": 2,
+    ".csv": 1
+  }
+}

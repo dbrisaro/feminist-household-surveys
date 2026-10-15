@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "C. DATOS DEL HOGAR (PARA TODOS LOS HOGARES DE LA VIVIENDA) (PARA EL [LA] JEFE(A) DEL HOGAR O SU CÓNYUGE)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter C, header, page 3"
+        },
+        {
+          "text": "¿Cuál es el parentesco de ... con el jefe o jefa del hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter E, Question 5, page 6"
+        },
+        {
+          "text": "a. Jefe(a) del hogar",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter E, Question 5 option a, page 6"
+        },
+        {
+          "text": "Nota: Tenga en cuenta; No acepte como jefe(a) de hogar a persona menor de 15 años.",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter E, Question 5 Note, page 6"
+        },
+        {
+          "text": "Número de orden de la persona que proporciona la información:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter E, header, page 6"
+        }
+      ],
+      "reasoning": "The questionnaire uses the term 'jefe o jefa del hogar' to identify the anchor person across Chapter C and Chapter E, rather than a neutral term such as reference person or householder. An explicit selection rule for the household-level respondent is stated in Chapter C ('PARA EL [LA] JEFE(A) DEL HOGAR O SU CÓNYUGE'), and an age restriction for the head of household is noted in Chapter E ('No acepte como jefe(a) de hogar a persona menor de 15 años'). However, the document does not state any positive criterion or rule used by the household to define or select the head of household. For household-level questions, the respondent is recorded separately via their person order number ('Número de orden de la persona que proporciona la información') and can be either the head of household or their spouse.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

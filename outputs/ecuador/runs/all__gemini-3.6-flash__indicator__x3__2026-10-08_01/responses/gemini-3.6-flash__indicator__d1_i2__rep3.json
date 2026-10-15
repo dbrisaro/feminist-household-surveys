@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "SEXO Hombre... 1 Mujer…... 2",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 20, Sección 1, Columna 2"
+        }
+      ],
+      "reasoning": "In Section 1 (column 2), the instrument collects demographic data on sex ('SEXO') with only binary response categories ('Hombre' and 'Mujer'). It does not include a variable for gender identity or options beyond the man/woman binary. Thus, the proposition does not hold and the item is not mentioned.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

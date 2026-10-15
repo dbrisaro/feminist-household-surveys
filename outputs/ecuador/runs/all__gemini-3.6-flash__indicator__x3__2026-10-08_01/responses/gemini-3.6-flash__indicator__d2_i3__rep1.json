@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "¿Realizó (…) la semana pasada alguna actividad dentro o fuera de su casa para ayudar al mantenimiento del hogar, tal como: Atender negocio propio?............ 1 Fabricar algún producto?........... 2 Hacer algo en casa por un ingreso?..................................... 3 Brindar algún servicio?............... 4 Ayudar en algún negocio familiar?...................................... 5 Ayudar en el trabajo de algún familiar?...................................... 6 Como aprendiz remunerado en dinero o en especie?.................. 7 Labores agrícolas o cuidado de animales?................................... 8 Estudiante que realizó algún trabajo?...................................... 9 Trabajar para otra familia?......... 10 Otra actividad por un ingreso? 11 No realizó ninguna actividad? 12",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 21"
+        },
+        {
+          "text": "¿ (…) es: Rentista?........................... 1 Jubilado o pensionado?.... 2 Estudiante?....................... 3 Ama de casa?................... 4 Incapacitado?.................... 5 Otro, cuál? (Especifique)…… 6",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 36"
+        }
+      ],
+      "reasoning": "The survey instrument's filter/screener questions for work (Pregunta 20 and Pregunta 21) restrict economic activity/work to paid employment, business activities, or production for income or family enterprises. Unpaid domestic and care work within the person's own household is not classified or measured as economic activity; rather, performing unpaid household work is categorized as a state of inactivity ('Ama de casa' in Pregunta 36). Therefore, unpaid domestic and care work is treated as a separate category (inactivity) rather than incorporated into the definition of work.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

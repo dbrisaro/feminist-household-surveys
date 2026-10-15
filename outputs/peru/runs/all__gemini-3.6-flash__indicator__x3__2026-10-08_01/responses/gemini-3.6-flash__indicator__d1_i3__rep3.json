@@ -1,0 +1,10 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [],
+      "reasoning": "Instructions given to the interviewer for recording sex or gender, including definitions provided to the interviewer, would be documented in interviewer manuals (document type [G]), which were not supplied in this run. The supplied questionnaire documents [C] contain only column 207 'SEXO' with categories 'Hombre' and 'Mujer' in document 2024/CED-01-200-2024.pdf (page 6), but contain no instructions or definitions regarding how to record sex or gender.",
+      "extracted_text": ""
+    }
+  ]
+}

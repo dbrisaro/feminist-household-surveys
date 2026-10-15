@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "P501"
+        },
+        {
+          "text": "546. ¿QUÉ ESTUVO HACIENDO LA SEMANA PASADA: ... Quehaceres del hogar? ............................. 5",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "P546"
+        },
+        {
+          "text": "549. ¿POR QUÉ NO BUSCÓ TRABAJO? ... Los quehaceres del hogar no le permiten ............................................. 6",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "P549"
+        },
+        {
+          "text": "211A. ¿LA TAREA QUE REALIZÓ ... EN EL HOGAR O FUERA DE ÉL FUE: ... Sólo realizó quehaceres del hogar? ............................................ 8",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "P211A"
+        }
+      ],
+      "reasoning": "The supplied survey instrument does not contain questions or a dedicated module to measure domestic work or time spent on domestic and care tasks for individual household members. Question 501 explicitly instructs respondents not to count household chores ('Sin contar los quehaceres del hogar') when reporting employment. Domestic chores are only referenced as a category of non-work activity or a reason for not seeking employment (P546, P549, and P211A for minors aged 5 to 17). Thus, the instrument does not record domestic work separately for each person.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

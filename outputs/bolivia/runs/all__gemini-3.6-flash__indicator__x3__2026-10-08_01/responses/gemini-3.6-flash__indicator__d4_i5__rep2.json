@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "1. ¿Cuál es el nombre y apellido de cada una de las personas que residen en este hogar o los que estan ausentes por razones de trabajo, estudio u otros? ... TOMAR EN CUENTA A LAS PERSONAS QUE AL MOMENTO DE LA ENTREVISTA SE ENCUENTRAN TEMPORALMENTE AUSENTES POR UN PERIODO MENOR A TRES MESES, POR TRABAJO, ESTUDIO, SALUD, VACACIONES U OTROS. TAMBIEN TOMAR EN CUENTA A LAS PERSONAS QUE SI SU RESIDENCIA ES MENOR A TRES MESES ESTAN DISPUESTAS A FIJAR SU RESIDENCIA HABITUAL EN ESA VIVIENDA.",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 1, Parte A, Pregunta 1"
+        },
+        {
+          "text": "5. ¿Qué parentesco tiene con la jefa o jefe del hogar? 1. JEFA O JEFE DEL HOGAR 2. ESPOSA/O O CONVIVIENTE O CONCUBINA(O) 3. HIJA O HIJO 4, HIJASTRA O HIJASTRO 5. NUERA O YERNO 6, NIETA O NIETO 7. HERMANA O HERMANO 8. CUÑADA O CUÑADO 9. MADRE O PADRE 10. SUEGRA O SUEGRO 11. ABUELA O ABUELO 12. OTRO PARIENTE 13. OTRO QUE NO ES PARIENTE 14. TRABAJADOR(A) DEL HOGAR CAMA ADENTRO Y SUS FAMILIARES",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 1, Parte A, Pregunta 5"
+        },
+        {
+          "text": "14.¿Por qué razón no asiste actualmente? (indague la razón más importante) ... 6. POR REALIZAR LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 1, Parte B, Pregunta 14"
+        }
+      ],
+      "reasoning": "The survey records relationships between household members in Section 1, Question 5 strictly relative to the household head (\"¿Qué parentesco tiene con la jefa o jefe del hogar?\"). It does not collect member-to-member relationships using a triangular grid or pointer variables, so member_to_member_relationships is false. It includes categories beyond spouse and parent-child, such as grandchild, grandparent, sibling, and non-kin (\"NIETA O NIETO\", \"ABUELA O ABUELO\", \"HERMANA O HERMANO\", \"OTRO QUE NO ES PARIENTE\"), so extended_ties is true. The text does not state explicit operational criteria for distinguishing multiple households residing within the same dwelling, so multiple_household_criteria is false. It does not contain variables or coding to identify family nuclei or sub-units within the household, so sub_units is false. Finally, while caregiving is cited as a reason for school non-attendance or job leaving in options like \"CUIDADO DE MIEMBROS DEL HOGAR\", the instrument does not capture specific caregiving relationships identifying who cares for whom, so caregiving_relationships is false.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": false,
+        "sub_units": false
+      }
+    }
+  ]
+}

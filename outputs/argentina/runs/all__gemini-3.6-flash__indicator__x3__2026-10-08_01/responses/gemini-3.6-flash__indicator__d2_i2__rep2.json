@@ -1,0 +1,25 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "VII. ORGANIZACIÓN DEL HOGAR, p. 6"
+        },
+        {
+          "text": "2. ¿Qué otras personas ayudan en las tareas de la casa?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "VII. ORGANIZACIÓN DEL HOGAR, p. 6"
+        }
+      ],
+      "reasoning": "Regarding responsibility: The instrument asks '1. ¿Quién realiza la mayor parte de las tareas de la casa?' and '2. ¿Qué otras personas ayudan en las tareas de la casa?'. It does not ask who is in charge of, plans, or organises domestic or care work. Per the definition, a question about who carries out tasks does not count. Therefore, responsibility is false.\n\nRegarding performance: Questions 1 and 2 in Section VII of CuestHogar.pdf explicitly ask who performs the majority of household tasks and who helps carry them out. Therefore, performance is true.\n\nRegarding magnitude: The questionnaire does not contain any item recording the time spent or frequency of unpaid domestic or care work. Therefore, magnitude is false.",
+      "elements": {
+        "magnitude": false,
+        "performance": true,
+        "responsibility": false
+      }
+    }
+  ]
+}

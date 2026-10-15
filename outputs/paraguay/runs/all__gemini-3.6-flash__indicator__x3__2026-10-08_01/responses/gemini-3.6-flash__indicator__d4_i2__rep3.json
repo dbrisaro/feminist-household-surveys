@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "¿Cuál es el nombre de cada una de las personas que viven habitualmente en este hogar? ANOTE EN EL SIGUIENTE ORDEN : a. JEFE/A DEL HOGAR",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 3, Question 1"
+        },
+        {
+          "text": "RELACIÓN DE PARENTESCO CON EL/LA JEFE/A DEL HOGAR",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 4, Section 1, Question 3"
+        }
+      ],
+      "reasoning": "The questionnaire lists 'JEFE/A DEL HOGAR' as the first person to record in Question 1 (page 3) and records relationship to the head in Section 1, Question 3 (page 4). However, the questionnaire does not specify or establish a method for identifying the household head (whether self-declared by the household, designated by the respondent, or assigned by an explicit criterion). Additional documentation such as interviewer manuals or methodological notes that might document this procedure was not supplied in this run. Consequently, none of the options apply and the selection field is left empty.",
+      "selected": ""
+    }
+  ]
+}

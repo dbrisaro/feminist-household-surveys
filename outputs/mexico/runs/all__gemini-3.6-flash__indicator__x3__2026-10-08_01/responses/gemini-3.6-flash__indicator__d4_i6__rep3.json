@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "¿Qué es ... del jefe(a) de este hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 7"
+        },
+        {
+          "text": "... es 1 hombre 2 mujer",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 8"
+        },
+        {
+          "text": "¿Actualmente... 1 vive con su pareja en unión libre? 2 está separado(a)? 3 está divorciado(a)? 4 está viudo(a)? 5 está casado(a)? 6 está soltero(a)?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 19"
+        },
+        {
+          "text": "(Solo para mujeres) ¿En total cuántas hijas e hijos que nacieron vivos ha tenido?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 18"
+        },
+        {
+          "text": "¿Cuánto ganó o en cuánto calcula sus ingresos?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section VI, Question 6b"
+        },
+        {
+          "text": "¿Todas estas personas comparten el mismo gasto para comer?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section V, Question 2"
+        }
+      ],
+      "reasoning": "The survey allows distinguishing de jure versus de facto female-headed households because Section VI collects relationship to head (P7), sex (P8), and marital status (P19), which together show whether a female head is unpartnered (single, separated, divorced, widowed) or has a partner who is absent from the household roster. However, unpartnered mother-child units inside larger extended households cannot be identified because P7 only records relationship to the household head rather than inter-member parent-child linkages, and P18 only counts total children ever born alive per woman. Furthermore, the questionnaire does not identify a 'main provider' at the household or unit level to establish women-maintained status independently of the designated household head. Finally, mother-child units cannot be linked to their own hearth-hold consumption or production activities, as food expenditure (P2) is only used to define household boundaries as a whole.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": false,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

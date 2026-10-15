@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "a1 [nombre de persona], la semana pasada, es decir, entre lunes y domingo, ¿trabajó por lo menos una hora?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN A, p. 8"
+        },
+        {
+          "text": "a4 Ese trabajo, ¿fue realizado para la empresa o negocio perteneciente a un miembro de su familia?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN A, p. 8"
+        },
+        {
+          "text": "3 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN J, j7, p. 16"
+        }
+      ],
+      "reasoning": "The survey defines work and economic activity in Section A as work performed for pay/profit or unpaid help within a family business or enterprise. Unpaid domestic and care work is not classified or measured as work or economic activity; instead, care of children or dependent persons is listed in Section J as a reason for not seeking work or remaining inactive.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

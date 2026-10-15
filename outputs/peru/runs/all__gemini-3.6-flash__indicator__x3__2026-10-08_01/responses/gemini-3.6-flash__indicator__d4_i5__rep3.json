@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "(203) ¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR? ... Jefe/Jefa ............ 1 Esposa(o) /compañero(a) .... 2 Hijo(a)/hijastro(a) 3 Yerno/Nuera ....... 4 Nieto/a ................ 5 Padres/Suegros . 6 Hermano(a) ..... 11 Otros parientes .. 7 Trabaj. Hogar ..... 8 Pensionista......... 9 Otros No Parientes .......... 10",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203, p. 6"
+        },
+        {
+          "text": "(203-A) N° DE NÚCLEO FAMILIAR (203-B) RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL NÚCLEO FAMILIAR (Sólo relación Padres e Hijos) (UTILICE LOS CÓDIGOS DE LA PGTA. 203)",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Preguntas 203-A y 203-B, p. 6"
+        },
+        {
+          "text": "10. TOTAL DE HOGARES QUE OCUPAN LA VIVIENDA Sr(a).: Si HOGAR es la persona o grupo de personas que se alimentan de una misma olla y atienden en común otras necesidades básicas. ¿Cuántos hogares ocupan esta vivienda?",
+          "document": "[C] 2024/CED-01-100-2024.pdf",
+          "location": "Pregunta 10, p. 1"
+        },
+        {
+          "text": "Hogar.- Es el conjunto de personas, sean o no parientes (padres, hijos solteros, hijos casados, hermanos, tíos etc.), que ocupan en su totalidad o en parte una vivienda, comparten las comidas principales y atienden en común otras necesidades vitales.",
+          "document": "[M] 2024/FichaTecnica.pdf",
+          "location": "Sección XIII. Definiciones Básicas, p. 18"
+        }
+      ],
+      "reasoning": "Regarding member_to_member_relationships: Relationships in Question 203 are recorded relative to the household head and in Question 203-B relative to the family nucleus head, rather than through a matrix or direct individual pointer variables (such as mother's ID or partner's ID). Regarding extended_ties: Question 203 explicitly includes extended family ties and non-kin relationships such as grandchildren (Nieto/a), parents/in-laws (Padres/Suegros), siblings (Hermano/a), other relatives (Otros parientes), and non-relatives (Otros No Parientes). Regarding multiple_household_criteria: Question 10 in ENAHO.01 and Section XIII of the technical notes state clear criteria for defining a household ('se alimentan de una misma olla y atienden en común otras necesidades básicas'). Regarding sub_units: Questions 203-A and 203-B explicitly assign household members to specific family nuclei ('N° DE NÚCLEO FAMILIAR'). Regarding caregiving_relationships: The instrument does not include any questions or variables identifying caregiving relationships (who cares for whom inside or across households).",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

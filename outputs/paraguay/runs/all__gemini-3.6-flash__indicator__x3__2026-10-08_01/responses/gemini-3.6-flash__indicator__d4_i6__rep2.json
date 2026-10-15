@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "ANOTE EL CÓDIGO DE IDENTIFICACIÓN DEL CÓNYUGE, PADRE Y MADRE DE CADA PERSONA MIEMBRO DEL HOGAR. SI NO CORRESPONDE ANOTE \"00\"",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1, Q5"
+        },
+        {
+          "text": "Casado ............. 1 Unido ................ 2 Separado .......... 3 Viudo ................ 4 Soltero .............. 5 Divorciado ........ 6",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1, Q7"
+        },
+        {
+          "text": "¿Algún miembro de este hogar recibió remesas durante los últimos 12 meses?",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE E, Q2"
+        },
+        {
+          "text": "¿Podría informarme sobre los ingresos mensuales que habitualmente recibe?.",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE E, Q1"
+        },
+        {
+          "text": "Durante el último mes, ¿cuál fue el valor de lo producido o comprado por este ...[ESTABLECIMIENTO O NEGOCIO]... para la venta que fue destinado al consumo del hogar ?",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 7, PARTE B, Q8"
+        }
+      ],
+      "reasoning": "1. de_jure_vs_de_facto (True): Section 1 Q7 records marital status, Q5 links spouses present in the household via line numbers (or '00' if absent), and Section 6 Parte E Q2 collects remittance information. Combining marital status with partner presence/absence in the roster and remittance data allows distinguishing de jure from de facto female-headed households.\n2. unpartnered_mother_child_units (True): Section 1 Q5 explicitly records the line number of each member's mother and spouse, allowing unpartnered mother-child units to be identified within complex or extended households.\n3. women_maintained_by_provider (True): Section 6 Parte E collects individual income for all household members aged 10+, enabling identification of the main economic provider/maintainer of the household independently of who is declared as household head.\n4. mother_child_unit_activity (False): The survey records consumption and production exclusively at the household aggregate level (e.g., Section 7 Parte B Q8 refers to 'consumo del hogar') and lacks care or time-use data, so mother-child units cannot be linked to their own separate consumption, production, or care activities.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "SEXO Hombre... 1 Mujer…... 2",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, p. 20"
+        }
+      ],
+      "reasoning": "The questionnaire collects a sex variable ('SEXO') in Section 1 on page 20 for all household members, with options 'Hombre' (1) and 'Mujer' (2).",
+      "value": true
+    }
+  ]
+}

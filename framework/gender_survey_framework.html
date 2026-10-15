@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gender perspective in household surveys</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: system-ui, sans-serif;
+    background: #f5f5f0;
+    color: #2c2c2a;
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 6px;
+    text-align: center;
+  }
+  p.subtitle {
+    font-size: 13px;
+    color: #5f5e5a;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .layout {
+    display: flex;
+    gap: 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: flex-start;
+  }
+  .diagram-container {
+    background: white;
+    border-radius: 12px;
+    padding: 32px;
+    flex: 1;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .panel {
+    width: 280px;
+    min-width: 280px;
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    min-height: 200px;
+    transition: opacity 0.2s;
+  }
+  .panel.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b4b2a9;
+    font-size: 13px;
+    text-align: center;
+    border: 1.5px dashed #d3d1c7;
+    background: transparent;
+    box-shadow: none;
+  }
+  .scaffold {
+    max-width: 1100px;
+    margin: 32px auto 0;
+    background: white;
+    border-radius: 12px;
+    padding: 32px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+  .scaffold h2 { font-size: 15px; font-weight: 500; margin-bottom: 6px; }
+  .scaffold-note { font-size: 12px; color: #5f5e5a; margin-bottom: 20px; }
+  .scaffold-note code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 11px;
+    background: #f0efe9;
+    padding: 1px 4px;
+    border-radius: 3px;
+  }
+  .scaffold-block { margin-bottom: 18px; }
+  .scaffold-label {
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: #7a5c9e;
+    margin-bottom: 6px;
+  }
+  .scaffold-block pre {
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 11.5px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    background: #faf9f5;
+    border-left: 2px solid #e2e0d6;
+    padding: 12px 14px;
+    overflow-x: auto;
+  }
+  .panel-layer {
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 8px;
+  }
+  .panel-title {
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+  .panel-question {
+    font-size: 13px;
+    color: #444441;
+    line-height: 1.6;
+    margin-bottom: 12px;
+  }
+  .panel-items {
+    font-size: 12px;
+    color: #5f5e5a;
+    line-height: 1.7;
+    padding-left: 14px;
+  }
+  .panel-items li { margin-bottom: 4px; }
+
+  svg text { font-family: system-ui, sans-serif; }
+  .t  { font-size: 14px; font-weight: 400; fill: #2c2c2a; }
+  .ts { font-size: 12px; font-weight: 400; fill: #5f5e5a; }
+  .th { font-size: 14px; font-weight: 500; fill: #2c2c2a; }
+  .node { cursor: pointer; }
+  .node:hover rect { opacity: 0.8; }
+  .node.active rect { stroke-width: 2px; }
+
+  .c-coral rect  { fill: #FAECE7; stroke: #993C1D; }
+  .c-coral .th   { fill: #712B13; }
+  .c-coral .ts   { fill: #993C1D; }
+  .c-purple rect { fill: #EEEDFE; stroke: #534AB7; }
+  .c-purple .th  { fill: #3C3489; }
+  .c-purple .ts  { fill: #534AB7; }
+  .arr { stroke: #888780; stroke-width: 1.5; fill: none; }
+  .legend-label { font-size: 12px; fill: #5f5e5a; }
+
+  .tag-coral  { color: #712B13; background: #FAECE7; }
+  .tag-purple { color: #3C3489; background: #EEEDFE; }
+  .tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-bottom: 12px;
+  }
+</style>
+</head>
+<body>
+<h1>Gender perspective in household surveys</h1>
+<p class="subtitle">Click on any box to see the corresponding question</p>
+<div class="layout">
+  <div class="diagram-container">
+    <svg width="100%" viewBox="0 0 680 650" role="img">
+      <title>Analytical framework</title>
+      <defs>
+        <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </marker>
+      </defs>
+
+      <text class="ts" x="40" y="20">Dimension 1</text>
+      <g class="node c-coral" onclick="show('c0')">
+        <rect x="100" y="30" width="480" height="90" rx="10" stroke-width="0.5"/>
+        <text class="th" x="340" y="55" text-anchor="middle">Level of androcentrism in survey design</text>
+        <text class="ts" x="340" y="80" text-anchor="middle">How much androcentrism, cisheteronormativity and traditional</text>
+        <text class="ts" x="340" y="98" text-anchor="middle">values are embedded in the design of the instrument?</text>
+      </g>
+
+      <line x1="340" y1="120" x2="340" y2="150" class="arr" marker-end="url(#arrow)"/>
+      <text class="ts" x="40" y="168">Subdimensions</text>
+
+      <g class="node c-purple" onclick="show('d1')">
+        <rect x="40" y="175" width="180" height="140" rx="8" stroke-width="0.5"/>
+        <text class="th" x="130" y="200" text-anchor="middle">Gender-diverse</text>
+        <text class="th" x="130" y="218" text-anchor="middle">disaggregation</text>
+        <text class="ts" x="130" y="240" text-anchor="middle">In what way does the survey</text>
+        <text class="ts" x="130" y="256" text-anchor="middle">let you identify a trans</text>
+        <text class="ts" x="130" y="272" text-anchor="middle">person?</text>
+      </g>
+      <g class="node c-purple" onclick="show('d2')">
+        <rect x="250" y="175" width="180" height="140" rx="8" stroke-width="0.5"/>
+        <text class="th" x="340" y="200" text-anchor="middle">Care / unpaid</text>
+        <text class="th" x="340" y="218" text-anchor="middle">work coverage</text>
+        <text class="ts" x="340" y="240" text-anchor="middle">Does the survey understand</text>
+        <text class="ts" x="340" y="256" text-anchor="middle">work in a broad sense,</text>
+        <text class="ts" x="340" y="272" text-anchor="middle">beyond the productive</text>
+        <text class="ts" x="340" y="288" text-anchor="middle">sphere?</text>
+      </g>
+      <g class="node c-purple" onclick="show('d3')">
+        <rect x="460" y="175" width="180" height="140" rx="8" stroke-width="0.5"/>
+        <text class="th" x="550" y="205" text-anchor="middle">Time use management</text>
+        <text class="ts" x="550" y="230" text-anchor="middle">Does the household survey</text>
+        <text class="ts" x="550" y="246" text-anchor="middle">ask about how time is</text>
+        <text class="ts" x="550" y="262" text-anchor="middle">organised between</text>
+        <text class="ts" x="550" y="278" text-anchor="middle">household members?</text>
+      </g>
+      <g class="node c-purple" onclick="show('d4')">
+        <rect x="250" y="330" width="180" height="140" rx="8" stroke-width="0.5"/>
+        <text class="th" x="340" y="355" text-anchor="middle">Household composition</text>
+        <text class="th" x="340" y="373" text-anchor="middle">and headship</text>
+        <text class="ts" x="340" y="395" text-anchor="middle">How does the survey define</text>
+        <text class="ts" x="340" y="411" text-anchor="middle">headship and the relations</text>
+        <text class="ts" x="340" y="427" text-anchor="middle">between household members?</text>
+      </g>
+
+      <text class="ts" x="40" y="512">Dimension 2</text>
+      <g class="node c-coral" onclick="show('c1')">
+        <rect x="100" y="520" width="480" height="90" rx="10" stroke-width="0.5"/>
+        <text class="th" x="340" y="545" text-anchor="middle">Microdata analysis and representation</text>
+        <text class="ts" x="340" y="570" text-anchor="middle">What can actually be done with the resulting data, and who</text>
+        <text class="ts" x="340" y="588" text-anchor="middle">becomes visible in the analysis?</text>
+      </g>
+
+      <rect x="40" y="628" width="12" height="12" rx="2" fill="#D85A30" opacity="0.7"/>
+      <text class="legend-label" x="58" y="638">Dimensions</text>
+      <rect x="210" y="628" width="12" height="12" rx="2" fill="#7F77DD" opacity="0.7"/>
+      <text class="legend-label" x="228" y="638">Subdimensions</text>
+    </svg>
+  </div>
+
+  <div class="panel empty" id="panel">
+    <span>Click on a box to see the detail</span>
+  </div>
+</div>
+
+<div class="scaffold">
+  <h2>Prompt scaffold</h2>
+  <p class="scaffold-note">
+    This is the master copy of the prompt scaffold. <code>parse_framework.py</code> lifts it
+    verbatim into <code>framework.json</code>, and <code>prompts.py</code> sends it unchanged.
+    Edit it here and nowhere else. <code>{documents}</code> in the Inputs block is filled at run
+    time with the documents actually supplied to that call.
+  </p>
+  <div id="scaffold-blocks"></div>
+</div>
+
+<script>
+// The prompt scaffold. Kept as template literals so the text can be edited as
+// prose; parse_framework.py reads these four keys straight out of this file.
+const scaffold = {
+role: `You are a critical feminist economic analyst. Your expertise is the evaluation of household survey instruments for their capacity to support feminist economic research.
+
+For this task, use the following operational definition. Feminist economic research treats gender as an analytical variable requiring disaggregation sufficient to identify structural asymmetries, requiring the capacity to identify intersecting inequalities, and requiring the recognition of unpaid and care work as an economic variable. Do not expand, reinterpret, or supplement this definition using external knowledge.
+
+Two clarifications apply to this definition:
+
+Disaggregation. Sufficiency is a property of the survey design, not a judgement you make in the abstract. Report what the text establishes: which variables are collected, at what level of geographic or population detail results are declared representative, and any precision limits, sample sizes, or coefficients of variation the text states. Where the text states the domains for which estimates are valid, use those domains as the threshold. Where the text does not state them, record that the text does not state them.
+
+Intersecting inequalities. Do not classify an instrument as supporting the identification of intersecting inequalities merely because it collects multiple demographic characteristics. The text must indicate that these characteristics can be jointly analysed, or must otherwise establish that capability.
+
+You are skeptical, precise, and evidence based. You do not infer good practice from the absence of bad practice. You never credit an instrument for a capability the provided text does not substantiate.`,
+
+inputs: `Inputs. For this task you will be given documentation for a single survey. The documents supplied in this run are listed below, each preceded by a header that names its source type and file name. Only these document types are present. No other documentation for this survey is available to you.
+
+Documents supplied:
+{documents}
+
+Treat the enclosed text as the only evidence. Do not use general knowledge about the survey, the institution, the country, or standard survey practice.
+
+Where a section of the instrument has been supplied, treat it as complete. The absence of an item within a supplied section is direct evidence that the instrument does not contain that item. The questionnaire is the instrument itself, not a description of it.
+
+Where the content addressed by an indicator would be documented in a document type that was not supplied in this run, state that in the reasoning field and leave the output fields empty.`,
+
+constraints: `Evidence. Every statement you make must be supported by a verbatim quote from the supplied documents. Do not paraphrase in place of quoting. For each quote, state which document it comes from and where in that document it appears. Every assessment must include at least one quote. When the answer is negative, quote the passages you examined and set aside, or the section where the item would be expected, and explain in the reasoning why they do not meet the indicator. The only exception is an indicator whose evidence would be in a document, or a part of a document, that was not supplied in this run. In that case, say so in the reasoning and leave the quotes field empty.
+
+Recording, not judging. Record what the instrument does. Do not assess whether the choices it makes are appropriate, adequate, complete or exhaustive. That assessment is made outside this task. This applies to the response categories offered for sex or gender, the definition of household and of household head, the definition of work or economic activity, and the wording used to refer to respondents and their relationships. Quote these in full.
+
+Absence. Do not treat the absence of a bad practice as the presence of good design. Do not credit an instrument for a capability the text does not substantiate.
+
+Language. Quote in the original language of the source. Write your analysis in English.
+
+Scope. Address only the indicators listed in this task. Do not comment on other aspects of the instrument. Complete each indicator fully before starting the next one, and do not carry reasoning from one indicator to another. Each indicator is evaluated on its own evidence.`,
+
+method: `Method. For each indicator listed in this task, in order:
+
+a) Identify the indicator type: criterion, criterion_list, categorical or record.
+b) Search the supplied documents for passages that bear on the indicator.
+c) Quote the relevant passages verbatim, in the original language, with the document name and a location (question number, section heading or page marker). If the answer is negative, quote the passages you examined and set aside, or the section where the item would be expected, unless the exception stated under Evidence applies.
+d) Write the reasoning field: state what the quoted passages establish, and whether the conclusion is read directly from the text or follows from it.
+e) Produce the output for that indicator type:
+   criterion: state whether the proposition is true or false. If false, state whether the text explicitly excludes the item, mentions it but places it in a different category, or does not mention it at all.
+   criterion_list: state true or false for each element of the list, independently.
+   categorical: select one option from the list supplied. If none applies, leave the selection empty.
+   record: transcribe the content requested, verbatim.
+f) Do not assign an overall label, a score, or a verdict of adequacy. Labels are assigned outside this task.
+
+Complete steps a to f for one indicator before starting the next.`
+}
+
+const content = {
+  c0: {
+    tag: 'Dimension 1', tagClass: 'tag-coral',
+    title: 'Structural androcentrism of the design',
+    question: '',
+    indicators: []
+  },
+  d1: {
+    tag: 'Subdimension 1', tagClass: 'tag-purple',
+    title: 'Gender-diverse disaggregation',
+    question: 'Variable: Treatment of gender identities beyond the man/woman binary',
+    indicators: [
+      { id: 'd1_i1', doc: 'C', type: 'criterion',
+        text: 'The instrument collects a sex variable.' },
+      { id: 'd1_i2', doc: 'C', type: 'criterion',
+        text: 'The instrument collects a gender identity variable.' },
+      { id: 'd1_i3', doc: 'C+G', type: 'record',
+        text: 'Instructions given to the interviewer for recording sex or gender, including any definition of sex or gender provided to the interviewer and any instruction included in the questionnaire. If no instruction is given, record that.' },
+      { id: 'd1_i4', doc: 'C', type: 'record',
+        text: 'Terms used to refer to respondents and to relationships within the household, as they appear in the wording of the questions and their response categories in the questionnaire, not in derived or recoded variables.' }
+    ]
+  },
+  d2: {
+    tag: 'Subdimension 2', tagClass: 'tag-purple',
+    title: 'Care / unpaid care work coverage',
+    question: 'Variable: Measurement of unpaid domestic and care work /// within the category of work',
+    indicators: [
+      { id: 'd2_i1', doc: 'C', type: 'criterion',
+        text: 'The instrument includes a domestic or care work module, separate from the main questionnaire and containing more than two questions.' },
+      { id: 'd2_i2', doc: 'C', type: 'criterion_list',
+        text: 'Does the instrument ask about the responsibility for, the performance of and the magnitude of unpaid domestic and care work?',
+        elements: ['responsibility', 'performance', 'magnitude'],
+        statements: [
+          'The instrument explicitly asks who is in charge of domestic or care work, that is, who anticipates what the household or its members need, plans or organises the tasks, decides how they are done or makes sure they are done. A direct question about who is responsible for these tasks also counts. A question about who carries out the tasks does not count, even if it asks who does most of them, and neither does a category of inactivity or a reason for not working.',
+          'The instrument explicitly asks whether a person carries out domestic or care tasks, or which person does so, including who usually does them or who does most of them, whether asked of each member or once for the whole household. A question that classifies the person\'s activity status, or that asks what the person did instead of working or seeking work, does not count, even if it asks directly whether the person does household chores. A category of inactivity or a reason for not working does not count either. Whether the instrument treats this work as economic activity does not matter for this statement.',
+          'The instrument records how much domestic or care work is done, as time or frequency, for one or more members. Hours of paid work do not count.'
+        ] },
+      { id: 'd2_i3', doc: 'C', type: 'criterion',
+        text: 'The definition of the activity category includes unpaid domestic and care work. Do not infer that unpaid domestic and care work is included merely from the presence of related questions or categories. Count it as included only where the text indicates that such work is measured, classified or analytically incorporated as economic activity.' },
+      { id: 'd2_i4', doc: 'C', type: 'criterion',
+        text: 'The instrument records domestic work for each person through its own questions, separately from the questions on main and secondary work, so that main work, secondary work and domestic work can be told apart for the same person. Recording only the time each person devotes to domestic work is enough. It does not matter whether domestic work is excluded from the questions on employment, as long as it is recorded separately for each person elsewhere in the instrument. Mentioning domestic work only as a category of inactivity or a reason for not working does not count, and neither does a single question asked once for the whole household.' },
+      { id: 'd2_i5', doc: 'C', type: 'criterion',
+        text: 'The instrument explicitly asks whether a person supervises or remains available to care for other household members, such as children, while doing other activities or without care being their main activity. Questions on availability for paid work do not count, and neither does care given as a reason for not working or for not working more hours.' }
+    ]
+  },
+  d3: {
+    tag: 'Subdimension 3', tagClass: 'tag-purple',
+    title: 'Time use management',
+    question: 'Variable: Capacity of the survey to capture the organisation of time across paid work, unpaid work, education and leisure',
+    indicators: [
+      { id: 'd3_i1', doc: 'C', type: 'criterion',
+        text: 'The instrument asks how respondents allocate or spend their time across daily activities, recording the time devoted to more than one kind of activity. Questions that only record hours of paid work do not count.' },
+      { id: 'd3_i2', doc: 'C', type: 'criterion_list',
+        text: 'The statements refer to questions that record how respondents allocate their time across daily activities. If the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false.',
+        elements: ['paid work', 'unpaid work', 'leisure', 'self-care'],
+        statements: [
+          'The instrument records the time a person devotes to paid work.',
+          'The instrument records the time a person devotes to unpaid domestic or care work.',
+          'The instrument records the time a person devotes to leisure.',
+          'The instrument records the time a person devotes to self-care, such as sleeping, eating or personal care.'
+        ] }
+    ]
+  },
+  d4: {
+    tag: 'Subdimension 4', tagClass: 'tag-purple',
+    title: 'Household composition and headship',
+    question: 'Variable: Reproduction of intra-household gender hierarchies',
+    indicators: [
+      { id: 'd4_i1', doc: 'M+G', type: 'record',
+        text: 'Conceptual definition of household headship.' },
+      { id: 'd4_i2', doc: 'C+G', type: 'categorical',
+        text: 'Method for identifying the household head. "Self-declared by the household" means the head is the person the household members recognise as head. "Designated by the respondent" means the person answering names the head, with no reference to recognition by the other members. "Assigned by an explicit criterion" means the instrument sets a rule, such as being the main earner, the oldest member or the owner of the dwelling, and the criterion must be quoted. If the instrument does not establish a method, leave the selection empty.',
+        options: ['self-declared by the household', 'designated by the respondent', 'assigned by an explicit criterion'] },
+      { id: 'd4_i3', doc: 'C+M+G', type: 'criterion_list',
+        text: 'In the instrument and its documentation, how is the person who anchors the household record identified, and who answers household-level questions?',
+        elements: ['neutral_anchor_term', 'explicit_selection_rule', 'rule_not_sex_age_authority', 'respondent_separate_or_any_adult'],
+        statements: [
+          'The instrument does not use "head of household" as the category for identifying the anchor person, or it uses a neutral term (householder, reference person).',
+          'A rule for selecting the reference person or respondent is stated explicitly.',
+          'The instrument or its documentation states the criterion used to choose the reference person, and that criterion is not sex, seniority (choosing the oldest member) or presumed authority or breadwinner status, for example "the man", "the eldest" or "the main earner". A minimum age for answering the survey, or for answering on one\'s own behalf, is not a criterion for choosing the reference person and does not make this statement false.',
+          'The respondent to household-level questions is recorded separately from the reference person, or any knowledgeable adult may answer.'
+        ] },
+      { id: 'd4_i4', doc: 'C', type: 'criterion_list',
+        text: 'Does the instrument capture, separately and at member level, the following dimensions that "headship" usually collapses into one?',
+        elements: ['economic_maintenance', 'labor_burden', 'property_asset_control', 'decision_making'],
+        statements: [
+          'Economic maintenance: income or support by member across all sources (wages, informal work, pensions, remittances).',
+          'Labor burden: hours in paid work and in unpaid domestic or care work by member.',
+          'Property and asset control: dwelling tenure, land, or asset ownership recorded by member, not imputed to the head.',
+          'Decision-making: questions on who decides, by sphere (child-rearing, daily consumption, major financial choices).'
+        ] },
+      { id: 'd4_i5', doc: 'C+M', type: 'criterion_list',
+        text: 'How does the instrument record relationships between household members, and how does it delimit households and sub-units?',
+        elements: ['member_to_member_relationships', 'extended_ties', 'multiple_household_criteria', 'sub_units', 'caregiving_relationships'],
+        statements: [
+          'Relationships are recorded member-to-member (triangular grid, or pointer variables such as mother\'s ID, father\'s ID, partner\'s ID), not only relative to the head.',
+          'Ties beyond spouse and parent–child can be identified (grandparent–grandchild, siblings, non-kin, same-sex partners).',
+          'Criteria for separating multiple households within one dwelling are stated.',
+          'Sub-units within a larger household (secondary families or nuclei) can be identified.',
+          'Caregiving relationships (who cares for whom, inside or across households) can be identified.'
+        ] },
+      { id: 'd4_i6', doc: 'C', type: 'criterion_list',
+        text: 'Can the instrument\'s variables distinguish types of female-headed and women-maintained households instead of treating them as one category?',
+        elements: ['de_jure_vs_de_facto', 'unpartnered_mother_child_units', 'women_maintained_by_provider', 'mother_child_unit_activity'],
+        statements: [
+          'De jure vs de facto can be distinguished (marital status combined with partner presence or absence, migration, or remittance information).',
+          'Unpartnered mother–child units can be identified, including inside larger households.',
+          'Women-maintained households or units can be identified through the main provider, regardless of who is designated reference person.',
+          'The mother–child unit can be linked to its own consumption, production, or care activity (the observable proxy for the "hearth-hold").'
+        ] }
+    ]
+  },
+  c1: {
+    tag: 'Dimension 2', tagClass: 'tag-coral',
+    title: 'Microdata analysis and representation',
+    question: 'Analytical potential of the resulting microdata for gender-sensitive research, and who remains visible in it',
+    indicators: [
+      { id: 'c1_i1', doc: 'C', type: 'draft',
+        text: 'Individual-level records vs. household-level aggregation (can members be analysed separately?)' },
+      { id: 'c1_i2', doc: 'M', type: 'draft',
+        text: 'Sample size and weights allow disaggregation by sex/gender at the relevant geographic and demographic level' },
+      { id: 'c1_i3', doc: 'M', type: 'draft',
+        text: 'Representation of small populations (trans people, single-parent households, extended households)' },
+      { id: 'c1_i4', doc: 'M', type: 'draft',
+        text: 'Possibility of linking members within a household (couples, care givers and receivers)' },
+      { id: 'c1_i5', doc: 'G', type: 'draft',
+        text: 'Public access to microdata and its documentation (questionnaire, interviewer manual, codebook)' },
+      { id: 'c1_i6', doc: 'M', type: 'draft',
+        text: 'Anonymisation criteria: are gender or household-relationship variables suppressed in the public release?' },
+      { id: 'c1_i7', doc: 'C', type: 'draft',
+        text: 'Comparability of the gender-relevant variables across waves and across countries' }
+    ]
+  }
+}
+
+const SCAFFOLD_LABELS = {
+  role: 'Role', inputs: 'Inputs', constraints: 'Constraints', method: 'Method'
+}
+document.getElementById('scaffold-blocks').innerHTML =
+  ['role', 'inputs', 'constraints', 'method'].map(k => `
+    <div class="scaffold-block">
+      <div class="scaffold-label">${SCAFFOLD_LABELS[k]}</div>
+      <pre>${scaffold[k].replace(/&/g, '&amp;').replace(/</g, '&lt;')}</pre>
+    </div>
+  `).join('')
+
+function show(id) {
+  const d = content[id]
+  const panel = document.getElementById('panel')
+  panel.className = 'panel'
+  panel.innerHTML = `
+    <span class="tag ${d.tagClass}">${d.tag}</span>
+    <div class="panel-title">${d.title}</div>
+    <div class="panel-question">${d.question}</div>
+    <ul class="panel-items">
+      ${d.indicators.map(i => {
+        const extra = i.statements ? i.elements.map((e, k) => `<br><em>${e}</em>: ${i.statements[k]}`).join('')
+                    : i.elements ? `<br><em>${i.elements.join(', ')}</em>`
+                    : i.options ? `<br><em>${i.options.join(', ')}</em>`
+                    : i.fields ? `<br><em>${i.fields.join(', ')}</em>` : ''
+        return `<li><strong>${i.id}</strong> [${i.doc}, ${i.type}]<br>${i.text}${extra}</li>`
+      }).join('')}
+    </ul>
+  `
+}
+</script>
+</body>
+</html>

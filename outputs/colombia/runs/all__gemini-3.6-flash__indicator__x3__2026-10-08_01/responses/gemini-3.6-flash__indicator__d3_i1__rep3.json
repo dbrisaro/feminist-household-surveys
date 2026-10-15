@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "¿Cuántas horas a la semana trabaja normalmente.... en este trabajo?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo I, pregunta 52"
+        },
+        {
+          "text": "Cocinar, lavar los platos, poner la mesa en: a. Su hogar? Sí 1 Días Horas día",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 1"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar? Sí 1 Días Horas día",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 4"
+        }
+      ],
+      "reasoning": "The survey asks respondents about hours devoted to paid work (Chapter I, question 52) and also collects days and daily hours spent on multiple unpaid activities in Chapter K, such as domestic chores (cooking, cleaning) and care work (childcare, care of sick/elderly persons). Therefore, the instrument records time devoted to more than one kind of activity.",
+      "value": true
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "G - INGRESOS PERSONALES\n\nG.1 INGRESOS DE TRABAJADORES/AS DEPENDIENTES",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "G - INGRESOS PERSONALES, p. 14"
+        },
+        {
+          "text": "g.3 ¿Cuánto recibió el mes pasado en su empleo asalariado al que le dedica la mayor carga horaria?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "g.3, p. 14"
+        },
+        {
+          "text": "g.30 ¿Cuánto recibió el mes pasado por jubilaciones?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "g.30, p. 17"
+        },
+        {
+          "text": "g.43 ¿Recibe usted una pensión alimenticia o alguna contribución por divorcio o separación?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "g.43, p. 17"
+        },
+        {
+          "text": "f.42 ¿Cuántas horas trabaja habitualmente por semana en este trabajo?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.42, p. 11"
+        },
+        {
+          "text": "f.82 ¿Usted es… … quien realiza los quehaceres del hogar?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.82, p. 13"
+        },
+        {
+          "text": "h.7 Si el hogar es propietario de la vivienda. ¿Cuál o cuáles miembros del hogar son los propietarios/as?\nAnote el N° de persona......................................................................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "h.7, p. 20"
+        },
+        {
+          "text": "f.24 ¿Quién decide sobre… … su horario de trabajo? … el tipo de producto o servicio ofrecido? … el precio de los productos o servicios?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.24, p. 9"
+        }
+      ],
+      "reasoning": "Evaluating each element independently based on the survey documentation:\n- economic_maintenance (true): Section G ('INGRESOS PERSONALES') captures income and financial support per person across various sources, including wages (g.3), pensions (g.30), alimony (g.43), and remittances.\n- labor_burden (false): While paid work hours are recorded at the individual member level in Section F (f.42), the instrument does not measure hours spent on unpaid domestic or care work per member, recording unpaid domestic work only as a binary condition ('quien realiza los quehaceres del hogar', f.82).\n- property_asset_control (true): Question h.7 explicitly identifies and records which individual household member(s) own the dwelling by member number ('¿Cuál o cuáles miembros del hogar son los propietarios/as?').\n- decision_making (false): While question f.24 captures autonomy/decision-making over business operations for independent workers, the questionnaire contains no questions capturing household decision-making responsibilities across spheres such as child-rearing, daily consumption, or major financial choices.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": true
+      }
+    }
+  ]
+}

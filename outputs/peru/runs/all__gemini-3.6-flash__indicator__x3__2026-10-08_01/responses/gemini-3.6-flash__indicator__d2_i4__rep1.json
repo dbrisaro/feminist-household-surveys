@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "501"
+        },
+        {
+          "text": "Quehaceres del hogar? ............................. 5",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "546"
+        },
+        {
+          "text": "Los quehaceres del hogar no le permiten ............................................. 6",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "549"
+        },
+        {
+          "text": "Sólo realizó quehaceres del hogar? ............................................ 8",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "211A"
+        }
+      ],
+      "reasoning": "The survey explicitly excludes household chores from the main definition of work in question 501 (\"Sin contar los quehaceres del hogar\"). Domestic work is only recorded as a category of inactivity (question 546, option 5: \"Quehaceres del hogar\") or as a reason for not seeking work (question 549, option 6: \"Los quehaceres del hogar no le permiten\"). In Chapter 200 for minors aged 5 to 17, question 211A includes \"Sólo realizó quehaceres del hogar\" (option 8), which leads to skipping question 211D and thus does not measure time spent on domestic work. The instrument does not include dedicated questions to record unpaid domestic and care work separately for each individual.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

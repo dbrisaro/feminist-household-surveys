@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "QSF04. Numero componenti della famiglia",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        },
+        {
+          "text": "QSF11. Sesso del componente\n RICODIFICATA NELLA VARIABILE SESSO\n • Maschio 1\n • Femmina 2",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        },
+        {
+          "text": "QSF16. Relazione di parentela\n RICODIFICATA NELLA VARIABILE RUOLOFAM",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        }
+      ],
+      "reasoning": "The questionnaire refers to respondents using 'NOME' and gender-slashed adjectives (e.g., 'venuta/o', 'pagata/o', 'autonoma/o'). For sex, question QSF11 asks for 'Sesso del componente' with the binary response categories 'Maschio' and 'Femmina'. Household relationships are addressed via 'QSF04. Numero componenti della famiglia' and 'QSF16. Relazione di parentela', as well as references to 'familiare' throughout the questionnaire.",
+      "extracted_text": "QSF04. Numero componenti della famiglia\n\nQSF11. Sesso del componente\n • Maschio 1\n • Femmina 2\n\nQSF16. Relazione di parentela"
+    }
+  ]
+}

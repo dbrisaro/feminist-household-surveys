@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar? b. Hogares de personas familiares? c. Hogares de personas no familiares?",
+          "document": "[C]",
+          "location": "Capítulo K, pregunta 4, p. 86"
+        },
+        {
+          "text": "Cuidar personas enfermas, en condición de discapacidad o adultos mayores en: a. Su hogar? b. Hogares de personas familiares? c. Hogares de personas no familiares?",
+          "document": "[C]",
+          "location": "Capítulo K, pregunta 5, p. 86"
+        }
+      ],
+      "reasoning": "Section K of the questionnaire includes questions on unpaid care for children (Question 4) and care for ill, disabled, or elderly persons (Question 5). However, neither these questions nor any other items in the instrument ask whether a person supervises or remains available to care for other household members while performing other activities or without care being their main activity. Therefore, passive or supervisory care is not mentioned in the instrument.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

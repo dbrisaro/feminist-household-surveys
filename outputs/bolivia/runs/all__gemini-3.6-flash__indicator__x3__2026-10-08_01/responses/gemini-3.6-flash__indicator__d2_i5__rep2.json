@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2. EMPLEO, PARTE A: CONDICIÓN DE ACTIVIDAD, Pregunta 6"
+        },
+        {
+          "text": "2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2. EMPLEO, PARTE A: CONDICIÓN DE ACTIVIDAD, Pregunta 7"
+        },
+        {
+          "text": "6. Por realizar labores de casa/cuidado de miembros del hogar",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2. EMPLEO, PARTE H: SUBUTILIZACIÓN DE LA MANO DE OBRA, Pregunta 60"
+        }
+      ],
+      "reasoning": "The instrument does not explicitly ask whether a person supervises or remains available to care for other household members while performing other activities or without care being their main activity. The questionnaire mentions care only as a reason for not seeking work (Pregunta 6), as a status category of inactivity (Pregunta 7), or as a reason for not working more hours (Pregunta 60). Supervisory or passive care concurrent with other activities is not mentioned at all in the text.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

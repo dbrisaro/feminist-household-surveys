@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "¿Cuál fue su sexo al nacer?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 3, p. 6"
+        },
+        {
+          "text": "¿Cuál es el parentesco de ... con el jefe o jefa del hogar?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 5, p. 6"
+        },
+        {
+          "text": "¿La madre de… reside en este hogar?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 5A, p. 6"
+        },
+        {
+          "text": "¿El padre de… reside en este hogar?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 5B, p. 6"
+        },
+        {
+          "text": "¿El (la) cónyuge de… reside en este hogar?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 12, p. 10"
+        },
+        {
+          "text": "C. DATOS DEL HOGAR (PARA TODOS LOS HOGARES DE LA VIVIENDA)",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo C, p. 3"
+        },
+        {
+          "text": "L. OTROS INGRESOS E IMPUESTOS, MES PASADO (PARA TODAS LAS PERSONAS DE 10 AÑOS Y MAS)",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo L, p. 94"
+        }
+      ],
+      "reasoning": "The survey instrument allows distinguishing de jure versus de facto female-headed households because it collects individual sex (Capítulo E, Q3), relationship to household head (Capítulo E, Q5), marital status (Capítulo E, Q11), co-residence of spouse (Capítulo E, Q12), and remittance income from persons outside the household (Capítulo L, Q4). Unpartnered mother-child units can be uniquely identified within any household because Q5A and Q5B record the specific line numbers for mother and father residing in the household, alongside marital and co-resident partner status (Q11, Q12). Women-maintained households or units can be identified through individual income variables collected for all individuals aged 10 and older (Capítulo I, Q17, Q48; Capítulo L), enabling the identification of the primary provider regardless of who is designated as the reference person in Q5. However, the instrument does not link mother-child sub-units to their own separate consumption, production, or care activity (hearth-hold proxy), as household facilities and food preparation are collected strictly at the overall household level (Capítulo C), and care activities in Capítulo K are referenced to 'Su hogar' as a whole rather than disaggregated by mother-child sub-units.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

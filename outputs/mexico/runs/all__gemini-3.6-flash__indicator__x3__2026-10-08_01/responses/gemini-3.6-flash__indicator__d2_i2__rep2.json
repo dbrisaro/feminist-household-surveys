@@ -1,0 +1,35 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        },
+        {
+          "text": "2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        },
+        {
+          "text": "7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        },
+        {
+          "text": "4 una persona que se dedica a los quehaceres de su hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section II, Question 2e, page 4"
+        }
+      ],
+      "reasoning": "For responsibility: False. The instrument does not contain any question asking who is in charge of, plans, organizes, or is responsible for domestic or care work. Question 9 asks about time spent carrying out tasks, and Question 2e options classify non-occupational activity status, neither of which asks about managerial or mental responsibility. For performance: True. Question 9 directly asks whether individual household members performed unpaid care ('cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados?') and domestic tasks ('realizar los quehaceres de su hogar?'). For magnitude: True. Question 9 explicitly records the time dedicated to each unpaid domestic and care activity during the previous week in hours and minutes.",
+      "elements": {
+        "magnitude": true,
+        "performance": true,
+        "responsibility": false
+      }
+    }
+  ]
+}

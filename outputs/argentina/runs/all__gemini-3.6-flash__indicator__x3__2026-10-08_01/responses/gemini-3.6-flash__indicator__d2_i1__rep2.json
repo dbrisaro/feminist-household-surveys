@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "1a. ¿En la semana pasada, trabajó por lo menos una hora? (sin contar las tareas de su hogar)",
+          "document": "EPHContinua_CuestIndividual.pdf",
+          "location": "Question 1a"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa?",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII, p. 6"
+        },
+        {
+          "text": "2. ¿Qué otras personas ayudan en las tareas de la casa?",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII, p. 6"
+        }
+      ],
+      "reasoning": "The supplied survey documents do not contain a separate domestic or care work module. The household questionnaire (EPHContinua_CuestHogar.pdf) includes Block VII ('ORGANIZACIÓN DEL HOGAR'), but this is an integrated section within the main household questionnaire rather than a separate module, and it contains only two questions regarding household tasks (Question 1 on who performs most household tasks and Question 2 on who else helps). Additionally, Question 1a of the individual questionnaire explicitly excludes household tasks from the definition of work ('sin contar las tareas de su hogar'). Therefore, the instrument does not include a separate domestic or care work module.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

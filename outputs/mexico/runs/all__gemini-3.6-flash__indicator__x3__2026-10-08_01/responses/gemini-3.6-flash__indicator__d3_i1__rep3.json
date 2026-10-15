@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a\n1 estudiar o tomar cursos de capacitación? (incluye el tiempo dedicado a realizar trabajos escolares)\n2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)\n3 realizar compras, llevar cuentas o realizar trámites para el hogar o encargarse de la seguridad? (como guardar el automóvil)\n4 llevar a algún miembro del hogar a la escuela, cita médica u otra actividad?\n5 construir o ampliar su vivienda?\n6 reparar o dar mantenimiento a su vivienda, muebles, aparatos electrodomésticos o vehículos?\n7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)\n8 prestar servicios gratuitos a su comunidad?(conseguir despensas, cuidar personas en un hospital)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "IX. OTRAS ACTIVIDADES, Question 9"
+        }
+      ],
+      "reasoning": "Section IX (Question 9) of the Cuestionario de Ocupación y Empleo asks respondents to record the time (in hours and minutes during the previous week) devoted to multiple specific activities outside of paid work, including studying, unpaid caregiving, household management and shopping, accompanying household members, housing construction/repair, home maintenance, domestic chores, and voluntary community work. Thus, the instrument directly asks respondents how they allocate time across multiple non-paid work daily activities.",
+      "value": true
+    }
+  ]
+}

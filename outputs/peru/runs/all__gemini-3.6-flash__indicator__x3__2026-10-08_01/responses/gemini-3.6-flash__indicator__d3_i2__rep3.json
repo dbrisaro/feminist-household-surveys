@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "513.     ¿CUÁNTAS HORAS TRABAJÓ LA SEMANA         PASADA, EN SU OCUPACIÓN PRINCIPAL, EL         DÍA…",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Question 513, page 14"
+        },
+        {
+          "text": "518.   ¿CUÁNTAS HORAS TRABAJÓ LA SEMANA         PASADA   EN    SU(S) OCUPACIÓN(ES)         SECUNDARIA(S)?",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Question 518, page 15"
+        },
+        {
+          "text": "(211D) LA SEMANA PASADA, DEL…. AL…., ¿CUÁNTAS HORAS EN TOTAL REALIZÓ ESTA(S) TAREA(S): (Considere el total de horas de todas las tareas realizadas la semana pasada)",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Question 211D, page 7"
+        }
+      ],
+      "reasoning": "The survey instrument records hours worked in employment in Question 513 and Question 518 (Module 500) and hours dedicated to specific tasks by minors in Question 211D (Module 200). It does not contain a daily activity or time-use schedule recording time spent across leisure or self-care activities. Following the specific rule for this indicator ('If the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false'), all four elements are evaluated as false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

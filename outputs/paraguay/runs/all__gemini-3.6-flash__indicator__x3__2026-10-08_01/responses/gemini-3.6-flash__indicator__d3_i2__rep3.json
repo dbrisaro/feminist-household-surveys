@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "Durante los últimos 7 días, ¿cuántas horas diarias trabajó efectivamente en su OCUPACIÓN PRINCIPAL ...[NOMBRE]...?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE B, PGTA. 3"
+        }
+      ],
+      "reasoning": "The survey instrument records hours worked in employment/economic activities (such as in Sección 6, Parte B, Pregunta 3), but it does not record time allocated to unpaid domestic or care work, leisure, or self-care. Following the explicit rule provided in the prompt that if the instrument only records hours of paid work with no time recorded for any other daily activity, all four statements are false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

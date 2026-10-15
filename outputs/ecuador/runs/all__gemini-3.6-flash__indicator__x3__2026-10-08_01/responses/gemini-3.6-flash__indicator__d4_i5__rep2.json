@@ -1,0 +1,42 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "¿Qué relación de parentesco tiene (…) con el jefe del hogar?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "p. 20, Sección 1, Pregunta 4"
+        },
+        {
+          "text": "Jefe………………… 1 Cónyuge…………… 2 Hijo ó hija………….. 3 Yerno ó nuera…….. 4 Nieto ó nieta………. 5 Padres ó suegros… 6 Otros parientes…… 7 Empleado(a) Doméstico(a)……… 8 Otros no parientes… 9",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "p. 20, Sección 1, Pregunta 4"
+        },
+        {
+          "text": "Registre el nombre de todas las personas que comen y duermen habitualmente en este hogar.",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "p. 20, Sección 1"
+        },
+        {
+          "text": "- Tiene a cargo el cuidado de algún miembro de su hogar?.......................... 1",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "p. 6, Sección 2, Pregunta 29a"
+        },
+        {
+          "text": "¿Recibe el BONO POR EL CUIDADO BRINDADO A UNA PERSONA DISCAPACITADA DEL HOGAR?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "p. 17, Sección 3, Pregunta 77"
+        }
+      ],
+      "reasoning": "Section 1, Question 4 collects relationship information strictly relative to the head of the household ('¿Qué relación de parentesco tiene (…) con el jefe del hogar?'), without member-to-member grids or pointer variables. Therefore, member_to_member_relationships is false. Question 4 includes categories such as 'Nieto ó nieta', 'Padres ó suegros', 'Otros parientes', and 'Otros no parientes', which allows extended ties beyond spouse and child to be identified relative to the head, making extended_ties true. Section 1 explicitly specifies the criteria for defining and separating household members ('comen y duermen habitualmente en este hogar'), making multiple_household_criteria true. Because relationship options are limited to relationship to the head and no sub-unit identifiers exist, secondary family sub-units cannot be identified, making sub_units false. Finally, while Question 29a and Question 77 capture care responsibilities or caregiving bonuses generally, they do not identify specific caregiving relationships (who cares for whom inside or across households), so caregiving_relationships is false.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "¿Qué es ... del jefe(a) de este hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 7, p. 4"
+        },
+        {
+          "text": "¿Todas estas personas comparten el mismo gasto para comer?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section V, Question 2, p. 3"
+        },
+        {
+          "text": "¿Cuántos hogares o grupos de personas tienen gastos separados para comer contando el de usted?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section V, Question 3, p. 3"
+        },
+        {
+          "text": "cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, item 2, p. 12"
+        }
+      ],
+      "reasoning": "member_to_member_relationships: False. In Question 7, relationships are recorded strictly relative to the head of household ('¿Qué es ... del jefe(a) de este hogar?'), not member-to-member via a matrix grid or pointer IDs.\n\nextended_ties: False. Question 7 asks for relationship to the head, but no specific response options or categories for extended ties beyond spouse and child (such as grandparents, siblings, non-kin, or same-sex partners) are provided in the supplied instrument text.\n\nmultiple_household_criteria: True. Questions 2 and 3 of Section V explicitly define the criterion for separating multiple households within a dwelling as having separate food expenses ('gastos separados para comer').\n\nsub_units: False. The instrument contains no fields, codes, or questions to identify sub-units or secondary family nuclei within a household.\n\ncaregiving_relationships: False. Question 9.2 in Section IX measures time spent providing care to children, elderly, sick, or disabled individuals, but does not identify caregiving relationships (who cares for whom).",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": false,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": false
+      }
+    }
+  ]
+}

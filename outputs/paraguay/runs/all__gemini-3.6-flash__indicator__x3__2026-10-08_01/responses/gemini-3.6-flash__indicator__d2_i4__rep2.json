@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar .........................3",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6: EMPLEO E INGRESO, PARTE A, Pregunta 5"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................ 6",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6: EMPLEO E INGRESO, PARTE A, Pregunta 8"
+        },
+        {
+          "text": "Demasiado ocupado en tareas del hogar, estudio,etc .................................................................... 10",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6: EMPLEO E INGRESO, PARTE B, Pregunta 5"
+        }
+      ],
+      "reasoning": "The survey instrument does not contain separate questions to record unpaid domestic or care work for each person. Domestic tasks ('labores del hogar', 'tareas del hogar') are only mentioned as response categories for reasons for not being able to start work (Parte A, Pregunta 5), reasons for not seeking work (Parte A, Pregunta 8), or reasons for working fewer hours than usual (Parte B, Pregunta 5). Mentioning domestic work only as a reason for inactivity or not working does not satisfy the requirement.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

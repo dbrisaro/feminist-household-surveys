@@ -1,0 +1,56 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "Do you want to ask [name] the earnings questions now?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 216, INCNOW"
+        },
+        {
+          "text": "What was your gross pay, that is your pay before any deductions, the last time you were paid?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 216, GROSS99"
+        },
+        {
+          "text": "In the week ending Sunday the [date], were you claiming any State Benefits or Tax Credits (including State Pension, Allowances, Child Benefit or National Insurance Credits)?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 129, BENFTS"
+        },
+        {
+          "text": "How many hours per week do you usually work in your (main) job/business – please exclude meal breaks?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 82, TOTUS1"
+        },
+        {
+          "text": "Thinking now about the seven days ending Sunday the …, how many hours did you actually work in your (main) job/business – please exclude meal breaks?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 83, TOTAC1"
+        },
+        {
+          "text": "In which of these ways do you occupy this accommodation? Make sure answer applies to HRP",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 13, TEN1"
+        },
+        {
+          "text": "Record if [Name] is person in whose name this accommodation is owned or rented",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 12, HRPID"
+        },
+        {
+          "text": "HOUSEHOLD AND RESPONDENT CHARACTERISTICS",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 8"
+        }
+      ],
+      "reasoning": "1. economic_maintenance: False. The instrument collects gross/net earnings only for employees (GROSS99, p. 216) and benefit receipt for individual named recipients (BENFTS, p. 129). It does not collect income across all sources (such as self-employment income, informal work earnings, or remittances) at the individual member level.\n2. labor_burden: False. The instrument collects usual and actual hours spent in paid employment, self-employment, and family business work (TOTUS1, p. 82; TOTAC1, p. 83), but does not record hours spent in unpaid domestic or care work.\n3. property_asset_control: False. Accommodation tenure is recorded at the household level specifically in relation to the Household Reference Person (TEN1, p. 13: 'Make sure answer applies to HRP'; HRPID, p. 12), rather than collecting individual property or asset ownership for all members.\n4. decision_making: False. The instrument contains no questions evaluating decision-making agency across household spheres (such as child-rearing, daily consumption, or major financial choices).",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

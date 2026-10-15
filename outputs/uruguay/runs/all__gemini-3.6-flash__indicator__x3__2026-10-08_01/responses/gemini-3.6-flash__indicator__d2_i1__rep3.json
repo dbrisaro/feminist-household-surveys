@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "d.16 ¿Este hogar paga (en dinero o de otra forma) a personas para que limpien la vivienda, cuiden niños o ancianos o realicen alguna otra tarea doméstica?",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "Section D, d.16, page 3"
+        },
+        {
+          "text": "d.17 Sin mediar pago alguno, este hogar, ¿recibe ayuda de otros familiares o conocidos que no integran el hogar para limpiar la vivienda, cuidar niños o ancianos o para realizar alguna otra tarea doméstica?",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "Section D, d.17, page 3"
+        },
+        {
+          "text": "f.1 Sin considerar los quehaceres del hogar, ¿trabajó algún día en la semana comprendida entre el {+NOM_DIA1_SEMREF+} 1 y el {+NOM_DIA7_SEMREF+} 7 de {+NOM_MES_SEMREF+}?",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "Section F.1, f.1, page 8"
+        },
+        {
+          "text": "f.82 ¿Usted es… … quien realiza los quehaceres del hogar?",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "Section F.7, f.82, page 13"
+        }
+      ],
+      "reasoning": "The supplied survey instruments do not contain a separate module dedicated to measuring domestic or care work. Questions mentioning domestic tasks or care appear scattered across other sections: Section D asks about paying for or receiving help for domestic tasks (d.16, d.17), Section F.1 explicitly excludes household chores from the definition of work (f.1), and Section F.7 classifies doing household chores as a status under other activity conditions / non-employment (f.82). Thus, domestic and care work is mentioned in the survey but placed in other categories rather than being measured through a separate dedicated module containing more than two questions.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "1a. ¿En la semana pasada, trabajó por lo menos una hora? (sin contar las tareas de su hogar)",
+          "document": "EPHContinua_CuestIndividual.pdf",
+          "location": "1a"
+        },
+        {
+          "text": "... no podía trabajar por razones personales? (cuidado del hogar, estudios, incapacidad)",
+          "document": "EPHContinua_CuestIndividual.pdf",
+          "location": "1e"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa?",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII, Pregunta 1"
+        }
+      ],
+      "reasoning": "The definition of work in the survey's individual questionnaire explicitly excludes domestic tasks from the activity measurement, asking if the person worked at least one hour 'sin contar las tareas de su hogar' (question 1a). Additionally, care/domestic duties ('cuidado del hogar') are categorized as personal reasons for not being able to work rather than being recognized as work itself (question 1e). Although Block VII of the household questionnaire collects information on who performs household tasks, these activities are not measured, classified, or analytically incorporated as economic activity or within the activity category of work.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

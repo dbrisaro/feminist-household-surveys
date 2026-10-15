@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad",
+          "document": "epacues21.pdf",
+          "location": "PANTALLA nº6"
+        },
+        {
+          "text": "SEXO SEXO h/m",
+          "document": "epacues21.pdf",
+          "location": "PANTALLA nº6"
+        },
+        {
+          "text": "¿Cuál es su relación con la persona de referencia? RELPP 1. Persona de referencia (p.r.) 2. Cónyuge o pareja de la p.r. 3. Hijo/a, hijastro/a (de la p.r. o de su pareja) 4. Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a) 5. Padre, madre de la p.r. o de su pareja (padrastro/madrastra) 6. Nieto/a, de la p.r. o pareja de los mismos (incluye nietastros/as de ambos) 7. Abuelo/a de la p.r. o pareja del mismo (abuelastro/a de la p.r.) 8. Suegro/a de la p.r. o pareja del mismo 9. Hermano/a, hermanastro/a de la p.r. 10. Otro pariente de la p.r. (o pareja del mismo) 11. Persona del servicio doméstico 12. Sin parentesco con la p.r.",
+          "document": "epacues21.pdf",
+          "location": "RELPP"
+        },
+        {
+          "text": "5. De las personas relacionadas anteriormente, ¿alguna de ellas es su (Codificar 00 si no tiene o no reside en la vivienda) - conyuge o pareja? En tal caso, dígame su nombre: NCONY - padre? En tal caso, dígame su nombre: NPADRE - madre? En tal caso , dígame su nombre: NMADRE",
+          "document": "epacues21.pdf",
+          "location": "A. DATOS GENERALES, Q5"
+        }
+      ],
+      "reasoning": "The survey records sex using binary choices ('h/m') in PANTALLA nº6. Terms used to define household relationships relative to the 'persona de referencia' (RELPP) and directly in Section A include 'Persona de referencia (p.r.)', 'Cónyuge o pareja de la p.r.', 'Hijo/a, hijastro/a', 'Yerno, nuera', 'Padre, madre', 'Nieto/a', 'Abuelo/a', 'Suegro/a', 'Hermano/a, hermanastro/a', 'Otro pariente', 'Persona del servicio doméstico', 'Sin parentesco con la p.r.', as well as 'conyuge o pareja', 'padre', and 'madre'.",
+      "extracted_text": "SEXO: h/m. Relación con la persona de referencia: 1. Persona de referencia (p.r.), 2. Cónyuge o pareja de la p.r., 3. Hijo/a, hijastro/a (de la p.r. o de su pareja), 4. Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a), 5. Padre, madre de la p.r. o de su pareja (padrastro/madrastra), 6. Nieto/a, de la p.r. o pareja de los mismos (incluye nietastros/as de ambos), 7. Abuelo/a de la p.r. o pareja del mismo (abuelastro/a de la p.r.), 8. Suegro/a de la p.r. o pareja del mismo, 9. Hermano/a, hermanastro/a de la p.r., 10. Otro pariente de la p.r. (o pareja del mismo), 11. Persona del servicio doméstico, 12. Sin parentesco con la p.r. Direct relationship questions: conyuge o pareja, padre, madre."
+    }
+  ]
+}

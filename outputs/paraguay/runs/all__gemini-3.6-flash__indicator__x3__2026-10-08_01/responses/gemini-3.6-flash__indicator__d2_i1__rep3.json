@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "SECCIÓN 6 : EMPLEO E INGRESO",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, p. 14"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar .........................3",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte A, Pregunta 5, p. 15"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................................ 6",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte A, Pregunta 8, p. 15"
+        }
+      ],
+      "reasoning": "The supplied survey instrument does not contain a separate module dedicated to unpaid domestic or care work. Unpaid domestic work (\"labores del hogar\") is only mentioned in Section 6 (Empleo e Ingreso) as a reason for not being available to start work (Pregunta 5, code 3) or for not seeking work during the reference period (Pregunta 8, code 6), treating it as a category of inactivity rather than measuring it through a separate questionnaire module.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

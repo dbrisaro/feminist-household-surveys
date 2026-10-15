@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "1a. Independientemente de lo que me acaba de decir, ¿... le dedicó la semana pasada, al menos una hora a (Lee las opciones y circula las indicadas por el informante) 1 realizar una actividad que le proporcionó ingresos? 2 ayudar en las tierras o en el negocio de un familiar o de otra persona? 3 No trabajó la semana pasada",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Sección I, Pregunta 1a, p. 3"
+        },
+        {
+          "text": "ATENCIÓN: Si la respuesta en la pregunta 3 se refiere a: Quehaceres domésticos de su hogar Corrige la secuencia en batería 1 y haz la pregunta 2",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Sección III, Pregunta 3, p. 5"
+        },
+        {
+          "text": "2e. ¿... es (Lee las opciones y circula la indicada por el informante) 1 una persona temporalmente ausente de su actividad u oficio? 2 pensionado o jubilado de su empleo? 3 estudiante? 4 una persona que se dedica a los quehaceres de su hogar? 5 una persona con alguna limitación física o mental que le impide trabajar por el resto de su vida? 6 Otra condición",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Sección II, Pregunta 2e, p. 4"
+        },
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a ... 2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? ... 7 realizar los quehaceres de su hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Sección IX, Pregunta 9, p. 12"
+        }
+      ],
+      "reasoning": "The survey instrument defines economic activity/occupation in Section I (questions 1 and 1a) as activities providing income or helping in a family/other business. Unpaid domestic and care work is not included in this definition. In Section III, question 3, an explicit interviewer note instructs the interviewer that if a respondent answers with domestic chores (\"Quehaceres domésticos de su hogar\"), they must correct the sequence in Battery 1 and proceed to question 2 (non-occupied persons). Furthermore, Section II (question 2e) classifies people dedicated to household chores under non-occupied status (\"NO OCUPADOS\"), while unpaid care and domestic work are captured separately in Section IX (\"IX. OTRAS ACTIVIDADES\") outside the category of work.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

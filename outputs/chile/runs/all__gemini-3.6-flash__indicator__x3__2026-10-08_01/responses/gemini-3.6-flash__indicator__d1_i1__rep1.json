@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "pers9. ¿Cuál es el sexo de [Nombre de persona]? 1 Hombre 2 Mujer 88 No sabe 99 No responde",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Cuestionario Sociodemográfico, pers9, p. 6"
+        }
+      ],
+      "reasoning": "Question pers9 in the sociodemographic module explicitly collects the sex variable for household members, offering options '1 Hombre' and '2 Mujer'. Therefore, the instrument collects a sex variable.",
+      "value": true
+    }
+  ]
+}

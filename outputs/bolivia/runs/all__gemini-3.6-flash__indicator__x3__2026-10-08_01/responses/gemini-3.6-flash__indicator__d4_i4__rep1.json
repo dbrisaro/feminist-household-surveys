@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "33. ¿Cuánto es su salario líquido, excluyendo los descuentos de ley (AFP, IVA, IT)?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2. EMPLEO, PARTE C, Pregunta 33"
+        },
+        {
+          "text": "37. ¿Cuánto es su ingreso total en su ocupación principal?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2. EMPLEO, PARTE C, Pregunta 37"
+        },
+        {
+          "text": "28. ¿Cuántos días a la semana trabaja regularmente en su ocupación?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2. EMPLEO, PARTE B, Pregunta 28"
+        },
+        {
+          "text": "29. ¿Cuántas horas en promedio trabaja al día en su ocupación?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2. EMPLEO, PARTE B, Pregunta 29"
+        },
+        {
+          "text": "5. ¿Qué parentesco tiene con la jefa o jefe del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1. CARACTERÍSTICAS GENERALES DEL HOGAR Y SUS MIEMBROS, PARTE A, Pregunta 5"
+        }
+      ],
+      "reasoning": "The instrument does not separately capture the four dimensions across members: 1. Economic maintenance: Preguntas 33 and 37 measure labor income from employment, but non-labor income sources (such as pensions, remittances, or public transfers) across all sources are not recorded at the member level. 2. Labor burden: Preguntas 28 and 29 record hours worked in paid employment, but the instrument does not measure hours spent in unpaid domestic or care work by individual members. 3. Property and asset control: Pregunta 5 records household relationship to the head, but the instrument contains no section measuring dwelling tenure, land, or asset ownership at member level. 4. Decision-making: The instrument contains no questions regarding decision-making authority in any household sphere.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

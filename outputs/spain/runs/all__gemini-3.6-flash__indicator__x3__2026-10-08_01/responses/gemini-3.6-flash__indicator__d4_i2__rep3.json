@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "Dentro de cada hogar: ¿Cuál es su relación con la persona de referencia? RELPP 1. Persona de referencia (p.r.) 2. Cónyuge o pareja de la p.r. 3. Hijo/a, hijastro/a (de la p.r. o de su pareja) 4. Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a) 5. Padre, madre de la p.r. o de su pareja (padrastro/madrastra) 6. Nieto/a de la p.r. o pareja de los mismos (incluye nietastros/as de ambos) 7. Suegro/a de la p.r. o pareja del mismo (abuelastro/a de la p.r.) 8. Abuelo/a de la p.r. (o pareja de los mismos) 9. Hermano/a, hermanastro/a de la p.r. 10. Otro pariente de la p.r. (o pareja del mismo) 11. Persona del servicio doméstico 12. Sin parentesco con la p.r.",
+          "document": "epacues21.pdf",
+          "location": "HG4"
+        }
+      ],
+      "reasoning": "The questionnaire introduces the term 'persona de referencia' in item RELPP to determine the relationship of each household member to that person. However, the supplied text does not specify any rule, procedure, or explicit criterion for identifying or selecting who the 'persona de referencia' is. Because the instrument does not establish a method for identifying the household head or reference person, the selection is left empty.",
+      "selected": ""
+    }
+  ]
+}

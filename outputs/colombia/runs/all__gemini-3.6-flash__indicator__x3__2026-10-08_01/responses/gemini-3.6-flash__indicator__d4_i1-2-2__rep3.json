@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "Jefe o Jefa de hogar. Es el residente habitual que es reconocido por los demás miembros del hogar como \"jefe(a)\" (ONU, 1998).",
+          "document": "[M] DSO-GEIH-MET-001-V11.pdf",
+          "location": "GLOSARIO"
+        }
+      ],
+      "reasoning": "The survey methodology document provides an explicit conceptual definition for the head of household (\"Jefe o Jefa de hogar\") in its GLOSARIO section, defining it as the usual resident who is recognized as such by the other household members.",
+      "extracted_text": "Jefe o Jefa de hogar. Es el residente habitual que es reconocido por los demás miembros del hogar como \"jefe(a)\" (ONU, 1998)."
+    }
+  ]
+}

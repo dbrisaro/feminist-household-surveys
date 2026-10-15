@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "Record if [Name] is person in whose name this accommodation is owned or rented",
+          "document": "volume2octtodec2025.pdf",
+          "location": "HRPID, page 12"
+        },
+        {
+          "text": "HOUSEHOLD REFERENCE PERSON",
+          "document": "volume2octtodec2025.pdf",
+          "location": "Section heading, page 231"
+        },
+        {
+          "text": "You told me that [NumHhldrs] people jointly own or rent the accommodation. Which of you/them has the highest income (from earnings, benefits, pensions and any other sources)?",
+          "document": "volume2octtodec2025.pdf",
+          "location": "HIHNUM, page 231"
+        },
+        {
+          "text": "Enter person number of the eldest (joint householder) from those listed below",
+          "document": "volume2octtodec2025.pdf",
+          "location": "JNTELDA, page 231"
+        },
+        {
+          "text": "Enter PerNo of person providing information about this respondent",
+          "document": "volume2octtodec2025.pdf",
+          "location": "RESPNO, page 14"
+        },
+        {
+          "text": "From spring 2001 the LFS is switching from using Head of Household (HOH) to Household Reference Person (HRP) in line with all other ONS household surveys. HOH and HRP are derived in different ways. At present, the majority of heads of a household are male. This is because the HOH is defined to be the male in a couple or where more than one person has equal claim to be HOH and they are of opposite sex. The HRP will take into account accommodation ownership / rental, income and age in order to identify the HRP (see Volume 3 of this User Guide for more details).",
+          "document": "lfsugvoltcm77238281.pdf",
+          "location": "Section 4, page 9"
+        }
+      ],
+      "reasoning": "The survey documentation establishes that the instrument uses the neutral term 'Household Reference Person' (HRP) rather than 'head of household' as the primary category for identifying the anchor person. An explicit selection rule is specified, identifying the accommodation owner/renter (HRPID). However, when accommodation is jointly owned or rented, the selection rule relies on highest income (HIHNUM) and seniority/eldest age (JNTELDA, JNTELDB). The respondent who provides information about household members is recorded separately via RESPNO.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

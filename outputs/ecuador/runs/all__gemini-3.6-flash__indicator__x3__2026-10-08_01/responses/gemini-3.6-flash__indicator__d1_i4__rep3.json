@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "SEXO Hombre... 1 Mujer…... 2",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, p. 20"
+        },
+        {
+          "text": "PARENTESCO ¿Qué relación de parentesco tiene (…) con el jefe del hogar? Jefe……………… 1 Cónyuge…………… 2 Hijo ó hija………….. 3 Yerno ó nuera…….. 4 Nieto ó nieta………. 5 Padres ó suegros… 6 Otros parientes…… 7 Empleado(a) Doméstico(a)……… 8 Otros no parientes… 9",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, p. 20"
+        },
+        {
+          "text": "ESTADO CIVIL ¿Cuál es su estado civil ó conyugal actual: Casado (a)?.... 1 Separado (a)?. 2 Divorciado (a)? 3 Viudo (a)?........ 4 Unión Libre?... 5 Soltero (a)?..... 6",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, p. 20"
+        }
+      ],
+      "reasoning": "In Section 1 of the questionnaire, respondents are classified under 'SEXO' using binary categories ('Hombre', 'Mujer'). Relationships within the household are defined relative to the household head ('jefe del hogar'), with options including 'Jefe', 'Cónyuge', 'Hijo ó hija', 'Yerno ó nuera', 'Nieto ó nieta', 'Padres ó suegros', 'Otros parientes', 'Empleado(a) Doméstico(a)', and 'Otros no parientes'. Conjugal status options include 'Casado (a)', 'Separado (a)', 'Divorciado (a)', 'Viudo (a)', 'Unión Libre', and 'Soltero (a)'.",
+      "extracted_text": "SEXO: Hombre... 1, Mujer…... 2; PARENTESCO: ¿Qué relación de parentesco tiene (…) con el jefe del hogar? Jefe……………… 1, Cónyuge…………… 2, Hijo ó hija………….. 3, Yerno ó nuera…….. 4, Nieto ó nieta………. 5, Padres ó suegros… 6, Otros parientes…… 7, Empleado(a) Doméstico(a)……… 8, Otros no parientes… 9; ESTADO CIVIL: ¿Cuál es su estado civil ó conyugal actual: Casado (a)?.... 1, Separado (a)?. 2, Divorciado (a)? 3, Viudo (a)?........ 4, Unión Libre?... 5, Soltero (a)?..... 6"
+    }
+  ]
+}

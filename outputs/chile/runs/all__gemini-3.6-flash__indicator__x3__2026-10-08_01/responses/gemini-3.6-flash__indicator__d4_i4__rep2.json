@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de proveedora principal]? 1 Proveedor principal",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 6, Cuestionario Sociodemográfico, pers8"
+        },
+        {
+          "text": "f1 Por su actividad principal, ¿su pago fue... f1a ... a través de sueldo, salario o jornal?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 11, Sección F, f1"
+        },
+        {
+          "text": "h3 Habitualmente, ¿cuántas horas y días trabaja a la semana? h3a Actividad principal Horas diarias Días Total horas",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 13, Sección H, h3"
+        },
+        {
+          "text": "j7 ¿Por qué razón no buscó un empleo o no ha hecho preparativos para iniciar o reanudar una actividad por cuenta propia durante las últimas cuatro semanas? ... 3 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 16, Sección J, j7"
+        },
+        {
+          "text": "y1 Esta vivienda, ¿es arrendada? 1 Sí 2 No",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 18, Sección Y, y1"
+        },
+        {
+          "text": "d10 En su trabajo, ¿quién decide sobre: d10_1 El horario de trabajo",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 10, Sección D, d10"
+        }
+      ],
+      "reasoning": "The instrument fails to separately capture these dimensions across individual household members: 1. `economic_maintenance`: False. While the questionnaire identifies the main provider ('pers8') and captures earnings/payment types from employment ('f1'), it does not capture income across all sources (e.g., pensions, remittances, social transfers) by member. 2. `labor_burden`: False. The questionnaire captures detailed hours worked in paid employment ('h3a'), but does not measure time/hours spent in unpaid domestic or care work (care responsibilities appear only as response options for non-seeking/inactivity reasons in 'j7'). 3. `property_asset_control`: False. Dwelling tenure ('y1') is recorded at the overall dwelling/household level rather than by individual member ownership, and general asset/property ownership by member is not captured. 4. `decision_making`: False. Decision-making questions ('d10') are strictly limited to self-employed work parameters and do not cover household decision-making spheres (child-rearing, daily consumption, or financial choices).",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

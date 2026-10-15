@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "JEFE DEL HOGAR Es aquella persona que es reconocida como tal por los demás miembros del hogar, por razones de dependencia, afinidad, edad, autoridad, respeto, etc. Sí una persona vive sola (Hogar unipersonal), es él, el Jefe del Hogar. La edad mínima para ser considerado jefe es de 12 años. El hogar de la vivienda seleccionada debe tener un solo Jefe de hogar.",
+          "document": "[G] 202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "V. CARTOGRAFÍA, page 10"
+        },
+        {
+          "text": "Jefe del Hogar. - Es aquella persona que siendo residente habitual es reconocida como jefe por los demás miembros del hogar, ya sea por una mayor responsabilidad en las decisiones, por prestigio, ancianidad y razones económicas, o tradiciones sociales y culturales.",
+          "document": "[G] 202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "VI. ASPECTOS A TOMAR EN CUENTA PARA EL DILIGENCIAMIENTO DEL FORMULARIO, 2. MARCO CONCEPTUAL, page 32"
+        }
+      ],
+      "reasoning": "Document [G] provides two explicit conceptual definitions for the household head (Jefe del Hogar). The first definition appears on page 10 under the cartographic definitions section, defining the household head as the person recognized as such by the other household members for reasons of dependence, affinity, age, authority, respect, etc. The second definition appears on page 32 under the conceptual framework section, defining the household head as a usual resident recognized as head by other household members due to greater responsibility in decision-making, prestige, old age, economic reasons, or social and cultural traditions. Both verbatim definitions are transcribed directly from the text into extracted_text.",
+      "extracted_text": "JEFE DEL HOGAR Es aquella persona que es reconocida como tal por los demás miembros del hogar, por razones de dependencia, afinidad, edad, autoridad, respeto, etc. Sí una persona vive sola (Hogar unipersonal), es él, el Jefe del Hogar. La edad mínima para ser considerado jefe es de 12 años. El hogar de la vivienda seleccionada debe tener un solo Jefe de hogar. / Jefe del Hogar. - Es aquella persona que siendo residente habitual es reconocida como jefe por los demás miembros del hogar, ya sea por una mayor responsabilidad en las decisiones, por prestigio, ancianidad y razones económicas, o tradiciones sociales y culturales."
+    }
+  ]
+}

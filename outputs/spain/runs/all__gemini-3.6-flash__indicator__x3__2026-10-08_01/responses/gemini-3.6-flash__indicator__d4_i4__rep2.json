@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "¿Todas las personas de la vivienda forman un mismo hogar, en el sentido de que comparten presupuesto de manutención con usted, independientemente de los gastos fijos de vivienda, como la luz, el agua, la comunidad, etc.?",
+          "document": "[C] epacues21.pdf",
+          "location": "Section HG1, p. 8"
+        },
+        {
+          "text": "¿Cuántas horas semanales trabaja habitualmente en este empleo? No tenga en cuenta el tiempo para comer.",
+          "document": "[C] epacues21.pdf",
+          "location": "Section C, Q34, p. 11"
+        },
+        {
+          "text": "¿Decide usted personalmente su horario de trabajo?",
+          "document": "[C] epacues21.pdf",
+          "location": "Section C, Q30, p. 10"
+        },
+        {
+          "text": "En su opinión, ¿cuál de las siguientes opciones refleja mejor su situación actual? Le leo las opciones:",
+          "document": "[C] epacues21.pdf",
+          "location": "Section H, Q1, p. 19"
+        }
+      ],
+      "reasoning": "The survey instrument does not capture these distinct dimensions at the individual member level: 1) Economic maintenance: While Section G (OFEMP2) asks about receiving unemployment benefits and Section H (SIDIV1) asks if the individual receives pensions, the survey does not capture income or support amounts across all sources (wages, informal work, pensions, remittances) per individual member. 2) Labor burden: Section C (Q34) captures hours spent in paid work, but no section captures hours spent in unpaid domestic or care work (Section H, Q1 only records dedication to household tasks as a general status category). 3) Property and asset control: Section HG1 examines shared household budgets, but individual ownership or control of dwelling, land, or assets is not captured. 4) Decision-making: Section C (Q30) asks who decides the respondent's work schedule, but no questions address intra-household decision-making spheres such as child-rearing, daily consumption, or major financial choices.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

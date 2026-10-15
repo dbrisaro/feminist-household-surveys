@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "QSF11. Sesso del componente RICODIFICATA NELLA VARIABILE SESSO • Maschio 1 • Femmina 2",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), QSF11, p. 2"
+        }
+      ],
+      "reasoning": "Question QSF11 in the household roster (Scheda generale) explicitly asks for the sex of each household member ('Sesso del componente') with options for male ('Maschio') and female ('Femmina'), which is recoded into the variable SESSO. Therefore, the instrument collects a sex variable.",
+      "value": true
+    }
+  ]
+}

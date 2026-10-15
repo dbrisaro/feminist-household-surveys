@@ -1,0 +1,25 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a\n(Lee las opciones, circula las indicadas, pregunta y anota el tiempo)\n...\n2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)\n3 realizar compras, llevar cuentas o realizar trámites para el hogar o encargarse de la seguridad? (como guardar el automóvil)\n4 llevar a algún miembro del hogar a la escuela, cita médica u otra actividad?\n...\n6 reparar o dar mantenimiento a su vivienda, muebles, aparatos electrodomésticos o vehículos?\n7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Sección IX, pregunta 9, p. 12"
+        },
+        {
+          "text": "2e. ¿... es\n(Lee las opciones y circula la indicada por el informante)\n...\n4 una persona que se dedica a los quehaceres de su hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Sección II, pregunta 2e, p. 4"
+        }
+      ],
+      "reasoning": "For responsibility: The instrument does not contain any questions asking who is in charge of, plans, organizes, or is responsible for unpaid domestic or care work. Question 2e classifies activity status (e.g., 'se dedica a los quehaceres de su hogar'), which does not meet the definition of responsibility.\n\nFor performance: Question 9 in the Cuestionario de Ocupación y Empleo explicitly asks whether household members aged 12 and older performed unpaid care for children, elderly, sick, or disabled persons, performed household chores, made purchases/managed household accounts, or accompanied household members.\n\nFor magnitude: Question 9 records the amount of time spent (in hours and minutes) during the past week on each specified unpaid domestic and care activity.",
+      "elements": {
+        "magnitude": true,
+        "performance": true,
+        "responsibility": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "SEXO",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "p. 20, SECCIÓN 1: REGISTRO E INFORMACIÓN DE LOS MIEMBROS DEL HOGAR"
+        },
+        {
+          "text": "Hombre... 1",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "p. 20, SECCIÓN 1: REGISTRO E INFORMACIÓN DE LOS MIEMBROS DEL HOGAR"
+        },
+        {
+          "text": "Mujer... 2",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "p. 20, SECCIÓN 1: REGISTRO E INFORMACIÓN DE LOS MIEMBROS DEL HOGAR"
+        }
+      ],
+      "reasoning": "The questionnaire collects binary sex data ('Hombre' and 'Mujer') in Section 1 and Section 6. It does not collect a gender identity variable, nor does it mention gender identity anywhere in the instrument.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

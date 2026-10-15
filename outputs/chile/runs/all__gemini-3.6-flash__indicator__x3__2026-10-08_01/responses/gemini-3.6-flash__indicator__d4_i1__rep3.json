@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "La captura de preguntas sociodemográficas permite caracterizar a la población a partir de ciertas variables básicas, dentro de las cuales se indaga sobre el sexo, la edad, fecha de nacimiento, el estado civil, el nivel educacional, el parentesco, el proveedor principal, la nacionalidad, migración, pueblos índigenas, entre otras.",
+          "document": "[M] metodologia-ene-2020.pdf",
+          "location": "Sección 3.2.1, p. 21"
+        },
+        {
+          "text": "Primero, se abordan características básicas como parentesco con el proveedor principal del hogar, y después se registran elementos sociodemográficos como: sexo, edad, estado conyugal, migración, nacionalidad, pertenencia a un pueblo originario y educación.",
+          "document": "[M] metodologia-ene-2020.pdf",
+          "location": "Sección 5.2.2.2, p. 102"
+        }
+      ],
+      "reasoning": "The supplied methodological notes and technical reports do not contain a conceptual definition of household headship ('jefe/a de hogar'). The examined documents mention 'parentesco con el proveedor principal del hogar' in Section 3.2.1 (p. 21) and Section 5.2.2.2 (p. 102) of metodologia-ene-2020.pdf, but provide no definition for household headship. Therefore, extracted_text is left empty.",
+      "extracted_text": ""
+    }
+  ]
+}

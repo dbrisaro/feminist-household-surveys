@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "501.    LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "501"
+        },
+        {
+          "text": "Quehaceres del hogar? ............................. 5",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "546"
+        }
+      ],
+      "reasoning": "Question 501 defines work by explicitly instructing to exclude household chores ('Sin contar los quehaceres del hogar'). Furthermore, question 546 treats household duties ('Quehaceres del hogar') as a non-work activity for unemployed or inactive individuals. The instrument does not measure or classify unpaid domestic and care work as economic activity, but explicitly excludes it from the definition of work.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

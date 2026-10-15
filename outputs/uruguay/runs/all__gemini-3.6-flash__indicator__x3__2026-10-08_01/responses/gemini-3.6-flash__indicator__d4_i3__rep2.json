@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "e.22 ¿Cuál es su relación de parentesco con la persona referente del hogar (integrante del hogar N° 1)? Referente del hogar.......................................................... 1",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section E, question e.22, page 4"
+        },
+        {
+          "text": "e.5 Si la persona era referente del hogar en la visita anterior. Esta persona era referente del hogar en la entrevista anterior, ¿cuál persona pasa a ser el referente del hogar? E1_2_CV Anote el N° de persona......................................................................",
+          "document": "[C] C_Cuestionario_seguimiento_2024.pdf",
+          "location": "Section E, question e.5, page 2"
+        },
+        {
+          "text": "c.1 Informante de los datos del hogar. D261 Anote el número de informante del hogar..........................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section C, question c.1, page 1"
+        },
+        {
+          "text": "e.14 ¿Cuál miembro del hogar responde? E558 Anote el N° de persona......................................................................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section E, question e.14, page 4"
+        },
+        {
+          "text": "La información del hogar y de todos sus integrantes es proporcionada por un informante calificado.",
+          "document": "[M] Metodologia_ECH_2021.pdf",
+          "location": "Section 7.1, page 20"
+        }
+      ],
+      "reasoning": "The element neutral_anchor_term is true because the survey instrument uses 'persona referente del hogar' (reference person) instead of 'head of household' (e.g., question e.22 in C_Cuestionario_implantación_2024.pdf). The element explicit_selection_rule is false because the supplied documentation does not explicitly state a rule or procedure for selecting the reference person or defining who qualifies as the 'informante calificado'. The element rule_not_sex_age_authority is false because no selection criterion for choosing the reference person is stated in the provided text. The element respondent_separate_or_any_adult is true because the instrument separately records the household respondent ('c.1 Informante de los datos del hogar' and 'e.14 ¿Cuál miembro del hogar responde?') as a distinct person number from the reference person, and the methodological document specifies that household-level information is provided by a 'informante calificado'.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

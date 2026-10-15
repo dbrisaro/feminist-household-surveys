@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "29. ¿Cuántas horas en promedio trabaja al día en su ocupación?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Section 2, Part B, Question 29, Page 8"
+        },
+        {
+          "text": "11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Section 2, Part A, Question 6, Page 4"
+        },
+        {
+          "text": "2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Section 2, Part A, Question 7, Page 4"
+        }
+      ],
+      "reasoning": "The questionnaire records hours spent on paid employment (Question 29: \"¿Cuántas horas en promedio trabaja al día en su ocupación?\"), but does not ask respondents how they allocate or spend their time across daily activities (such as unpaid care, domestic work, education, or leisure). Unpaid care and domestic tasks are mentioned only as reasons for not seeking work (Question 6, option 11) or as categories of inactivity / status (Question 7, option 2).",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

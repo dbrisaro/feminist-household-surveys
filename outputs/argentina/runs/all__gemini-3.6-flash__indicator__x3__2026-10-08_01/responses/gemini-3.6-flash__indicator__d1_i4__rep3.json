@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "RELACIÓN DE PARENTESCO (Anote en el orden siguiente) Jefe/a Cónyuge/Pareja Hijo/a/Hijastro/a Yerno/Nuera Nieto/a Madre/Padre Suegro/a Hermano/a Otros Familiares No Familiares",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "IV. CARACTERÍSTICAS DE LOS MIEMBROS DEL HOGAR, p. 2"
+        },
+        {
+          "text": "SEXO (Anote en cada caso) 1. varón 2. mujer",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "IV. CARACTERÍSTICAS DE LOS MIEMBROS DEL HOGAR, p. 2"
+        },
+        {
+          "text": "SITUACIÓN CONYUGAL ¿Actualmente está...... 1... unido/a? 2... casado/a? 3... separado/a o divorciado/a? 4... viudo/a? 5... soltero/a?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "IV. CARACTERÍSTICAS DE LOS MIEMBROS DEL HOGAR, p. 2"
+        }
+      ],
+      "reasoning": "The questionnaire records relationships within the household using terms established in Block IV under 'RELACIÓN DE PARENTESCO' ('Jefe/a', 'Cónyuge/Pareja', 'Hijo/a/Hijastro/a', 'Yerno/Nuera', 'Nieto/a', 'Madre/Padre', 'Suegro/a', 'Hermano/a', 'Otros Familiares', 'No Familiares'). Sex is captured under 'SEXO' with categories '1. varón' and '2. mujer'. Marital status relationships are captured under 'SITUACIÓN CONYUGAL' with terms 'unido/a', 'casado/a', 'separado/a o divorciado/a', 'viudo/a', and 'soltero/a'.",
+      "extracted_text": "Jefe/a; Cónyuge/Pareja; Hijo/a/Hijastro/a; Yerno/Nuera; Nieto/a; Madre/Padre; Suegro/a; Hermano/a; Otros Familiares; No Familiares; 1. varón; 2. mujer; 1... unido/a?; 2... casado/a?; 3... separado/a o divorciado/a?; 4... viudo/a?; 5... soltero/a?"
+    }
+  ]
+}

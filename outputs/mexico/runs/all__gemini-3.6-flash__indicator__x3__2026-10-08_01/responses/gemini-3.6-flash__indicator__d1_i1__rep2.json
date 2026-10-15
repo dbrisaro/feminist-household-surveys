@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "SEXO 8 ... es 1 hombre 2 mujer",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, 8"
+        }
+      ],
+      "reasoning": "In Section VI (Sociodemographic Characteristics), column 8 explicitly asks for the respondent's sex ('SEXO') with options '1 hombre' (man) and '2 mujer' (woman). Therefore, the instrument collects a sex variable.",
+      "value": true
+    }
+  ]
+}

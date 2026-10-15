@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad",
+          "document": "[C] epacues21.pdf",
+          "location": "PANTALLA nº6"
+        }
+      ],
+      "reasoning": "The instrument collects data on sex ('SEXO') in PANTALLA nº6 using binary response options ('h/m' for hombre/mujer). It does not collect a gender identity variable, nor does it provide response options for non-binary or gender-diverse identities. Gender identity is not mentioned in the text.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

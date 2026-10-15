@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "pers2. De las personas que mencionó previamente, ¿quién es el proveedor principal del hogar?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 6, Cuestionario Sociodemográfico, pers2"
+        },
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de persona de proveedora principal]?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 6, Cuestionario Sociodemográfico, pers8"
+        }
+      ],
+      "reasoning": "The provided survey instrument does not contain or identify a household head ('jefe/a de hogar'). Questions pers2 and pers8 on page 6 use the reference category of 'proveedor principal' (main provider) to organize household roster relationships. Because the instrument does not establish a method for identifying a household head, the selection is left empty as instructed.",
+      "selected": ""
+    }
+  ]
+}

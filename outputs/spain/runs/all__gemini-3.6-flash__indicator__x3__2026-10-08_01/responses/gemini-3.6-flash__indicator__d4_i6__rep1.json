@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "5. De las personas relacionadas anteriormente, ¿alguna de ellas es su\n (Codificar 00 si no tiene o no reside en la vivienda)\n - conyuge o pareja? En tal caso, dígame su nombre: _______________________ NCONY\n\n - padre? En tal caso, dígame su nombre: _________________________________ NPADRE\n\n - madre? En tal caso , dígame su nombre: _________________________________ NMADRE",
+          "document": "epacues21.pdf",
+          "location": "A. DATOS GENERALES, Q5"
+        },
+        {
+          "text": "6. ¿Cuál es su estado civil legal? ECIV1\n - Soltero 1\n - Casado 2\n - Viudo 3\n - Separado o divorciado 4\n - No sabe",
+          "document": "epacues21.pdf",
+          "location": "A. DATOS GENERALES, Q6"
+        },
+        {
+          "text": "HG1. Si INFORM1=1 HOGAR1\n ¿Todas las personas de la vivienda forman un mismo hogar, en el sentido de que comparten presupuesto de manutención con usted, independientemente de los gastos fijos de vivienda, como la luz, el agua, la comunidad, etc.?",
+          "document": "epacues21.pdf",
+          "location": "HG1"
+        }
+      ],
+      "reasoning": "The questionnaire collects legal marital status (Q6, ECIV1) alongside direct person-pointer identification of whether a spouse or partner resides in the household (Q5, NCONY), allowing de jure (single, widowed, divorced) and de facto (married with absent partner) unpartnered women/female heads to be distinguished. Furthermore, Q5 explicitly captures the line number of each person's mother (NMADRE) and partner (NCONY), allowing unpartnered mother–child units to be identified even when residing within larger households. However, the survey does not identify the main economic provider of the household or unit to determine women-maintained households regardless of who is designated reference person, nor does it capture separate consumption, production, or care activities for sub-household mother–child units.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

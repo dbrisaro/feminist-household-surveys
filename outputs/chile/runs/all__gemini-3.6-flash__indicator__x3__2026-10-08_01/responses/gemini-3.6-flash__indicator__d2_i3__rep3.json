@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "a1 [nombre de persona], la semana pasada, es decir, entre lunes y domingo, ¿trabajó por lo menos una hora?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN A, a1, p. 8"
+        },
+        {
+          "text": "a2 Independientemente de lo que acaba de decir, ¿hizo algún negocio, “pololo” u otra actividad por cuenta propia por lo menos durante una hora? Por ejemplo… ¿Efectuó alguna venta o negocio? (con excepción de los bienes de su hogar) ¿Realizó alguna actividad agrícola, minera, artesanal u otra, para vender a futuro? ¿Ayudó o prestó algún servicio a algún familiar?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN A, a2, p. 8"
+        },
+        {
+          "text": "j7 ¿Por qué razón no buscó un empleo o no ha hecho preparativos para iniciar o reanudar una actividad por cuenta propia durante las últimas cuatro semanas? ... 3 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN J, j7, p. 16"
+        }
+      ],
+      "reasoning": "The survey defines economic activity in Section A (questions a1-a4) based on work for pay, profit, or unpaid assistance to a family business, explicitly excepting household goods/production ('con excepción de los bienes de su hogar'). Unpaid care and domestic responsibilities are listed under Section J (question j7) as reasons for not seeking work, placing unpaid care work into categories of non-occupation/inactivity rather than including it in the definition of work.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

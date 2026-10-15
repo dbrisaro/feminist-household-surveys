@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "5. ¿Qué parentesco tiene con la jefa o jefe del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 2, Sección 1, Parte A, Pregunta 5"
+        },
+        {
+          "text": "1. JEFA O JEFE DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 2, Sección 1, Parte A, Pregunta 5"
+        },
+        {
+          "text": "2a. Cual es la Incidencia del miembro:",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 1, Sección 1, Parte A, Pregunta 2a"
+        },
+        {
+          "text": "ANOTAR 1 SI EL MIEMBRO SE ENCUENTRA PRESENTE DURANTE LA ENTREVISTA (INFORMANTE DIRECTO)",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 1, Sección 1, Parte A, Pregunta 2a"
+        },
+        {
+          "text": "ANOTAR 2 SI EL MIEMBRO NO SE ENCUENTRA DURANTE LA ENTREVISTA Y SU INFORMACION FUE BRINDADA POR UN INFORMANTE CALIFICADO (INFORMANTE INDIRECTO)",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Página 1, Sección 1, Parte A, Pregunta 2a"
+        }
+      ],
+      "reasoning": "The supplied documents are evaluated as follows: 1. `neutral_anchor_term`: Question 5 of the questionnaire explicitly uses the category 'jefa o jefe del hogar' (head of household) to designate the anchor person, rather than avoiding the term or using a gender-neutral reference term such as householder or reference person. Thus, `neutral_anchor_term` is false. 2. `explicit_selection_rule`: Neither the questionnaire [C] nor the methodological notes [M] state an explicit rule for selecting the reference person ('jefa o jefe del hogar'). Note that interviewer manual [G] was not supplied in this run. Thus, `explicit_selection_rule` is false. 3. `rule_not_sex_age_authority`: Because no selection rule or criterion for choosing the reference person is stated in [C] or [M], the text does not establish a selection rule free of sex, seniority, authority, or earner criteria. Thus, `rule_not_sex_age_authority` is false. 4. `respondent_separate_or_any_adult`: Question 2a in [C] allows information to be provided by an 'informante calificado' (qualified/knowledgeable informant) when a member is absent and records whether the respondent was a direct informant or an indirect qualified informant. This establishes that any knowledgeable adult may answer and records respondent status. Thus, `respondent_separate_or_any_adult` is true.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

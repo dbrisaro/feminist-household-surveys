@@ -1,0 +1,42 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "¿Qué es ... del jefe(a) de este hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 7, page 4"
+        },
+        {
+          "text": "¿Cuál es el nombre de los integrantes de este hogar empezando por el jefe o la jefa? AL FINAL DE LA LISTA INCLUYE A LOS HUÉSPEDES, TRABAJADORES DOMÉSTICOS Y A SUS FAMILIARES",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 5, page 4"
+        },
+        {
+          "text": "¿Todas estas personas comparten el mismo gasto para comer?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section V, Question 2, page 3"
+        },
+        {
+          "text": "¿Cuántos hogares o grupos de personas tienen gastos separados para comer contando el de usted?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section V, Question 3, page 3"
+        },
+        {
+          "text": "cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, item 2, page 12"
+        }
+      ],
+      "reasoning": "The instrument records household member relationships exclusively relative to the household head in Question 7 ('¿Qué es ... del jefe(a) de este hogar?'), without member-to-member matrices or pointer variables. Extended ties across all members cannot be comprehensively identified as relationships are anchored only to the head. Multiple household criteria are explicitly stated in Questions 2 and 3 using separate food expenses ('gastos separados para comer'). No questions or variables are provided to identify sub-units or secondary family nuclei within a household. Question 9 item 2 captures time spent on unpaid care work ('cuidar o atender sin pago...'), but does not identify caregiving relationships (who provides care to whom, inside or across households).",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": false,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": false
+      }
+    }
+  ]
+}

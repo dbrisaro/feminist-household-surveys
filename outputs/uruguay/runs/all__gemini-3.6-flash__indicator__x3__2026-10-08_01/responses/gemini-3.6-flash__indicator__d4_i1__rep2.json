@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "La información del hogar y de todos sus integrantes es proporcionada por un informante calificado.",
+          "document": "[M] Metodologia_ECH_2021.pdf",
+          "location": "7.1. Introducción, p. 20"
+        },
+        {
+          "text": "Glosario",
+          "document": "[M] Metodologia_ECH_2021.pdf",
+          "location": "Glosario, p. 69"
+        }
+      ],
+      "reasoning": "The supplied document [M] Metodologia_ECH_2021.pdf does not contain a conceptual definition of household headship ('jefe' or 'jefa de hogar'). Section 7.1 mentions that information for the household is provided by a qualified informant ('informante calificado'), but does not define household headship. The Glosario section (pp. 69-70) defines various survey concepts (such as 'Elegibles Respondentes', 'Tasa de Actividad', 'Unidad Primaria de muestreo'), but excludes any entry or definition for household head or household headship. An interviewer manual [G], which might document such operational definitions, was not supplied in this run.",
+      "extracted_text": ""
+    }
+  ]
+}

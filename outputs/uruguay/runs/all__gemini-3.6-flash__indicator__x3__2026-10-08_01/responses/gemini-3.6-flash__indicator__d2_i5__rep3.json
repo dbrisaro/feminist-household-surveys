@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "Por atender a hijos/as enfermos/as o cuidarles. .............. 5",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.6"
+        },
+        {
+          "text": "Por tener que cuidar niños/as. ...................................................................... 3",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.63"
+        },
+        {
+          "text": "No tiene tiempo por su trabajo doméstico, el cuidado de niños/as u otras personas dependientes.......................... 5",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.71"
+        }
+      ],
+      "reasoning": "The provided survey instruments mention care for children and dependent household members as reasons for not working during the reference week (f.6), not working more hours (f.63), or not seeking employment (f.71). However, the instrument does not include any questions asking whether a person supervises or remains available to care for household members (passive/supervisory care) while performing other activities or when care is not their main activity. Thus, the proposition does not hold.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

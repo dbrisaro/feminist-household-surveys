@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "Durante los últimos 7 días, ¿cuántas horas diarias trabajó efectivamente en su OCUPACIÓN PRINCIPAL ...[NOMBRE]...?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte B, Pregunta 3"
+        },
+        {
+          "text": "¿Cuántas horas semanales trabaja habitualmente en esta ocupación ...[NOMBRE]...?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte B, Pregunta 5"
+        }
+      ],
+      "reasoning": "The survey instrument records hours spent on employment/paid activities in Sección 6 (Parte B, C1, C2). However, it does not collect time allocation data for unpaid domestic or care work, leisure, or self-care. Under the rule established for this indicator ('If the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false'), all four elements are false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

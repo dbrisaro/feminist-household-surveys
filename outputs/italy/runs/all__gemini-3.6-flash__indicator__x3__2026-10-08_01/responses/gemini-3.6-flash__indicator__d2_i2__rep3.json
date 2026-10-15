@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "QC29 Per quale tra questi motivi lavora part time (a tempo parziale): • Studia o segue corsi di formazione 1|_|(passare a QC31) • Malattia, problemi di salute personali 2|_|(passare a QC31) • Si prende cura dei figli e/o di altri familiari non autosufficienti 3|_| • Altri motivi familiari (ad esempio si occupa della casa, è in attesa di un figlio, vuole più tempo per la famiglia) 4|_|(passare a QC31)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 8, QC29"
+        },
+        {
+          "text": "QF07 Qual è il motivo principale per cui “NOME” non ha cercato un lavoro nelle 4 settimane che vanno “DAL… AL…”? ... • Si prende cura dei figli e/o di altri familiari non autosufficienti 5|_| (passare a QF09) • Altri motivi familiari (ad esempio fa la casalinga/o, in attesa di un figlio, vuole più tempo per la famiglia) 6|_| (passare a QF10)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 14, QF07"
+        },
+        {
+          "text": "QJ01.Passiamo ora a parlare di come [NOME] si percepisce, al di là di quello che ha dichiarato fino ad ora. In generale “NOME” si considera occupata/o, disoccupata/o, ritirata/o dal lavoro, inabile al lavoro, studentessa/e o casalinga/o?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 20, QJ01"
+        }
+      ],
+      "reasoning": "The supplied questionnaire includes references to household chores, homemaking, and care for children or other non-self-sufficient family members in questions QC29 (reasons for working part-time), QF07 (reasons for not seeking work), QF12/QF13/QF34/QF44 (reasons for not working or availability), and QJ01 (self-perceived status as 'casalinga/o'). However, none of these meet the criteria for responsibility, performance, or magnitude: 1. Responsibility: The instrument nowhere asks who is in charge of, plans, organises, or holds responsibility for domestic or care tasks. Therefore, 'responsibility' is false. 2. Performance: Under the specified criteria, categories of inactivity, activity status classifications, or reasons for not working / working part-time do not count as direct performance questions, even if they mention household chores or caring for family members. There is no question asking whether or which household member performs domestic or care tasks. Therefore, 'performance' is false. 3. Magnitude: The survey records hours for employment and secondary economic activities (e.g. QC31, QC32, QD08), but contains no questions measuring the time or frequency spent on unpaid domestic or care work. Therefore, 'magnitude' is false.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

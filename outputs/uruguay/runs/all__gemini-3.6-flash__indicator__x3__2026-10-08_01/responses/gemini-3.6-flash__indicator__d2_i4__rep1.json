@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "Sin considerar los quehaceres del hogar, ¿trabajó algún día en la semana comprendida entre el {+NOM_DIA1_SEMREF+} 1 y el {+NOM_DIA7_SEMREF+} 7 de {+NOM_MES_SEMREF+}?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Page 8, Question f.1"
+        },
+        {
+          "text": "No tiene tiempo por su trabajo doméstico, el cuidado de niños/as u otras personas dependientes.......................... 5",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Page 13, Question f.71"
+        },
+        {
+          "text": "… quien realiza los quehaceres del hogar?.......................................... 1 2",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Page 13, Question f.82"
+        },
+        {
+          "text": "¿Este hogar paga (en dinero o de otra forma) a personas para que limpien la vivienda, cuiden niños o ancianos o realicen alguna otra tarea doméstica?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Page 3, Question d.16"
+        }
+      ],
+      "reasoning": "The survey instrument explicitly instructs respondents to exclude domestic chores when asking about work in question f.1. Unpaid domestic and care work is not recorded for each person through dedicated questions or time-use items; instead, it appears only as a reason for not seeking work (question f.71) or as an inactivity category (question f.82: 'quien realiza los quehaceres del hogar'). In addition, domestic task arrangements are asked only at the household level in questions d.16 and d.17. Therefore, the survey does not record domestic work separately for each person.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

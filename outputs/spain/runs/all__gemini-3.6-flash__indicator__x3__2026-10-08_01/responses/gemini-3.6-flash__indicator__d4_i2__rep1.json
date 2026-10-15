@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "Dentro de cada hogar:\n\n¿Cuál es su relación con la persona de referencia?                                         RELPP\n1. Persona de referencia (p.r.)\n2. Cónyuge o pareja de la p.r.\n3. Hijo/a, hijastro/a (de la p.r. o de su pareja)\n4. Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a)\n5. Padre, madre de la p.r. o de su pareja (padrastro/madrastra)\n6. Nieto/a de la p.r. o pareja de los mismos (incluye nietastros/as de ambos)\n7. Suegro/a de la p.r. o pareja del mismo\n8. Abuelo/a (o pareja de los mismos) (abuelastro/a de la p.r.)\n9. Hermano/a, hermanastro/a de la p.r.\n10. Otro pariente de la p.r. (o pareja del mismo)\n11. Persona del servicio doméstico\n12. Sin parentesco con la p.r.",
+          "document": "epacues21.pdf",
+          "location": "p. 7, RELPP"
+        }
+      ],
+      "reasoning": "The questionnaire asks for each household member's relationship to the reference person ('persona de referencia') in variable RELPP on page 7. However, the document does not contain any question, instruction, or explicit rule specifying how the reference person or household head is to be identified, selected, or designated. Because the text does not establish a method for identifying the household head, the selection is left empty.",
+      "selected": ""
+    }
+  ]
+}

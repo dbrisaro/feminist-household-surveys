@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "VII. ORGANIZACIÓN DEL HOGAR, p. 6"
+        },
+        {
+          "text": "2. ¿Qué otras personas ayudan en las tareas de la casa?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "VII. ORGANIZACIÓN DEL HOGAR, p. 6"
+        },
+        {
+          "text": "1a. ¿En la semana pasada, trabajó por lo menos una hora? (sin contar las tareas de su hogar)",
+          "document": "[C] EPHContinua_CuestIndividual.pdf",
+          "location": "1a, p. 1"
+        },
+        {
+          "text": "... no podía trabajar por razones personales? (cuidado del hogar, estudios, incapacidad)",
+          "document": "[C] EPHContinua_CuestIndividual.pdf",
+          "location": "1e, p. 1"
+        }
+      ],
+      "reasoning": "The household questionnaire asks who performs most household tasks and who helps with household tasks (Block VII, Questions 1 and 2), and the individual questionnaire excludes household tasks from the definition of work (Question 1a) while recording care of the household as a reason for not working (Question 1e). Nowhere in the instrument is there a question asking whether a person supervises or remains available to care for household members while doing other activities or without care being their main activity.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

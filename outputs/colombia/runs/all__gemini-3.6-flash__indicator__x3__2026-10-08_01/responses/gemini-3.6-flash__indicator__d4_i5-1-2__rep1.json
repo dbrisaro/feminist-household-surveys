@@ -1,0 +1,57 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "¿La madre de… reside en este hogar? Sí 1 Número de orden",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter E, Question 5A, p. 6"
+        },
+        {
+          "text": "¿El padre de… reside en este hogar? Sí 1 Número de orden",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter E, Question 5B, p. 6"
+        },
+        {
+          "text": "¿El (la) cónyuge de… reside en este hogar? Sí 1 Número de orden",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter E, Question 12, p. 10"
+        },
+        {
+          "text": "¿Cuál es el parentesco de ... con el jefe o jefa del hogar? ... e. Suegro(a) 5 f. Hermano(a) hermanastro(a) 6 g. Yerno o nuera 7 h. Nieto(a) 8 i. Otro pariente 9 j. Empleado(a) del servicio doméstico y sus parientes 10 k. Pensionista 11 l. Trabajador 12 m. Otro no pariente 13",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter E, Question 5, p. 6"
+        },
+        {
+          "text": "Hogar. Es una persona o grupo de personas, parientes o no, que: ocupan la totalidad o parte de una unidad de vivienda; atienden necesidades básicas con cargo a un presupuesto común y generalmente comparten las comidas (ONU, 1998).",
+          "document": "[M] DSO-GEIH-MET-001-V11.pdf",
+          "location": "GLOSARIO, p. 38"
+        },
+        {
+          "text": "¿Cuáles son los nombres y apellidos de las personas que comen y duermen habitualmente en este hogar, RESIDENTES HABITUALES presentes o no?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter D, Question 1, p. 5"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar? b. Hogares de personas familiares? c. Hogares de personas no familiares?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter K, Question 4, p. 86"
+        },
+        {
+          "text": "Cuidar personas enfermas, en condición de discapacidad o adultos mayores en: a. Su hogar? b. Hogares de personas familiares? c. Hogares de personas no familiares?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter K, Question 5, p. 86"
+        }
+      ],
+      "reasoning": "Regarding member_to_member_relationships, Chapter E includes direct pointer variables recording the person order number of each member's mother (Q5A), father (Q5B), and spouse/partner (Q12), establishing member-to-member relationship tracking beyond just relationship to the household head. Regarding extended_ties, Q5 includes options for grandchildren, siblings, parents-in-law, sons/daughters-in-law, other relatives, domestic employees, pensioners, workers, and other non-relatives, while Q12 combined with gender options allows identification of same-sex partners. Regarding multiple_household_criteria, document [M] explicitly defines a household based on shared dwelling, common budget for basic needs, and shared meals, and document [C] Chapter D Q1 specifies cohabitation and meal sharing. Regarding sub_units, the pointer variables linking each person to their mother, father, and spouse/partner enable the identification of secondary family nuclei or sub-units within the household. Regarding caregiving_relationships, Chapter K (Q4-Q6) asks if respondents provided care to children under 5, sick/disabled persons, or elderly persons in their own household or other households, but it does not identify specific person-to-person caregiving links (who specifically cares for whom at an individual member level).",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": true,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

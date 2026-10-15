@@ -1,0 +1,2 @@
+country,model,mode,api_calls,fresh_input_tokens,cache_write_tokens,cache_read_tokens,output_tokens,cost_usd,wallclock_s,total_input_tokens,pct_input_from_cache,cost_usd_no_cache,cache_saving_usd,cache_saving_pct,cost_notional,projected_13_countries_usd
+bolivia,gemini-3.6-flash,indicator,51,306376,0,585539,135991,0.7837,683.36,891915,0.656,1.1789,0.3952,0.335,False,10.19

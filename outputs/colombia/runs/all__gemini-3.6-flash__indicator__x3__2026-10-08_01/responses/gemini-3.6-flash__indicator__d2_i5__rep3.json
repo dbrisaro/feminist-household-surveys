@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 4, p. 86"
+        },
+        {
+          "text": "Cuidar personas enfermas, en condición de discapacidad o adultos mayores en:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 5, p. 86"
+        }
+      ],
+      "reasoning": "The questionnaire contains questions on unpaid care activities in Section K (questions 4 and 5), measuring direct care for children, sick individuals, persons with disabilities, and older adults by recording days and daily hours spent on care. However, the instrument does not contain any questions asking whether a person supervises or remains available/on call to care for household members while doing other activities or without care being their primary activity.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

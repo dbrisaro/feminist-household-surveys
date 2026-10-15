@@ -1,0 +1,56 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "Antes de descuentos, ¿cuánto ganó... el mes pasado en este empleo?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section I, Q17, page 34"
+        },
+        {
+          "text": "b. Pensiones o jubilaciones por vejez, invalidez o sustitución pensional?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section L, Q2, page 94"
+        },
+        {
+          "text": "a. Dinero de otros hogares o personas residentes en el país",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section L, Q4, page 96"
+        },
+        {
+          "text": "¿Cuántas horas a la semana trabaja normalmente.... en este trabajo?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section I, Q52, page 56"
+        },
+        {
+          "text": "Cocinar, lavar los platos, poner la mesa en: a. Su hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section K, Q1, page 84"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section K, Q4, page 86"
+        },
+        {
+          "text": "9. La vivienda ocupada por este hogar es: a. Propia, totalmente pagada 1 Pase a 10 b. Propia, la están pagando 2 Pase a 9A c. En arriendo o subarriendo 3 Pase a 12 d. En usufructo 4 Pase a 11 e. Posesión sin título 5 Pase a 11 f. Propiedad colectiva 6 Pase a 11 g. Otra, ¿cuál? 7 Pase a 11",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section C, Q9, page 3"
+        },
+        {
+          "text": "En su trabajo, ¿quién decide sobre su horario de trabajo?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section I, Q28, page 44"
+        }
+      ],
+      "reasoning": "The survey captures economic maintenance and labor burden separately at the individual member level, but does not capture dwelling tenure at the member level or intra-household decision-making across spheres. Specifically:\n- economic_maintenance is true: Income from wages, informal/independent work, pensions, alimony, and remittances are recorded per individual person in Section I (Q17, Q32, Q33, Q48, Q73) and Section L (Q2, Q4).\n- labor_burden is true: Hours spent in paid work are collected per member in Section I (Q52, Q54), and hours spent in unpaid domestic chores and care activities are captured per member in Section K (Q1–Q6).\n- property_asset_control is false: Dwelling tenure is collected as a single household-level question in Section C (Q9) for the household as a whole, rather than being recorded by individual member.\n- decision_making is false: The survey lacks questions on intra-household decision-making by sphere (such as child-rearing, daily consumption, or financial choices). The only decision questions present (Section I, Q28–Q30) relate exclusively to independent work/business management.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": true,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

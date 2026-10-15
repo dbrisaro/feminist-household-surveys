@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "3 ¿Quién es el jefe o jefa del hogar? (anote su nombre en primer lugar y luego continúe con el resto del hogar)",
+          "document": "[C] EPHContinua_CuestVivienda.pdf",
+          "location": "Bloque V, columna 3"
+        },
+        {
+          "text": "03 RELACIÓN DE PARENTESCO (Anote en el orden siguiente) Jefe/a Cónyuge/Pareja Hijo/a/Hijastro/a...",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, columna 03"
+        }
+      ],
+      "reasoning": "The questionnaire asks the person being interviewed to name the household head directly through the question \"¿Quién es el jefe o jefa del hogar?\" without setting an explicit rule (such as main earner or age) and without specifying that the selection must be agreed upon or recognised collectively by all household members. Therefore, the head is designated by the respondent.",
+      "selected": "designated by the respondent"
+    }
+  ]
+}

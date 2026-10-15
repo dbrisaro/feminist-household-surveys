@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "34. ¿Cuántas horas semanales trabaja habitualmente en este empleo? No tenga en cuenta el tiempo para comer.",
+          "document": "epacues21.pdf",
+          "location": "C34 / HORASH"
+        },
+        {
+          "text": "1. En su opinión, ¿cuál de las siguientes opciones refleja mejor su situación actual? Le leo las opciones:\n     - Trabajando o con empleo\n     - Parado\n     - Percibía una pensión de jubilación o unos ingresos de prejubilación\n     - Incapacitado permanente para trabajar\n     - Estudiante (aunque esté de vacaciones)\n     - Dedicado a las labores del hogar\n     - Percibiendo una pensión distinta a la de jubilación (o prejubilación)\n     - Realizando sin remuneración trabajos sociales, actividades benéficas…\n     - Otras situaciones\n     No sabe",
+          "document": "epacues21.pdf",
+          "location": "H1 / SIDIV1"
+        }
+      ],
+      "reasoning": "The questionnaire records hours spent on paid employment (for main and secondary jobs, e.g. HORASH in section C) and asks about subjective main activity status (SIDIV1 in section H). It does not contain any questions asking respondents how they allocate or spend their time across daily activities (such as unpaid work, care work, domestic tasks, or leisure). Under the indicator criteria, questions that only record hours of paid work do not count.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

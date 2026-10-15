@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, p. 84"
+        },
+        {
+          "text": "¿La semana pasada… realizó sin que le pagaran alguna de las siguientes actividades: 1. Cocinar, lavar los platos, poner la mesa en: a. Su hogar? Sí 1 Días Horas día No 2",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, p. 84"
+        },
+        {
+          "text": "I. OCUPADOS EMPLEO PRINCIPAL (DETERMINE CUÁNTOS EMPLEOS TIENE LA PERSONA Y ESTABLEZCA CUÁL ES EL PRINCIPAL)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo I, p. 28"
+        },
+        {
+          "text": "TRABAJO SECUNDARIO Además de la ocupación principal, ¿... tenía la semana pasada otro trabajo o negocio?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo I, p. 64"
+        }
+      ],
+      "reasoning": "The survey questionnaire records unpaid domestic and care work for each individual person in Chapter K ('OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)'), asking specific individual questions about tasks such as cooking, washing clothes, cleaning, and caring for children or elderly family members, including the days and daily hours devoted to each. These questions are entirely separate from the main work and secondary work questions asked in Chapter I ('I. OCUPADOS'). Therefore, main work, secondary work, and unpaid domestic work can be distinguished and analysed for the same person.",
+      "value": true
+    }
+  ]
+}

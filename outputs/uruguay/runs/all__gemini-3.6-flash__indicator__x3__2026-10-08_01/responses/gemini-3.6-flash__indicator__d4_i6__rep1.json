@@ -1,0 +1,56 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "e.25 ¿Tiene cónyuge o pareja en este hogar? Sí...................................................................................... 1 No..................................................................................... 2",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.25"
+        },
+        {
+          "text": "e.27 ¿Actualmente está… … separado/a de unión libre anterior?.......................................................... 1 … divorciado/a?. ........................................................................................... 2 … casado/a (incluye separado/a y aún no se divorció)?............................... 3 … viudo/a de casamiento?............................................................................ 4 … viudo/a de unión libre?.............................................................................. 6 … soltero/a (nunca se casó ni vivió en unión libre)?..................................... 5",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.27"
+        },
+        {
+          "text": "h.23 ¿Algún miembro de este hogar recibió en los últimos 12 meses dinero o alguna colaboración económica de algún familiar que vive en el exterior?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "h.23"
+        },
+        {
+          "text": "e.23 ¿La madre vive en este hogar? Sí................................................................................................................... 1 ¿Quién es? Anote el N° de persona.......................................... No.................................................................................................................. 2",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.23"
+        },
+        {
+          "text": "e.24 ¿El padre vive en este hogar? Sí................................................................................................................... 1 ¿Quién es? Anote el N° de persona.......................................... No.................................................................................................................. 2",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.24"
+        },
+        {
+          "text": "e.22 ¿Cuál es su relación de parentesco con la persona referente del hogar (integrante del hogar N° 1)?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.22"
+        },
+        {
+          "text": "G - INGRESOS PERSONALES",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "G"
+        },
+        {
+          "text": "I - EGRESOS DEL HOGAR",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "I"
+        }
+      ],
+      "reasoning": "The survey instrument allows distinguishing de jure versus de facto female-headed households because it cross-classifies marital status (e.27) with the presence of a spouse/partner in the household (e.25) and remittance sources (h.23). Unpartnered mother-child units can be uniquely identified within any household structure through person-level identification of mother ID (e.23), father presence (e.24), and partner presence (e.25). Women-maintained households/units can be identified based on individual-level income reporting across Module G, regardless of who is designated as the reference person ('referente del hogar') in e.22. However, the survey does not link individual mother-child sub-units to their own separate consumption, production, or care activity disaggregated from the broader household level, as modules I (household expenditures) and H (household income) operate strictly at the aggregate household level.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

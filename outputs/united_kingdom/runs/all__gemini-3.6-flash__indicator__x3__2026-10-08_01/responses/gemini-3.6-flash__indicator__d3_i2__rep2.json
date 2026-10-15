@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "How many hours per week do you usually work in your (main) job/business – please exclude meal breaks?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "TOTUS1, page 82"
+        },
+        {
+          "text": "Thinking now about the seven days ending Sunday the …, how many hours did you actually work in your (main) job/business – please exclude meal breaks and overtime?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "ACTHR, page 84"
+        },
+        {
+          "text": "How many hours did you actually work in the week ending Sunday the [Ref Date] in your second job in total, including any paid or unpaid overtime - please exclude meal breaks?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "ACTHR2, page 109"
+        }
+      ],
+      "reasoning": "The survey instrument records usual and actual hours devoted to paid work in a main or second job/business (e.g., TOTUS1, ACTHR, ACTHR2). However, it does not record time allocation across other daily activities such as unpaid domestic or care work, leisure, or self-care. Following the specific instruction for this indicator that if the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false, all four elements are evaluated as false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

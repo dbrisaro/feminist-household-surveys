@@ -1,0 +1,42 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "checking that families have been correctly assigned within households by referring to the relationship grid",
+          "document": "[M] volume1main2024updatedfeb25.pdf",
+          "location": "SECTION 6 - CODING AND PROCESSING THE DATA, 6.3 DATA CHECKING, p. 52"
+        },
+        {
+          "text": "Relationship to HRP Yes",
+          "document": "[M] volume1main2024updatedfeb25.pdf",
+          "location": "SECTION 15 – HARMONISATION, Table 15.1, p. 101"
+        },
+        {
+          "text": "The harmonised definition of the household response unit is “one person living alone or a group of people (not necessarily related) living at the same address who share cooking facilities and share a living room or sitting room or dining area. The LFS definition differs slightly. The LFS adds students who live in halls of residence in term-time and residents in National Health Service accommodation to the coverage allowed in the harmonised definition, but these are clearly identified and the harmonised definition can be derived.",
+          "document": "[M] volume1main2024updatedfeb25.pdf",
+          "location": "SECTION 15 – HARMONISATION, Table 15.1, Note (i), p. 102"
+        },
+        {
+          "text": "Family: DVs created for each family on the database; on a flat file each family member would carry the same value for each family based DV;",
+          "document": "[M] volume1main2024updatedfeb25.pdf",
+          "location": "SECTION 6 - CODING AND PROCESSING THE DATA, 6.2 DERIVED VARIABLES, p. 51"
+        },
+        {
+          "text": "The following primary topics are not included on the LFS : Agency workers, Carers and Mobile Phone use.",
+          "document": "[M] volume1main2024updatedfeb25.pdf",
+          "location": "SECTION 15 – HARMONISATION, Table 15.1, p. 102"
+        }
+      ],
+      "reasoning": "The assessment of each element is as follows:\n- member_to_member_relationships: False. Although the text mentions a 'relationship grid' and 'Relationship to HRP', it does not establish that relationships are collected member-to-member (matrix/triangular grid) rather than relative to the Household Reference Person.\n- extended_ties: False. The text does not enumerate the relationship categories to substantiate whether ties beyond spouse and parent-child (such as grandparent-grandchild, siblings, non-kin) can be identified.\n- multiple_household_criteria: True. Note (i) to Table 15.1 explicitly states the criteria for defining and separating household response units (sharing cooking facilities, sharing a living room/sitting room/dining area, or resident in student/NHS accommodation).\n- sub_units: True. Section 6.2 and Section 6.3 confirm that family-level sub-units are identified and assigned within households via family-based derived variables (DVs) and relationship checks.\n- caregiving_relationships: False. Table 15.1 explicitly states that 'Carers' are not included in the LFS.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": false,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

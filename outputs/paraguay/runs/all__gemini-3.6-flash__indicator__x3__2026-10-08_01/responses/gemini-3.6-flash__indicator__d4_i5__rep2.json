@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "5 SOLO PARA EL ENCUESTADOR ANOTE EL CÓDIGO DE IDENTIFICACIÓN DEL CÓNYUGE, PADRE Y MADRE DE CADA PERSONA MIEMBRO DEL HOGAR. SI NO CORRESPONDE ANOTE \"00\" SU CÓNYUGE SU PADRE SU MADRE",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1, Pregunta 5"
+        },
+        {
+          "text": "RELACIÓN DE PARENTESCO CON EL/LA JEFE/A DEL HOGAR Jefe/a ....................................... 1 Esposo/a, compañero/a .......... 2 Hijo/a ........................................ 3 Hijastro/a.................................. 4 Nieto/a ..................................... 5 Yerno/Nuera ............................ 6 Padre/Madre ............................ 7 Suegro/a .................................. 8 Otro pariente............................ 9 No pariente ............................ 10 Trabajador doméstico.............11 Familiar del trabajador doméstico .............................. 12",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1, Pregunta 3"
+        },
+        {
+          "text": "1. DEBEN INCLUIRSE COMO MIEMBROS DEL HOGAR A: • Las personas que viven habitualmente en la vivienda visitada. • Las personas que regularmente viven en la vivienda visitada pero que en el momento de la entrevista están ausentes por circunstancias pasajeras tales como: trabajo, vacaciones, enfermedad, estudios, etc. En esta categoría se incluyen los empleados domésticos que viven en la vivienda visitada la mayor parte del año.",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Página 2"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................ 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE A, Pregunta 8"
+        }
+      ],
+      "reasoning": "The assessment of each element is as follows: 1. member_to_member_relationships is true because Question 5 in Section 1 explicitly collects pointer variables for each household member's spouse, father, and mother line numbers. 2. extended_ties is true because Question 3 in Section 1 contains response options for grandchild ('Nieto/a'), parent-in-law ('Suegro/a'), son/daughter-in-law ('Yerno/Nuera'), other relatives, and non-relatives. 3. multiple_household_criteria is false because page 2 defines rules for inclusion and exclusion of household members, but does not state criteria for separating multiple households within a single dwelling. 4. sub_units is true because the pointer variables in Question 5 allow secondary family nuclei (sub-units) to be identified within a larger household. 5. caregiving_relationships is false because although the questionnaire references domestic chores ('labores del hogar'), it does not capture specific caregiving relationships identifying who provides care to whom within or across households.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": true,
+        "multiple_household_criteria": false,
+        "sub_units": true
+      }
+    }
+  ]
+}

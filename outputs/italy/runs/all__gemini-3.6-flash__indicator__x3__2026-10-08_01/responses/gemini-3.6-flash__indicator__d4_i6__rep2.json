@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "QSF33. Stato civile RICODIFICATA NELLA VARIABILE STACIM",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 2"
+        },
+        {
+          "text": "STACIM Stato civile • Celibe/nubile 1 • Coniugato/a coabitante o non coabitante con il coniuge 2 • Separato/a di fatto/ Separato/a legalmente/Divorziato/a 3 • Vedovo/a 6",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 23"
+        },
+        {
+          "text": "QSF11. Sesso del componente RICODIFICATA NELLA VARIABILE SESSO • Maschio 1 • Femmina 2",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 2"
+        },
+        {
+          "text": "RUOLOFAM Ruolo in famiglia • Unipersonale 1 • Genitore in coppia 2 • Monogenitore 3 • Coniuge senza figli 4 • Figlio 5 • Figlio di monogenitore 6 • Altro 7",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 23"
+        },
+        {
+          "text": "QC29 Per quale tra questi motivi lavora part time (a tempo parziale): ... • Si prende cura dei figli e/o di altri familiari non autosufficienti 3|_|",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 8"
+        },
+        {
+          "text": "QF07 Qual è il motivo principale per cui “NOME” non ha cercato un lavoro nelle 4 settimane che vanno “DAL… AL…”? ... • Si prende cura dei figli e/o di altri familiari non autosufficienti 5|_|",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 14"
+        }
+      ],
+      "reasoning": "1. de_jure_vs_de_facto: False. The marital status variable STACIM groups cohabiting and non-cohabiting married individuals under code 2 ('Coniugato/a coabitante o non coabitante con il coniuge'), preventing the distinction between de jure and de facto status. Additionally, no remittance or partner absence variables are collected. 2. unpartnered_mother_child_units: True. The variable RUOLOFAM identifies single parents ('Monogenitore 3') and their children ('Figlio di monogenitore 6') individually within households. Combined with sex ('SESSO' = 2 for female), unpartnered mother-child units can be identified even inside larger households. 3. women_maintained_by_provider: False. The instrument collects no information on main economic providers or household income sources to identify women-maintained units based on economic provision. 4. mother_child_unit_activity: False. While caregiving is listed as an individual reason for part-time work or inactivity in QC29 and QF07, there are no variables linking consumption, production, or care activity to the mother-child unit as an observable economic unit.",
+      "elements": {
+        "de_jure_vs_de_facto": false,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

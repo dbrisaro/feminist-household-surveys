@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "SEXO Hombre... 1 Mujer…... 2",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 20, Sección 1, Pregunta 2"
+        }
+      ],
+      "reasoning": "In Section 1 (page 20), column 2 explicitly collects 'SEXO' with options 'Hombre... 1' and 'Mujer…... 2'. This directly confirms that the instrument collects a sex variable.",
+      "value": true
+    }
+  ]
+}

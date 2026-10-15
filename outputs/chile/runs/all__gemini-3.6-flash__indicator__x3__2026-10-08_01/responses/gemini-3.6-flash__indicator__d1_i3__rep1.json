@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "pers9. ¿Cuál es el sexo de [Nombre de persona]?\n1 Hombre\n2 Mujer\n88 No sabe\n99 No responde",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "CUESTIONARIO SOCIODEMOGRÁFICO, pers9, p. 6"
+        }
+      ],
+      "reasoning": "In the supplied questionnaire, question pers9 asks \"¿Cuál es el sexo de [Nombre de persona]?\" with options \"1 Hombre\", \"2 Mujer\", \"88 No sabe\", and \"99 No responde\". No definition of sex or gender, nor any specific instructions for the interviewer on how to record or determine sex or gender, are provided in the document.",
+      "extracted_text": ""
+    }
+  ]
+}

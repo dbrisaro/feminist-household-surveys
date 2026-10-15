@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "12. NOMBRES Y APELLIDOS DEL JEFE(A) DEL HOGAR",
+          "document": "[C] 2024/CED-01-100-2024.pdf",
+          "location": "Pregunta 12"
+        },
+        {
+          "text": "¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR? Jefe/Jefa ............ 1",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Pregunta 203"
+        },
+        {
+          "text": "Hogar.- Es el conjunto de personas, sean o no parientes (padres, hijos solteros, hijos casados, hermanos, tíos etc.), que ocupan en su totalidad o en parte una vivienda, comparten las comidas principales y atienden en común otras necesidades vitales. Se incluye también en este grupo a las personas a quienes el Jefe considera que son miembros del hogar, por razones de afecto (ahijados, compadres, padrinos, etc.). Por excepción, se considera hogar al constituido por una sola persona.",
+          "document": "[M] 2024/FichaTecnica.pdf",
+          "location": "Sección XIII. DEFINICIONES BÁSICAS"
+        },
+        {
+          "text": "Informante N°",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200"
+        },
+        {
+          "text": "a. Jefe del Hogar b. Cónyuge c. Perceptores (se refiere a la población de 14 años y más de edad que recibe ingresos monetarios) d. Personas de 12 años y más (a partir de esta edad de realiza la entrevista directa de la población, con respecto a los menores de 12 años la información la proporciona una persona responsable del hogar)",
+          "document": "[M] 2024/FichaTecnica.pdf",
+          "location": "Sección IX. INFORMANTES"
+        },
+        {
+          "text": "(Para el jefe(a) de hogar, cónyuge o persona responsable del hogar)",
+          "document": "[C] 2024/CED-01-100-2024.pdf",
+          "location": "Sección EVALUACIÓN DEL NIVEL DE CLORO RESIDUAL LIBRE"
+        }
+      ],
+      "reasoning": "1. neutral_anchor_term: False. The instrument uses 'JEFE(A) DEL HOGAR' / 'Jefe/Jefa' rather than a neutral term or avoiding the concept of head of household.\n2. explicit_selection_rule: False. The supplied text defines 'Hogar' but does not state an explicit rule for selecting who among the household members is designated as the 'Jefe(a) del hogar'.\n3. rule_not_sex_age_authority: False. Since no selection rule or criterion for defining the reference person is stated in the provided text, the criterion cannot be confirmed as free of sex, seniority, or presumed authority.\n4. respondent_separate_or_any_adult: True. The instrument records the respondent separately via 'Informante N°' fields and explicitly allows household-level questions to be answered by the head, spouse, or any responsible person ('persona responsable del hogar').",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

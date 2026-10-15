@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "¿Todas estas personas comparten el mismo gasto para comer?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section V, Question 2"
+        },
+        {
+          "text": "¿Qué es ... del jefe(a) de este hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 7"
+        },
+        {
+          "text": "... es 1 hombre 2 mujer",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 8"
+        },
+        {
+          "text": "(Solo para mujeres) ¿En total cuántas hijas e hijos que nacieron vivos ha tenido?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 18"
+        },
+        {
+          "text": "¿Actualmente... 1 vive con su pareja en unión libre? 2 está separado(a)? 3 está divorciado(a)? 4 está viudo(a)? 5 está casado(a)? 6 está soltero(a)?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 19"
+        },
+        {
+          "text": "¿Cuánto ganó o en cuánto calcula sus ingresos?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section VI, Question 6b"
+        },
+        {
+          "text": "2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9"
+        }
+      ],
+      "reasoning": "The instrument allows distinguishing de jure vs. de facto female-headed households because sex of the household head is recorded (Q7, Q8) and marital status (Q19) is collected for all household members aged 12 and older, which can be combined with the presence or absence of a partner in the household roster. However, unpartnered mother-child units inside larger households cannot be identified because relationship to head (Q7) is collected relative only to the household head, without parent-child pointers on the roster. Women-maintained households or units cannot be identified through a main provider variable regardless of designated head, as no main provider question exists. Finally, the instrument does not link mother-child units to their own distinct consumption, production, or care activity (hearth-hold proxies).",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": false,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

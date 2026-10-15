@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "hog2 De las personas que residen habitualmente en esta vivienda, ¿todas comparten los gastos para alimentación?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "INFORMACIÓN DEL HOGAR, page 1"
+        },
+        {
+          "text": "hog3 Entonces, contando el de usted: ¿cuántos grupos tienen gastos separados para alimentación?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "INFORMACIÓN DEL HOGAR, page 1"
+        },
+        {
+          "text": "pers2. De las personas que mencionó previamente, ¿Quién es el proveedor principal del hogar?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "CUESTIONARIO SOCIODEMOGRÁFICO, page 6"
+        },
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de persona de proveedora principal]?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "CUESTIONARIO SOCIODEMOGRÁFICO, page 6"
+        },
+        {
+          "text": "pers9. ¿Cuál es el sexo de [Nombre de persona]?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "CUESTIONARIO SOCIODEMOGRÁFICO, page 6"
+        },
+        {
+          "text": "pers13. ¿Cuál es el estado conyugal actual de [Nombre de persona]?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "CUESTIONARIO SOCIODEMOGRÁFICO, page 6"
+        }
+      ],
+      "reasoning": "Evaluating each element based on the provided questionnaire text:\n\n1. `de_jure_vs_de_facto`: False. While marital status is collected in pers13, relationship ties are strictly collected relative to the main provider (pers8), and there are no questions on remittances or absent partners for all household members to distinguish de jure from de facto headship/status.\n2. `unpartnered_mother_child_units`: False. Kinship in pers8 is recorded exclusively in relation to the main provider ('proveedor principal'). Consequently, mother-child units located within broader households where someone else (e.g., a grandparent) is the main provider cannot be linked.\n3. `women_maintained_by_provider`: True. The survey explicitly identifies the main provider ('proveedor principal') in pers2 and captures their sex in pers9. Thus, women-maintained households can be identified directly via the sex of the main provider.\n4. `mother_child_unit_activity`: False. The survey only identifies food-sharing groups at the dwelling level (hog2, hog3) and does not capture or link mother-child units to specific consumption, production, or care activities.",
+      "elements": {
+        "de_jure_vs_de_facto": false,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": false,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

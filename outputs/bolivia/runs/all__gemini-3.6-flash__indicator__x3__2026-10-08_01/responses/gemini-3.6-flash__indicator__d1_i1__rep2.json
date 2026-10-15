@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "2. ¿Es hombre o mujer?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE A, Pregunta 2, Página 1"
+        },
+        {
+          "text": "1. Hombre",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE A, Pregunta 2, Página 1"
+        },
+        {
+          "text": "2. Mujer",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE A, Pregunta 2, Página 1"
+        }
+      ],
+      "reasoning": "In Section 1, Part A, Question 2 explicitly collects a sex variable by asking '2. ¿Es hombre o mujer?' with response options '1. Hombre' and '2. Mujer'.",
+      "value": true
+    }
+  ]
+}

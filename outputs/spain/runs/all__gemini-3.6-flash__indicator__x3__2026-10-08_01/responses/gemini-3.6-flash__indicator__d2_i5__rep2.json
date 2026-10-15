@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "26. ¿Por cuál de los siguientes motivos tiene jornada parcial en su trabajo? Le leo las opciones\n - Seguir cursos de enseñanza o formación\n - Enfermedad o incapacidad propia\n - Responsabilidades de cuidado de hijos u otros familiares\n - Otras razones familiares",
+          "document": "[C] epacues21.pdf",
+          "location": "C. CARACTERÍSTICAS DEL EMPLEO, Q26"
+        },
+        {
+          "text": "6. Si BUSCA2=6:\n ¿Cuál es el principal motivo por el que no ha querido tener empleo?\n En otro caso:\n ¿Cuál es el principal motivo por el que no ha buscado empleo en las 4 últimas semanas?\n\n Si tiene menos de 65 años\n - No hay ningún empleo adecuado disponible(solo aparece si BUSCA2=1 )\n - A la espera de que vuelvan a llamarle (está afectado por una regulación de empleo ) (solo aparece si BUSCA2=1)\n - Por enfermedad o incapacidad propia\n - Responsabilidades de cuidado de hijos u otros familiares\n - Otras razones familiares",
+          "document": "[C] epacues21.pdf",
+          "location": "D. BUSQUEDA DE EMPLEO, Q6"
+        },
+        {
+          "text": "1. En su opinión, ¿cuál de las siguientes opciones refleja mejor su situación actual? Le leo las opciones:\n - Trabajando o con empleo\n - Parado\n - Percibía una pensión de jubilación o unos ingresos de prejubilación\n - Incapacitated permanente para trabajar\n - Estudiante (aunque esté de vacaciones)\n - Dedicado a las labores del hogar",
+          "document": "[C] epacues21.pdf",
+          "location": "H. SITUACIONES DIVERSAS, Q1"
+        }
+      ],
+      "reasoning": "The questionnaire contains questions that record care responsibilities or household work as reasons for working part-time (PARCO2), reasons for not seeking work (NBUSCA), or as a self-reported current activity status ('Dedicado a las labores del hogar' in SIDIV1). However, the instrument does not contain any question asking whether a person supervises or remains available to care for other household members while doing other activities or without care being their main activity.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

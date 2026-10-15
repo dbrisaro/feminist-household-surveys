@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "3 ¿Quién es el jefe o jefa del hogar? (anote su nombre en primer lugar y luego continúe con el resto del hogar)",
+          "document": "[C] EPHContinua_CuestVivienda.pdf",
+          "location": "Bloque V, p. 4"
+        },
+        {
+          "text": "Respondente",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque I. IDENTIFICACIÓN, p. 1"
+        },
+        {
+          "text": "Jefe/a",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV. CARACTERÍSTICAS DE LOS MIEMBROS DEL HOGAR, p. 2"
+        },
+        {
+          "text": "En términos de la EPH un hogar se define como una persona o grupo de personas, parientes o no, que habitan bajo un mismo techo en un régimen de tipo familiar; es decir, comparten sus gastos en alimentación u otros esenciales para vivir.",
+          "document": "[M] metodologia_eph_continua_2003_sin_anexo2.pdf",
+          "location": "sección 2.3.1, p. 6"
+        }
+      ],
+      "reasoning": "The survey uses the terminology 'jefe o jefa del hogar' / 'Jefe/a' rather than a neutral anchor term, so neutral_anchor_term is false. Neither the questionnaires nor the methodological documentation provide an explicit selection rule or criterion for choosing the reference person, so explicit_selection_rule and rule_not_sex_age_authority are false. However, the respondent for household questions ('Respondente') is identified in a separate field from the household head in Section I of the Household Questionnaire, so respondent_separate_or_any_adult is true.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

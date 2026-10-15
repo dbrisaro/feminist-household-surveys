@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter K, page 84"
+        },
+        {
+          "text": "Cocinar, lavar los platos, poner la mesa en:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter K, Question 1, page 84"
+        },
+        {
+          "text": "Lavar, colgar, planchar la ropa, reparar ropa en:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter K, Question 2, page 84"
+        },
+        {
+          "text": "Limpiar o arreglar la casa, tender las camas, barrer trapear, sacar la basura en:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter K, Question 3, page 84"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter K, Question 4, page 86"
+        },
+        {
+          "text": "Cuidar personas enfermas, en condición de discapacidad o adultos mayores en:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter K, Question 5, page 86"
+        },
+        {
+          "text": "Ayudar a personas con tareas o trabajos escolares en:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Chapter K, Question 6, page 86"
+        }
+      ],
+      "reasoning": "The survey instrument contains a dedicated module titled 'K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)', which is separate from the primary labor force modules (Chapters H, I, and J). This module includes six distinct questions measuring unpaid domestic and care work activities: cooking/washing dishes, laundry, house cleaning/maintenance, childcare for children under 5, care for sick/disabled/elderly individuals, and assistance with schoolwork. Because this module includes six questions, it satisfies the requirement of containing more than two questions.",
+      "value": true
+    }
+  ]
+}

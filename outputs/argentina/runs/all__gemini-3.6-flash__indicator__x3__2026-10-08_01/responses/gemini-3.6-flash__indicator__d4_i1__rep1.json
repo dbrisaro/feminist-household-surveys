@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "En términos de la EPH un hogar se define como una persona o grupo de personas, parientes o no, que habitan bajo un mismo techo en un régimen de tipo familiar; es decir, comparten sus gastos en alimentación u otros esenciales para vivir.",
+          "document": "[M] metodologia_eph_continua_2003_sin_anexo2.pdf",
+          "location": "Section 2.3.1 Condición de residencia, page 6"
+        },
+        {
+          "text": "Nivel educativo del jefe",
+          "document": "[M] EPH_consideraciones_metodologicas_2t20.pdf",
+          "location": "Cuadro 3. Variables incluidas en el modelo de probabilidad de respuesta, page 11"
+        }
+      ],
+      "reasoning": "The indicator requests the conceptual definition of household headship. An examination of the supplied methodological documents shows that while 'hogar' (household) is conceptually defined in [M] metodologia_eph_continua_2003_sin_anexo2.pdf (Section 2.3.1, page 6), and variables such as 'Relación de parentesco' or 'Nivel educativo del jefe' are listed (e.g., in [M] EPH_consideraciones_metodologicas_2t20.pdf, page 11), no conceptual definition of household headship ('jefe de hogar') is provided anywhere in the supplied texts. Therefore, the extracted text is empty.",
+      "extracted_text": ""
+    }
+  ]
+}

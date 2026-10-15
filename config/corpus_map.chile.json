@@ -1,0 +1,54 @@
+{
+  "country": "chile",
+  "survey": "Encuesta Nacional de Empleo (ENE) ()",
+  "agency": "INE Chile",
+  "doc_dir": "data/raw/chile/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [
+        "cuestionario-ene-2020.pdf"
+      ]
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [
+        "glosario-ene.pdf",
+        "metodologia-ene-2020.pdf"
+      ]
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [],
+      "missing_note": "No document of type G (interviewer guides and manuals) was found in the collected corpus for chile. Indicators routed to G are reported as source_missing, not as not_evidenced."
+    }
+  },
+  "estimated_tokens": {
+    "C": 41227,
+    "M": 213087,
+    "G": 0,
+    "C+M": 254314
+  },
+  "excluded": {
+    "Cuestionario ENE 2016_v20160429.pdf": "earlier wave, superseded by cuestionario-ene-2020.pdf (same lineage, later wave similarity 1.000)",
+    "C_Cuestionario_ENE_2016_v20160429.pdf": "earlier wave, superseded by cuestionario-ene-2020.pdf (same lineage, later wave similarity 1.000)",
+    "Diccionario de variables Banco de Datos ENE_v20160429.pdf": "title page: codebook of existing dataset variables",
+    "FAQ Banco de Datos ENE_v20160429.pdf": "bulletin, tabulation or press material",
+    "documento-de-seguimiento-de-la-aplicación-del-estándar-para-la-medición-de-sexo-género-y-orientación-sexual-(2024).pdf": "[manual] INE-wide document on applying the INE standard for measuring sex, gender and sexual orientation; it does not document the ENE, so it cannot evidence how the ENE instrument is designed",
+    "ene-extranjeros-52.pdf": "title page: statistical bulletin with employment results",
+    "ene-nacional-328.pdf": "title page: statistical bulletin with employment results",
+    "ene-rm-116.pdf": "title page: statistical bulletin with employment results",
+    "guia-transversalización-enfoque-genero-en-la-produccion-estadistica.pdf": "[manual] INE-wide document on gender mainstreaming in statistical production; it does not document the ENE, so it cannot evidence how the ENE instrument is designed",
+    "informe-de-resultados-diagnóstico-sobre-la-medición-de-las-variables-sexo-género-y-orientación-sexual-en-registros-administrativos-(2024).pdf": "[manual] INE-wide document on measuring sex, gender and sexual orientation in administrative records; it does not document the ENE, so it cannot evidence how the ENE instrument is designed"
+  },
+  "unclassified": {},
+  "manual_review": {
+    "source": "config/manual_overrides.json",
+    "applied": 4,
+    "note": "Decided 2026-10-08: the three INE Chile gender documents are institution-wide (sex/gender/orientation measurement standards and mainstreaming guidance), not ENE documentation. The ENE questionnaire and methodology are to be added instead. The ENE glossary (updated 2025-09-26) is pinned to M: no filename rule classifies it, and it defines the survey's concepts."
+  },
+  "non_textual": {
+    ".csv": 1
+  }
+}

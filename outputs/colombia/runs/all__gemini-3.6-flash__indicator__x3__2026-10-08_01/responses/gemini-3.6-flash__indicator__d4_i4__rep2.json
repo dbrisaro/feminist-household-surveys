@@ -1,0 +1,56 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "Antes de descuentos, ¿cuánto ganó... el mes pasado en este empleo? (Incluya propinas y comisiones, y excluya viáticos y pagos en especie)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section I, Question 17, page 34"
+        },
+        {
+          "text": "¿El mes pasado, recibió pagos por: a. Arriendos de casas, apartamentos, fincas, lotes, vehículos, equipos, etc.? b. Pensiones o jubilaciones por vejez, invalidez o sustitución pensional? c. Pensión alimenticia por paternidad, divorcio o separación?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section L, Question 2, page 94"
+        },
+        {
+          "text": "a. Dinero de otros hogares o personas residentes en el país... b. Dinero de otros hogares o personas residentes fuera del país...",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section L, Question 4, page 96"
+        },
+        {
+          "text": "¿Cuántas horas a la semana trabaja normalmente.... en este trabajo?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section I, Question 52, page 56"
+        },
+        {
+          "text": "¿La semana pasada… realizó sin que le pagaran alguna de las siguientes actividades: 1. Cocinar, lavar los platos, poner la mesa en: a. Su hogar? b. Hogares de personas familiares? c. Hogares de personas no familiares?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section K, Question 1, page 84"
+        },
+        {
+          "text": "9. La vivienda ocupada por este hogar es: a. Propia, totalmente pagada 1 Pase a 10 b. Propia, la están pagando 2 Pase a 9A c. En arriendo o subarriendo 3 Pase a 12 d. En usufructo 4 Pase a 11 e. Posesión sin título 5 Pase a 11 f. Propiedad colectiva 6 Pase a 11 g. Otra, ¿cuál? 7 Pase a 11",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section C, Question 9, page 3"
+        },
+        {
+          "text": "13. ¿Cuáles de los siguientes productos financieros utiliza usted o algún miembro del hogar actualmente?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section C, Question 13, page 4"
+        },
+        {
+          "text": "En su trabajo, ¿quién decide sobre su horario de trabajo? ... En su trabajo, ¿quién decide sobre qué producir o vender? ... En su trabajo, ¿quién decide sobre el precio de los bienes, productos o servicios prestados?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section I, Questions 28-30, page 44"
+        }
+      ],
+      "reasoning": "Economic maintenance is captured at member level across employment earnings (Section I, Q17), self-employment (Section I, Q32/Q33/Q48), pensions and alimony (Section L, Q2), and remittances/support from other households or institutions (Section L, Q4). Labor burden is captured at member level for both paid work hours (Section I, Q52/Q54) and unpaid domestic and care work hours (Section K, Q1–Q6). Property and asset control is not captured by member; dwelling tenure (Section C, Q9) and financial products (Section C, Q13) are recorded at the overall household level. Decision-making questions exist only for independent work operations (Section I, Q28–Q30) and do not cover household decision-making spheres like child-rearing, daily consumption, or major financial choices.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": true,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

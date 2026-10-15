@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "2 Si OFEMP1=6: Aún cuando no estaba inscrito, ¿percibía algún tipo de prestación o subsidio por desempleo? OFEMP2",
+          "document": "[C] epacues21.pdf",
+          "location": "G. INSCRIPCIÓN EN LA OFICINA DE EMPLEO PÚBLICA, Q2"
+        },
+        {
+          "text": "34. ¿Cuántas horas semanales trabaja habitualmente en este empleo? No tenga en cuenta el tiempo para comer. HORASH",
+          "document": "[C] epacues21.pdf",
+          "location": "C. CARACTERÍSTICAS DEL EMPLEO, Q34"
+        },
+        {
+          "text": "1. En su opinión, ¿cuál de las siguientes opciones refleja mejor su situación actual? Le leo las opciones: SIDIV1 - Trabajando o con empleo - Parado - Percibía una pensión de jubilación o unos ingresos de prejubilación - Incapacitado permanente para trabajar - Estudiante (aunque esté de vacaciones) - Dedicado a las labores del hogar - Percibiendo una pensión distinta a la de jubilación (o prejubilación) - Realizando sin remuneración trabajos sociales, actividades benéficas… - Otras situaciones No sabe",
+          "document": "[C] epacues21.pdf",
+          "location": "H. SITUACIONES DIVERSAS, Q1"
+        },
+        {
+          "text": "¿Cuál es su relación con la persona de referencia? RELPP 1. Persona de referencia (p.r.) 2. Cónyuge o pareja de la p.r. 3. Hijo/a, hijastro/a (de la p.r. o de su pareja) 4. Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a) 5. Padre, madre de la p.r. o de su pareja (padrastro/madrastra) 6. Nieto/a de la p.r. o pareja de los mismos (incluye nietastros/as de ambos) 7. Abuelo/a de la p.r. o pareja de los mismos (abuelastro/a de la p.r.) 8. Suegro/a de la p.r. o pareja del mismo 9. Hermano/a, hermanastro/a de la p.r. 10. Otro pariente de la p.r. (o pareja del mismo) 11. Persona del servicio doméstico 12. Sin parentesco con la p.r.",
+          "document": "[C] epacues21.pdf",
+          "location": "HOGAR 5 / RELPP"
+        },
+        {
+          "text": "30. ¿Decide usted personalmente su horario de trabajo? DECHOR1",
+          "document": "[C] epacues21.pdf",
+          "location": "C. CARACTERÍSTICAS DEL EMPLEO, Q30"
+        }
+      ],
+      "reasoning": "The EPA questionnaire captures individual-level data on employment status, paid work hours (HORASH), receipt of unemployment benefits (OFEMP2), and self-reported main activity status including 'Dedicado a las labores del hogar' (SIDIV1). However, it does not capture income or financial support amounts across all sources by member (economic_maintenance: false), does not capture hours spent on unpaid domestic or care work (labor_burden: false), does not record dwelling tenure, land, or asset ownership by member (property_asset_control: false), and does not collect data on household decision-making authority across spheres such as child-rearing, daily consumption, or financial choices (decision_making: false).",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

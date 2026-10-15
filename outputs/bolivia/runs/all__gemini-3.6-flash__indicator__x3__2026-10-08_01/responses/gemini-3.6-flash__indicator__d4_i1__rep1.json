@@ -1,0 +1,10 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [],
+      "reasoning": "The conceptual definition of household headship would be documented in the questionnaire [Q] or interviewer manual [G], neither of which was supplied in this run. The supplied methodological documents [M] mention the term 'jefe de hogar' as a contact person or as a category in administrative/sampling variables, but do not provide a conceptual definition of household headship.",
+      "extracted_text": ""
+    }
+  ]
+}

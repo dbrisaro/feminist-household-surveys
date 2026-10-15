@@ -1,0 +1,42 @@
+{
+  "country": "uruguay",
+  "survey": "Encuesta Continua de Hogares (ECH) ()",
+  "agency": "INE Uruguay",
+  "doc_dir": "data/raw/uruguay/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [
+        "C_Cuestionario_seguimiento_2024.pdf",
+        "C_Cuestionario_implantación_2024.pdf"
+      ]
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [
+        "Metodologia_ECH_2021.pdf"
+      ]
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [],
+      "missing_note": "No document of type G (interviewer guides and manuals) was found in the collected corpus for uruguay. Indicators routed to G are reported as source_missing, not as not_evidenced."
+    }
+  },
+  "estimated_tokens": {
+    "C": 64474,
+    "M": 51045,
+    "G": 0,
+    "C+M": 115519
+  },
+  "excluded": {
+    "C_Cuestionario_ECH_2022_-_Seguimiento_mensual.pdf": "earlier wave, superseded by C_Cuestionario_seguimiento_2024.pdf (content similarity 0.898)",
+    "C_Cuestionario_ECH_2022_-_Implantación.pdf": "earlier wave, superseded by C_Cuestionario_implantación_2024.pdf (content similarity 0.835)",
+    "Tabla_correspondencia_loc_agr.pdf": "title page: locality code correspondence table, dataset variables"
+  },
+  "unclassified": {},
+  "non_textual": {
+    ".csv": 2
+  }
+}

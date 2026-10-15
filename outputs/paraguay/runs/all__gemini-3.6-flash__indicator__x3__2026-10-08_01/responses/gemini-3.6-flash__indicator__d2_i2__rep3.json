@@ -1,0 +1,25 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte A, Pregunta 5"
+        },
+        {
+          "text": "Demasiado ocupado en tareas del hogar, estudio,etc",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte B, Pregunta 5"
+        }
+      ],
+      "reasoning": "The questionnaire refers to household chores ('labores del hogar', 'tareas del hogar') only as response options for inactive activity status or reasons for not working or for working fewer hours (e.g., Sección 6, Parte A, Pregunta 5; Parte B, Pregunta 5). Per the criteria:\n- responsibility: The instrument contains no questions asking who is responsible for, plans, or is in charge of domestic or care work. Reasons for not working do not count. (False)\n- performance: The instrument contains no explicit questions asking whether a person carries out domestic or care tasks. Categories of inactivity or reasons for not working do not count. (False)\n- magnitude: The instrument does not record the time or frequency spent on unpaid domestic or care work. (False)",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

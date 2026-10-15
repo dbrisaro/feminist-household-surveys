@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "pers2. De las personas que mencionó previamente, ¿Quién es el proveedor principal del hogar? Recuerde, la persona proveedora principal siempre debe ir en la línea 1",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 6, pers2"
+        },
+        {
+          "text": "pers7. Registre a la persona que sea informante idóneo del hogar durante la entrevista",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 6, pers7"
+        },
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de proveedora principal]?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 6, pers8"
+        },
+        {
+          "text": "Informante idóneo Persona apropiada para proporcionar la información que requiere una operación estadística, pues tiene la capacidad y conocimientos de responder sobre el tema o temas de estudio (INE, 2022a). Esta persona puede responder por sí misma o por los integrantes del hogar en el caso de la ENE, teniendo como requisito ser mayor de edad.",
+          "document": "[M] glosario-ene.pdf",
+          "location": "Page 5, Informante idóneo"
+        }
+      ],
+      "reasoning": "The quoted passages establish the following for each element:\n- neutral_anchor_term: True. The survey does not use 'jefe/a de hogar' (head of household) to anchor the household roster or relationship questions; instead, it uses 'proveedor/a principal'.\n- explicit_selection_rule: True. Explicit rules are stated for selecting both the reference person ('proveedor principal', who must be listed in line 1 in pers2) and the survey respondent ('informante idóneo', recorded in pers7 and defined in the glossary).\n- rule_not_sex_age_authority: False. The explicit criterion for selecting the reference person is breadwinner status ('proveedor principal del hogar' in pers2), which directly violates the requirement that the rule must not be based on breadwinner or main earner status.\n- respondent_separate_or_any_adult: True. The survey respondent is recorded separately in pers7 ('informante idóneo') from the reference person, and the methodological glossary specifies that any adult household member with the capacity and knowledge may act as the respondent.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "f.38 ¿Cuántas horas trabajó en la semana de referencia en este trabajo? Dígame día por día.",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "f.38"
+        },
+        {
+          "text": "f.38 ¿Cuántas horas trabajó en la semana de referencia en este trabajo? Dígame día por día.",
+          "document": "C_Cuestionario_seguimiento_2024.pdf",
+          "location": "f.38"
+        }
+      ],
+      "reasoning": "The survey instruments collect information on hours devoted to paid work (for example, question f.38 in both C_Cuestionario_implantación_2024.pdf and C_Cuestionario_seguimiento_2024.pdf: '¿Cuántas horas trabajó en la semana de referencia en este trabajo? Dígame día por día.'). However, they do not record time devoted to any other daily activities, such as unpaid domestic or care work, leisure, or self-care. Following the specific rule established for this indicator ('If the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false'), all four elements are set to false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

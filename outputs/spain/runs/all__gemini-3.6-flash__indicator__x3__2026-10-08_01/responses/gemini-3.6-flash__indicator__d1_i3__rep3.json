@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad",
+          "document": "epacues21.pdf",
+          "location": "PANTALLA nº6"
+        },
+        {
+          "text": "SEXO h/m",
+          "document": "epacues21.pdf",
+          "location": "PANTALLA nº6"
+        }
+      ],
+      "reasoning": "The survey instrument does not provide definitions of sex or gender, nor does it contain detailed interviewer instructions regarding how sex or gender should be asked or recorded, beyond the standard household roster prompt on PANTALLA nº6 (\"Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad\") with binary response categories (\"h/m\").",
+      "extracted_text": "Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad"
+    }
+  ]
+}

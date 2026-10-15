@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "SECCIÓN 1: INFORMACIÓN DE LOS MIEMBROS DEL HOGAR",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 3"
+        },
+        {
+          "text": "SECCIÓN 2: CARACTERÍSTICAS OCUPACIONALES - PARA PERSONAS DE 5 AÑOS Y MÁS",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 4"
+        },
+        {
+          "text": "SECCIÓN 2B: SEGURIDAD SOCIAL",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 15"
+        },
+        {
+          "text": "SECCIÓN 4: ASPECTOS GENERALES DE LOS DESEMPLEADOS (AS)",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 18"
+        }
+      ],
+      "reasoning": "The provided survey instrument contains Section 1 (Member Information), Section 2 (Occupational Characteristics and Job Search), Section 2B (Social Security), Section 3 (Income), Section 4 (General Aspects of the Unemployed), Section 5 (Housing and Household Data), and Section 6 (Consumer Confidence Index). It does not include a separate module dedicated to unpaid domestic or care work.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

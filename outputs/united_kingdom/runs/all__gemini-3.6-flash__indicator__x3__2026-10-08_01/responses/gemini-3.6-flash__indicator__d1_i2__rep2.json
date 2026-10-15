@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "By sex we are referring to current sex",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 10, Question SEX"
+        },
+        {
+          "text": "Is the gender you identify with the same as your sex registered at birth?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 230, Question IRGENID"
+        }
+      ],
+      "reasoning": "The questionnaire contains question IRGENID on page 230, which explicitly asks 'Is the gender you identify with the same as your sex registered at birth?' (administered in Northern Ireland for personal respondents aged 16+), and question SEX on page 10, which refers to 'current sex'. Thus, the instrument collects a gender identity variable.",
+      "value": true
+    }
+  ]
+}

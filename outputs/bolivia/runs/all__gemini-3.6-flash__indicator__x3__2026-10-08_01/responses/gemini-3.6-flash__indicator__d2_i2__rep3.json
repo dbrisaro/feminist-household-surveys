@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "14.¿Por qué razón no asiste actualmente? (indague la razón más importante) ... 6. POR REALIZAR LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE B, Pregunta 14, página 3"
+        },
+        {
+          "text": "6. Por qué no buscó trabajo? ... 11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR ... 7. Es usted: ... 2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 6 y Pregunta 7, página 4"
+        },
+        {
+          "text": "60. ¿Por qué no trabajó más horas a la semana? ... 6. Por realizar labores de casa/cuidado de miembros del hogar",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE H, Pregunta 60, página 10"
+        }
+      ],
+      "reasoning": "The survey mentions domestic and care tasks across several sections, but fails to meet the criteria for responsibility, performance, and magnitude: 1) Responsibility: Question 7 offers 'Ama de casa / responsable de los quehaceres del hogar' as a response category for activity status. However, the survey does not explicitly ask who is in charge, plans, or organizes domestic or care work. Per the defined criteria, an inactivity category does not count. Thus, responsibility is false. 2) Performance: Domestic and care tasks appear in Q14, Q6, Q7, Q13a, and Q60 as options for activity status or reasons for not attending school, not seeking work, or not working more hours. The definition states that activity status classifications and reasons for not working or seeking work do not count as asking about performance. There is no question asking if a person performs unpaid domestic or care work. Thus, performance is false. 3) Magnitude: The questionnaire records hours and days worked only for economic employment (Q28, Q29) and contains no questions measuring the time or frequency spent on unpaid domestic or care work. Thus, magnitude is false.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

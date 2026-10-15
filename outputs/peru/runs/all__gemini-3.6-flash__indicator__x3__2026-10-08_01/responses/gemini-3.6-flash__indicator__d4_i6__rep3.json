@@ -1,0 +1,81 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR?",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "p. 6, Q203"
+        },
+        {
+          "text": "N° DE NÚCLEO FAMILIAR",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "p. 6, Q203-A"
+        },
+        {
+          "text": "RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL NÚCLEO FAMILIAR (Sólo relación Padres e Hijos)",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "p. 6, Q203-B"
+        },
+        {
+          "text": "¿SE ENCUENTRA AUSENTE DEL HOGAR 30 DÍAS O MÁS?",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "p. 6, Q205"
+        },
+        {
+          "text": "¿ESTÁ PRESENTE EN EL HOGAR 30 DÍAS O MÁS?",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "p. 6, Q206"
+        },
+        {
+          "text": "SEXO Hombre 1 Mujer 2",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "p. 6, Q207"
+        },
+        {
+          "text": "¿CUÁL ES SU ESTADO CIVIL O CONYUGAL? Conviviente .......1 Casado(a) .........2 Viudo(a) ............3 Divorciado(a).....4 Separado(a) ......5 Soltero(a) ..........6",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "p. 6, Q209"
+        },
+        {
+          "text": "500. EMPLEO (Para todas las personas de 14 años y más de edad)",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "p. 12, Q500 header"
+        },
+        {
+          "text": "524. ¿CUÁNTO FUE SU INGRESO TOTAL EN EL (LA)………...…. Frecuencia ANTERIOR, INCLUYENDO HORAS EXTRAS, BONIFICACIONES, PAGO POR CONCEPTO DE REFRIGERIO, MOVILIDAD, COMISIONES, ETC.?",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "p. 16, Q524"
+        },
+        {
+          "text": "530. EN SU OCUPACIÓN PRINCIPAL, ¿CUÁL FUE LA GANANCIA NETA EN EL MES ANTERIOR?",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "p. 16, Q530"
+        },
+        {
+          "text": "3. Remesas de otros hogares o personas?",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "p. 19, Q556"
+        },
+        {
+          "text": "105. LA VIVIENDA QUE OCUPA SU HOGAR ES:",
+          "document": "[C] 2024/CED-01-100-2024.pdf",
+          "location": "p. 2, Q105"
+        },
+        {
+          "text": "117. EL ÚLTIMO GASTO MENSUAL POR CONSUMO DE …….…………… FUE:",
+          "document": "[C] 2024/CED-01-100-2024.pdf",
+          "location": "p. 4, Q117"
+        }
+      ],
+      "reasoning": "The survey design supports distinguishing de jure from de facto female-headed households, identifying unpartnered mother-child units, and identifying women-maintained households through individual income tracking, but does not link mother-child sub-units to their own consumption or care activity:\n\n1. de_jure_vs_de_facto: By combining individual marital status (Q209) with presence/absence of members (Q205, Q206) and receipt of remittances (Q556), the instrument allows distinguishing de jure female-headed households (e.g., single/divorced/separated/widowed female head without a spouse/partner) from de facto female-headed households (e.g., married/cohabiting female head whose partner is absent or living elsewhere).\n2. unpartnered_mother_child_units: Chapter 200 explicitly collects family nucleus identification numbers (Q203-A) and relationship within the nucleus (Q203-B). Combined with sex (Q207) and marital status (Q209), unpartnered mother–child family nuclei can be identified within larger households.\n3. women_maintained_by_provider: Employment and transfer income (Q524, Q530, Q556, Q557) are collected at the individual level for all household members aged 14 and older. By aggregating and comparing individual income contributions across members, researchers can identify whether a woman is the primary economic provider of the household or unit, regardless of who is declared household head in Q203.\n4. mother_child_unit_activity: Household expenditure (Q105, Q117) is recorded at the aggregate household level, while personal income and work activities are recorded at the individual level. There are no variables linking consumption, production, or care activities specifically to a mother–child family nucleus ('hearth-hold') sub-unit.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

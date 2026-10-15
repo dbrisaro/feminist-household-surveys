@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "501"
+        },
+        {
+          "text": "513. ¿CUÁNTAS HORAS TRABAJÓ LA SEMANA PASADA, EN SU OCUPACIÓN PRINCIPAL, EL DÍA…",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "513"
+        },
+        {
+          "text": "518. ¿CUÁNTAS HORAS TRABAJÓ LA SEMANA PASADA EN SU(S) OCUPACIÓN(ES) SECUNDARIA(S)?",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "518"
+        },
+        {
+          "text": "Sólo realizó quehaceres del hogar? ............................................ 8 Pase a pgta. 212",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "211A"
+        }
+      ],
+      "reasoning": "The survey records hours worked in paid employment (questions 513 and 518). However, it does not collect time use data for unpaid domestic or care work, leisure, or self-care. In Chapter 200 (question 211A), option 8 ('Sólo realizó quehaceres del hogar?') explicitly instructs the interviewer to skip the hours question (211D) and proceed to question 212. Per the instruction that if the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false, each element evaluates to false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

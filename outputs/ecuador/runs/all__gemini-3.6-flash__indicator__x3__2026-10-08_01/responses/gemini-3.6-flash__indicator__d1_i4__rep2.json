@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "Hombre... 1",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, p. 20"
+        },
+        {
+          "text": "Mujer…... 2",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, p. 20"
+        },
+        {
+          "text": "¿Qué relación de parentesco tiene (…) con el jefe del hogar?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, p. 20"
+        },
+        {
+          "text": "Jefe……………… 1 Cónyuge…………… 2 Hijo ó hija………….. 3 Yerno ó nuera…….. 4 Nieto ó nieta………. 5 Padres ó suegros… 6 Otros parientes…… 7 Empleado(a) Doméstico(a)……… 8 Otros no parientes… 9",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 1, p. 20"
+        }
+      ],
+      "reasoning": "The questionnaire records sex with two binary options ('Hombre', 'Mujer') and asks for relationship relative to the head of household ('jefe del hogar') using standard household member terms ('Jefe', 'Cónyuge', 'Hijo ó hija', 'Yerno ó nuera', 'Nieto ó nieta', 'Padres ó suegros', 'Otros parientes', 'Empleado(a) Doméstico(a)', 'Otros no parientes').",
+      "extracted_text": "SEXO: Hombre... 1 / Mujer…... 2; PARENTESCO: ¿Qué relación de parentesco tiene (…) con el jefe del hogar? Jefe……………… 1, Cónyuge…………… 2, Hijo ó hija………….. 3, Yerno ó nuera…….. 4, Nieto ó nieta………. 5, Padres ó suegros… 6, Otros parientes…… 7, Empleado(a) Doméstico(a)……… 8, Otros no parientes… 9"
+    }
+  ]
+}

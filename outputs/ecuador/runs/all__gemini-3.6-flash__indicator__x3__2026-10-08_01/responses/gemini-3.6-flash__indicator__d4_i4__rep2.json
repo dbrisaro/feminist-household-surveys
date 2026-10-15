@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "SECCIÓN 3: INGRESOS - PARA PERSONAS DE 5 AÑOS Y MÁS",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3, p. 15"
+        },
+        {
+          "text": "¿Recibió en el mes ABRIL, ingresos por concepto de pensión por: jubilación, orfandad, viudez, invalidez, enfermedad, divorcio, cesantía, etc.?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3, Preg. 72, p. 16"
+        },
+        {
+          "text": "¿Recibió en el mes de ABRIL, dinero o especies enviado por parte de familiares o amigos que vivan en el exterior?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3, Preg. 74, p. 16"
+        },
+        {
+          "text": "¿Cuántas horas trabajó (…) la semana pasada o la última semana que trabajó?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Preg. 24, p. 5"
+        },
+        {
+          "text": "14.. La vivienda que ocupa este Hogar es:",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 5, Preg. 14, p. 19"
+        }
+      ],
+      "reasoning": "The survey captures economic maintenance at member level in Sección 3 across multiple income sources (wages, self-employment, pensions, remittances, capital, and social transfers) for all household members aged 5 and above (COD PER). However, for labor burden, while hours worked in paid activities are recorded in Preg. 24, hours spent in unpaid domestic or care work are not collected. For property and asset control, dwelling tenure (Preg. 14) and vehicles (Preg. 15.1) are collected strictly at household level without individual member ownership attribution. Lastly, the survey contains no questions regarding intra-household decision-making.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

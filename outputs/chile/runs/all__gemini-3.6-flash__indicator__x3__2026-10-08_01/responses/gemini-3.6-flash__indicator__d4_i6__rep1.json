@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "hog2 De las personas que residen habitualmente en esta vivienda, ¿todas comparten los gastos para alimentación?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 1, hog2"
+        },
+        {
+          "text": "hog3 Entonces, contando el de usted: ¿cuántos grupos tienen gastos separados para alimentación?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 1, hog3"
+        },
+        {
+          "text": "pers2. De las personas que mencionó previamente, ¿quién es el proveedor principal del hogar? Recuerde, la persona proveedora principal siempre debe ir en la línea 1",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, pers2"
+        },
+        {
+          "text": "pers8. ¿Qué relación de parentesco tiene [Nombre de persona] con [Nombre de persona de proveedora principal]?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, pers8"
+        },
+        {
+          "text": "pers9. ¿Cuál es el sexo de [Nombre de persona]? 1 Hombre 2 Mujer",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, pers9"
+        },
+        {
+          "text": "pers13. ¿Cuál es el estado conyugal actual de [Nombre de persona]? 1 Casado/a 2 Conviviente o pareja sin acuerdo de unión civil 3 Conviviente civil 4 Anulado/a 5 Separado/a 6 Divorciado/a 7 Viudo/a 8 Soltero/a",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "p. 6, pers13"
+        }
+      ],
+      "reasoning": "The instrument explicitly identifies the main provider of the household in pers2/pers6, placing them on line 1, and records their sex in pers9. This allows identification of women-maintained households based on whether the main provider is female (women_maintained_by_provider: true). However, the questionnaire does not collect remittance information or details on absent partners to distinguish de jure from de facto female headship (de_jure_vs_de_facto: false). Furthermore, relationship in pers8 is recorded strictly relative to the main provider, meaning relationships between other household members (e.g., a mother and her child living inside an extended household) cannot be mapped (unpartnered_mother_child_units: false). Finally, there are no variables linking mother-child units to their own separate consumption, production, or care activity (mother_child_unit_activity: false).",
+      "elements": {
+        "de_jure_vs_de_facto": false,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": false,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

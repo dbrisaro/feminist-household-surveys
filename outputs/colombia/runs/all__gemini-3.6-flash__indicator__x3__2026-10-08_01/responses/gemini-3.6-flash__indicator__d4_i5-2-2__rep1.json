@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "Las temáticas por las cuales indaga la Gran Encuesta Integrada de Hogares permiten caracterizar a la población según sexo, edad, parentesco con el jefe del hogar, nivel educativo, afiliación al sistema de seguridad social en salud, grupos poblacionales como campesinado, personas con autorreconocimiento étnico, LGBT o con algún tipo de discapacidad, otras formas de trabajo como producción de bienes y servicios para autoconsumo, trabajo en formación y voluntariado, entre otras.",
+          "document": "[M] DSO-GEIH-FME-001-V11.pdf",
+          "location": "Alcance temático, page 5"
+        },
+        {
+          "text": "Características generales. Sexo, edad, parentesco con el jefe del hogar, estado civil, identificación de población campesina, y autorreconocimiento étnico.",
+          "document": "[M] DSO-GEIH-FME-001-V11.pdf",
+          "location": "Variables, page 5"
+        },
+        {
+          "text": "La unidad de observación corresponde a las viviendas, los hogares y las personas.",
+          "document": "[M] DSO-GEIH-FME-001-V11.pdf",
+          "location": "Unidades estadísticas, page 6"
+        },
+        {
+          "text": "Otras formas de trabajo. Actividades no remuneradas y ayudas, pasantías, autoconsumo y voluntariado.",
+          "document": "[M] DSO-GEIH-FME-001-V11.pdf",
+          "location": "Variables, page 5"
+        }
+      ],
+      "reasoning": "Based on the provided methodological documentation: 1. member_to_member_relationships: The text specifies that relationships are recorded relative to the household head (\"parentesco con el jefe del hogar\"). It does not contain evidence of member-to-member relationship recording or pointer variables. 2. extended_ties: While the text mentions collecting relationship to the household head, it does not specify or substantiate categories for extended ties beyond spouse and parent-child (such as grandparent-grandchild, siblings, non-kin, or same-sex partners). 3. multiple_household_criteria: The text lists dwellings, households, and individuals as observation units, but does not state criteria for separating multiple households within one dwelling. 4. sub_units: The text contains no mention of identifying sub-units or secondary family nuclei within a household. 5. caregiving_relationships: The text lists unpaid activities and domestic work, but does not indicate that caregiving relationships (who provides care to whom) are recorded.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": false,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": false,
+        "sub_units": false
+      }
+    }
+  ]
+}

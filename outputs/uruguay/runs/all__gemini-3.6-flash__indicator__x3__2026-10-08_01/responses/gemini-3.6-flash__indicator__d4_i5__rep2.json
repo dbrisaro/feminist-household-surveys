@@ -1,0 +1,57 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "¿La madre vive en este hogar?\nE31\nSí................................................................................................................... 1\n    ¿Quién es?\n    E31_1\n        Anote el N° de persona..........................................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.23"
+        },
+        {
+          "text": "¿El padre vive en este hogar?\nE32\nSí................................................................................................................... 1\n    ¿Quién es?\n    E32_1\n        Anote el N° de persona..........................................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.24"
+        },
+        {
+          "text": "¿Tiene cónyuge o pareja en este hogar?\nE33\nSí................................................................................................................... 1\n    ¿Quién es?\n    E34\n    Anote el N° de persona.............................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.25"
+        },
+        {
+          "text": "¿Cuál es su relación de parentesco con la persona referente del\nE30 hogar (integrante del hogar N° 1)?\n\nReferente del hogar.......................................................... 1\nEsposo/a, compañero/a. .................................................. 2\nHijo/a de ambos. .............................................................. 3\nHijo/a solo de la persona referente. ................................. 4\nHijo/a solo del esposo/a compañero/a.............................. 5\nYerno / Nuera. .................................................................. 6\nPadre / Madre................................................................... 7\nSuegro/a........................................................................... 8\nHermano/a........................................................................ 9\nCuñado/a.......................................................................... 10\nNieto/a.............................................................................. 11\nOtro pariente. ................................................................... 12\nOtro no pariente. .............................................................. 13\nServicio doméstico o familiar del mismo. ......................... 14",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.22"
+        },
+        {
+          "text": "Casamiento civil con pareja del mismo sexo.................... 5\nUnión concubinaria reconocida mediante sentencia\njudicial con pareja del mismo sexo................................... 7\nUnión libre con pareja del mismo sexo. ........................... 3",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.26"
+        },
+        {
+          "text": "Todas las personas que habitan esta vivienda, ¿dependen de un\nC6\n     mismo fondo de alimentación? Es decir, ¿conforman un hogar?\nSí................................................................................................................... 1\nNo\n     ¿Cuántos hogares comparten esta vivienda?\n     Anote la cantidad....................................................................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "c.14"
+        },
+        {
+          "text": "¿Este hogar paga (en dinero o de otra forma) a personas para que\n     limpien la vivienda, cuiden niños o ancianos o realicen alguna otra\n     tarea doméstica?\nD181_B",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "d.16"
+        },
+        {
+          "text": "Sin mediar pago alguno, este hogar, ¿recibe ayuda de otros familiares\n     o conocidos que no integran el hogar para limpiar la vivienda, cuidar\n     niños o ancianos o para realizar alguna otra tarea doméstica?\nD184_B",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "d.17"
+        }
+      ],
+      "reasoning": "The survey records member-to-member relationships through individual pointer variables (mother's ID in e.23, father's ID in e.24, and partner's ID in e.25). Extended ties beyond spouse and parent-child are identified in e.22 (grandchild, siblings, non-kin) and e.26 (same-sex unions). Criteria for separating multiple households within a dwelling are explicitly based on sharing a common food budget (c.14). Sub-units (secondary family nuclei) can be identified via the parental and spousal pointer variables. Caregiving relationships (who specifically cares for whom inside or across households) are not recorded; questions d.16 and d.17 only ask if the household pays or receives external unpaid help for domestic work or care.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": true,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

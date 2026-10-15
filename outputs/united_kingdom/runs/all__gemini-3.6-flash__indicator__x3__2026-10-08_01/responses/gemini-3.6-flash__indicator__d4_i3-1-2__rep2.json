@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "Record if [Name] is person in whose name this accommodation is owned or rented",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 12, HRPID"
+        },
+        {
+          "text": "You told me that [NumHhldrs] people jointly own or rent the accommodation. Which of you/them has the highest income (from earnings, benefits, pensions and any other sources)?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 231, HIHNUM"
+        },
+        {
+          "text": "Enter person number of the eldest (joint householder) from those listed below",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 231, JNTELDA"
+        },
+        {
+          "text": "Enter PerNo of person providing information about this respondent",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 14, RESPNO"
+        },
+        {
+          "text": "From spring 2001 the LFS is switching from using Head of Household (HOH) to Household Reference Person (HRP) in line with all other ONS household surveys.",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "Page 9, Section 4"
+        },
+        {
+          "text": "The HRP will take into account accommodation ownership / rental, income and age in order to identify the HRP",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "Page 9, Section 4"
+        }
+      ],
+      "reasoning": "The supplied documents establish the following regarding the four elements:\n1. neutral_anchor_term: True. The instrument uses 'Household Reference Person' (HRP) rather than 'head of household' as the primary category for identifying the anchor person.\n2. explicit_selection_rule: True. An explicit rule is stated: the HRP is the person in whose name the accommodation is owned or rented (HRPID), and in cases of joint ownership/tenancy, the person with the highest income (HIHNUM), or if equal/refused, the eldest joint householder (JNTELDA/JNTELDB).\n3. rule_not_sex_age_authority: False. The stated selection criteria explicitly invoke highest income ('highest income') and seniority ('eldest') as tie-breakers among joint householders.\n4. respondent_separate_or_any_adult: True. The questionnaire explicitly records the person providing information for each respondent via RESPNO ('Enter PerNo of person providing information about this respondent').",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

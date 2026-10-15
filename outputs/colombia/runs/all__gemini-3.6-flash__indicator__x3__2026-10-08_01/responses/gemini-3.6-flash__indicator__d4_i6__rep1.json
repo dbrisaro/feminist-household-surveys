@@ -1,0 +1,71 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "¿Cuál fue su sexo al nacer? 1 Masculino 2 Femenino",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "p. 6, Section E, Q3"
+        },
+        {
+          "text": "¿Cuál es el parentesco de ... con el jefe o jefa del hogar? a. Jefe(a) del hogar 1",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "p. 6, Section E, Q5"
+        },
+        {
+          "text": "Actualmente: a. No está casado(a) y vive en pareja hace menos de dos años 1 b. No está casado(a) y vive en pareja hace dos años o más 2 c. Está casado(a) 3 d. Está separado(a) o divorciado(a) 4 e. Está viudo(a) 5 f. Está soltero(a) 6",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "p. 10, Section E, Q11"
+        },
+        {
+          "text": "¿El (la) cónyuge de… reside en este hogar? Sí 1 Número de orden No 2",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "p. 10, Section E, Q12"
+        },
+        {
+          "text": "¿La madre de… reside en este hogar? Sí 1 Número de orden No 2 Fallecida 3",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "p. 6, Section E, Q5A"
+        },
+        {
+          "text": "¿El padre de… reside en este hogar? Sí 1 Número de orden No 2 Fallecido 3",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "p. 6, Section E, Q5B"
+        },
+        {
+          "text": "Antes de descuentos, ¿cuánto ganó... el mes pasado en este empleo? (Incluya propinas y comisiones, y excluya viáticos y pagos en especie)",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "p. 34, Section I, Q17"
+        },
+        {
+          "text": "¿Cuál fue la ganancia neta o los honorarios netos de ... en esa actividad, negocio, profesión o finca, el mes pasado ?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "p. 54, Section I, Q48"
+        },
+        {
+          "text": "a. Dinero de otros hogares o personas residentes en el país",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "p. 96, Section L, Q4a"
+        },
+        {
+          "text": "¿En cuál de los siguientes lugares, preparan los alimentos las personas de este hogar:",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "p. 3, Section C, Q7"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "p. 86, Section K, Q4"
+        }
+      ],
+      "reasoning": "The assessment for each element is as follows:\n\n1. `de_jure_vs_de_facto`: True. The instrument captures sex at birth (Section E, Q3), relationship to household head (Section E, Q5), marital status (Section E, Q11), presence/absence of spouse or partner in the household (Section E, Q12), and incoming money/remittances from other households in the country or abroad (Section L, Q4). Combining female headship with marital status, spouse presence/absence, and remittance data allows distinguishing de jure female-headed households (unpartnered/single/widowed/divorced female heads) from de facto female-headed households (partnered female heads whose spouse resides elsewhere).\n\n2. `unpartnered_mother_child_units`: True. Questions E.5A and E.5B capture whether each person's mother and father reside in the household and link them via person line numbers ('Número de orden'). Combined with marital status (Section E, Q11) and spouse presence in the household (Section E, Q12), unpartnered mother-child units can be identified even when living inside larger or extended households.\n\n3. `women_maintained_by_provider`: True. Income from primary and secondary jobs (Section I) as well as non-labor income and transfers (Section L) is collected individually for every member of the household. This allows identifying the main economic earner/provider of the household independently of who is designated as the reference person ('Jefe(a) del hogar') in Question E.5.\n\n4. `mother_child_unit_activity`: False. Household consumption, food preparation, and housing features (Section C) are collected at the aggregate household level, and unpaid care work (Section K) is collected per individual respondent. The questionnaire does not disaggregate or link consumption, production, or care activities specifically to sub-household mother-child units ('hearth-holds').",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "country": "mexico",
+  "survey": "Encuesta Nacional de Ocupación y Empleo (ENOE) ()",
+  "agency": "INEGI",
+  "doc_dir": "data/raw/mexico/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [
+        "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+        "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf"
+      ]
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [],
+      "missing_note": "No document of type M (methodological notes and technical reports) was found in the collected corpus for mexico. Indicators routed to M are reported as source_missing, not as not_evidenced."
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [
+        "G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf"
+      ]
+    }
+  },
+  "estimated_tokens": {
+    "C": 23167,
+    "M": 0,
+    "G": 452323,
+    "C+M": 23167
+  },
+  "excluded": {
+    "G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_crítico-valida.pdf": "[manual] manual for the crítico-validador role (post-collection data validation), not instruction to the interviewer; G is field instruction only"
+  },
+  "unclassified": {},
+  "manual_review": {
+    "source": "config/manual_overrides.json",
+    "applied": 1,
+    "note": "Decided 2026-08-20: G is field instruction only - the manual for the person asking the questions. A manual for post-collection data validation cannot evidence how the instrument was designed to ask about gender or care work."
+  },
+  "non_textual": {
+    ".txt": 115,
+    ".xlsx": 22,
+    ".csv": 2
+  }
+}

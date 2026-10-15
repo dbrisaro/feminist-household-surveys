@@ -1,0 +1,80 @@
+{
+  "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+  "note": "final run 2026-10-08, option B",
+  "planned_utc": "20261008T183650Z",
+  "provider": "google",
+  "country": "mexico",
+  "settings": {
+    "model": [
+      "gemini-3.6-flash"
+    ],
+    "mode": [
+      "indicator"
+    ],
+    "effort": null,
+    "effort_note": "--effort medium accepted but not sent: the google API takes no equivalent parameter",
+    "repeat": 3,
+    "only": null,
+    "budget_usd": 3.0,
+    "api_key_var": "GEMINI_API_KEY_PAID",
+    "executed": true,
+    "max_tokens": {
+      "indicator": 4000
+    },
+    "thinking": null
+  },
+  "framework": {
+    "source_file": "Prompting/gender_survey_framework.html",
+    "n_indicators": 17
+  },
+  "corpus": {
+    "n_documents": 3,
+    "documents": [
+      {
+        "source_code": "C",
+        "doc": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+        "text_file": "data/processed/text/mexico/C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.txt",
+        "chars": 38817,
+        "sha256": "94936ca2253a09ac794da6295ef8ad5f5f5f1d6e0d130ae4affd8b781c9b613c",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "C",
+        "doc": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+        "text_file": "data/processed/text/mexico/C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.txt",
+        "chars": 77897,
+        "sha256": "581b37eb8ae18b558202130f0ffc56ef0ed0e2977f91a93e524f303241f40a79",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "G",
+        "doc": "G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf",
+        "text_file": "data/processed/text/mexico/G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.txt",
+        "chars": 2098149,
+        "sha256": "b7e25f663dcf1eeac814af925bb6b3ac5ada2c7c851a5b18f0544b87419bbe33",
+        "part": 1,
+        "n_parts": 2
+      }
+    ]
+  },
+  "plan": {
+    "n_calls": 63,
+    "n_source_missing": 0,
+    "projected_input_usd": 3.0635,
+    "projected_worst_case_usd": 6.8435
+  },
+  "cost": {
+    "spent_usd": 1.8908,
+    "notional_usd_on_paid_key": null,
+    "billing": "paid",
+    "requests_used": null,
+    "requests_per_day_limit": null,
+    "budget_usd": 3.0,
+    "n_calls_planned": 63,
+    "started_utc": "20261008T183650Z",
+    "finished_utc": "20261008T190958Z"
+  },
+  "command": "scripts/llm/run_eval_gemini.py --country mexico --model gemini-3.6-flash --mode indicator --repeat 3 --billing paid --api-key-var GEMINI_API_KEY_PAID --max-output-tokens 16000 --budget-usd 3.00 --note final run 2026-10-08, option B --go"
+}

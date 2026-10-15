@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "5b. ¿Qué días y cuántas horas le dedicó... a su trabajo la semana pasada?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section V, Question 5b, page 8"
+        },
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a 1 estudiar o tomar cursos de capacitación? (incluye el tiempo dedicado a realizar trabajos escolares) 2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos) 3 realizar compras, llevar cuentas o realizar trámites para el hogar o encargarse de la seguridad? (como guardar el automóvil) 4 llevar a algún miembro del hogar a la escuela, cita médica u otra actividad? 5 construir o ampliar su vivienda? 6 reparar o dar mantenimiento a su vivienda, muebles, aparatos electrodomésticos o vehículos? 7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer) 8 prestar servicios gratuitos a su comunidad?(conseguir despensas, cuidar personas en un hospital)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        }
+      ],
+      "reasoning": "The instrument records time devoted to paid work in Question 5b, where respondents report hours and minutes worked each day of the previous week. It also records time devoted to unpaid domestic and care work in Question 9 (items 2 through 8), which captures hours and minutes spent on unpaid care for children, elderly, sick, or disabled persons, household errands/management, member transport, home repairs, domestic chores, and community service. However, Question 9 only covers study and unpaid domestic/care/community activities; neither Question 9 nor any other question in the supplied instruments records time devoted to leisure or self-care (such as sleeping, eating, or personal care).",
+      "elements": {
+        "leisure": false,
+        "paid work": true,
+        "self-care": false,
+        "unpaid work": true
+      }
+    }
+  ]
+}

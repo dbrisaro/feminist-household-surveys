@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "6. Por qué no buscó trabajo? ... 11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 2, Parte A, Pregunta 6, página 4"
+        },
+        {
+          "text": "7. Es usted: ... 2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 2, Parte A, Pregunta 7, página 4"
+        }
+      ],
+      "reasoning": "The questionnaire does not include a separate module for unpaid domestic or care work. Domestic and care activities are mentioned only as categories of inactivity or reasons for not seeking or working more hours.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

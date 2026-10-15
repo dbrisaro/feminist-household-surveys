@@ -1,0 +1,56 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "G - INGRESOS PERSONALES",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "G - INGRESOS PERSONALES, p. 14"
+        },
+        {
+          "text": "g.3 ¿Cuánto recibió el mes pasado en su empleo asalariado al que le dedica la mayor carga horaria?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "g.3, p. 14"
+        },
+        {
+          "text": "g.30 ¿Cuánto recibió el mes pasado por jubilaciones?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "g.30, p. 17"
+        },
+        {
+          "text": "g.32 ¿Cuánto recibió el mes pasado por pensiones?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "g.32, p. 17"
+        },
+        {
+          "text": "f.42 ¿Cuántas horas trabaja habitualmente por semana en este trabajo?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.42, p. 11"
+        },
+        {
+          "text": "f.82 ¿Usted es… … quien realiza los quehaceres del hogar?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.82, p. 13"
+        },
+        {
+          "text": "h.7 Si el hogar es propietario de la vivienda. ¿Cuál o cuáles miembros del hogar son los propietarios/as? Anote el N° de persona.",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "h.7, p. 20"
+        },
+        {
+          "text": "f.24 ¿Quién decide sobre… … su horario de trabajo? … el tipo de producto o servicio ofrecido? … el precio de los productos o servicios?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.24, p. 9"
+        }
+      ],
+      "reasoning": "Economic maintenance is captured at member level in Module G (G - INGRESOS PERSONALES), which collects individual income from paid employment, self-employment, pensions, and transfers per person. Property and asset control is captured at member level in question h.7, which records the exact member line number(s) of dwelling owners. However, labor burden is not fully captured at member level because hours spent on unpaid domestic or care work are not collected (only paid work hours in f.42 and binary status as household chore performer in f.82). Decision-making across household spheres (child-rearing, daily consumption, major financial choices) is not captured; question f.24 only covers business management decisions for independent workers.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": true
+      }
+    }
+  ]
+}

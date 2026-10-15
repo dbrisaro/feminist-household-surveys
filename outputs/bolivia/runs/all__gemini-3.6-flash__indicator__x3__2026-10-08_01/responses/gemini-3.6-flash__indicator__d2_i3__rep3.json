@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "2. Durante la semana pasada, dedicó al menos una hora a: 1. ¿Trabajar en cultivos agrícolas o en la crianza de animales? 2. ¿Atender o ayudar en algún negocio propio o familiar? 3. ¿Vender en la calle en un puesto o como ambulante? 4. ¿Preparar alimentos, hilar, tejer, coser u otras actividades para la venta? 5. ¿Prestar servicios a otras personas por remuneración (lavar ropa ajena, cortar cabello, dar clases particulares, etc.)? 6. ¿Realizar alguna otra actividad por la cual ganó dinero?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 2, p. 4"
+        },
+        {
+          "text": "11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 6, p. 4"
+        },
+        {
+          "text": "2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 7, p. 4"
+        }
+      ],
+      "reasoning": "The questionnaire defines economic activity/work in Section 2 (Questions 1 and 2) around market production, profit, pay, or family business help (\"para la venta\", \"por remuneración\", \"ganó dinero\"). Unpaid domestic and care work performed for one's own household is not included in these activity categories; instead, it is listed as a reason for not seeking work (\"LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR\" in Q6) or as a non-employed status (\"Ama de casa / responsable de los quehaceres del hogar\" in Q7). Therefore, unpaid domestic and care work is not classified as economic activity, but is mentioned and treated as a category of inactivity/non-work.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

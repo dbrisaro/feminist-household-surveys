@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "h3 Habitualmente, ¿cuántas horas y días trabaja a la semana? h3a Actividad principal Horas diarias Días Total horas h3b Actividad secundaria Horas diarias Días Total horas",
+          "document": "cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN H, h3"
+        }
+      ],
+      "reasoning": "The questionnaire contains questions on time spent only in relation to paid work (main activity and secondary activity in Section H). It does not include questions or modules asking respondents to record or report time allocated across daily activities such as unpaid care work, domestic tasks, education, or leisure.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

@@ -1,0 +1,355 @@
+{
+ "model": "gemini-3.6-flash",
+ "counted_utc": "2026-10-09T12:50:16Z",
+ "note": "Gemini countTokens (REST) over each document's text file as used by the run (sha256 checked against manifest.json); free endpoint, no generation.",
+ "countries": {
+  "bolivia": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf": {
+     "source_code": "C",
+     "tokens": 10208,
+     "chars": 79057,
+     "sha256": "b5e8ea6fde47a7f062261bdc11069e9351c418728add3002b888a879b68b20af"
+    },
+    "Nota tecnica_ECE02_2020_trat sesgos.pdf": {
+     "source_code": "M",
+     "tokens": 5260,
+     "chars": 28384,
+     "sha256": "f1d782eebd54f20672e272bd0039abba23fa5709506a319e6047febda2432d99"
+    },
+    "NT_ECE03_2020.pdf": {
+     "source_code": "M",
+     "tokens": 1373,
+     "chars": 5549,
+     "sha256": "8234f2d683d5d8a81dd717a0919bb41acb246503e89db99410189ee4aba9a165"
+    },
+    "NOTA TEC_ECE01_2020.pdf": {
+     "source_code": "M",
+     "tokens": 4494,
+     "chars": 20350,
+     "sha256": "5d569552c2fe13f04ee950f7dd3e4798003c92d3f4fade990bcb0ec26c2e3530"
+    },
+    "DISEÑO DE MUESTRA ECE_v3_BOLIVIA act.pdf": {
+     "source_code": "M",
+     "tokens": 25288,
+     "chars": 111232,
+     "sha256": "3bed7fe8266cbeb267db1db3e88ea3835d82dbdc2c9648104acbedc9c58b2ef3"
+    }
+   }
+  },
+  "italy": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf": {
+     "source_code": "C",
+     "tokens": 19316,
+     "chars": 90453,
+     "sha256": "29b7a53c88c925edc4497031337e282c272616eb3d470abe7742b376147ab62b"
+    },
+    "2025/METADATI/ISTAT_MFR_RCFL_Long3_NotaMetodologicaIndagine_2025_Terzo_trimestre.pdf": {
+     "source_code": "M",
+     "tokens": 7346,
+     "chars": 33170,
+     "sha256": "cf02512f8482566192b61802a7bc9cbb825fa85d7ab030eeef95db4cf6673bb1"
+    }
+   }
+  },
+  "peru": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "2024/CED-01A-500 ENAHO 2024.pdf": {
+     "source_code": "C",
+     "tokens": 14836,
+     "chars": 97940,
+     "sha256": "866ce9675d08a97bb4f47f0ed008e05648598adaa0e97c7f1f1f2eb64b89eaa4"
+    },
+    "2024/CED-01-200-2024.pdf": {
+     "source_code": "C",
+     "tokens": 2912,
+     "chars": 23255,
+     "sha256": "183f3275e60af360adec9ceb83bf366b38d3b200e067e67c7b94be452a60c20a"
+    },
+    "2024/CED-01-100-2024.pdf": {
+     "source_code": "C",
+     "tokens": 5570,
+     "chars": 36316,
+     "sha256": "4d400ec4a6deb87624a78228624ee138420666d86376e715bc9e9211cfe903e9"
+    },
+    "2024/FichaTecnica.pdf": {
+     "source_code": "M",
+     "tokens": 14793,
+     "chars": 64396,
+     "sha256": "0c227d8e1b92ae51bb8a931d55b22a6c3677403d73b2cd6c87e80c242bac3b53"
+    },
+    "2024/DefinicionValoresMonetariosBasedeDatos.pdf": {
+     "source_code": "M",
+     "tokens": 1294,
+     "chars": 5858,
+     "sha256": "5a5f812300ccf8819cde958f2ad9bafb374d2b99285c6a97ffdeffd438e908ec"
+    }
+   }
+  },
+  "paraguay": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf": {
+     "source_code": "C",
+     "tokens": 33491,
+     "chars": 324019,
+     "sha256": "b4022a06396ef8a6d069cb1dec49d46cc5cd378060f2d24d4e8e741838e20d0b"
+    }
+   }
+  },
+  "argentina": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "EPHContinua_CuestVivienda.pdf": {
+     "source_code": "C",
+     "tokens": 7542,
+     "chars": 68180,
+     "sha256": "bf7923a888fa887aea04d07df0db324dab79657b132a9e1be9c82d517098b6f4"
+    },
+    "EPHContinua_CuestIndividual.pdf": {
+     "source_code": "C",
+     "tokens": 11875,
+     "chars": 95409,
+     "sha256": "e11c3dcaadfb6e8a4eaa18ad8158793da1bd5b9a04f0b94b684169c0c46d72b0"
+    },
+    "EPHContinua_CuestHogar.pdf": {
+     "source_code": "C",
+     "tokens": 5358,
+     "chars": 43361,
+     "sha256": "339ceca10cd006acba543c265c3880d37ca4e566125fff8f4ac2450aa728e586"
+    },
+    "metodologia_eph_continua_2003_sin_anexo2.pdf": {
+     "source_code": "M",
+     "tokens": 22012,
+     "chars": 128406,
+     "sha256": "585b2f27fb8ca635437f61ce8abbcb2343494dd95a770e5d7caa0f5cebbbad36"
+    },
+    "EPH_consideraciones_metodologicas_2t20.pdf": {
+     "source_code": "M",
+     "tokens": 7757,
+     "chars": 36863,
+     "sha256": "04acb700cb9ffc87186df2742c68e0f6870a5e6bab74f672c4ad4b8817094a90"
+    },
+    "EPH_nota_metodologica_1_trim_2019.pdf": {
+     "source_code": "M",
+     "tokens": 4347,
+     "chars": 14369,
+     "sha256": "04af1b7dd4693a1fb2bac01aa50060e0f121deb9d08d07f2c6cc59487fc535aa"
+    },
+    "metodologia_informalidad_laboral.pdf": {
+     "source_code": "M",
+     "tokens": 42464,
+     "chars": 247718,
+     "sha256": "129b3fa7d474916fe7787852da14cdf33bdb30f20fbffdab80ac2fbdb6452866"
+    }
+   }
+  },
+  "spain": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "epacues21.pdf": {
+     "source_code": "C",
+     "tokens": 35750,
+     "chars": 181702,
+     "sha256": "670f0c3e2ffcd9ab7a415b5b7f0101461e545a63b64e72d616d9950ee0ff6be2"
+    },
+    "compa_paro_2023.pdf": {
+     "source_code": "M",
+     "tokens": 23607,
+     "chars": 98026,
+     "sha256": "62780ddfcbffc39c8e24f627b1fc68957b3d9cb368600d666e39483b01434d85"
+    },
+    "resumetepa21.pdf": {
+     "source_code": "M",
+     "tokens": 10803,
+     "chars": 50471,
+     "sha256": "d120d5de0b4cfb930881686452bd3ce9411deadbcf1d9e978612065ffef26431"
+    },
+    "medida_efecto_epa_cambios2021.pdf": {
+     "source_code": "M",
+     "tokens": 6450,
+     "chars": 26928,
+     "sha256": "cf66415d714542d648b1a874d013172c2071f53cc73a7945a79910fc3376aaaa"
+    },
+    "epa_cambios2021.pdf": {
+     "source_code": "M",
+     "tokens": 4812,
+     "chars": 20407,
+     "sha256": "4e329d8df76e8218e3ad2bc49a876c88ee1581bf56a565628e2590b0bb4c517c"
+    }
+   }
+  },
+  "uruguay": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "C_Cuestionario_seguimiento_2024.pdf": {
+     "source_code": "C",
+     "tokens": 10357,
+     "chars": 87417,
+     "sha256": "70385f239651bebded9b25d395a29e0d958c98755563d90d1a6ba113a98f8f08"
+    },
+    "C_Cuestionario_implantación_2024.pdf": {
+     "source_code": "C",
+     "tokens": 33100,
+     "chars": 281508,
+     "sha256": "fe27823f30d46b5a93b5eadb1dc2e2d2ac3e148771664f3e47fa4a2ee6c9d85b"
+    },
+    "Metodologia_ECH_2021.pdf": {
+     "source_code": "M",
+     "tokens": 32322,
+     "chars": 144729,
+     "sha256": "60fa0652a0a9c1fdf5a0d710728f23f7ae0d9a39a5e1eda51213e0507f577b4d"
+    }
+   }
+  },
+  "chile": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "cuestionario-ene-2020.pdf": {
+     "source_code": "C",
+     "tokens": 25109,
+     "chars": 117518,
+     "sha256": "623da46dbba8b9076026808dca00ff1a831a7dfe5d7e131004e22d0f8827c0d2"
+    },
+    "glosario-ene.pdf": {
+     "source_code": "M",
+     "tokens": 8829,
+     "chars": 35402,
+     "sha256": "9e9f91777e4ded104b2b3859e938d2f92a23cd65698ef0e6b59dbf2cad19afa5"
+    },
+    "metodologia-ene-2020.pdf": {
+     "source_code": "M",
+     "tokens": 136534,
+     "chars": 545100,
+     "sha256": "678b07d0ddfeddb7380f30bcdc25bdaed9de2d79c985947fcb9f347cc7e28578"
+    }
+   }
+  },
+  "ecuador": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "C_202605_Formulario_ENEMDU.pdf": {
+     "source_code": "C",
+     "tokens": 21022,
+     "chars": 215996,
+     "sha256": "2b3211bb9329df023e2fc57f2f7cbfe0138384ed759d4b952d51e038e0fefeab"
+    },
+    "202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf": {
+     "source_code": "G",
+     "tokens": 118285,
+     "chars": 588744,
+     "sha256": "21d3c86429c11282a773151e48d8d81f689b58cd6afd47d3399955fd08fd4775"
+    },
+    "3.%20REM-Empleo_condact.pdf": {
+     "source_code": "M",
+     "tokens": 26867,
+     "chars": 129870,
+     "sha256": "471d09015d333b260995ba684e74d1b99a9385bfddad7d24db07b739fc9f69b1"
+    },
+    "M_4_REM-Actualizacion_metodologica_empleo_informal.pdf": {
+     "source_code": "M",
+     "tokens": 8895,
+     "chars": 43523,
+     "sha256": "52a87c8bd75841ddc2d1b74e355a00e882397d030b9626d8734a20c6372a4e72"
+    },
+    "M_202605_Metodologia_ENEMDU.pdf": {
+     "source_code": "M",
+     "tokens": 25038,
+     "chars": 115749,
+     "sha256": "92513221e3719510a4d18419b30e1e554c60ecb7dd2fb0a20d57cdf9851d9c04"
+    },
+    "M_2026_I_trimestre_Metodologia_de_disenio_muestral.pdf": {
+     "source_code": "M",
+     "tokens": 25769,
+     "chars": 94434,
+     "sha256": "0eeef22703c6506e3151dfa9ca0db380d2464ba49c2fe314387de243aea5a232"
+    }
+   }
+  },
+  "mexico": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf": {
+     "source_code": "C",
+     "tokens": 4443,
+     "chars": 38817,
+     "sha256": "94936ca2253a09ac794da6295ef8ad5f5f5f1d6e0d130ae4affd8b781c9b613c"
+    },
+    "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf": {
+     "source_code": "C",
+     "tokens": 9347,
+     "chars": 77897,
+     "sha256": "581b37eb8ae18b558202130f0ffc56ef0ed0e2977f91a93e524f303241f40a79"
+    },
+    "G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_entrevistador.pdf": {
+     "source_code": "G",
+     "tokens": 277243,
+     "chars": 2098149,
+     "sha256": "b7e25f663dcf1eeac814af925bb6b3ac5ada2c7c851a5b18f0544b87419bbe33"
+    }
+   }
+  },
+  "united_kingdom": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "volume2octtodec2025.pdf": {
+     "source_code": "C",
+     "tokens": 101320,
+     "chars": 507864,
+     "sha256": "6e390d7af36d6e6220aa1e11e18101c6b95122b9c137f8656984306830c26f03"
+    },
+    "lfsugvoltcm77238281.pdf": {
+     "source_code": "M",
+     "tokens": 53798,
+     "chars": 234017,
+     "sha256": "fa3d31577b7a2fd8d9f50e318b8b6cf8ce2f7694ae9974b791b64d76b003f6c2"
+    },
+    "volume1main2024updatedfeb25.pdf": {
+     "source_code": "M",
+     "tokens": 81406,
+     "chars": 336992,
+     "sha256": "8707d77cc69cec145d6a6a3d64f24b17aeccb8af9ed8c7f30146005edab44da6"
+    }
+   }
+  },
+  "colombia": {
+   "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+   "documents": {
+    "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf": {
+     "source_code": "C",
+     "tokens": 115818,
+     "chars": 839915,
+     "sha256": "37d82c4c60d14aae4902210e49cdb4ff8bd8c16cab71e8258bfdc7531ecd3e1c"
+    },
+    "G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf": {
+     "source_code": "G",
+     "tokens": 143832,
+     "chars": 753548,
+     "sha256": "4e5bcd60a816581efa07dfaece3b430f8cd4a1470d7e07ff75a96eb7e55d12bd"
+    },
+    "DSO-GEIH-MET-001-V11.pdf": {
+     "source_code": "M",
+     "tokens": 49638,
+     "chars": 222999,
+     "sha256": "1aac4c33d5de225a1318defc6a22afa70fa5989da99e7a517608779e35266c35"
+    },
+    "DSO-GEIH-FME-001-V11.pdf": {
+     "source_code": "M",
+     "tokens": 14088,
+     "chars": 69771,
+     "sha256": "aabbb1594019753cd19e5a15197f3a500b3357ebff1d72da340e7243e03f91e1"
+    },
+    "Nueva_medicion_informalidad.pdf": {
+     "source_code": "M",
+     "tokens": 32913,
+     "chars": 299898,
+     "sha256": "d75bfc2dca4771ea4198065fd95b84ddd06d51e97cda07aa70a1feb6a69461df"
+    }
+   }
+  }
+ }
+}

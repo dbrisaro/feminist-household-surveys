@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "5 SEXO Hombre. .... 1 Mujer......... 6",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Pregunta 5"
+        }
+      ],
+      "reasoning": "In Section 1 (Características de la Población), Question 5 collects a sex variable under the column header 'SEXO', offering response categories for 'Hombre' (1) and 'Mujer' (6).",
+      "value": true
+    }
+  ]
+}

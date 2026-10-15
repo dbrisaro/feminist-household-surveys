@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "le famiglie con capofamiglia straniero, che vengono sempre intervistate con tecnica CAPI;",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_NotaMetodologicaIndagine_2025_Terzo_trimestre.pdf",
+          "location": "4. La tecnica di Indagine, page 6"
+        },
+        {
+          "text": "QSF16. Relazione di parentela RICODIFICATA NELLA VARIABILE RUOLOFAM",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), page 2"
+        },
+        {
+          "text": "RUOLOFAM Ruolo in famiglia\n  Unipersonale 1\n  Genitore in coppia 2\n  Monogenitore 3\n  Coniuge senza figli 4\n  Figlio 5\n  Figlio di monogenitore 6\n  Altro 7",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Caratteristiche individuali e familiari, page 23"
+        }
+      ],
+      "reasoning": "1. neutral_anchor_term: False. The methodological documentation [M] uses the term \"capofamiglia\" (\"famiglie con capofamiglia straniero\"), which translates to head of household, rather than adhering exclusively to neutral terminology.\n2. explicit_selection_rule: False. Neither [C] nor [M] provides an explicit selection rule for choosing the reference person or household anchor.\n3. rule_not_sex_age_authority: False. Because no selection rule for the reference person is stated in the provided text, it cannot be established that the rule excludes criteria of sex, seniority, or presumed authority.\n4. respondent_separate_or_any_adult: False. Although proxy reporting is allowed in individual modules (indicated by QA03), the supplied text does not explicitly establish that any knowledgeable adult may answer household-level questions or record the household respondent separately from the anchor person.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": false,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

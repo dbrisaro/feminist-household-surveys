@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "May I just check, is the main reason because you were...\n   1     ...looking after children?\n   2     looking after an incapacitated adult?\n   3     or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 52, YPTCIA"
+        },
+        {
+          "text": "May I just check, is the main reason you left because you were...\n   1     Looking after children or an adult in need of care\n   2     Some other personal or family reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 61, REDYRS"
+        },
+        {
+          "text": "May I just check, was the main reason that you did not look for work because...\n    1       Were you caring for children below school age,\n    2       Were you caring for other children,,\n    3       Were you caring for a dependent adult relative,\n    4       or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 120, NOLWF"
+        }
+      ],
+      "reasoning": "The survey instrument was examined for questions measuring unpaid domestic and care work. Regarding responsibility, there are no questions asking who is in charge of, plans, or holds responsibility for domestic or care tasks. Regarding performance, questions such as YPTCIA, REDYRS, and NOLWF mention caring for children or dependent adults, but these questions function exclusively as response options for reasons for working part-time, reasons for leaving a job, or reasons for not looking for work. Per the operational definition, categories of inactivity or reasons for not working do not count as asking about performance of unpaid domestic or care work. Regarding magnitude, the instrument contains no questions recording the time duration or frequency of unpaid domestic or care work performed.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

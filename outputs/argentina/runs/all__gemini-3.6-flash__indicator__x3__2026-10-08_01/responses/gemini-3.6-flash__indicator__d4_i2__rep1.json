@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "3 ¿Quién es el jefe o jefa del hogar? (anote su nombre en primer lugar y luego continúe con el resto del hogar)",
+          "document": "[C] EPHContinua_CuestVivienda.pdf",
+          "location": "Bloque V, p. 4"
+        },
+        {
+          "text": "RELACIÓN DE PARENTESCO (Anote en el orden siguiente) Jefe/a Cónyuge/Pareja",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        }
+      ],
+      "reasoning": "In Bloque V, Question 3 of the Dwelling Questionnaire, the interviewer asks the person responding to the interview: '¿Quién es el jefe o jefa del hogar?'. The questionnaire does not require that the household head be mutually agreed upon or recognised by all members of the household, nor does it establish an explicit rule or objective demographic/economic criterion (such as the main economic provider or the oldest adult). Therefore, the head is designated by the respondent.",
+      "selected": "designated by the respondent"
+    }
+  ]
+}

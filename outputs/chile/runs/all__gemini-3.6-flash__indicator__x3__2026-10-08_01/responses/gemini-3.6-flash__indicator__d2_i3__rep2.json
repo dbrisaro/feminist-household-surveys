@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "a1 [nombre de persona], la semana pasada, es decir, entre lunes y domingo, ¿trabajó por lo menos una hora?\n1 Sí Pasa a a3\n2 No\na2 Independientemente de lo que acaba de decir, ¿hizo algún negocio, “pololo” u otra actividad por cuenta propia por lo menos durante una hora? Por ejemplo…\n¿Efectuó alguna venta o negocio? (con excepción de los bienes de su hogar)\n¿Realizó alguna actividad agrícola, minera, artesanal u otra, para vender a futuro?\n¿Ayudó o prestó algún servicio a algún familiar?\n1 Sí\n2 No Pasa a a5\na3 Por ese trabajo, ¿recibió o recibirá un pago en dinero o en especie?\n1 Sí Pasa a b1_1\n2 No\na4 Ese trabajo, ¿fue realizado para la empresa o negocio perteneciente a un miembro de su familia?\n1 Sí Pasa a b1_1\n2 No Pasa a j1",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN A, p. 8"
+        },
+        {
+          "text": "j7 ¿Por qué razón no buscó un empleo o no ha hecho preparativos para iniciar o reanudar una actividad por cuenta propia durante las últimas cuatro semanas?\n... 3 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)\n... 11 Por responsabilidades familiares de carácter temporal",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN J, p. 16"
+        }
+      ],
+      "reasoning": "The questionnaire does not include unpaid domestic and care work within the definition of work or economic activity. Section A filters out unpaid work unless it was conducted for a business or enterprise belonging to a family member (a4). Unpaid family care and domestic duties are mentioned in Section J (j7) as reasons for not seeking work, placing them in the category of non-occupation/inactivity.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "2. ¿Es hombre o mujer?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 1, Parte A, Pregunta 2, p. 1"
+        },
+        {
+          "text": "1. Hombre",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 1, Parte A, Pregunta 2, p. 1"
+        },
+        {
+          "text": "2. Mujer",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "Sección 1, Parte A, Pregunta 2, p. 1"
+        }
+      ],
+      "reasoning": "In the supplied questionnaire, Question 2 asks '2. ¿Es hombre o mujer?' with response options '1. Hombre' and '2. Mujer'. No specific interviewer instructions, definitions of sex or gender, or guidelines for recording sex or gender are provided in the questionnaire instrument itself. Furthermore, an interviewer manual (e.g., Manual del Encuestador), where detailed interviewer instructions would typically be documented, was not supplied in this run.",
+      "extracted_text": "No instruction is given in the questionnaire."
+    }
+  ]
+}

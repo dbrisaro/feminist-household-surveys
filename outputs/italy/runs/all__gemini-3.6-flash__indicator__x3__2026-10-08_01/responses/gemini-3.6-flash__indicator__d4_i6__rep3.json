@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "QSF11. Sesso del componente\n RICODIFICATA NELLA VARIABILE SESSO\n • Maschio 1\n • Femmina 2",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), page 2"
+        },
+        {
+          "text": "STACIM Stato civile\n  Celibe/nubile 1\n  Coniugato/a coabitante o non coabitante con il coniuge 2\n  Separato/a di fatto/ Separato/a legalmente/Divorziato/a 3\n  Vedovo/a 6",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Caratteristiche individuali e familiari, page 23"
+        },
+        {
+          "text": "RUOLOFAM Ruolo in famiglia\n  Unipersonale 1\n  Genitore in coppia 2\n  Monogenitore 3\n  Coniuge senza figli 4\n  Figlio 5\n  Figlio di monogenitore 6\n  Altro 7",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Caratteristiche individuali e familiari, page 23"
+        },
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti 5|_| (passare a QF09)",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "SEZIONE F, page 14"
+        }
+      ],
+      "reasoning": "The survey instrument captures sex (QSF11) and family role (RUOLOFAM), allowing unpartnered mother–child units to be identified within households via the categories 'Monogenitore' and 'Figlio di monogenitore'. However, for de jure vs. de facto status, the marital status variable STACIM groups de facto separated with legally separated and divorced individuals in category 3 ('Separato/a di fatto/ Separato/a legalmente/Divorziato/a') and combines married cohabiting and non-cohabiting individuals in category 2 ('Coniugato/a coabitante o non coabitante con il coniuge'), without collecting remittance or absent-spouse migration information to distinguish them. There are no variables identifying household financial providers or main earners to identify women-maintained units regardless of reference person, nor does the survey collect consumption, production, or care activity linked directly to the mother–child unit as an economic entity ('hearth-hold').",
+      "elements": {
+        "de_jure_vs_de_facto": false,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

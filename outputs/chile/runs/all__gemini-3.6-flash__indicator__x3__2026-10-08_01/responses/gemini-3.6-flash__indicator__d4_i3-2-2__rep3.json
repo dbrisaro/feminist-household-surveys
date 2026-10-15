@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "La captura de preguntas sociodemográficas permite caracterizar a la población a partir de ciertas variables básicas, dentro de las cuales se indaga sobre el sexo, la edad, fecha de nacimiento, el estado civil, el nivel educacional, el parentesco, el proveedor principal, la nacionalidad, migración, pueblos índigenas, entre otras.",
+          "document": "metodologia-ene-2020.pdf",
+          "location": "3.2.1 Caracterización sociodemográfica, page 21"
+        },
+        {
+          "text": "El Cuestionario Sociodemográfico recoge información brindada por el informante sobre sus características sociodemográficas y las de su hogar. Como instrumento, tiene un doble objetivo: por un lado, busca identificar la cantidad de hogares al interior de una vivienda seleccionada, y por otro, busca caracterizar a todos los miembros de cada hogar. Para caracterizar a los miembros del hogar, se deben responder 28 preguntas, que abordan características atingentes a la relación de los miembros del hogar con la fuerza de trabajo. Primero, se abordan características básicas como parentesco con el proveedor principal del hogar, y después se registran elementos sociodemográficos como: sexo, edad, estado conyugal, migración, nacionalidad, pertenencia a un pueblo originario y educación.",
+          "document": "metodologia-ene-2020.pdf",
+          "location": "5.2.2.2 Cuestionario sociodemográfico, page 102"
+        }
+      ],
+      "reasoning": "The supplied methodological documentation shows that the instrument uses \"proveedor principal del hogar\" (main provider) rather than \"jefe de hogar\" (head of household) to anchor household kinship relationships, satisfying neutral_anchor_term. However, the text does not state an explicit rule for selecting the reference person or the respondent (explicit_selection_rule is false), nor does it establish a criterion free of breadwinner status (rule_not_sex_age_authority is false). Finally, while the text mentions that an \"informante\" or \"informante idóneo\" responds to the questionnaire, it does not explicitly state that the respondent is recorded separately or that any knowledgeable adult may answer (respondent_separate_or_any_adult is false).",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": false,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "Jefe o Jefa de hogar. Es el residente habitual que es reconocido por los demás miembros del hogar como \"jefe(a)\" (ONU, 1998).",
+          "document": "[M] DSO-GEIH-MET-001-V11.pdf",
+          "location": "GLOSARIO, p. 32"
+        },
+        {
+          "text": "La encuesta utiliza un entrevistado/encuestado directo (persona que da la información sobre sí mismo) para las personas de 18 años y más y para aquellas de 10 a 17 años que trabajen o estén buscando trabajo. Para los demás, se acepta entrevistado/encuestado idóneo (persona del hogar mayor de 18 años que, a falta del entrevistado/encuestado directo, pueda responder las preguntas correctamente).",
+          "document": "[M] DSO-GEIH-MET-001-V11.pdf",
+          "location": "2.3.1. Métodos y estrategias de recolección o acopio de datos, p. 22"
+        }
+      ],
+      "reasoning": "The survey documentation defines the household head (\"Jefe o Jefa de hogar\") as the usual resident recognized as such by the other members of the household. This uses the term \"jefe/jefa de hogar\" rather than a neutral anchor term, so neutral_anchor_term is false. It establishes an explicit selection rule for identifying this anchor person (recognition by other household members) and for respondents (direct respondent or eligible household member aged 18+), so explicit_selection_rule is true. The criterion for choosing the reference person is recognition by household members, which does not prescribe sex, seniority, or main earner status, making rule_not_sex_age_authority true. Finally, any knowledgeable adult household member (aged 18+) can serve as an eligible respondent (\"entrevistado/encuestado idóneo\"), making respondent_separate_or_any_adult true.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": true
+      }
+    }
+  ]
+}

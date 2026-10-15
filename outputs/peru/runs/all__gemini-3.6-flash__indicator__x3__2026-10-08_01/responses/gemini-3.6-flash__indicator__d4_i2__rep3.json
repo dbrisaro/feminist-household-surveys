@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "12. NOMBRES Y APELLIDOS DEL JEFE(A) DEL HOGAR",
+          "document": "2024/CED-01-100-2024.pdf",
+          "location": "12"
+        },
+        {
+          "text": "¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR?",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "203"
+        }
+      ],
+      "reasoning": "The supplied questionnaire documents record the head of household's name (item 12) and relationships relative to the head of household (question 203), but do not specify any rules or instructions defining how the household head is to be identified (such as self-declaration by the household, designation by the respondent, or an explicit criterion like income or age). Because the instrument does not establish a method, no option is selected.",
+      "selected": ""
+    }
+  ]
+}

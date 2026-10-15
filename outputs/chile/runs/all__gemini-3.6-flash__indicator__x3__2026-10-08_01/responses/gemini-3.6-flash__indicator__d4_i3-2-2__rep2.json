@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "La captura de preguntas sociodemográficas permite caracterizar a la población a partir de ciertas variables básicas, dentro de las cuales se indaga sobre el sexo, la edad, fecha de nacimiento, el estado civil, el nivel educacional, el parentesco, el proveedor principal, la nacionalidad, migración, pueblos índigenas, entre otras.",
+          "document": "metodologia-ene-2020.pdf",
+          "location": "Section 3.2.1, page 21"
+        },
+        {
+          "text": "El Cuestionario Sociodemográfico recoge información brindada por el informante sobre sus características sociodemográficas y las de su hogar. Como instrumento, tiene un doble objetivo: por un lado, busca identificar la cantidad de hogares al interior de una vivienda seleccionada, y por otro, busca caracterizar a todos los miembros de cada hogar. Para caracterizar a los miembros del hogar, se deben responder 28 preguntas, que abordan características atingentes a la relación de los miembros del hogar con la fuerza de trabajo. Primero, se abordan características básicas como parentesco con el proveedor principal del hogar, y después se registran elementos sociodemográficos como: sexo, edad, estado conyugal, migración, nacionalidad, pertenencia a un pueblo originario y educación.",
+          "document": "metodologia-ene-2020.pdf",
+          "location": "Section 5.2.2.2, pages 101-102"
+        },
+        {
+          "text": "Otras no entrevistadas (O): viviendas u hogares contenidos en la muestra en los que fue posible interactuar presencialmente con un informante idóneo, pero no fue posible aplicar la encuesta por razones distintas al rechazo, por ejemplo, por problemas de comunicación con el informante debido al idioma; porque el informante estaba impedido física y/o mentalmente para contestar o por muerte del informante o de algún familiar, entre otros motivos.",
+          "document": "metodologia-ene-2020.pdf",
+          "location": "Section 4.9.3.3, page 81"
+        }
+      ],
+      "reasoning": "The supplied methodological document establishes that relationships within the household are anchored around the 'proveedor principal' (main provider) rather than using the term 'jefe de hogar' (head of household), satisfying neutral_anchor_term. It also indicates that household sociodemographic information is collected from an 'informante' or 'informante idóneo' (knowledgeable respondent), separating the respondent from the reference person, satisfying respondent_separate_or_any_adult. However, the document does not explicitly state a rule for selecting the reference person or respondent beyond naming the anchor 'proveedor principal', so explicit_selection_rule is false and rule_not_sex_age_authority is false.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

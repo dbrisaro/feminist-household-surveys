@@ -1,0 +1,35 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "500. EMPLEO, Q501, p. 12"
+        },
+        {
+          "text": "546. ¿QUÉ ESTUVO HACIENDO LA SEMANA PASADA: ... Quehaceres del hogar? ............................. 5",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "500. EMPLEO, Q546, p. 18"
+        },
+        {
+          "text": "549. ¿POR QUÉ NO BUSCÓ TRABAJO? ... Los quehaceres del hogar no le permiten ............................................. 6",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "500. EMPLEO, Q549, p. 18"
+        },
+        {
+          "text": "Sólo realizó quehaceres del hogar? ............................ 8 Pase a pgta. 212",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "200. CARACTERÍSTICAS DE LOS MIEMBROS DEL HOGAR, Q211A, p. 7"
+        }
+      ],
+      "reasoning": "Responsibility: False. The instrument does not contain any questions asking who is responsible for, plans, organizes, or is in charge of unpaid domestic or care work.\n\nPerformance: False. The survey mentions 'quehaceres del hogar' in Q501 to explicitly exclude domestic tasks from paid work, in Q546 as an activity status option for inactive persons, in Q549 as a reason for not seeking work, and in Q211A as an activity classification option for children. Per the criteria, options classifying activity status or reasons for not working/seeking work do not count as asking whether a person performs domestic or care tasks.\n\nMagnitude: False. Hours worked are measured for economic activities (e.g. Q513, Q518, Q211D), but no questions measure the time or frequency devoted to unpaid domestic or care work. In Q211A, selecting option 8 ('Sólo realizó quehaceres del hogar') explicitly instructs to skip Q211D ('Pase a pgta. 212'), bypassing the recording of hours.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

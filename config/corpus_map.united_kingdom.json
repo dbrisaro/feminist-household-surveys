@@ -1,0 +1,92 @@
+{
+  "country": "united_kingdom",
+  "survey": "Labour Force Survey (LFS) ()",
+  "agency": "ONS",
+  "doc_dir": "data/raw/united_kingdom/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [
+        "volume2octtodec2025.pdf"
+      ]
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [
+        "lfsugvoltcm77238281.pdf",
+        "volume1main2024updatedfeb25.pdf"
+      ]
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [],
+      "missing_note": "No document of type G (interviewer guides and manuals) was found in the collected corpus for united_kingdom. Indicators routed to G are reported as source_missing, not as not_evidenced."
+    }
+  },
+  "estimated_tokens": {
+    "C": 147841,
+    "M": 173235,
+    "G": 0,
+    "C+M": 321076
+  },
+  "excluded": {
+    "volume2od2021.pdf": "earlier wave, superseded by volume2octtodec2025.pdf (content similarity 0.938)",
+    "volume2od20.pdf": "earlier wave, superseded by volume2octtodec2025.pdf (content similarity 0.890)",
+    "volume2combined.pdf": "earlier wave, superseded by volume2octtodec2025.pdf (content similarity 0.999)",
+    "vol2js17forpublishing.pdf": "earlier wave, superseded by volume2octtodec2025.pdf (content similarity 0.829)",
+    "vol22019odfinal1.pdf": "earlier wave, superseded by volume2octtodec2025.pdf (content similarity 0.869)",
+    "vol22018jsv2.pdf": "earlier wave, superseded by volume2octtodec2025.pdf (content similarity 0.853)",
+    "vol22016js.pdf": "earlier wave, superseded by volume2octtodec2025.pdf (content similarity 0.820)",
+    "C_file.pdf": "earlier wave, superseded by volume2octtodec2025.pdf (content similarity 0.976)",
+    "volume1backgroundandmethodology2024.pdf": "earlier wave, superseded by volume1main2024updatedfeb25.pdf (content similarity 0.988)",
+    "volume1main2020updatedfeb25.pdf": "earlier wave, superseded by volume1main2024updatedfeb25.pdf (content similarity 0.952)",
+    "volume1main2018updatedfeb25.pdf": "earlier wave, superseded by volume1main2024updatedfeb25.pdf (content similarity 0.953)",
+    "volume1combined.pdf": "earlier wave, superseded by volume1main2024updatedfeb25.pdf (content similarity 0.968)",
+    "volume12016.pdf": "earlier wave, superseded by volume1main2024updatedfeb25.pdf (content similarity 0.939)",
+    "volume1.pdf": "earlier wave, superseded by volume1main2024updatedfeb25.pdf (content similarity 0.950)",
+    "M_file.pdf": "earlier wave, superseded by volume1main2024updatedfeb25.pdf (content similarity 0.977)",
+    "apsvolume6userguide.pdf": "title page: database structure guide, not instrument",
+    "lfsugvol4aeducationsupplement2022.pdf": "[manual] LFS user guide Volume 4a (education derived variables 2022); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "lfsugvol92017.pdf": "title page: Eurostat comparison data guide",
+    "lfsugvol9aahm2016.pdf": "[manual] LFS user guide Volume 9a (Eurostat ad hoc modules); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "lfsugvol9aahms2008to2018.pdf": "[manual] LFS user guide Volume 9a (Eurostat ad hoc modules); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "lfsugvol9aahmsto2017.pdf": "[manual] LFS user guide Volume 9a (Eurostat ad hoc modules); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "lfsugvol9aahmsto2019v2.pdf": "[manual] LFS user guide Volume 9a (Eurostat ad hoc modules); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "lfsugvoltcm77238279.pdf": "title page: codebook of collected LFS variables",
+    "longitudinalguidecombined.pdf": "[manual] LFS user guide Volume 11 (longitudinal datasets); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "vol32016js.pdf": "[manual] LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "vol32018jsv2.pdf": "[manual] LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "vol32022jscombined.pdf": "[manual] LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "vol32023jscombined.pdf": "[manual] LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "vol3aj33.pdf": "[manual] LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "vol3js17forpublishing.pdf": "[manual] LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "vol3od2019final.pdf": "[manual] LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "vol3od21.pdf": "[manual] LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "vol5200tcm77238221.pdf": "[manual] LFS user guide Volume 5 (classifications); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "vol52024v3150824.pdf": "[manual] LFS user guide Volume 5 (classifications); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "volume10.pdf": "[manual] LFS user guide Volume 10 (which dataset to use); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "volume10combined.pdf": "[manual] LFS user guide Volume 10 (which dataset to use); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "volume10final2024.pdf": "[manual] LFS user guide Volume 10 (which dataset to use); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "volume10maincontentx1.pdf": "[manual] LFS user guide Volume 10 (which dataset to use); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "volume10oct2019.pdf": "[manual] LFS user guide Volume 10 (which dataset to use); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "volume11.pdf": "[manual] LFS user guide Volume 11 (longitudinal datasets); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "volume3octtodec2025.pdf": "[manual] LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "volume3od20.pdf": "[manual] LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "volume4.pdf": "[manual] LFS user guide Volume 4 (standard derived variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "volume41.pdf": "[manual] LFS user guide Volume 4 (standard derived variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+    "volume6.pdf": "title page: database structure guide, not instrument",
+    "volume62022.pdf": "title page: database structure guide, not instrument",
+    "volume62023.pdf": "title page: database structure guide, not instrument",
+    "volume6userguide.pdf": "title page: database structure guide, not instrument"
+  },
+  "unclassified": {},
+  "manual_review": {
+    "source": "config/manual_overrides.json",
+    "applied": 27,
+    "note": "Decided 2026-10-08: M keeps only User Guide Volume 1 (background and methodology) and Volume 8 (household and family data, 2003), the volumes that bear on the framework. Volume 3 (254,503 tokens) alone outweighed the rest of M and forced sharding. Volume 8 is pinned because, undated by its file name, it never wins a slot under the cap."
+  },
+  "non_textual": {
+    ".csv": 1
+  }
+}

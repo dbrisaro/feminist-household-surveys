@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "1. En su opinión, ¿cuál de las siguientes opciones refleja mejor su situación actual? Le leo las opciones: - Trabajando o con empleo - Parado - Percibía una pensión de jubilación o unos ingresos de prejubilación - Incapacitado permanente para trabajar - Estudiante (aunque esté de vacaciones) - Dedicado a las labores del hogar - Percibiendo una pensión distinta a la de jubilación (o prejubilación) - Realizando sin remuneración trabajos sociales, actividades benéficas… - Otras situaciones No sabe",
+          "document": "[C] epacues21.pdf",
+          "location": "Section H. SITUACIONES DIVERSAS, question 1"
+        },
+        {
+          "text": "26. ¿Por cuál de los siguientes motivos tiene jornada parcial en su trabajo? Le leo las opciones - Seguir cursos de enseñanza o formación - Enfermedad o incapacidad propia - Responsabilidades de cuidado de hijos u otros familiares - Otras razones familiares - Otras razones personales - No haber podido encontrar un trabajo de jornada completa - No querer un trabajo de jornada completa - Otras razones No sabe",
+          "document": "[C] epacues21.pdf",
+          "location": "Section C. CARACTERÍSTICAS DEL EMPLEO, question 26"
+        }
+      ],
+      "reasoning": "The EPA 2021 questionnaire does not contain a separate module dedicated to domestic or care work. Domestic work and care responsibilities are mentioned in the instrument, but they are categorized as an inactivity status ('Dedicado a las labores del hogar' in Section H, SIDIV1) or as reasons for working part-time or not seeking employment ('Responsabilidades de cuidado de hijos u otros familiares' in Section C, PARCO2). Thus, the criterion does not hold, and domestic/care work is treated as other categories (inactivity/reasons for reduced or non-work).",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

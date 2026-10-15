@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "3. DATOS DEL INFORMANTE Y DEL HOGAR\n\nNombre del Jefe del Hogar:\n\nNombre del Informante Calificado:",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "Carátula, Sección 3"
+        },
+        {
+          "text": "JEFE DEL HOGAR\nEs aquella persona que es reconocida como tal por los demás miembros del hogar, por razones de dependencia, afinidad, edad, autoridad, respeto, etc. Sí una persona vive sola (Hogar unipersonal), es él, el Jefe del Hogar. La edad mínima para ser considerado jefe es de 12 años. El hogar de la vivienda seleccionada debe tener un solo Jefe de hogar.",
+          "document": "[G] 202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "Página 10"
+        },
+        {
+          "text": "Jefe del Hogar. - Es aquella persona que siendo residente habitual es reconocida como jefe por los demás miembros del hogar, ya sea por una mayor responsabilidad en las decisiones, por prestigio, ancianidad y razones económicas, o tradiciones sociales y culturales.",
+          "document": "[G] 202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "Página 32"
+        },
+        {
+          "text": "Informante calificado. - Es aquella persona que reside habitualmente en la vivienda, preferiblemente el jefe del hogar o su cónyuge. En ausencia de las personas mencionadas, la información puede ser suministrada por una persona mayor de 18 años perteneciente al hogar en referencia, que tenga un buen conocimiento de las actividades de los miembros del hogar, excepto empleadas (os) domésticas (os) que sean miembros del hogar.",
+          "document": "[G] 202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "Página 32"
+        }
+      ],
+      "reasoning": "Evaluating the four elements of indicator d4_i3:\n1. neutral_anchor_term (false): The questionnaire and manual repeatedly use the term 'Jefe del Hogar' (head of household) to designate the anchor person, rather than using a neutral anchor term or avoiding 'head of household'.\n2. explicit_selection_rule (true): The interviewer manual explicitly states rules for identifying the head of household as well as the qualified respondent.\n3. rule_not_sex_age_authority (false): The explicit rule for identifying the 'Jefe del Hogar' explicitly invokes criteria of seniority ('edad', 'ancianidad'), authority ('autoridad', 'prestigio'), and breadwinner/dependency status ('razones económicas', 'dependencia', 'mayor responsabilidad en las decisiones').\n4. respondent_separate_or_any_adult (true): The survey form records the qualified respondent ('Nombre del Informante Calificado') separately from the head ('Nombre del Jefe del Hogar'), and the manual explicitly allows any resident adult (aged 18+) with adequate knowledge of household activities to serve as respondent if the head or spouse is absent.",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

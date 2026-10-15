@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "RELACIÓN DE PARENTESCO CON EL/LA JEFE/A DEL HOGAR",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Pregunta 3"
+        },
+        {
+          "text": "ANOTE EL CÓDIGO DE IDENTIFICACIÓN DEL CÓNYUGE, PADRE Y MADRE DE CADA PERSONA MIEMBRO DEL HOGAR. SI NO CORRESPONDE ANOTE \"00\"",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Pregunta 5"
+        },
+        {
+          "text": "SEXO",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Pregunta 6"
+        },
+        {
+          "text": "¿Cuál es el estado civil o conyugal de ...[NOMBRE]...?",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Pregunta 9"
+        },
+        {
+          "text": "¿Podría informarme sobre los ingresos mensuales que habitualmente recibe?. (SI LA RESPUESTA ES NADA, ESCRIBIR \"0\")",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, PARTE E, Pregunta 1"
+        },
+        {
+          "text": "Durante el último mes, ¿cuál fue el valor de lo producido o comprado por este ...[ESTABLECIMIENTO O NEGOCIO]... para la venta que fue destinado al consumo del hogar ?",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 7, PARTE B, Pregunta 8"
+        },
+        {
+          "text": "¿Qué cantidad de...[CULTIVO]...han destinado al uso en el hogar durante los últimos 12 meses?",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 8, PARTE D, Pregunta 10"
+        }
+      ],
+      "reasoning": "The survey instrument captures variables that allow distinguishing de jure vs de facto female headship and identifying unpartnered mother-child units and main providers, but it does not link mother-child sub-units to their own consumption, production, or care activities.\n\n1. `de_jure_vs_de_facto` (True): Sección 1 collects relationship to head (P3), sex (P6), marital status (P9), and the line number of each person's spouse/partner (P5). This allows identifying female heads who are unpartnered (single, divorced, widowed, or separated; de jure) versus married/partnered women whose spouse is absent from the household roster (de facto).\n2. `unpartnered_mother_child_units` (True): Sección 1 Column 5 explicitly records line numbers pointing to each member's mother and spouse. Combined with marital status (P9), this enables identifying mother–child nuclear units and determining whether the mother has a partner present in the household, anywhere within larger extended households.\n3. `women_maintained_by_provider` (True): Sección 6 Parte E collects individual income from work and other sources for all household members aged 10 and older. This allows identifying the primary economic provider/maintainer of the household independently of who is designated as the household head.\n4. `mother_child_unit_activity` (False): Sección 7 (Parte B, P8) and Sección 8 (Parte D, P10) record self-consumption and economic activities at the level of the whole household or enterprise, rather than disaggregating or linking consumption, production, or care activities to specific mother–child sub-units (hearth-holds).",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

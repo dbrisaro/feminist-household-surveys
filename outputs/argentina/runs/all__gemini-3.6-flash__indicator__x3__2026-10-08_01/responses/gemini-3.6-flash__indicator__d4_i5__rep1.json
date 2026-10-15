@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "03 RELACIÓN DE PARENTESCO (Anote en el orden siguiente) Jefe/a Cónyuge/Pareja Hijo/a/Hijastro/a Yerno/Nuera Nieto/a Madre/Padre Suegro/a Hermano/a Otros Familiares No Familiares",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Form. 002/10, Bloque IV, p. 2"
+        },
+        {
+          "text": "Hogar: Persona o grupo de personas, parientes o no, que habitan bajo el mismo techo y comparten los gastos de alimentación y/o otros gastos esenciales para vivir.",
+          "document": "EPHContinua_CuestVivienda.pdf",
+          "location": "Sección III, p. 1"
+        },
+        {
+          "text": "En términos de la EPH un hogar se define como una persona o grupo de personas, parientes o no, que habitan bajo un mismo techo en un régimen de tipo familiar; es decir, comparten sus gastos en alimentación u otros esenciales para vivir.",
+          "document": "metodologia_eph_continua_2003_sin_anexo2.pdf",
+          "location": "Sección 2.3.1, p. 6"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa? 2. ¿Qué otras personas ayudan en las tareas de la casa? 3. ¿Hay en el hogar alguna persona con discapacidad?",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Form. 002/10, Bloque VII, p. 6"
+        }
+      ],
+      "reasoning": "The survey instruments and methodology establish the following regarding household structure and relationships: 1) member_to_member_relationships is false because relationships are reported exclusively relative to the household head ('Jefe/a') without a triangular grid or pointer variables. 2) extended_ties is true because Column 03 explicitly captures ties beyond spouse and parent-child, including grandchildren ('Nieto/a'), parents ('Madre/Padre'), parents-in-law ('Suegro/a'), siblings ('Hermano/a'), other relatives, and non-kin. 3) multiple_household_criteria is true because both the housing questionnaire and technical documentation define the criteria to distinguish households within a dwelling (living under the same roof and sharing food and essential living expenses). 4) sub_units is false because there is no provision or variable to delineate secondary family units or sub-nuclei within a household. 5) caregiving_relationships is false because Bloque VII only asks who does general domestic housework ('tareas de la casa') and whether a household member has a disability, without identifying specific caregiving relationships (who cares for whom) inside or across households.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": false
+      }
+    }
+  ]
+}

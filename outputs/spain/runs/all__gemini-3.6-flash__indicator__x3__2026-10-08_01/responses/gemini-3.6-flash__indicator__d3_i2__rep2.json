@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "34.   ¿Cuántas horas semanales trabaja habitualmente en este empleo? No tenga en cuenta el tiempo para comer.",
+          "document": "[C] epacues21.pdf",
+          "location": "Section C, Question 34 (HORASH)"
+        },
+        {
+          "text": "26.   ¿Por cuál de los siguientes motivos tiene jornada parcial en su trabajo? Le leo las opciones",
+          "document": "[C] epacues21.pdf",
+          "location": "Section C, Question 26 (PARCO2)"
+        },
+        {
+          "text": "1. En su opinión, ¿cuál de las siguientes opciones refleja mejor su situación actual? Le leo las opciones: ... - Dedicado a las labores del hogar",
+          "document": "[C] epacues21.pdf",
+          "location": "Section H, Question 1 (SIDIV1)"
+        }
+      ],
+      "reasoning": "The survey records weekly hours spent on paid employment (such as question 34 HORASH). However, it does not collect time use data across daily activities for unpaid work, leisure, or self-care, recording only categorical activity statuses or reasons for part-time work or inactivity (e.g. PARCO2, SIDIV1). Following the specified indicator rule that if the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false, all elements are set to false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

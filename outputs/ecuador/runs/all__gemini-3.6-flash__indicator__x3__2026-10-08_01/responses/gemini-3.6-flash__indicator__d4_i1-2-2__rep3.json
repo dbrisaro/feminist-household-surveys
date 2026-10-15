@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "Esta sección contiene el registro de los miembros del hogar (nómina de miembros del hogar, sexo, edad, parentesco, estado civil), información acerca de afiliación a la seguridad social, asistencia a clases, razones de no asistencia a instituciones educativas, el nivel alcanzado, año aprobado, alfabetismo, título superior obtenido y autodefinición étnica.",
+          "document": "[M] M_202605_Metodologia_ENEMDU.pdf",
+          "location": "Formulario / Información de los miembros del hogar, p. 52"
+        }
+      ],
+      "reasoning": "The supplied methodological notes mention kinship/relationship to the household head ('parentesco') under the description of Section 1 of the questionnaire, but do not provide a conceptual definition of household headship ('jefe de hogar'). Furthermore, the Interviewer Manual (Manual del encuestador [G]), where detailed conceptual definitions for survey administration are typically documented, was not supplied in this run.",
+      "extracted_text": ""
+    }
+  ]
+}

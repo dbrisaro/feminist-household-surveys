@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "By sex we are referring to current sex",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 10, SEX"
+        },
+        {
+          "text": "Is the gender you identify with the same as your sex registered at birth?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 230, IRGENID"
+        }
+      ],
+      "reasoning": "The survey instrument collects information on respondent sex via variable SEX ('By sex we are referring to current sex') and collects a gender identity alignment variable via question IRGENID ('Is the gender you identify with the same as your sex registered at birth?'). Therefore, the instrument collects a gender identity variable.",
+      "value": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "rr4 Sexo 1 Hombre 2 Mujer 9 No se logra determinar",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Page 3, HOJA DE RUTA, rr4"
+        }
+      ],
+      "reasoning": "Question rr4 in the HOJA DE RUTA section explicitly collects the sex variable ('rr4 Sexo'), with response options '1 Hombre', '2 Mujer', and '9 No se logra determinar'. This directly establishes that the instrument collects a sex variable.",
+      "value": true
+    }
+  ]
+}

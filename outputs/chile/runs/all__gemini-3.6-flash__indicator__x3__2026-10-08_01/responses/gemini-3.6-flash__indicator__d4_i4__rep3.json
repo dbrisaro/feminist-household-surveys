@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "pers2. De las personas que mencionó previamente, ¿Quién es el proveedor principal del hogar?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Cuestionario Sociodemográfico, p. 6"
+        },
+        {
+          "text": "h3 Habitualmente, ¿cuántas horas y días trabaja a la semana? h3a Actividad principal",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Sección H, p. 13"
+        },
+        {
+          "text": "y1 Esta vivienda, ¿es arrendada?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Sección Y, p. 48"
+        },
+        {
+          "text": "d10 En su trabajo, ¿quién decide sobre:",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Sección D, p. 10"
+        }
+      ],
+      "reasoning": "The questionnaire is evaluated against the four dimensions:\n1. economic_maintenance: False. The survey designates a main provider (pers2: \"¿Quién es el proveedor principal del hogar?\"), but does not capture income or support across all sources (wages, pensions, remittances, etc.) at the member level for all household members.\n2. labor_burden: False. Section H (h3) captures hours worked per week in paid employment (main and secondary activities), but the questionnaire does not collect hours spent in unpaid domestic or care work.\n3. property_asset_control: False. Dwelling tenure is captured at the dwelling level in Section Y (y1: \"Esta vivienda, ¿es arrendada?\"), and ownership of land, housing, or assets is not recorded at the individual member level.\n4. decision_making: False. Decision-making questions in Section D (d10) apply solely to independent business operations (deciding schedule, location, product, price), and no questions cover household decision-making spheres like child-rearing, daily consumption, or major financial choices.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

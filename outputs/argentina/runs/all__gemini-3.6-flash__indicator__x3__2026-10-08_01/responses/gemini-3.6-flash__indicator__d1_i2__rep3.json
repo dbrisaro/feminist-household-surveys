@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "SEXO (Anote en cada caso) 1. varón 2. mujer",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2"
+        }
+      ],
+      "reasoning": "The survey instrument collects binary sex ('SEXO') with options for '1. varón' and '2. mujer' in Block IV of the household questionnaire. It does not contain any question or variable collecting gender identity.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

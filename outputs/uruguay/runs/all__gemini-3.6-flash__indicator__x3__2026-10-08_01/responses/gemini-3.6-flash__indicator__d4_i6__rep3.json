@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "e.25 ¿Tiene cónyuge o pareja en este hogar?\nE33\nSí...................................................................................... 1\n    ¿Quién es?\n    E34\n    Anote el N° de persona.............................\nNo..................................................................................... 2",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section E.1, e.25, page 5"
+        },
+        {
+          "text": "e.27 ¿Actualmente está…\nE36\n… separado/a de unión libre anterior?.......................................................... 1\n… divorciado/a?. ........................................................................................... 2\n… casado/a (incluye separado/a y aún no se divorció)?............................... 3\n… viudo/a de casamiento?............................................................................ 4\n… viudo/a de unión libre?.............................................................................. 6\n… soltero/a (nunca se casó ni vivió en unión libre)?..................................... 5",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section E.1, e.27, page 5"
+        },
+        {
+          "text": "h.1 ¿Algún miembro de este hogar recibe ayuda en dinero de algún familiar u otro hogar en este país?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section H, h.1, page 20"
+        },
+        {
+          "text": "h.23 ¿Algún miembro de este hogar recibió en los últimos 12 meses dinero o alguna colaboración económica de algún familiar que vive en el exterior?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section H, h.23, page 21"
+        },
+        {
+          "text": "e.23 ¿La madre vive en este hogar?\nE31\nSí................................................................................................................... 1\n    ¿Quién es?\n    E31_1\n    Anote el N° de persona..........................................................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section E.1, e.23, page 4"
+        },
+        {
+          "text": "g.3 ¿Cuánto recibió el mes pasado en su empleo asalariado al que le dedica la mayor carga horaria?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section G.1.1, g.3, page 14"
+        },
+        {
+          "text": "c.14 Todas las personas que habitan esta vivienda, ¿dependen de un mismo fondo de alimentación? Es decir, ¿conforman un hogar?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section C, c.14, page 1"
+        }
+      ],
+      "reasoning": "1. de_jure_vs_de_facto: Question e.25 asks if a person has a spouse/partner residing in the household, question e.27 establishes marital status, and questions h.1 and h.23 capture domestic and foreign remittances. Combining marital status with partner co-residence and remittance information enables distinguishing de jure from de facto female-headed households. (True)\n2. unpartnered_mother_child_units: Question e.23 identifies the person number of each respondent's mother residing in the household, while question e.25 identifies whether each person has a partner living in the household. This permits identifying unpartnered mother-child units anywhere within the household matrix, including inside extended households. (True)\n3. women_maintained_by_provider: Section G collects comprehensive individual-level income data for all household members. Comparing individual incomes allows identifying women-maintained households/units through the main economic provider regardless of who is named as the household reference person (e.22). (True)\n4. mother_child_unit_activity: Question c.14 defines households by a common food budget. Expenditures, consumption, transfers, and care services (Sections C, D, H, I, J) are collected exclusively at the aggregate household level, with no mechanism to link sub-household mother-child units ('hearth-holds') to their own specific consumption, production, or care activities. (False)",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

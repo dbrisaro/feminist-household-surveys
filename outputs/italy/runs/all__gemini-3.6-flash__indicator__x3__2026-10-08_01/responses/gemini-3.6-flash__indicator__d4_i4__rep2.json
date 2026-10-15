@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "QSF04. Numero componenti della famiglia",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QSF04, page 2"
+        },
+        {
+          "text": "QB01. “LA SCORSA SETTIMANA” “NOME” ha svolto almeno un’ora di lavoro da cui ha ricavato o ricaverà un guadagno?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QB01, page 4"
+        },
+        {
+          "text": "QC29 Per quale tra questi motivi lavora part time (a tempo parziale):",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC29, page 8"
+        },
+        {
+          "text": "QC32 “NOME” di solito quante ore lavora a settimana? Indichi anche frazioni di ore (ed escluda l’interruzione per i pasti e gli spostamenti casa lavoro)..",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC32, page 9"
+        },
+        {
+          "text": "QC18 Nello svolgimento del suo lavoro “NOME” utilizza strumenti/strutture di sua proprietà o di proprietà del suo principale cliente/committente (ad esempio computer o macchinari, locali per la vendita, uffici)?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC18, page 7"
+        },
+        {
+          "text": "QC45 (HOC1_2019) Di solito “NOME” in che modo decide l'orario di inizio e di fine della sua giornata lavorativa?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC45, page 10"
+        }
+      ],
+      "reasoning": "Economic maintenance: The survey identifies employment status and paid work (QB01), but does not record income amounts or monetary support by member across all sources (wages, pensions, informal work, remittances). Labor burden: While the survey measures hours in paid work (QC32), it only collects qualitative reasons for working part-time or not seeking employment regarding family care (QC29), and does not record hours spent on unpaid domestic or care work. Property and asset control: The questionnaire asks about ownership of work-related tools (QC18), but does not collect data on dwelling tenure, land, or general asset ownership at member level. Decision-making: The survey asks about autonomy regarding working hours (QC45), but contains no questions on household decision-making spheres (such as child-rearing, daily consumption, or major financial choices).",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

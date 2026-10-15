@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "SEXO\nHombre. .... 1\nMujer......... 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Pregunta 5, p. 3"
+        }
+      ],
+      "reasoning": "In the supplied questionnaire [C], Section 1 (p. 3), item 5 contains the variable header 'SEXO' with response options 'Hombre. .... 1' and 'Mujer......... 6'. The questionnaire contains no definition of sex or gender and provides no instructions to the interviewer regarding how to record sex or gender. Additional documentation such as an interviewer manual was not supplied in this run.",
+      "extracted_text": ""
+    }
+  ]
+}

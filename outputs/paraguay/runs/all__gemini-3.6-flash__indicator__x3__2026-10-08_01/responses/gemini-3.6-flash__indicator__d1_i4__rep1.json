@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "¿Cuál es el nombre de cada una de las personas que viven habitualmente en este hogar? ANOTE EN EL SIGUIENTE ORDEN : a. JEFE/A DEL HOGAR b. ESPOSO/A, COMPAÑERO/A DEL JEFE/A c. HIJOS/AS , HIJASTROS/AS SOLTEROS/AS SIN HIJOS d. HIJOS/AS, HIJASTROS/AS SOLTEROS/AS CON HIJOS e. HIJOS/AS, HIJASTROS/AS CASADOS/AS O UNIDOS/AS CON/SIN HIJOS f. NIETOS /AS DEL JEFE/A g. YERNOS Y/O NUERAS DEL JEFE/A h. PADRE Y/O MADRE DEL JEFE/A i. SUEGRO Y/O SUEGRA DEL JEFE/A j. OTROS PARIENTES k. OTROS NO PARIENTES l. TRABAJADOR/A DOMESTICO/A m. HIJOS/AS Y/O PARIENTES DEL TRABAJADOR/A DOMÉSTICO/A",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 3, Pregunta 1"
+        },
+        {
+          "text": "RELACIÓN DE PARENTESCO CON EL/LA JEFE/A DEL HOGAR Jefe/a ....................................... 1 Esposo/a, compañero/a .......... 2 Hijo/a ........................................ 3 Hijastro/a.................................. 4 Nieto/a ..................................... 5 Yerno/Nuera ............................ 6 Padre/Madre ............................ 7 Suegro/a .................................. 8 Otro pariente............................ 9 No pariente ............................ 10 Trabajador doméstico.............11 Familiar del trabajador doméstico .............................. 12",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 4, Sección 1, Pregunta 3"
+        },
+        {
+          "text": "ANOTE EL CÓDIGO DE IDENTIFICACIÓN DEL CÓNYUGE, PADRE Y MADRE DE CADA PERSONA MIEMBRO DEL HOGAR. SU CÓNYUGE SU PADRE SU MADRE",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 4, Sección 1, Pregunta 5"
+        }
+      ],
+      "reasoning": "The supplied questionnaire refers to respondents using terms such as '...[NOMBRE]...' and 'cada una de las personas que viven habitualmente en este hogar'. For relationships within the household, the categories are defined relative to the household head ('JEFE/A DEL HOGAR' or 'EL/LA JEFE/A DEL HOGAR') and include: 'JEFE/A DEL HOGAR' / 'Jefe/a', 'ESPOSO/A, COMPAÑERO/A DEL JEFE/A' / 'Esposo/a, compañero/a', 'HIJOS/AS, HIJASTROS/AS...' / 'Hijo/a', 'Hijastro/a', 'NIETOS /AS DEL JEFE/A' / 'Nieto/a', 'YERNOS Y/O NUERAS DEL JEFE/A' / 'Yerno/Nuera', 'PADRE Y/O MADRE DEL JEFE/A' / 'Padre/Madre', 'SUEGRO Y/O SUEGRA DEL JEFE/A' / 'Suegro/a', 'OTROS PARIENTES' / 'Otro pariente', 'OTROS NO PARIENTES' / 'No pariente', 'TRABAJADOR/A DOMESTICO/A' / 'Trabajador doméstico', and 'HIJOS/AS Y/O PARIENTES DEL TRABAJADOR/A DOMÉSTICO/A' / 'Familiar del trabajador doméstico'. In addition, question 5 uses the terms 'SU CÓNYUGE', 'SU PADRE', and 'SU MADRE'.",
+      "extracted_text": "Respondents/members: '...[NOMBRE]...', 'cada una de las personas que viven habitualmente en este hogar', 'MIEMBRO DEL HOGAR'. Relationships within household: 'JEFE/A DEL HOGAR', 'EL/LA JEFE/A DEL HOGAR', 'Jefe/a', 'ESPOSO/A, COMPAÑERO/A DEL JEFE/A', 'Esposo/a, compañero/a', 'HIJOS/AS , HIJASTROS/AS SOLTEROS/AS SIN HIJOS', 'HIJOS/AS, HIJASTROS/AS SOLTEROS/AS CON HIJOS', 'HIJOS/AS, HIJASTROS/AS CASADOS/AS O UNIDOS/AS CON/SIN HIJOS', 'Hijo/a', 'Hijastro/a', 'NIETOS /AS DEL JEFE/A', 'Nieto/a', 'YERNOS Y/O NUERAS DEL JEFE/A', 'Yerno/Nuera', 'PADRE Y/O MADRE DEL JEFE/A', 'Padre/Madre', 'SUEGRO Y/O SUEGRA DEL JEFE/A', 'Suegro/a', 'OTROS PARIENTES', 'Otro pariente', 'OTROS NO PARIENTES', 'No pariente', 'TRABAJADOR/A DOMESTICO/A', 'Trabajador doméstico', 'HIJOS/AS Y/O PARIENTES DEL TRABAJADOR/A DOMÉSTICO/A', 'Familiar del trabajador doméstico', 'SU CÓNYUGE', 'SU PADRE', 'SU MADRE'."
+    }
+  ]
+}

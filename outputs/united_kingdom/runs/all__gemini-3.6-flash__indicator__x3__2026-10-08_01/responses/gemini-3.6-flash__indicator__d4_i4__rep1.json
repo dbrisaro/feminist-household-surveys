@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "TPBN13 Were you receiving any of these state benefits in your own right;, that is, where you were the named recipient?...",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 129, TPBN13"
+        },
+        {
+          "text": "GROSS99 What was your gross pay, that is your pay before any deductions, the last time you were paid?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 216, GROSS99"
+        },
+        {
+          "text": "TOTUS1 How many hours per week do you usually work in your (main) job/business – please exclude meal breaks?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 82, TOTUS1"
+        },
+        {
+          "text": "NOLWF May I just check, was the main reason that you did not look for work because... 1 Were you caring for children below school age, 2 Were you caring for other children,, 3 Were you caring for a dependent adult relative, 4 or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 120, NOLWF"
+        },
+        {
+          "text": "HRPID Record if [Name] is person in whose name this accommodation is owned or rented",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 12, HRPID"
+        },
+        {
+          "text": "TEN1 In which of these ways do you occupy this accommodation? Make sure answer applies to HRP",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 13, TEN1"
+        },
+        {
+          "text": "JOBREP On a scale of 1 to 5, with 1 being 'very poor' and 5 being 'very good', how poor or good would you say managers at your workplace are at involving employees and their representatives in decision making?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 95, JOBREP"
+        }
+      ],
+      "reasoning": "1. economic_maintenance: The instrument collects earnings from employment (GROSS99) and state benefits received in one's own right (TPBN13) at the individual level, but it does not collect support across all sources such as remittances or informal support transfers between households. Therefore, it does not capture economic maintenance across all sources. 2. labor_burden: The instrument collects hours worked in paid employment (TOTUS1), but does not collect hours spent in unpaid domestic or care work (it only records caregiving as a qualitative reason for not looking for work in NOLWF). Thus, labor burden across paid and unpaid work is not captured. 3. property_asset_control: Housing tenure (TEN1) is recorded at the Household Reference Person level, and HRPID records whether accommodation is owned or rented in a member's name, but individual property or asset ownership (such as land or other real estate/assets) is not captured for household members. 4. decision_making: The instrument contains no questions regarding intra-household decision-making by sphere (child-rearing, daily consumption, or major financial choices); the only decision-making question (JOBREP) relates to management at work.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

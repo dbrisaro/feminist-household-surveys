@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "SCHEMA DELLE SEZIONI DEL QUESTIONARIO INDIVIDUALE\n\n      SEZIONE A: CHI RISPONDE AI QUESITI\n      SEZIONE B: SITUAZIONE LAVORATIVA NELLA SETTIMANA DI RIFERIMENTO\n      SEZIONE C: ATTIVITÀ LAVORATIVA PRINCIPALE\n      SEZIONE D: ATTIVITÀ LAVORATIVA SECONDARIA\n      SEZIONE GIG: ATTIVITÀ LAVORATIVA IN PIATTAFORMA\n      SEZIONE E: PRECEDENTI ESPERIENZE LAVORATIVE\n      SEZIONE F: RICERCA DI LAVORO\n      SEZIONE J: CONDIZIONE AUTOPERCEPITA ATTUALE E PENSIONI\n      SEZIONE G: SERVIZI PER L’IMPIEGO E AGENZIE PER IL LAVORO\n      SEZIONE H: ISTRUZIONE E FORMAZIONE PROFESSIONALE\n      SEZIONE I: CONDIZIONE AUTOPERCEPITA UN ANNO PRIMA\n      SEZIONE L: NOTIZIE SULLA FAMIGLIA\n      SEZIONE M: A CURA DELL’INTERVISTATORE\n      SEZIONE N: CODIFICHE IN SOSPESO",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 3"
+        },
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti                             3|_|\n • Altri motivi familiari (ad esempio si occupa della casa, è in attesa di un figlio,\n    vuole più tempo per la famiglia)                                                                4|_|(passare a QC31)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC29, Page 8"
+        },
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti              5|_| (passare a QF09)\n        • Altri motivi familiari (ad esempio fa la casalinga/o, in attesa di\n               un figlio, vuole più tempo per la famiglia)                                      6|_| (passare a QF10)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QF07, Page 14"
+        }
+      ],
+      "reasoning": "The questionnaire structure outlined on page 3 shows that there is no separate module dedicated to domestic or care work. Unpaid care and domestic work are mentioned only as response options indicating reasons for part-time work (e.g., QC29) or reasons for not seeking work / inactivity (e.g., QF07). Therefore, the instrument does not contain a separate domestic or care work module with more than two questions, and care/domestic work is treated as a reason for inactivity or reduced hours.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

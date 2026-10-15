@@ -1,0 +1,42 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "¿Qué es ... del jefe(a) de este hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 7, page 4"
+        },
+        {
+          "text": "AL FINAL DE LA LISTA INCLUYE A LOS HUÉSPEDES, TRABAJADORES DOMÉSTICOS Y A SUS FAMILIARES",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 5, page 4"
+        },
+        {
+          "text": "¿Todas estas personas comparten el mismo gasto para comer?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section V, Question 2, page 3"
+        },
+        {
+          "text": "¿Cuántos hogares o grupos de personas tienen gastos separados para comer contando el de usted?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section V, Question 3, page 3"
+        },
+        {
+          "text": "cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, Item 2, page 12"
+        }
+      ],
+      "reasoning": "The survey records relationships exclusively relative to the household head in Question 7 ('¿Qué es ... del jefe(a) de este hogar?'), without member-to-member grids or pointer variables (mother/father/partner IDs), so member_to_member_relationships is false. The questionnaire does not list predefined response categories for relationship to head in Question 7 to substantiate specific extended ties beyond mentioning guests and domestic workers in Question 5, so extended_ties is false. Questions 2 and 3 in Section V explicitly state the criterion for separating multiple households within a dwelling ('comparten el mismo gasto para comer' / 'gastos separados para comer'), making multiple_household_criteria true. The instrument contains no mechanism or variables to identify sub-units or secondary family nuclei within a household, making sub_units false. Question 9.2 in the occupation questionnaire collects aggregate time spent on unpaid care work, but does not identify who receives care or link caregivers to specific care recipients inside or across households, so caregiving_relationships is false.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": false,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": false
+      }
+    }
+  ]
+}

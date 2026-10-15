@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "¿Cuál es el nombre de los integrantes de este hogar empezando por el jefe o la jefa?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, Pregunta 5"
+        },
+        {
+          "text": "¿Qué es ... del jefe(a) de este hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, Pregunta 7"
+        },
+        {
+          "text": "1 hombre 2 mujer",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, Pregunta 8"
+        },
+        {
+          "text": "¿Actualmente... 1 vive con su pareja en unión libre? 2 está separado(a)? 3 está divorciado(a)? 4 está viudo(a)? 5 está casado(a)? 6 está soltero(a)?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, Pregunta 19"
+        }
+      ],
+      "reasoning": "The demographic questionnaire uses terms such as 'integrantes de este hogar', 'jefe o la jefa', and 'jefe(a) de este hogar' to refer to respondents and head of household. In Question 8 (SEXO), the binary options offered are '1 hombre' and '2 mujer'. For marital and relational status in Question 19, the terms used are 'pareja', 'separado(a)', 'divorciado(a)', 'viudo(a)', 'casado(a)', and 'soltero(a)'.",
+      "extracted_text": "¿Cuál es el nombre de los integrantes de este hogar empezando por el jefe o la jefa? / ¿Qué es ... del jefe(a) de este hogar? / 1 hombre 2 mujer / 1 vive con su pareja en unión libre? 2 está separado(a)? 3 está divorciado(a)? 4 está viudo(a)? 5 está casado(a)? 6 está soltero(a)?"
+    }
+  ]
+}

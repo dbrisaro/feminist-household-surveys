@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "28. ¿Cuántos días a la semana trabaja regularmente en su ocupación?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE B, Pregunta 28, p. 8"
+        },
+        {
+          "text": "29. ¿Cuántas horas en promedio trabaja al día en su ocupación?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE B, Pregunta 29, p. 8"
+        },
+        {
+          "text": "6. Por qué no buscó trabajo? ... 11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 6, p. 4"
+        },
+        {
+          "text": "7. Es usted: ... 2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 7, p. 4"
+        }
+      ],
+      "reasoning": "The questionnaire records time spent working exclusively in terms of average days and hours worked per day in the respondent's paid employment/occupation (Section 2, Part B, Questions 28 and 29). It does not contain a time use module or questions capturing time allocated across non-paid daily activities, domestic chores, or caregiving. Unpaid domestic and care work is only recorded as a reason for not seeking work or as a category of inactive status (Section 2, Part A, Questions 6 and 7).",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these materials, please cite them as below."
+title: "Replication materials for: Is there a feminist approach to statistical data collection? Assessing gender dimensions in National Household Surveys design"
+type: software
+repository-code: "https://github.com/dbrisaro/feminist-household-surveys"
+authors:
+  - given-names: "Daniela Belén"
+    family-names: "Risaro"
+    orcid: "https://orcid.org/0000-0002-5900-1951"
+    affiliation: "Facultad de Ciencias Exactas y Naturales, Universidad de Buenos Aires; Escuela de Gobierno, Universidad Torcuato Di Tella"
+  - given-names: "Micaela"
+    family-names: "Fernández Erlauer"
+    orcid: "https://orcid.org/0009-0004-8797-746X"
+    affiliation: "University of Greenwich"
+license:
+  - MIT
+  - CC-BY-4.0
+version: "1.0"
+date-released: "2026-10-15"
+keywords:
+  - feminist economics
+  - household surveys
+  - labour force surveys
+  - survey design
+  - large language models

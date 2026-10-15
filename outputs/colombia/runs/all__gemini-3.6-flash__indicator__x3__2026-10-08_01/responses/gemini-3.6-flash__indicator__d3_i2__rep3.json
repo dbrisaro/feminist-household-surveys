@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "¿Cuántas horas a la semana trabaja normalmente.... en este trabajo?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section I, Question 52, p. 56"
+        },
+        {
+          "text": "Cocinar, lavar los platos, poner la mesa en: a. Su hogar? Sí 1 Días Horas día",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section K, Question 1, p. 84"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar? Sí 1 Días Horas día",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section K, Question 4, p. 86"
+        },
+        {
+          "text": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section K, Heading, p. 84"
+        }
+      ],
+      "reasoning": "The GEIH questionnaire records time spent on paid work in Section I (Question 52 asking for usual weekly hours and Question 54 for actual hours worked last week). It also records time allocated to unpaid domestic and care work in Section K (Questions 1 through 6 record days per week and daily hours for activities such as cooking, washing clothes, house cleaning, childcare, care for sick/elderly persons, and school homework support). However, the questionnaire contains no questions or modules that record time spent on leisure or self-care activities (such as sleeping, eating, or personal hygiene).",
+      "elements": {
+        "leisure": false,
+        "paid work": true,
+        "self-care": false,
+        "unpaid work": true
+      }
+    }
+  ]
+}

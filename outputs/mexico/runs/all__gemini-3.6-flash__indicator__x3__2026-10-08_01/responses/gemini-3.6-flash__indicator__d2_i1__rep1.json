@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "2e. ¿... es\n(Lee las opciones y circula la indicada por el informante)\n1 una persona temporalmente ausente de su actividad u oficio? → Pasa a 2k\n2 pensionado o jubilado de su empleo?\n3 estudiante?\n4 una persona que se dedica a los quehaceres de su hogar?",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "II. NO OCUPADOS, Q2e, p. 4"
+        },
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a\n(Lee las opciones, circula las indicadas, pregunta y anota el tiempo)\n1 estudiar o tomar cursos de capacitación? (incluye el tiempo dedicado a realizar trabajos escolares)\n2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)\n3 realizar compras, llevar cuentas o realizar trámites para el hogar o encargarse de la seguridad? (como guardar el automóvil)\n4 llevar a algún miembro del hogar a la escuela, cita médica u otra actividad?\n5 construir o ampliar su vivienda?\n6 reparar o dar mantenimiento a su vivienda, muebles, aparatos electrodomésticos o vehículos?\n7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)\n8 prestar servicios gratuitos a su comunidad?(conseguir despensas, cuidar personas en un hospital)",
+          "document": "C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "IX. OTRAS ACTIVIDADES, Q9, p. 12"
+        }
+      ],
+      "reasoning": "The supplied survey instruments do not include a standalone domestic or care work module containing more than two questions. While unpaid domestic work and care activities are mentioned in the instrument, they are captured in Question 2e as a category of inactivity (\"una persona que se dedica a los quehaceres de su hogar\") and in Question 9 (Section IX. OTRAS ACTIVIDADES) as a single eight-item battery collecting time spent on various non-work activities. Therefore, the survey does not feature a separate module dedicated to unpaid domestic or care work.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

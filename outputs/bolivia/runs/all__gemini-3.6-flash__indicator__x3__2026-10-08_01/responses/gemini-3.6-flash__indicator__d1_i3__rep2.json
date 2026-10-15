@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "2. ¿Es hombre o mujer? 1. Hombre 2. Mujer",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE A, Pregunta 2, p. 1"
+        }
+      ],
+      "reasoning": "In the supplied questionnaire document, Question 2 asks '2. ¿Es hombre o mujer?' with response options '1. Hombre' and '2. Mujer'. No instructions or definitions regarding sex or gender are provided for the interviewer in the questionnaire. If further interviewer instructions or definitions exist in an interviewer manual, that document type was not supplied in this run.",
+      "extracted_text": "2. ¿Es hombre o mujer?"
+    }
+  ]
+}

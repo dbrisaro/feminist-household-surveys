@@ -1,0 +1,45 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "Por ayudar en quehaceres del hogar. 8",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 3, Section 1, Question 9"
+        },
+        {
+          "text": "Por cuidado de los hijos…………….. 15",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 3, Section 1, Question 9"
+        },
+        {
+          "text": "- Tiene a cargo el cuidado de algún miembro de su hogar?.......................... 1",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 6, Section 2, Question 29a"
+        },
+        {
+          "text": "Ama de casa?................... 4",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 8, Section 2, Question 36"
+        },
+        {
+          "text": "Ayudó o se dedicó a otras labores del hogar o la familia?..................................................................… 4",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 18, Section 4, Question 2"
+        },
+        {
+          "text": "¿Cuántas horas trabajó (…) la semana pasada o la última semana que trabajó?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 5, Section 2, Question 24"
+        }
+      ],
+      "reasoning": "For 'responsibility': Question 29a lists having charge of household care as a reason for not wanting or being available to work more hours. The definition specifies that a reason for not working or not working more hours does not count as a direct question asking who is responsible for or in charge of domestic or care work. Thus, responsibility is false.\n\nFor 'performance': Question 9 includes domestic tasks and childcare as reasons for not attending school; Question 36 includes 'Ama de casa' as an activity status category; Question 2 of Section 4 asks unemployed persons what activities they carried out while unemployed. The definition explicitly specifies that activity status categories, reasons for not working/attending school, or questions asking what a person did instead of working or seeking work do not count as measuring performance of domestic or care work. Thus, performance is false.\n\nFor 'magnitude': Question 24 records hours worked in paid or market activities. The questionnaire contains no questions recording the time duration or frequency dedicated to unpaid domestic or care work. Thus, magnitude is false.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

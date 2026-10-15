@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "1. En su opinión, ¿cuál de las siguientes opciones refleja mejor su situación actual? Le leo las opciones: SIDIV1 - Trabajando o con empleo - Parado - Percibía una pensión de jubilación o unos ingresos de prejubilación - Incapacitado permanente para trabajar - Estudiante (aunque esté de vacaciones) - Dedicado a las labores del hogar",
+          "document": "epacues21.pdf",
+          "location": "H. SITUACIONES DIVERSAS, Question 1"
+        },
+        {
+          "text": "26. ¿Por cuál de los siguientes motivos tiene jornada parcial en su trabajo? Le leo las opciones PARCO2 - Seguir cursos de enseñanza o formación - Enfermedad o incapacidad propia - Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "C. CARACTERÍSTICAS DEL EMPLEO, Question 26"
+        },
+        {
+          "text": "6. ¿Cuál es el principal motivo por el que no ha buscado empleo en las 4 últimas semanas? NBUSCA - Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "D. BUSQUEDA DE EMPLEO, Question 6"
+        }
+      ],
+      "reasoning": "The questionnaire mentions unpaid domestic and care work only in questions defining self-perceived activity status (SIDIV1: 'Dedicado a las labores del hogar') or identifying reasons for working part-time, being absent, or not seeking employment (PARCO2, NBUSCA: 'Responsabilidades de cuidado de hijos u otros familiares'). Evaluating each element against the operational criteria: 1. Responsibility: The instrument contains no questions asking who is in charge of, plans, or organises domestic or care work. (false) 2. Performance: Per the explicit guidelines, categories classifying activity status or reasons for not working/seeking work do not count as asking whether a person performs domestic or care tasks. No explicit question asks whether members carry out unpaid care or domestic tasks. (false) 3. Magnitude: The instrument does not measure the time or frequency spent performing unpaid domestic or care work. (false)",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

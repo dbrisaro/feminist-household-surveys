@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "- Excedencia por cuidado de hijos",
+          "document": "epacues21.pdf",
+          "location": "B. RELACIÓN CON LA ACTIVIDAD ECONÓMICA, Q5"
+        },
+        {
+          "text": "- Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "C. CARACTERÍSTICAS DEL EMPLEO (variante C2), Q26"
+        },
+        {
+          "text": "- Dedicado a las labores del hogar",
+          "document": "epacues21.pdf",
+          "location": "H. SITUACIONES DIVERSAS, Q1"
+        }
+      ],
+      "reasoning": "The survey instrument does not include a separate domestic or care work module. Domestic work and caregiving responsibilities are mentioned only as reasons for work absence, reasons for part-time work, or as categories of inactivity ('Dedicado a las labores del hogar').",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

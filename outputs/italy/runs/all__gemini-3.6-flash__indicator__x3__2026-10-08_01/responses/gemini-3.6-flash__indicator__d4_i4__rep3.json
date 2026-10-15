@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "QB01. “LA SCORSA SETTIMANA” “NOME” ha svolto almeno un’ora di lavoro da cui ha ricavato o ricaverà un guadagno?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QB01"
+        },
+        {
+          "text": "QC32 “NOME” di solito quante ore lavora a settimana? Indichi anche frazioni di ore (ed escluda l’interruzione per i pasti e gli spostamenti casa lavoro)..",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC32"
+        },
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC29"
+        },
+        {
+          "text": "QC18 Nello svolgimento del suo lavoro “NOME” utilizza strumenti/strutture di sua proprietà o di proprietà del suo principale cliente/committente (ad esempio computer o macchinari, locali per la vendita, uffici)?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC18"
+        },
+        {
+          "text": "QC45 (HOC1_2019) Di solito “NOME” in che modo decide l'orario di inizio e di fine della sua giornata lavorativa?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC45"
+        }
+      ],
+      "reasoning": "The survey instrument does not capture the individual-level dimensions that household headship typically collapses:\n- economic_maintenance: While QB01 records whether an individual worked for pay or gain, the survey does not capture individual income amounts or support received across all sources (wages, pensions, informal work, remittances).\n- labor_burden: While paid work hours are captured (e.g., QC32), and care responsibilities are recorded as qualitative reasons for part-time status or non-seeking (QC29), hours spent on unpaid domestic or care work are not collected.\n- property_asset_control: QC18 asks about ownership of tools and premises used for paid work, but dwelling tenure, land, or general property/asset ownership at the member level are not recorded.\n- decision_making: QC45 asks about autonomy over daily work schedules, but there are no questions addressing intra-household decision-making spheres (such as child-rearing, daily consumption, or major financial choices).",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

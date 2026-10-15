@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "33. ¿Cuánto es su salario líquido, excluyendo los descuentos de ley (AFP, IVA, IT)?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE C, Pregunta 33"
+        },
+        {
+          "text": "37. ¿Cuánto es su ingreso total en su ocupación principal?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE C, Pregunta 37"
+        },
+        {
+          "text": "38. Una vez descontadas todas sus obligaciones (sueldos, salarios, compra de materiales, compra de mercaderías, etc.), ¿cuánto le queda para su hogar? (Ingreso disponible)",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE C, Pregunta 38"
+        },
+        {
+          "text": "28. ¿Cuántos días a la semana trabaja regularmente en su ocupación?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE B, Pregunta 28"
+        },
+        {
+          "text": "29. ¿Cuántas horas en promedio trabaja al día en su ocupación?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE B, Pregunta 29"
+        },
+        {
+          "text": "11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 6"
+        }
+      ],
+      "reasoning": "The instrument does not capture all four dimensions separately at member level:\n- economic_maintenance: False. Sección 2, Parte C captures income from the main occupation (questions 33, 37, 38), but the instrument does not capture member-level income or support across all sources (e.g., pensions, remittances, or transfers).\n- labor_burden: False. Sección 2, Parte B captures working days and hours for paid/main occupation (questions 28, 29), but no module or question measures hours spent in unpaid domestic or care work (unpaid work is only mentioned as a reason for inactivity or non-attendance in questions like P6 and P14).\n- property_asset_control: False. The instrument contains no questions regarding dwelling tenure, land, or asset ownership at individual member level.\n- decision_making: False. The instrument contains no questions on intra-household decision-making.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

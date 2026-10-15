@@ -1,0 +1,10 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [],
+      "reasoning": "The content addressed by this indicator includes instructions given to the interviewer and definitions of sex or gender, which would be documented in an interviewer manual / guidelines (G). However, document type G was not supplied in this run (only the questionnaire document [C] was provided). Therefore, the interviewer instructions and definitions cannot be evaluated from the supplied documentation.",
+      "extracted_text": ""
+    }
+  ]
+}

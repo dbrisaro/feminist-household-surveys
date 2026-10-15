@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [
+        {
+          "text": "¿Cuál es su relación con la persona de referencia? RELPP\n1. Persona de referencia (p.r.)\n2. Cónyuge o pareja de la p.r.\n3. Hijo/a, hijastro/a (de la p.r. o de su pareja)",
+          "document": "[C] epacues21.pdf",
+          "location": "Dentro de cada hogar:"
+        }
+      ],
+      "reasoning": "The supplied questionnaire records the relationship of each household member to a reference person (persona de referencia) under variable RELPP. However, the text of the instrument does not provide or specify any method, rule, or question to identify, assign, or designate who the reference person or household head is. Consequently, none of the specified options apply.",
+      "selected": ""
+    }
+  ]
+}

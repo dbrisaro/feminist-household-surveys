@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR?\nJefe/Jefa ............ 1\nEsposa(o) /compañero(a) .... 2\nHijo(a)/hijastro(a) 3\nYerno/Nuera ....... 4\nNieto/a ................ 5\nPadres/Suegros . 6\nHermano(a) ..... 11\nOtros parientes .. 7\nTrabaj. Hogar ..... 8\nPensionista......... 9\nOtros No Parientes .......... 10",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203"
+        },
+        {
+          "text": "SEXO\nHombre\nMujer",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 207"
+        },
+        {
+          "text": "¿CUÁL ES SU ESTADO CIVIL O CONYUGAL?\nConviviente .......1\nCasado(a) .........2\nViudo(a) ............3\nDivorciado(a).....4\nSeparado(a) ......5\nSoltero(a) ..........6",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 209"
+        }
+      ],
+      "reasoning": "The provided household roster module (Capítulo 200) refers to respondents and household relationships using binary sex categories (Hombre, Mujer) and binary slashed gendered titles (JEFE(A) DEL HOGAR, Jefe/Jefa, Esposa(o) /compañero(a), Hijo(a)/hijastro(a), Yerno/Nuera, Nieto/a, Hermano(a), Casado(a), Viudo(a), Divorciado(a), Separado(a), Soltero(a)).",
+      "extracted_text": "¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR? Jefe/Jefa, Esposa(o) /compañero(a), Hijo(a)/hijastro(a), Yerno/Nuera, Nieto/a, Padres/Suegros, Hermano(a), Otros parientes, Trabaj. Hogar, Pensionista, Otros No Parientes; SEXO: Hombre, Mujer; ¿CUÁL ES SU ESTADO CIVIL O CONYUGAL? Conviviente, Casado(a), Viudo(a), Divorciado(a), Separado(a), Soltero(a)."
+    }
+  ]
+}

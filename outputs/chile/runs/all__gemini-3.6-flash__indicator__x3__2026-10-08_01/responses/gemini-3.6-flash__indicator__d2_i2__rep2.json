@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "5 Cuidado de personas dependientes",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN H, h16"
+        },
+        {
+          "text": "3 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN J, j7"
+        },
+        {
+          "text": "4 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN J, j12"
+        }
+      ],
+      "reasoning": "The questionnaire mentions care of dependents and family responsibilities only as response categories for why a person did not work more hours (h16), why they did not look for work (j7), or why they are not available to work (j12). The indicator guidelines explicitly state that categories of inactivity or reasons for not working do not count towards performance or responsibility. There are no questions asking who is responsible for domestic or care work (responsibility: false), no questions asking whether a person carries out domestic or care work (performance: false), and no questions measuring the time or frequency spent on unpaid domestic or care work (magnitude: false).",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

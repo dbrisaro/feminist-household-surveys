@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "- Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "Sección C, pregunta 26 (PARCO2)"
+        },
+        {
+          "text": "- Quiere cuidar personalmente de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "Sección C, pregunta 27 (PCONC1)"
+        },
+        {
+          "text": "- Dedicado a las labores del hogar",
+          "document": "epacues21.pdf",
+          "location": "Sección H, pregunta 1 (SIDIV1)"
+        }
+      ],
+      "reasoning": "The survey instrument was examined across all sections for questions regarding unpaid domestic and care work. \n\n1. Responsibility: The instrument contains no questions asking who is in charge of, plans, or takes responsibility for domestic or care tasks. Thus, responsibility evaluates to false.\n\n2. Performance: The instrument includes options referencing domestic work or caregiving, such as in Section C, question 26 ('- Responsabilidades de cuidado de hijos u otros familiares'), Section C, question 27 ('- Quiere cuidar personally de hijos u otros familiares'), and Section H, question 1 ('- Dedicado a las labores del hogar'). However, per the operational instructions, categories defining activity status or reasons for working part-time or not working do not count as explicit questions about carrying out domestic or care tasks. The questionnaire does not contain any direct questions asking whether a person performs these tasks. Thus, performance evaluates to false.\n\n3. Magnitude: The instrument does not record the time or frequency spent on unpaid domestic or care work. Thus, magnitude evaluates to false.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

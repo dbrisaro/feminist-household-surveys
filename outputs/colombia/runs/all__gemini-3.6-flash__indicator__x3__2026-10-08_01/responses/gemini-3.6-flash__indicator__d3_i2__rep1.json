@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "¿Cuántas horas a la semana trabaja normalmente.... en este trabajo?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo I, Pregunta 52, p. 56"
+        },
+        {
+          "text": "Cocinar, lavar los platos, poner la mesa en:\na. Su hogar?\n Sí 1 Días\n Horas día",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, Pregunta 1, p. 84"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en:\na. Su hogar?\n Sí 1 Días\n Horas día",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, Pregunta 4, p. 86"
+        }
+      ],
+      "reasoning": "The survey records time devoted to paid work in Chapter I (Question 52 and Question 54 record normal and actual weekly hours worked) as well as secondary employment (Question 69). It also records time allocated to unpaid domestic and care work in Chapter K (questions 1 through 6 record days and hours per day spent on cooking, cleaning, laundry, childcare, care of sick or dependent persons, and helping with schoolwork). The instrument does not include questions recording time spent on leisure or self-care activities (such as personal care, sleeping, or eating). Consequently, paid work and unpaid work are evaluated as true, whereas leisure and self-care are evaluated as false.",
+      "elements": {
+        "leisure": false,
+        "paid work": true,
+        "self-care": false,
+        "unpaid work": true
+      }
+    }
+  ]
+}

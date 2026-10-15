@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "a. JEFE/A DEL HOGAR\nb. ESPOSO/A, COMPAÑERO/A DEL JEFE/A\nc. HIJOS/AS , HIJASTROS/AS SOLTEROS/AS SIN HIJOS\nd. HIJOS/AS, HIJASTROS/AS SOLTEROS/AS CON HIJOS\ne. HIJOS/AS, HIJASTROS/AS CASADOS/AS O UNIDOS/AS CON/SIN HIJOS\nf. NIETOS /AS DEL JEFE/A\ng. YERNOS Y/O NUERAS DEL JEFE/A\nh. PADRE Y/O MADRE DEL JEFE/A\ni. SUEGRO Y/O SUEGRA DEL JEFE/A\nj. OTROS PARIENTES\nk. OTROS NO PARIENTES\nl. TRABAJADOR/A DOMESTICO/A\nm. HIJOS/AS Y/O PARIENTES DEL TRABAJADOR/A DOMÉSTICO/A",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 3, Question 1"
+        },
+        {
+          "text": "Jefe/a ....................................... 1\nEsposo/a, compañero/a .......... 2\nHijo/a ........................................ 3\nHijastro/a.................................. 4\nNieto/a ..................................... 5\nYerno/Nuera ............................ 6\nPadre/Madre ............................ 7\nSuegro/a .................................. 8\nOtro pariente............................ 9\nNo pariente ............................ 10\nTrabajador doméstico.............11\nFamiliar del trabajador doméstico .............................. 12",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Question 1"
+        },
+        {
+          "text": "SU CÓNYUGE SU PADRE SU MADRE",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Question 5"
+        },
+        {
+          "text": "Hombre. .... 1\nMujer......... 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 1, Question 6"
+        }
+      ],
+      "reasoning": "The questionnaire addresses respondents and household members as 'personas', 'miembro del hogar', or using the individual name placeholder '...[NOMBRE]...'. Terms used to refer to relationships within the household relative to the head of household in Question 1 of Section 1 and Page 3 are framed using binary gendered combinations and slash constructs: 'JEFE/A DEL HOGAR' / 'Jefe/a', 'ESPOSO/A, COMPAÑERO/A DEL JEFE/A' / 'Esposo/a, compañero/a', 'HIJOS/AS' / 'Hijo/a', 'HIJASTROS/AS' / 'Hijastro/a', 'NIETOS /AS' / 'Nieto/a', 'YERNOS Y/O NUERAS' / 'Yerno/Nuera', 'PADRE Y/O MADRE' / 'Padre/Madre', 'SUEGRO Y/O SUEGRA' / 'Suegro/a', 'OTROS PARIENTES' / 'Otro pariente', 'OTROS NO PARIENTES' / 'No pariente', 'TRABAJADOR/A DOMESTICO/A' / 'Trabajador doméstico', and 'HIJOS/AS Y/O PARIENTES DEL TRABAJADOR/A DOMÉSTICO/A' / 'Familiar del trabajador doméstico'. Relationship references to other household members in Question 5 use 'SU CÓNYUGE', 'SU PADRE', 'SU MADRE'. Sex categories in Question 6 are binary ('Hombre', 'Mujer').",
+      "extracted_text": "JEFE/A DEL HOGAR; ESPOSO/A, COMPAÑERO/A DEL JEFE/A; HIJOS/AS , HIJASTROS/AS SOLTEROS/AS SIN HIJOS; HIJOS/AS, HIJASTROS/AS SOLTEROS/AS CON HIJOS; HIJOS/AS, HIJASTROS/AS CASADOS/AS O UNIDOS/AS CON/SIN HIJOS; NIETOS /AS DEL JEFE/A; YERNOS Y/O NUERAS DEL JEFE/A; PADRE Y/O MADRE DEL JEFE/A; SUEGRO Y/O SUEGRA DEL JEFE/A; OTROS PARIENTES; OTROS NO PARIENTES; TRABAJADOR/A DOMESTICO/A; HIJOS/AS Y/O PARIENTES DEL TRABAJADOR/A DOMÉSTICO/A; Jefe/a; Esposo/a, compañero/a; Hijo/a; Hijastro/a; Nieto/a; Yerno/Nuera; Padre/Madre; Suegro/a; Otro pariente; No pariente; Trabajador doméstico; Familiar del trabajador doméstico; SU CÓNYUGE; SU PADRE; SU MADRE; Hombre; Mujer; ...[NOMBRE]..."
+    }
+  ]
+}

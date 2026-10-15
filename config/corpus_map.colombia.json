@@ -1,0 +1,56 @@
+{
+  "country": "colombia",
+  "survey": "Gran Encuesta Integrada de Hogares (GEIH) ()",
+  "agency": "DANE",
+  "doc_dir": "data/raw/colombia/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [
+        "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf"
+      ]
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [
+        "DSO-GEIH-MET-001-V11.pdf",
+        "DSO-GEIH-FME-001-V11.pdf",
+        "Nueva_medicion_informalidad.pdf"
+      ]
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [
+        "G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf"
+      ]
+    }
+  },
+  "estimated_tokens": {
+    "C": 176021,
+    "M": 151787,
+    "G": 235275,
+    "C+M": 327808
+  },
+  "excluded": {
+    "CP_ajustesmetodologicos_covid19_mar_20.pdf": "bulletin, tabulation or press material",
+    "Comunicado_prensa_nuevo_enfoque_GEIH.pdf": "bulletin, tabulation or press material",
+    "Empalme_%20GEIH_%202005-2018.pdf": "bulletin, tabulation or press material",
+    "Informe-sobre-cifras-de-empleo-y-brechas-de-genero-10-2020.pdf": "title page: Report on employment figures, gender gaps",
+    "Nota-tecnica-empalme-series-GEIH.pdf": "bulletin, tabulation or press material",
+    "Presentacion-Series-GEIH-marco2005-con-factores2018.pdf": "bulletin, tabulation or press material",
+    "Presentacion_nuevo_enfoque_GEIH.pdf": "bulletin, tabulation or press material",
+    "anex-GEIH-acercade-ene2024.pdf": "title page: Press release describing survey, not instrument",
+    "anexo_nota_metodologica_RELAB_act_naranja_RUES_RUT_2019_2020.pdf": "bulletin, tabulation or press material",
+    "bol-GEIH-mar2026.pdf": "title page: Technical bulletin presenting labor market results",
+    "cp-GEIH-mar2026.pdf": "bulletin, tabulation or press material",
+    "pres-GEIH-mar2026.pdf": "bulletin, tabulation or press material",
+    "pres_RELAB_economia_naranja_ene_19_dic_20.pdf": "bulletin, tabulation or press material"
+  },
+  "unclassified": {},
+  "non_textual": {
+    ".xlsx": 8,
+    ".xls": 3,
+    ".csv": 2
+  }
+}

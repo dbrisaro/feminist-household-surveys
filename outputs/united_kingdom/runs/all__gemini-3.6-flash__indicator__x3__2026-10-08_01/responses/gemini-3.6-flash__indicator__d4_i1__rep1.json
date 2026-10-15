@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "At present, the majority of heads of a household are male. This is because the HOH is defined to be the male in a couple or where more than one person has equal claim to be HOH and they are of opposite sex. The HRP will take into account accommodation ownership / rental, income and age in order to identify the HRP (see Volume 3 of this User Guide for more details).",
+          "document": "[M] lfsugvoltcm77238281.pdf",
+          "location": "SECTION 4 - HOUSEHOLD MATRIX IMPROVEMENTS, HOUSEHOLD REFERENCE PERSON, page 9"
+        }
+      ],
+      "reasoning": "The supplied technical document lfsugvoltcm77238281.pdf explicitly describes the conceptual definitions of Head of Household (HOH) and Household Reference Person (HRP). On page 9 under Section 4, the text defines HOH by stating that 'the HOH is defined to be the male in a couple or where more than one person has equal claim to be HOH and they are of opposite sex.' It also documents the transition to using the Household Reference Person (HRP), noting that 'The HRP will take into account accommodation ownership / rental, income and age in order to identify the HRP'.",
+      "extracted_text": "This is because the HOH is defined to be the male in a couple or where more than one person has equal claim to be HOH and they are of opposite sex. The HRP will take into account accommodation ownership / rental, income and age in order to identify the HRP"
+    }
+  ]
+}

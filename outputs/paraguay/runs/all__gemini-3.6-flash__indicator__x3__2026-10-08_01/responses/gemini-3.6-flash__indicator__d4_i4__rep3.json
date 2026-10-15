@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "¿Podría informarme sobre los ingresos mensuales que habitualmente recibe?. (SI LA RESPUESTA ES NADA, ESCRIBIR \"0\")",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE E, p. 29"
+        },
+        {
+          "text": "Nro. de línea de la persona que recibe",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE E, p. 30"
+        },
+        {
+          "text": "Durante los últimos 7 días, ¿cuántas horas diarias trabajó efectivamente en su OCUPACIÓN PRINCIPAL ...[NOMBRE]...?",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE B, p. 18"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................ 6",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE A, p. 15"
+        },
+        {
+          "text": "16 ¿Esta vivienda... es propia? ......................................... 1",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 2, p. 5"
+        },
+        {
+          "text": "3 ¿Tienen ustedes lotes propios?",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 8, PARTE A, p. 33"
+        },
+        {
+          "text": "RELACIÓN DE PARENTESCO CON EL/LA JEFE/A DEL HOGAR",
+          "document": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 1, p. 3"
+        }
+      ],
+      "reasoning": "The survey instrument's handling of the four dimensions collapsed into 'headship' is evaluated as follows:\n\n1. economic_maintenance (TRUE): Sección 6, Parte E (pp. 29-30) records income from all individual sources (employment, self-employment, rentals, interest/dividends, family support, pensions, Tekoporá, Adulto Mayor, child support, and remittances) at the individual member level, identified by person line numbers.\n2. labor_burden (FALSE): While hours spent in paid work are recorded per member in Sección 6, Parte B (Question 3), hours spent in unpaid domestic or care work are not collected at the member level. Unpaid housework is only recorded as a categorical reason for inactive status or reduced paid work hours in Sección 6, Parte A.\n3. property_asset_control (FALSE): Dwelling tenure and plot ownership (Sección 2, Questions 16-17), durable asset ownership (Sección 2, Question 24), and agricultural land ownership (Sección 8, Question 3) are captured at the household level, not attributed to individual members.\n4. decision_making (FALSE): The questionnaire contains no questions capturing who makes decisions within the household regarding child-rearing, daily expenditure, or major financial choices.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

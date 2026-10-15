@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "f.1 Sin considerar los quehaceres del hogar, ¿trabajó algún día en la semana comprendida entre el {+NOM_DIA1_SEMREF+} 1 y el {+NOM_DIA7_SEMREF+} 7 de {+NOM_MES_SEMREF+}?",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "f.1"
+        },
+        {
+          "text": "… quien realiza los quehaceres del hogar?..........................................",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "f.82"
+        },
+        {
+          "text": "d.16 ¿Este hogar paga (en dinero o de otra forma) a personas para que limpien la vivienda, cuiden niños o ancianos o realicen alguna otra tarea doméstica?",
+          "document": "C_Cuestionario_implantación_2024.pdf",
+          "location": "d.16"
+        }
+      ],
+      "reasoning": "The survey instrument does not include a separate module for unpaid domestic or care work. Unpaid household chores are explicitly excluded from the definition of work in question f.1 ('Sin considerar los quehaceres del hogar') and classified as a non-economic condition/inactivity status in question f.82 ('… quien realiza los quehaceres del hogar?'). Questions d.16 and d.17 cover domestic services paid for or received as help within Section D (Hogar), but there is no dedicated module separate from the main questionnaire to measure unpaid domestic or care work.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

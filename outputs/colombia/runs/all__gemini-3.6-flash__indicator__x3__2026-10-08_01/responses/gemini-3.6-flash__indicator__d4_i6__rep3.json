@@ -1,0 +1,56 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "¿Cuál fue su sexo al nacer?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 3, p. 6"
+        },
+        {
+          "text": "¿Cuál es el parentesco de ... con el jefe o jefa del hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 5, p. 6"
+        },
+        {
+          "text": "¿La madre de… reside en este hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 5A, p. 6"
+        },
+        {
+          "text": "¿El padre de… reside en este hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 5B, p. 6"
+        },
+        {
+          "text": "Actualmente: a. No está casado(a) y vive en pareja hace menos de dos años b. No está casado(a) y vive en pareja hace dos años o más c. Está casado(a) d. Está separado(a) o divorciado(a) e. Está viudo(a) f. Está soltero(a)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 11, p. 10"
+        },
+        {
+          "text": "¿El (la) cónyuge de… reside en este hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, Pregunta 12, p. 10"
+        },
+        {
+          "text": "Antes de descuentos, ¿cuánto ganó... el mes pasado en este empleo?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo I, Pregunta 17, p. 34"
+        },
+        {
+          "text": "¿En cuál de los siguientes lugares, preparan los alimentos las personas de este hogar:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo C, Pregunta 7, p. 3"
+        }
+      ],
+      "reasoning": "The GEIH instrument collects variables that allow disaggregating female-headed and women-maintained household structures across several dimensions, though not all. Specifically: 1) de_jure_vs_de_facto is true because marital status (Capítulo E, Q11), spouse presence (Q12), sex (Q3), and relationship to household head (Q5) allow distinguishing de jure female-headed households (unpartnered/widowed/divorced/single female heads) from de facto female-headed households (married/partnered female heads whose spouse/partner is absent from the household). 2) unpartnered_mother_child_units is true because line-number linkage to mothers (Q5A) and fathers (Q5B) combined with individual marital status (Q11) and partner presence (Q12) identifies unpartnered mother–child units anywhere within larger or extended households. 3) women_maintained_by_provider is true because labor and non-labor income variables (e.g., Capítulo I Q17, Q48; Capítulo L) are captured for each person individually, allowing analysts to determine the primary income provider regardless of designated headship. 4) mother_child_unit_activity is false because consumption and food preparation variables (Capítulo C Q7) are captured strictly at the overall household level and cannot be linked to sub-household mother–child units.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "- Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "Section C, Question 26"
+        },
+        {
+          "text": "- Dedicado a las labores del hogar",
+          "document": "epacues21.pdf",
+          "location": "Section H, Question 1"
+        }
+      ],
+      "reasoning": "The questionnaire records care responsibilities and domestic work only as reasons for working part-time, reasons for not seeking employment, or as a self-reported current activity status ('Dedicado a las labores del hogar'). The instrument does not contain any question asking whether a person supervises or remains available to care for other household members while performing other tasks or outside of care being their main activity.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

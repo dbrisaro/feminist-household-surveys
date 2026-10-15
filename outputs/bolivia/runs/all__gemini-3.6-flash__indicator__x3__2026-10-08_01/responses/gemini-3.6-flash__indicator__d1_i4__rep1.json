@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "¿Cuál es el nombre y apellido de cada una de las personas que residen en este hogar o los que estan ausentes por razones de trabajo, estudio u otros?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE A, Pregunta 1"
+        },
+        {
+          "text": "¿Es hombre o mujer?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE A, Pregunta 2"
+        },
+        {
+          "text": "¿Qué parentesco tiene con la jefa o jefe del hogar? 1. JEFA O JEFE DEL HOGAR 2. ESPOSA/O O CONVIVIENTE O CONCUBINA(O) 3. HIJA O HIJO 4, HIJASTRA O HIJASTRO 5. NUERA O YERNO 6, NIETA O NIETO 7. HERMANA O HERMANO 8. CUÑADA O CUÑADO 9. MADRE O PADRE 10. SUEGRA O SUEGRO 11. ABUELA O ABUELO 12. OTRO PARIENTE 13. OTRO QUE NO ES PARIENTE 14. TRABAJADOR(A) DEL HOGAR CAMA ADENTRO Y SUS FAMILIARES",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE A, Pregunta 5"
+        },
+        {
+          "text": "¿Cuál es su estado civil o conyugal actual? 1. SOLTERA/O 2. CASADA/O 3. CONVIVIENTE O CONCUBINA/O 4. SEPARADA/O 5. DIVORCIADA/O 6. VIUDA/O",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE B, Pregunta 16"
+        },
+        {
+          "text": "¿Está usted afiliada(o) a la Gestora (AFP)?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE H, Pregunta 64"
+        }
+      ],
+      "reasoning": "The terms used to refer to respondents and to relationships within the household appear directly in the wording of the questions and response options of the questionnaire. Respondents are referred to as 'cada una de las personas que residen en este hogar', 'usted', or with gendered slashes/parentheses ('afiliada(o)'). Household headship and relationship options use gender-inclusive binary pairs or combined male/female terms ('jefa o jefe del hogar', 'ESPOSA/O O CONVIVIENTE O CONCUBINA(O)', 'HIJA O HIJO', 'HIJASTRA O HIJASTRO', 'NUERA O YERNO', 'NIETA O NIETO', 'HERMANA O HERMANO', 'CUÑADA O CUÑADO', 'MADRE O PADRE', 'SUEGRA O SUEGRO', 'ABUELA O ABUELO', 'TRABAJADOR(A) DEL HOGAR'). Marital status uses gendered slash options ('SOLTERA/O', 'CASADA/O', 'CONVIVIENTE O CONCUBINA/O', 'SEPARADA/O', 'DIVORCIADA/O', 'VIUDA/O').",
+      "extracted_text": "¿Cuál es el nombre y apellido de cada una de las personas que residen en este hogar o los que estan ausentes por razones de trabajo, estudio u otros? / ¿Es hombre o mujer? 1. Hombre 2. Mujer / ¿Qué parentesco tiene con la jefa o jefe del hogar? 1. JEFA O JEFE DEL HOGAR 2. ESPOSA/O O CONVIVIENTE O CONCUBINA(O) 3. HIJA O HIJO 4, HIJASTRA O HIJASTRO 5. NUERA O YERNO 6, NIETA O NIETO 7. HERMANA O HERMANO 8. CUÑADA O CUÑADO 9. MADRE O PADRE 10. SUEGRA O SUEGRO 11. ABUELA O ABUELO 12. OTRO PARIENTE 13. OTRO QUE NO ES PARIENTE 14. TRABAJADOR(A) DEL HOGAR CAMA ADENTRO Y SUS FAMILIARES / ¿Cuál es su estado civil o conyugal actual? 1. SOLTERA/O 2. CASADA/O 3. CONVIVIENTE O CONCUBINA/O 4. SEPARADA/O 5. DIVORCIADA/O 6. VIUDA/O / ¿Está usted afiliada(o) a la Gestora (AFP)?"
+    }
+  ]
+}

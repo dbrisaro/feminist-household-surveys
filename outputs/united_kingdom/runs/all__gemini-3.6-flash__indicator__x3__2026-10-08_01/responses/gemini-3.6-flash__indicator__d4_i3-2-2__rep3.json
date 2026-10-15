@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "checks to ensure each household has a household reference person (HRP)",
+          "document": "[M] volume1main2024updatedfeb25.pdf",
+          "location": "SECTION 6 - CODING AND PROCESSING THE DATA, 6.3 DATA CHECKING, p. 52"
+        },
+        {
+          "text": "Household Reference Person (HRP)",
+          "document": "[M] volume1main2024updatedfeb25.pdf",
+          "location": "SECTION 15 – HARMONISATION, Table 15.1 Harmonised Questions for Government Social Surveys - LFS, p. 101"
+        },
+        {
+          "text": "HRPID Whether accommodation is owned/rented in respondent’s name",
+          "document": "[M] volume1main2024updatedfeb25.pdf",
+          "location": "SECTION 5 - FIELDWORK, 5.4 REQUIREMENTS FOR ANSWERS TO QUESTIONS, p. 33"
+        },
+        {
+          "text": "The LFS allows interviewers to take answers to questions by proxy if a respondent is unavailable. This is usually from another related adult who is a member of the same household",
+          "document": "[M] volume1main2024updatedfeb25.pdf",
+          "location": "SECTION 5 - FIELDWORK, 5.5 PROXY INTERVIEWS, p. 34"
+        }
+      ],
+      "reasoning": "1. neutral_anchor_term is true because the documentation uses the neutral term 'Household Reference Person (HRP)' to identify the anchor person (p. 52, 101).\n2. explicit_selection_rule is false because the supplied text does not state an explicit rule for selecting the Household Reference Person.\n3. rule_not_sex_age_authority is false because no selection rule for the reference person is stated in the provided text.\n4. respondent_separate_or_any_adult is true because the documentation notes that proxy responses may be taken from 'another related adult who is a member of the same household' (p. 34) and separates the respondent from the HRP via variables like HRPID (p. 33).",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "¿En qué actividad ocupó ... la mayor parte del tiempo la semana pasada?\na. Trabajando\nb. Buscando trabajo\nc. Estudiando\nd. Oficios del hogar\ne. Incapacitado permanente para trabajar\nf. Otra actividad, ¿cuál?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section H, Question 2, page 20"
+        },
+        {
+          "text": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Section K, page 84"
+        }
+      ],
+      "reasoning": "In Section H ('FUERZA DE TRABAJO'), Question 2 lists 'Oficios del hogar' as an activity category separate and distinct from 'Trabajando'. While Section K collects data on unpaid domestic and care activities under 'OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)', the instrument does not classify or incorporate unpaid domestic and care work as an economic activity within its definition of work or employment. Instead, unpaid household tasks are placed in a distinct non-work category ('Oficios del hogar'). Therefore, the indicator is false, and the exclusion type is 'treated_as_other'.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

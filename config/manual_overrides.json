@@ -1,0 +1,97 @@
+{
+  "_README": [
+    "Human decisions the triage cannot derive, and must never overwrite.",
+    "",
+    "triage_corpus.py rebuilds config/draft/ from scratch on every run, so a decision",
+    "that lives only in a generated map is destroyed by the next run. Anything here is",
+    "re-applied on every run instead, and appears in review.<country>.md marked [manual].",
+    "",
+    "Only put a decision here when NO rule could reach it. Duplicates, waves and",
+    "document types are handled by the triage itself. What belongs here is knowledge",
+    "about the world: that two surveys from the same agency are different surveys, or",
+    "that a file has been cut down by hand.",
+    "",
+    "  exclude  filename (relative to doc_dir) -> reason, printed in the review sheet",
+    "  note     free text recorded in the map's manual_review block"
+  ],
+  "paraguay": {
+    "note": "The DGEEC publishes several surveys from one page, so the scraper collected instruments that are not the EPHC. No filename or title-page rule can tell that EUT and MICS are different surveys rather than other documents of this one; it takes knowing the survey landscape.",
+    "exclude": {
+      "Cuestionario EUT 2016_Py.pdf": "documents the EUT 2016 time-use survey, a different instrument from the EPHC",
+      "Manual_encuestador_EUT_2016 FINAL.docx": "documents the EUT 2016 time-use survey, not the EPHC",
+      "CUESTIONARIO MICS PARAGUAY 2016.pdf": "documents MICS 2016 (UNICEF multiple-indicator cluster survey), a different instrument from the EPHC"
+    }
+  },
+  "argentina": {
+    "note": "metodologia_eph_continua_2003_sin_anexo2.pdf is a derived document: the original with Anexo 2 removed. It sits in doc_dir and the triage picks it up as an ordinary candidate; only the original needs suppressing. Derivation: qpdf metodologia_eph_continua_2003.pdf --pages . 1-26,63-69 -- metodologia_eph_continua_2003_sin_anexo2.pdf (2026-08-20, 70,179 -> 36,229 tokens). The derived file is pinned to M: it dates to 2003, so the vintage sort plus --max-per-source 4 pushes it out otherwise, which silently undoes the split.",
+    "exclude": {
+      "metodologia_eph_continua_2003.pdf": "superseded by the derived metodologia_eph_continua_2003_sin_anexo2.pdf. Pages 27-62 of the original (36 of 69) are Anexo 2, the 2003 questionnaires; leaving them in lets a 2003 form be cited as evidence about the current instrument"
+    },
+    "pin": {
+      "metodologia_eph_continua_2003_sin_anexo2.pdf": "M"
+    }
+  },
+  "mexico": {
+    "note": "Decided 2026-08-20: G is field instruction only - the manual for the person asking the questions. A manual for post-collection data validation cannot evidence how the instrument was designed to ask about gender or care work.",
+    "exclude": {
+      "G_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Manual_del_crítico-valida.pdf": "manual for the crítico-validador role (post-collection data validation), not instruction to the interviewer; G is field instruction only"
+    }
+  },
+  "chile": {
+    "note": "Decided 2026-10-08: the three INE Chile gender documents are institution-wide (sex/gender/orientation measurement standards and mainstreaming guidance), not ENE documentation. The ENE questionnaire and methodology are to be added instead. The ENE glossary (updated 2025-09-26) is pinned to M: no filename rule classifies it, and it defines the survey's concepts.",
+    "exclude": {
+      "informe-de-resultados-diagnóstico-sobre-la-medición-de-las-variables-sexo-género-y-orientación-sexual-en-registros-administrativos-(2024).pdf": "INE-wide document on measuring sex, gender and sexual orientation in administrative records; it does not document the ENE, so it cannot evidence how the ENE instrument is designed",
+      "documento-de-seguimiento-de-la-aplicación-del-estándar-para-la-medición-de-sexo-género-y-orientación-sexual-(2024).pdf": "INE-wide document on applying the INE standard for measuring sex, gender and sexual orientation; it does not document the ENE, so it cannot evidence how the ENE instrument is designed",
+      "guia-transversalización-enfoque-genero-en-la-produccion-estadistica.pdf": "INE-wide document on gender mainstreaming in statistical production; it does not document the ENE, so it cannot evidence how the ENE instrument is designed"
+    },
+    "pin": {
+      "glosario-ene.pdf": "M"
+    }
+  },
+  "ecuador": {
+    "note": "Decided 2026-10-08 in the hand review of the Ecuador map: two M slots held a results report and a recalculation note, while the cap pushed out two INEC methodology documents on informal employment and activity status, which bear on d2_i3.",
+    "exclude": {
+      "empleo_poblaciones_especificas_marzo_2026.pdf": "results report characterising women, older adults and young people in the labour market, not methodology",
+      "M_202106_Nota_tecnica_ENEMDU.pdf": "technical note on recalculating the 2020-2021 employment and poverty series; does not document the instrument's design",
+      "202106_Nota_tecnica_ENEMDU.pdf": "identical copy of M_202106_Nota_tecnica_ENEMDU.pdf, excluded for the same reason"
+    },
+    "pin": {
+      "M_4_REM-Actualizacion_metodologica_empleo_informal.pdf": "M",
+      "3.%20REM-Empleo_condact.pdf": "M"
+    }
+  },
+  "united_kingdom": {
+    "note": "Decided 2026-10-08: M keeps only User Guide Volume 1 (background and methodology) and Volume 8 (household and family data, 2003), the volumes that bear on the framework. Volume 3 (254,503 tokens) alone outweighed the rest of M and forced sharding. Volume 8 is pinned because, undated by its file name, it never wins a slot under the cap.",
+    "exclude": {
+      "lfsugvol4aeducationsupplement2022.pdf": "LFS user guide Volume 4a (education derived variables 2022); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "lfsugvol9aahm2016.pdf": "LFS user guide Volume 9a (Eurostat ad hoc modules); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "lfsugvol9aahms2008to2018.pdf": "LFS user guide Volume 9a (Eurostat ad hoc modules); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "lfsugvol9aahmsto2017.pdf": "LFS user guide Volume 9a (Eurostat ad hoc modules); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "lfsugvol9aahmsto2019v2.pdf": "LFS user guide Volume 9a (Eurostat ad hoc modules); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "longitudinalguidecombined.pdf": "LFS user guide Volume 11 (longitudinal datasets); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "volume11.pdf": "LFS user guide Volume 11 (longitudinal datasets); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "vol32016js.pdf": "LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "vol32018jsv2.pdf": "LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "vol32022jscombined.pdf": "LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "vol32023jscombined.pdf": "LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "vol3aj33.pdf": "LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "vol3js17forpublishing.pdf": "LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "vol3od2019final.pdf": "LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "vol3od21.pdf": "LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "volume3octtodec2025.pdf": "LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "volume3od20.pdf": "LFS user guide Volume 3 (details of LFS variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "vol5200tcm77238221.pdf": "LFS user guide Volume 5 (classifications); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "vol52024v3150824.pdf": "LFS user guide Volume 5 (classifications); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "volume10.pdf": "LFS user guide Volume 10 (which dataset to use); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "volume10combined.pdf": "LFS user guide Volume 10 (which dataset to use); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "volume10final2024.pdf": "LFS user guide Volume 10 (which dataset to use); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "volume10maincontentx1.pdf": "LFS user guide Volume 10 (which dataset to use); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "volume10oct2019.pdf": "LFS user guide Volume 10 (which dataset to use); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "volume4.pdf": "LFS user guide Volume 4 (standard derived variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08",
+      "volume41.pdf": "LFS user guide Volume 4 (standard derived variables); M is limited to Volume 1 and Volume 8 by decision of 2026-10-08"
+    },
+    "pin": {
+      "lfsugvoltcm77238281.pdf": "M"
+    }
+  }
+}

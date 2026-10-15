@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "¿Cuál es el nombre de cada una de las personas que viven habitualmente en este hogar? ANOTE EN EL SIGUIENTE ORDEN : a. JEFE/A DEL HOGAR",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 3, Question 1"
+        },
+        {
+          "text": "RELACIÓN DE PARENTESCO CON EL/LA JEFE/A DEL HOGAR",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 4, Section 1, Question 3"
+        },
+        {
+          "text": "SECCIÓN 2 : CARACTERÍSTICAS DE LA VIVIENDA E INVENTARIO DE BIENES DURADEROS",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Page 5, Section 2"
+        }
+      ],
+      "reasoning": "The questionnaire uses the non-neutral term 'JEFE/A DEL HOGAR' to identify the anchor person (Page 3, Question 1; Page 4, Section 1, Question 3), so neutral_anchor_term is false. No explicit selection rule or criterion for choosing the head of household or reference person is stated in the questionnaire (Note: interviewer manual M and methodological guide G were not supplied in this run), so explicit_selection_rule and rule_not_sex_age_authority are false. For household-level modules such as Section 2 (Características de la vivienda), the questionnaire does not record the respondent separately from the head of household nor explicitly state that any knowledgeable adult may respond, so respondent_separate_or_any_adult is false.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": false,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

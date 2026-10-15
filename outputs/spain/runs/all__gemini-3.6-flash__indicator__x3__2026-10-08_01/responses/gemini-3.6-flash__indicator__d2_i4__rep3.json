@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "- Dedicado a las labores del hogar",
+          "document": "[C] epacues21.pdf",
+          "location": "Section H, Question 1 (SIDIV1)"
+        },
+        {
+          "text": "- Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "[C] epacues21.pdf",
+          "location": "Section C, Question 26 (PARCO2)"
+        },
+        {
+          "text": "- Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "[C] epacues21.pdf",
+          "location": "Section D, Question 6 (NBUSCA)"
+        }
+      ],
+      "reasoning": "The survey does not record unpaid domestic or care work for each person through dedicated questions or time-use measurements. Domestic work and care responsibilities appear only as categories of inactivity ('Dedicado a las labores del hogar') or as reasons for working part-time, being absent, or not seeking work ('Responsabilidades de cuidado de hijos u otros familiares'). According to the indicator criteria, mentioning domestic work only as a category of inactivity or a reason for not working does not satisfy the requirement.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

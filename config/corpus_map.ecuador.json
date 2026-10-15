@@ -1,0 +1,107 @@
+{
+  "country": "ecuador",
+  "survey": "Encuesta Nacional de Empleo Desempleo y Subempleo (ENEMDU) ()",
+  "agency": "INEC Ecuador",
+  "doc_dir": "data/raw/ecuador/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [
+        "C_202605_Formulario_ENEMDU.pdf"
+      ]
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [
+        "3.%20REM-Empleo_condact.pdf",
+        "M_4_REM-Actualizacion_metodologica_empleo_informal.pdf",
+        "M_202605_Metodologia_ENEMDU.pdf",
+        "M_2026_I_trimestre_Metodologia_de_disenio_muestral.pdf"
+      ]
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [
+        "202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf"
+      ]
+    }
+  },
+  "estimated_tokens": {
+    "C": 34058,
+    "M": 134344,
+    "G": 196813,
+    "C+M": 168402
+  },
+  "excluded": {
+    "202603_Formulario_ENEMDU.pdf": "earlier wave, superseded by C_202605_Formulario_ENEMDU.pdf (content similarity 0.997)",
+    "2026_I_trimestre_Metodologia_de_disenio_muestral.pdf": "earlier wave, superseded by M_2026_I_trimestre_Metodologia_de_disenio_muestral.pdf (content similarity 1.000)",
+    "202603_Metodologia_ENEMDU.pdf": "earlier wave, superseded by M_202605_Metodologia_ENEMDU.pdf (content similarity 0.987)",
+    "202603_Diseno_Muestral_ENEMDU.pdf": "earlier wave, superseded by M_2026_I_trimestre_Metodologia_de_disenio_muestral.pdf (content similarity 0.916)",
+    "M_2026_I_Metodologia_ENEMDU.pdf": "earlier wave, superseded by M_202605_Metodologia_ENEMDU.pdf (content similarity 0.983)",
+    "2026_I_Metodologia_ENEMDU.pdf": "earlier wave, superseded by M_202605_Metodologia_ENEMDU.pdf (content similarity 0.983)",
+    "Disenio_Muestral_ENEMDU_Anual_enero-diciembre_2025.pdf": "earlier wave, superseded by M_2026_I_trimestre_Metodologia_de_disenio_muestral.pdf (content similarity 0.953)",
+    "2021/202101_Fichas metodológicas_ENEMDU/5.12-FM-Tasa_empleo_adecuado_15ymas- 08-11- 2018.pdf": "earlier wave, superseded by 2021/202101_Fichas metodológicas_ENEMDU/6.02-FM-Tasa_empleo_adecuado_15ymas-rural-Oct 2018.pdf (filename similarity 0.800)",
+    "Documento%20Metodologico%20MTL_dic2018_dic2019.pdf": "earlier wave, superseded by M_Documento_Metodologico_MTL_dic2018_dic2019.pdf (content similarity 1.000)",
+    "Disenio Muestral ENEMDU Anual enero-diciembre 2018.pdf": "earlier wave, superseded by M_2026_I_trimestre_Metodologia_de_disenio_muestral.pdf (content similarity 0.842)",
+    "ENEMDU_Metodologia%20Encuesta%20Nacional%20de%20Empleo%20Desempleo%20y%20Subempleo.pdf": "earlier wave, superseded by M_ENEMDU_Metodologia_Encuesta_Nacional_de_Empleo_Desempleo_y_Subempleo.pdf (content similarity 1.000)",
+    "202106_presentaci%c3%b3n%20de%20socializaci%c3%b3n.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "202101_SIEH_Marco%20Maestro%20de%20Muestreo.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "202101_ENEMDU_Pruebas%20de%20significancia%20estadistica.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "202101_ENEMDU_Calculo%20de%20errores%20estandar%20y%20declaracion%20de%20muestras%20complejas.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/9.09-FM_Pob_empleo_princip_act_12-10-2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/7 10-FM-Porcentaje_hog_servicios_basicos.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/6.07-FM_Asistencia_ajustada_bachi_rural- Nov 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/6.06 FM_Asistencia_EGB_rural-Nov 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/6.03-FM_ Tasa_pobreza_multidimensional_Rural-Sep 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/6.02-FM-Tasa_empleo_adecuado_15ymas-rural-Oct 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/6.01-FM-Tasa_pobreza_por_ingresos_area_rural-Nov 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/5.21-FM_Product_media_laboral-Nov 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/2.05-FM_Empleo_adecuado_etnia-Nov 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/2.03-FM_Personas empleo adecuado actividades culturales_Mayo 2019.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/1.19 FM_18_29_anios_bachi_completo-Nov 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/1.18 FM_Asistencia_ajustada_bachillerato-Nov 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/1.09-FM_Seguridad_social_publica_contributiva-Nov 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/1.06-FM-Trabajo_infantil_5a14_anios-Nov 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/1.05-FM-Tasa_desempleo_juvenil-Sep 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/1.04-FM-Hogares_viv_propia_digna-Nov 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/1.03-FM_relación 10% más rico 10% más pobre-Version 2017.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/1.02-FM_ Tasa_pobreza_multidimensional_Sep 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "2021/202101_Fichas metodológicas_ENEMDU/1.01-FM-Incidencia_pobreza_extrema_por_ingresos- Sep 2018.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "M_Documento_Metodologico_MTL_dic2018_dic2019.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "Plan_para_el_Fortalecimiento_de_Estadisticas_del_Trabajo.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "M_ENEMDU_Metodologia_Encuesta_Nacional_de_Empleo_Desempleo_y_Subempleo.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "M_Aproximacion_metodologica_evaluacion_inferencia_estadistica_hogares.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "4.%20REM-Actualizacion_metodologica_empleo_informal.pdf": "beyond --max-per-source 4; 2 pinned and the newest 2 kept for this source",
+    "202106_Nota_tecnica_ENEMDU.pdf": "[manual] identical copy of M_202106_Nota_tecnica_ENEMDU.pdf, excluded for the same reason",
+    "2023/Guía de usuario BDD_ENEMDU_anual_2023.pdf": "title page: user guide for existing database",
+    "2024/Guía de usuario BDD_ENEMDU_anual_2024.pdf": "title page: user guide for existing database",
+    "2025/Guía de usuario BDD_ENEMDU_anual_2025.pdf": "title page: user guide for existing database",
+    "2026/202603_ Guía de usuario BDD_ENEMDU.pdf": "title page: user guide for existing database",
+    "2026/2026_I_trimestre_ Guía de usuario BDD_ENEMDU.pdf": "title page: user guide for existing database",
+    "202603_Boletin_empleo_ENEMDU.pdf": "bulletin, tabulation or press material",
+    "202603_Guia_de_usuario_BDD_ENEMDU.pdf": "title page: user guide for existing database",
+    "202603_MercadoLaboral.pdf": "title page: labor indicators bulletin results",
+    "2026_I_Trimestre_Boletin_empleo.pdf": "bulletin, tabulation or press material",
+    "2026_I_Trimestre_Mercado_Laboral.pdf": "title page: labor indicators bulletin results",
+    "2026_I_trimestre_Guia_de_usuario_BDD_ENEMDU.pdf": "title page: user guide for existing database",
+    "Boletin_tecnico_anual_enero-diciembre_2025.pdf": "bulletin, tabulation or press material",
+    "Guia_de_usuario_BDD_ENEMDU_anual_2025.pdf": "title page: user guide for existing database",
+    "M_202106_Nota_tecnica_ENEMDU.pdf": "[manual] technical note on recalculating the 2020-2021 employment and poverty series; does not document the instrument's design",
+    "M_4Proyección_empleo.pdf": "bulletin, tabulation or press material",
+    "Principales_resultados_de_Mercado_Laboral_y_Pobreza_Anual_2025.pdf": "bulletin, tabulation or press material",
+    "empleo_poblaciones_especificas_marzo_2026.pdf": "[manual] results report characterising women, older adults and young people in the labour market, not methodology"
+  },
+  "unclassified": {},
+  "manual_review": {
+    "source": "config/manual_overrides.json",
+    "applied": 5,
+    "note": "Decided 2026-10-08 in the hand review of the Ecuador map: two M slots held a results report and a recalculation note, while the cap pushed out two INEC methodology documents on informal employment and activity status, which bear on d2_i3."
+  },
+  "non_textual": {
+    ".xlsx": 30,
+    ".ods": 10,
+    ".txt": 2,
+    ".csv": 1
+  }
+}

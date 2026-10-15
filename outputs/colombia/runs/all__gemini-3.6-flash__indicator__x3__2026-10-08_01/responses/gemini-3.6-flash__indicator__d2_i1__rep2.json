@@ -1,0 +1,32 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, p. 84"
+        },
+        {
+          "text": "1. Cocinar, lavar los platos, poner la mesa en: a. Su hogar? b. Hogares de personas familiares? c. Hogares de personas no familiares?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 1, p. 84"
+        },
+        {
+          "text": "4. Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en:",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 4, p. 86"
+        },
+        {
+          "text": "5. Cuidar personas enfermas, en condición de discapacidad o adultos mayores en:",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 5, p. 86"
+        }
+      ],
+      "reasoning": "Chapter K of the survey instrument (Forma DANE EH 16 GEIH), titled 'OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)', includes 6 detailed multi-part questions (questions 1 through 6) addressing unpaid domestic work and care activities (cooking, laundry, housecleaning, childcare, care for elderly/sick/disabled individuals, and homework assistance). However, this section is integrated directly into the main questionnaire document itself as Chapter K rather than being provided as a standalone module or separate questionnaire instrument outside the main questionnaire. Because it is embedded within the primary survey form rather than existing as a separate module document, the statement does not strictly hold.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

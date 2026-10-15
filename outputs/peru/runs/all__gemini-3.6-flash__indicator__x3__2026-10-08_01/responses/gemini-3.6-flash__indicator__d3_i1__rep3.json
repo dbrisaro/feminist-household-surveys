@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Question 501, p. 12"
+        },
+        {
+          "text": "513. ¿CUÁNTAS HORAS TRABAJÓ LA SEMANA PASADA, EN SU OCUPACIÓN PRINCIPAL, EL DÍA… Domingo... Lunes... Martes... Miércoles... Jueves... Viernes... Sábado... TOTAL",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Question 513, p. 14"
+        },
+        {
+          "text": "518. ¿CUÁNTAS HORAS TRABAJÓ LA SEMANA PASADA EN SU(S) OCUPACIÓN(ES) SECUNDARIA(S)?",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Question 518, p. 15"
+        }
+      ],
+      "reasoning": "The survey instrument only records hours spent on income-generating economic activities in the main occupation (Question 513) and secondary occupation (Question 518). It explicitly instructs interviewers to exclude household chores when capturing work (Question 501: 'Sin contar los quehaceres del hogar'). The instrument does not contain a time-use schedule or questions asking respondents how they allocate or spend time across multiple daily activities such as unpaid household chores, care work, education, or leisure.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

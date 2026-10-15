@@ -1,0 +1,52 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "¿La madre de… reside en este hogar?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 5A, p. 6"
+        },
+        {
+          "text": "¿El padre de… reside en este hogar?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 5B, p. 6"
+        },
+        {
+          "text": "¿El (la) cónyuge de… reside en este hogar?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 12, p. 10"
+        },
+        {
+          "text": "¿Cuál es el parentesco de ... con el jefe o jefa del hogar? a. Jefe(a) del hogar b. Pareja, esposo(a), cónyuge, compañero(a) c. Hijo(a), hijastro(a) d. Padre o madre e. Suegro(a) f. Hermano(a) hermanastro(a) g. Yerno o nuera h. Nieto(a) i. Otro pariente j. Empleado(a) del servicio doméstico y sus parientes k. Pensionista l. Trabajador m. Otro no pariente",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 5, p. 6"
+        },
+        {
+          "text": "Hogar. Es una persona o grupo de personas, parientes o no, que: ocupan la totalidad o parte de una unidad de vivienda; atienden necesidades básicas con cargo a un presupuesto común y generalmente comparten las comidas (ONU, 1998).",
+          "document": "DSO-GEIH-MET-001-V11.pdf",
+          "location": "GLOSARIO, p. 37"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar? b. Hogares de personas familiares? c. Hogares de personas no familiares?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 4, p. 86"
+        },
+        {
+          "text": "Cuidar personas enfermas, en condición de discapacidad o adultos mayores en: a. Su hogar? b. Hogares de personas familiares? c. Hogares de personas no familiares?",
+          "document": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 5, p. 86"
+        }
+      ],
+      "reasoning": "The survey collects pointer variables for mother's order number (Q5A), father's order number (Q5B), and spouse's order number (Q12), establishing member-to-member pointer relationships. Question 5 in Chapter E explicitly captures extended ties beyond spouse and parent-child (such as parent-in-law, siblings, daughter/son-in-law, grandchildren, other relatives, and non-relatives). The methodological notes explicitly define a household using criteria of sharing a common budget for basic needs and sharing meals. The combination of pointer variables (mother ID, father ID, spouse ID) and relationship to household head allows the identification of sub-units or secondary family nuclei within a larger household. However, while Chapter K asks whether household members provided unpaid care to children, elderly, sick, or disabled persons in their own household, in relatives' households, or non-relatives' households, it does not record individual member-to-member care links (who specifically cares for whom).",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": true,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

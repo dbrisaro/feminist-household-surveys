@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa?",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "VII. ORGANIZACIÓN DEL HOGAR, p. 6"
+        },
+        {
+          "text": "2. ¿Qué otras personas ayudan en las tareas de la casa?",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "VII. ORGANIZACIÓN DEL HOGAR, p. 6"
+        },
+        {
+          "text": "1a. ¿En la semana pasada, trabajó por lo menos una hora? (sin contar las tareas de su hogar)",
+          "document": "EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 1, p. 1"
+        }
+      ],
+      "reasoning": "Section VII of the household questionnaire (EPHContinua_CuestHogar.pdf) collects information on who performs most household tasks and who helps with them. However, nowhere in the individual or household questionnaires does the instrument ask whether a person supervises or remains available to care for other household members while performing other activities or when care is not their main activity. Care is mentioned only as a reason for non-work or as household tasks set aside from paid work (e.g., Q1a in EPHContinua_CuestIndividual.pdf), which do not meet the indicator criteria.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

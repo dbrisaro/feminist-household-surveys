@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "¿Podría informarme sobre los ingresos mensuales que habitualmente recibe?. (SI LA RESPUESTA ES NADA, ESCRIBIR \"0\")",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE E, p. 29"
+        },
+        {
+          "text": "2 ¿Algún miembro de este hogar recibió remesas durante los últimos 12 meses? ... Nro. de línea de la persona que recibe",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE E, p. 30"
+        },
+        {
+          "text": "Durante los últimos 7 días, ¿cuántas horas diarias trabajó efectivamente en su OCUPACIÓN PRINCIPAL ...[NOMBRE]...?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE B, Q3, p. 18"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................ 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 6, PARTE A, Q8, p. 15"
+        },
+        {
+          "text": "16 ¿Esta vivienda... es propia? ......................................... 1 la están pagando en cuotas? ............ 2 es en condominio? ............................ 3 es alquilada? ....................................4 es ocupada de hecho? .....................5 es cedida?......................................... 6 Otra situación (especificar)? ............... 7",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "SECCIÓN 2, Q16, p. 5"
+        }
+      ],
+      "reasoning": "The survey instrument captures economic maintenance at the individual member level in Section 6 Part E (p. 29-30), collecting all sources of income (wages, self-employment profits, rent, dividends, family assistance, alimony, pensions, social transfers, and remittances recorded by person line number) separately for each individual aged 10 and older. However, labor burden is not fully captured at the member level because while hours in paid work are recorded in Section 6 Part B Q3, hours spent in unpaid domestic or care work are not collected at all (labores del hogar is only referenced as a reason for inactivity/leaving work). Property and asset control is captured at the household level rather than per individual member (e.g., dwelling tenure in Section 2 Q16, land in Section 8). Finally, the instrument contains no questions on decision-making by household sphere.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

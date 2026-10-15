@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad",
+          "document": "[C] epacues21.pdf",
+          "location": "PANTALLA nº6, p. 4"
+        },
+        {
+          "text": "01 NOMBRE APELLIDO1 APELLIDO2 dd mm aaaa nnn h/m",
+          "document": "[C] epacues21.pdf",
+          "location": "PANTALLA nº6, p. 4"
+        },
+        {
+          "text": "¿Cuál es su relación con la persona de referencia? RELPP 1. Persona de referencia (p.r.) 2. Cónyuge o pareja de la p.r. 3. Hijo/a, hijastro/a (de la p.r. o de su pareja) 4. Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a) 5. Padre, madre de la p.r. o de su pareja (padrastro/madrastra) 6. Nieto/a, de la p.r. o pareja de los mismos (incluye nietastros/as de ambos) 7. Abuelo/a de la p.r. (o pareja del mismo) (abuelastro/a de la p.r.) 8. Suegro/a de la p.r. o pareja del mismo 9. Hermano/a, hermanastro/a de la p.r. 10. Otro pariente de la p.r. (o pareja del mismo) 11. Persona del servicio doméstico 12. Sin parentesco con la p.r.",
+          "document": "[C] epacues21.pdf",
+          "location": "RELPP, p. 5"
+        },
+        {
+          "text": "5. De las personas relacionadas anteriormente, ¿alguna de ellas es su (Codificar 00 si no tiene o no reside en la vivienda) - conyuge o pareja? En tal caso, dígame su nombre: _______________________ - padre? En tal caso, dígame su nombre: _________________________________ - madre? En tal caso , dígame su nombre: _________________________________",
+          "document": "[C] epacues21.pdf",
+          "location": "Sección A, Q5, p. 6"
+        }
+      ],
+      "reasoning": "The instrument records sex using a binary response code 'h/m' (hombre/mujer) under the SEXO variable. Household relationship questions refer to respondents and household members relative to a 'persona de referencia' (reference person) using gendered binary terms ('Cónyuge o pareja', 'Hijo/a, hijastro/a', 'Yerno, nuera', 'Padre, madre', 'Nieto/a', 'Abuelo/a', 'Suegro/a', 'Hermano/a, hermanastro/a') or direct terms for specific relatives ('conyuge o pareja', 'padre', 'madre').",
+      "extracted_text": "SEXO: h/m. RELPP: 1. Persona de referencia (p.r.); 2. Cónyuge o pareja de la p.r.; 3. Hijo/a, hijastro/a (de la p.r. o de su pareja); 4. Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a); 5. Padre, madre de la p.r. o de su pareja (padrastro/madrastra); 6. Nieto/a, de la p.r. o pareja de los mismos (incluye nietastros/as de ambos); 7. Abuelo/a de la p.r. (o pareja del mismo) (abuelastro/a de la p.r.); 8. Suegro/a de la p.r. o pareja del mismo; 9. Hermano/a, hermanastro/a de la p.r.; 10. Otro pariente de la p.r. (o pareja del mismo); 11. Persona del servicio doméstico; 12. Sin parentesco con la p.r. Sección A, Q5: conyuge o pareja, padre, madre."
+    }
+  ]
+}

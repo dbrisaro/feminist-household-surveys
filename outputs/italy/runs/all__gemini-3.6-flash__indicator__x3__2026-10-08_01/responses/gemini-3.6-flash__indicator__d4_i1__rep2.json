@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "le famiglie con capofamiglia straniero, che vengono sempre intervistate con tecnica CAPI;",
+          "document": "[M] 2025/METADATI/ISTAT_MFR_RCFL_Long3_NotaMetodologicaIndagine_2025_Terzo_trimestre.pdf",
+          "location": "4. La tecnica di Indagine, p. 6"
+        }
+      ],
+      "reasoning": "The supplied methodological document [M] mentions 'capofamiglia' (head of household) in Section 4 in the context of CAPI interviewing rules, but does not provide a conceptual definition of household headship. The questionnaire and interviewer instructions [G], where such a definition would primarily be documented, were not supplied in this run.",
+      "extracted_text": ""
+    }
+  ]
+}

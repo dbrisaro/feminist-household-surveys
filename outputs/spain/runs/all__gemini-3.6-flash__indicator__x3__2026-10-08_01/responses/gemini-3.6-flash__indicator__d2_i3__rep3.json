@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "1. La semana de referencia, ¿trabajó aunque sólo fuera una hora?\n - Sí\n - No\n No sabe\n\n2. ¿Se le paga por ese trabajo u obtiene un beneficio económico con él?\n - Sí\n - No\n No sabe\n\n3. Si TRA=6,0:\n La semana de referencia, ¿ayudó en la empresa, negocio o explotación de un familiar sin que le paguen por ello?\n Si REM=6,0:\n ¿Fue un trabajo no remunerado en la empresa, negocio o explotación de un familiar (ayuda familiar)?\n - Sí\n - No\n No sabe\n\n4. Si TRA=1:\n La semana de referencia ¿tenía un empleo o negocio, aunque no trabajara en él esa semana?\n (Se refiere a empleos remunerados y a negocios en los que se trabaje habitualmente al menos 1 hora a la semana. Incluidos ayudas familiares).",
+          "document": "[C] epacues21.pdf",
+          "location": "Bloque B, preguntas 1-4"
+        },
+        {
+          "text": "1. En su opinión, ¿cuál de las siguientes opciones refleja mejor su situación actual? Le leo las opciones: SIDIV1\n - Trabajando o con empleo\n - Parado\n - Percibía una pensión de jubilación o unos ingresos de prejubilación\n - Incapacitado permanente para trabajar\n - Estudiante (aunque esté de vacaciones)\n - Dedicado a las labores del hogar\n - Percibiendo una pensión distinta a la de jubilación (o prejubilación)\n - Realizando sin remuneración trabajos sociales, actividades benéficas…\n - Otras situaciones",
+          "document": "[C] epacues21.pdf",
+          "location": "Bloque H, pregunta 1"
+        }
+      ],
+      "reasoning": "In Section B, the instrument defines work and economic activity strictly as paid work, work generating profit, or unpaid help in a family business/enterprise. Unpaid domestic and care work is not included in this economic activity definition. Instead, in Section H (question H1), 'Dedicado a las labores del hogar' is treated as a separate category of current situation distinct from 'Trabajando o con empleo'.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

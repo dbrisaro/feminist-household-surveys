@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "VI. INGRESOS NO LABORALES Para finalizar, en el mes de ___________________, ¿cuánto cobró por ....? (indagar sólo los ítems 2.1 a 5.3, 8 a 12, 18 y 19a marcados con SÍ en Bloque estrategias del hogar) N° Nombre N° Nombre N° Nombre N° Nombre No asignable a una persona en particular",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VI"
+        },
+        {
+          "text": "8d. ¿Cuánto cobró por ese mes por todos esos conceptos? (sin retroactivos) TOTAL pesos",
+          "document": "EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 8, Pregunta 8d"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa? N° Nombre 2. ¿Qué otras personas ayudan en las tareas de la casa? N° Nombre",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII, Preguntas 1 y 2"
+        },
+        {
+          "text": "7. ¿Este hogar es... ... propietario de la vivienda y el terreno? ... propietario de la vivienda solamente? ... inquilino/ arrendatario de la vivienda? ... ocupante por pago de impuestos/expensas? ... ocupante en relación de dependencia? ... ocupante gratuito (con permiso)? ... ocupante de hecho (sin permiso)? ... está en sucesión? ... otra situación? (especificar)",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque II, Pregunta 7"
+        }
+      ],
+      "reasoning": "1. economic_maintenance: TRUE. The instrument captures income and support individually at the member level across all sources (labor income in Cuestionario Individual and non-labor income, pensions, social assistance, rents, and remittances in Cuestionario de Hogar Bloque VI, where income is logged per household member component number).\n2. labor_burden: FALSE. While hours in paid work are collected in Cuestionario Individual, Cuestionario de Hogar Bloque VII only asks who performs most or helps with housework, without recording time/hours spent on unpaid domestic or care work.\n3. property_asset_control: FALSE. Tenure status is asked at the aggregate household level (Bloque II, Pregunta 7), and asset/property ownership is not recorded by individual member.\n4. decision_making: FALSE. The questionnaires contain no questions regarding intra-household decision-making authority.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

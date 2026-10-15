@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i1",
+      "quotes": [
+        {
+          "text": "SEXO (Anote en cada caso) 1. varón 2. mujer",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV. Características de los miembros del hogar, columna 04, p. 2"
+        }
+      ],
+      "reasoning": "The household questionnaire (Cuestionario de Hogar) explicitly collects the sex of each household member in Block IV, column 04, under the variable heading 'SEXO', offering response categories '1. varón' and '2. mujer'. Therefore, the instrument collects a sex variable.",
+      "value": true
+    }
+  ]
+}

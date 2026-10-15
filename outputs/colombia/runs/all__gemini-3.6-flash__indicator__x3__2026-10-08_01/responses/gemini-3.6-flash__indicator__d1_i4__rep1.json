@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "C. DATOS DEL HOGAR (PARA TODOS LOS HOGARES DE LA VIVIENDA) (PARA EL [LA] JEFE(A) DEL HOGAR O SU CÓNYUGE)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo C, p. 3"
+        },
+        {
+          "text": "¿Cuál es el parentesco de ... con el jefe o jefa del hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 5, p. 6"
+        },
+        {
+          "text": "a. Jefe(a) del hogar\nb. Pareja, esposo(a), cónyuge, compañero(a)\nc. Hijo(a), hijastro(a)\nd. Padre o madre\ne. Suegro(a)\nf. Hermano(a) hermanastro(a)\ng. Yerno o nuera\nh. Nieto(a)\ni. Otro pariente\nj. Empleado(a) del servicio doméstico y sus parientes\nk. Pensionista\nl. Trabajador\nm. Otro no pariente",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 5, opciones a-m, p. 6"
+        },
+        {
+          "text": "¿La madre de… reside en este hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 5A, p. 6"
+        },
+        {
+          "text": "¿El padre de… reside en este hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 5B, p. 6"
+        },
+        {
+          "text": "¿El (la) cónyuge de… reside en este hogar?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo E, pregunta 12, p. 10"
+        },
+        {
+          "text": "¿Usted se reconoce como?\na. Hombre\nb. Mujer\nc. Persona no binaria (ni hombre, ni mujer)\nd. Prefiere identificarse de otra forma\n¿Cuál?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo R, pregunta 4A, p. 142"
+        }
+      ],
+      "reasoning": "The questionnaire contains questions and response categories that specify terms used to refer to respondents and relationships within the household. Household relationships are framed around 'jefe o jefa del hogar' and include categories such as 'Jefe(a) del hogar', 'Pareja, esposo(a), cónyuge, compañero(a)', 'Hijo(a), hijastro(a)', 'Padre o madre', 'Suegro(a)', 'Hermano(a) hermanastro(a)', 'Yerno o nuera', 'Nieto(a)', 'Otro pariente', 'Empleado(a) del servicio doméstico y sus parientes', 'Pensionista', 'Trabajador', and 'Otro no pariente'. Questions also reference 'madre', 'padre', and 'El (la) cónyuge'. Individual gender recognition includes options for 'Hombre', 'Mujer', 'Persona no binaria (ni hombre, ni mujer)', and 'Prefiere identificarse de otra forma'. These verbatim terms are extracted directly from the text.",
+      "extracted_text": "jefe o jefa del hogar; EL [LA] JEFE(A) DEL HOGAR O SU CÓNYUGE; Jefe(a) del hogar; Pareja, esposo(a), cónyuge, compañero(a); Hijo(a), hijastro(a); Padre o madre; Suegro(a); Hermano(a) hermanastro(a); Yerno o nuera; Nieto(a); Otro pariente; Empleado(a) del servicio doméstico y sus parientes; Pensionista; Trabajador; Otro no pariente; madre; padre; El (la) cónyuge; Hombre; Mujer; Persona no binaria (ni hombre, ni mujer); Prefiere identificarse de otra forma"
+    }
+  ]
+}

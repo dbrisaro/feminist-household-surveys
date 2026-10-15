@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "NOLWM                                                                                            UK\nMay I just check, what was the main reason you did not look for work (in the last 4              EQ\nweeks)                                                                                     EUROSTAT\n\n    1        Waiting for the results of an application for a job/being assessed by a\n             training agent\n    2        Student\n    3        Looking after the family/home\n    4        Temporarily sick or injured\n    5        Long-term sick or disabled\n    6        Believe(s) no jobs available\n    7        Not yet started looking\n    8        Do(does) not need employment\n    9        Retired from paid work\n    10       Any other reason",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 119"
+        },
+        {
+          "text": "NOLWF                                                                                        UK\nMay I just check, was the main reason that you did not look for work because...           W1/EQ\n                                                                                           MAIN\n                                                                                       EUROSTAT\n    1       Were you caring for children below school age,\n    2       Were you caring for other children,,\n    3       Were you caring for a dependent adult relative,\n    4       or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "Page 120"
+        }
+      ],
+      "reasoning": "The questionnaire does not contain questions that record unpaid domestic or care work for individuals separately from main and secondary employment. Domestic and care activities appear only as categories/reasons for not seeking work (such as in NOLWM option 3 'Looking after the family/home' and NOLWF options 1-3 regarding caring for children or dependent adults). Under the definition provided, mentioning domestic work only as a category of inactivity or a reason for not working does not satisfy the requirement for recording domestic work separately.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

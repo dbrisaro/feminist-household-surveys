@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "4. ¿Preparar alimentos, hilar, tejer, coser u otras actividades para la venta? 5. ¿Prestar servicios a otras personas por remuneración (lavar ropa ajena, cortar cabello, dar clases particulares, etc.)? 6. ¿Realizar alguna otra actividad por la cual ganó dinero?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 2, p. 4"
+        },
+        {
+          "text": "11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 6, p. 4"
+        },
+        {
+          "text": "2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 7, p. 4"
+        }
+      ],
+      "reasoning": "In Section 2 (Empleo), Pregunta 2 defines work and economic activity around market production ('para la venta'), remunerated service provision ('por remuneración'), or earning money ('por la cual ganó dinero'). Unpaid domestic and care work for one's own household is not included in the definition of economic activity; rather, domestic labor and caregiving are explicitly placed into non-work categories, specifically as a reason for not seeking work (Pregunta 6, option 11: 'LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR') and as an inactive status (Pregunta 7, option 2: '¿Ama de casa / responsable de los quehaceres del hogar?'). Therefore, unpaid domestic and care work is mentioned but treated as inactivity/non-work.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

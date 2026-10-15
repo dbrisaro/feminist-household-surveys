@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "1. En su opinión, ¿cuál de las siguientes opciones refleja mejor su situación actual? Le leo las opciones: SIDIV1\n - Trabajando o con empleo\n - Parado\n - Percibía una pensión de jubilación o unos ingresos de prejubilación\n - Incapacitado permanente para trabajar\n - Estudiante (aunque esté de vacaciones)\n - Dedicado a las labores del hogar",
+          "document": "[C] epacues21.pdf",
+          "location": "H. SITUACIONES DIVERSAS, 1"
+        },
+        {
+          "text": "26. ¿Por cuál de los siguientes motivos tiene jornada parcial en su trabajo? Le leo las opciones PARCO2\n - Seguir cursos de enseñanza o formación\n - Enfermedad o incapacidad propia\n - Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "[C] epacues21.pdf",
+          "location": "C. CARACTERÍSTICAS DEL EMPLEO (variante C2), 26"
+        },
+        {
+          "text": "6. Si BUSCA2=6:\n ¿Cuál es el principal motivo por el que no ha querido tener empleo? NBUSCA\n En otro caso:\n ¿Cuál es el principal motivo por el que no ha buscado empleo en las 4 últimas semanas?\n...\n - Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "[C] epacues21.pdf",
+          "location": "D. BUSQUEDA DE EMPLEO, 6"
+        }
+      ],
+      "reasoning": "The questionnaire does not include dedicated questions to measure or record unpaid domestic and care work for each person separately from economic activity. Domestic work and care responsibilities appear only as a status category of main activity ('Dedicado a las labores del hogar') or as reasons for working part-time, being absent from a job, or not seeking employment ('Responsabilidades de cuidado de hijos u otros familiares'). Per the operational criteria, mentioning domestic work only as a category of inactivity or a reason for not working does not count.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

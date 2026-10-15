@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "2. Durante la semana pasada, dedicó al menos una hora a:\n1. ¿Trabajar en cultivos agrícolas o en la crianza de animales?\n2. ¿Atender o ayudar en algún negocio propio o familiar?\n3. ¿Vender en la calle en un puesto o como ambulante?\n4. ¿Preparar alimentos, hilar, tejer, coser u otras actividades para la venta?\n5. ¿Prestar servicios a otras personas por remuneración (lavar ropa ajena, cortar cabello, dar clases particulares, etc.)?\n6. ¿Realizar alguna otra actividad por la cual ganó dinero?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 2"
+        },
+        {
+          "text": "6. Por qué no buscó trabajo?\n11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 6"
+        },
+        {
+          "text": "7. Es usted:\n1. ¿Estudiante?\n2. ¿Ama de casa / responsable de los quehaceres del hogar?",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 7"
+        }
+      ],
+      "reasoning": "The survey's definition of work in Section 2, Part A (Questions 1 and 2) covers only market-oriented activities, paid services, family businesses, or production for sale or monetary gain. Unpaid domestic and care work is not included in the definition of economic activity. Instead, unpaid domestic and care work is mentioned and classified under non-work categories, such as a reason for not seeking work (Question 6, option 11) or an inactive status (Question 7, option 2).",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

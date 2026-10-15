@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "6b. ¿Cada cuándo obtiene... sus ingresos o le pagan? ¿Cuánto ganó o en cuánto calcula sus ingresos?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section VI, Question 6b, p. 9"
+        },
+        {
+          "text": "5b. ¿Qué días y cuántas horas le dedicó... a su trabajo la semana pasada?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section V, Question 5b, p. 8"
+        },
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, p. 12"
+        },
+        {
+          "text": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, p. 4"
+        }
+      ],
+      "reasoning": "For economic_maintenance: False. Although Question 6b in the Cuestionario de Ocupación y Empleo captures individual labor earnings, the supplied instruments do not capture non-labor income sources (such as pensions, remittances, or transfers) across all sources at the individual member level. For labor_burden: True. The Cuestionario de Ocupación y Empleo collects individual member-level time spent in paid employment (Question 5b) as well as unpaid domestic and care work (Question 9, including childcare, eldercare, housework, and household errands). For property_asset_control: False. The instruments do not contain questions on dwelling tenure or asset/property ownership by household member. For decision_making: False. Neither questionnaire includes questions regarding intra-household decision-making spheres.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": false,
+        "labor_burden": true,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "La captura de preguntas sociodemográficas permite caracterizar a la población a partir de ciertas variables básicas, dentro de las cuales se indaga sobre el sexo, la edad, fecha de nacimiento, el estado civil, el nivel educacional, el parentesco, el proveedor principal, la nacionalidad, migración, pueblos índigenas, entre otras.",
+          "document": "metodologia-ene-2020.pdf",
+          "location": "p. 21"
+        },
+        {
+          "text": "El Cuestionario Sociodemográfico recoge información brindada por el informante sobre sus características sociodemográficas y las de su hogar. Como instrumento, tiene un doble objetivo: por un lado, busca identificar la cantidad de hogares al interior de una vivienda seleccionada, y por otro, busca caracterizar a todos los miembros del hogar. Para caracterizar a los miembros del hogar, se deben responder 28 preguntas, que abordan características atingentes a la relación de los miembros del hogar con la fuerza de trabajo. Primero, se abordan características básicas como parentesco con el proveedor principal del hogar...",
+          "document": "metodologia-ene-2020.pdf",
+          "location": "p. 101-102"
+        },
+        {
+          "text": "Otras no entrevistadas (O): viviendas u hogares contenidos en la muestra en los que fue posible interactuar presencialmente con un informante idóneo, pero no fue posible aplicar la encuesta por razones distintas al rechazo",
+          "document": "metodologia-ene-2020.pdf",
+          "location": "p. 81"
+        }
+      ],
+      "reasoning": "The supplied methodological document establishes that the survey does not use the category 'jefe de hogar' (head of household) to anchor the household record, but instead uses 'proveedor principal', satisfying neutral_anchor_term. However, no explicit selection rule for defining or choosing the reference person ('proveedor principal') is stated in the provided text, so explicit_selection_rule is false. In addition, the anchor category itself ('proveedor principal') is based on breadwinner status ('main provider/earner'), which violates rule_not_sex_age_authority. Finally, household sociodemographic information is reported by an 'informante' / 'informante idóneo', separate from the anchor person, satisfying respondent_separate_or_any_adult.",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

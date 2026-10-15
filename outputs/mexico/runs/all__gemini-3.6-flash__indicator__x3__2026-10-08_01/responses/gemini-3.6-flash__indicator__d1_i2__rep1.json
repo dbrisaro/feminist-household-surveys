@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "SEXO 8 ... es 1 hombre 2 mujer",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "VI. CARACTERÍSTICAS SOCIODEMOGRÁFICAS, P8"
+        }
+      ],
+      "reasoning": "The demographic questionnaire collects binary sex under question 8 ('SEXO', with options '1 hombre' and '2 mujer'). It does not collect a gender identity variable, nor does it provide response options beyond male and female. The text does not mention gender identity.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

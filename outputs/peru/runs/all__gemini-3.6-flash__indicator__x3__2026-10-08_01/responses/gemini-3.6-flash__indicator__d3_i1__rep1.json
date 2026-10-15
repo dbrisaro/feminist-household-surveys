@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO? (Sin contar los quehaceres del hogar)",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Section 500, Question 501"
+        },
+        {
+          "text": "513. ¿CUÁNTAS HORAS TRABAJÓ LA SEMANA PASADA, EN SU OCUPACIÓN PRINCIPAL, EL DÍA….",
+          "document": "2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Section 500, Question 513"
+        },
+        {
+          "text": "Sólo realizó quehaceres del hogar? ............................................ 8",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Chapter 200, Question 211A"
+        }
+      ],
+      "reasoning": "Question 501 explicitly excludes household chores (\"Sin contar los quehaceres del hogar\") when asking about work. Questions 513 and 518 only capture hours dedicated to primary and secondary employment/economic activities. In Chapter 200, Question 211A specifies that children who only performed household chores (code 8) or only studied (code 9) skip Question 211D regarding hours spent. The survey does not include a time-use instrument or questions recording how respondents allocate time across daily activities such as unpaid domestic work, caregiving, education, and leisure.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

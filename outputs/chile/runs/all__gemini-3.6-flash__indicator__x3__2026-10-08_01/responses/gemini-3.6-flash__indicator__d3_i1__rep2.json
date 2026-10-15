@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "Todas las preguntas de la sección se reﬁeren a la actividad principal, excepto donde se indica.",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN H, p. 13"
+        },
+        {
+          "text": "Habitualmente, ¿cuántas horas y días trabaja a la semana?",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN H, h3, p. 13"
+        }
+      ],
+      "reasoning": "Section H of the questionnaire captures hours worked strictly in relation to employment/paid activities (main and secondary activities). The survey does not include questions or modules asking respondents how they allocate or spend time across daily non-paid activities, such as unpaid domestic work, care work, education, or leisure. Therefore, the instrument does not capture time use across multiple daily activities.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

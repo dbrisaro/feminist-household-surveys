@@ -1,0 +1,49 @@
+{
+  "country": "bolivia",
+  "survey": "Encuesta Continua de Empleo (ECE) ()",
+  "agency": "INE Bolivia",
+  "doc_dir": "data/raw/bolivia/documentacion",
+  "wave_policy": "most recent available wave only, consistent with the Argentina anchor",
+  "sources": {
+    "C": {
+      "label": "questionnaire / data collection instrument",
+      "files": [
+        "CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf"
+      ]
+    },
+    "M": {
+      "label": "methodological notes and technical reports",
+      "files": [
+        "Nota tecnica_ECE02_2020_trat sesgos.pdf",
+        "NT_ECE03_2020.pdf",
+        "NOTA TEC_ECE01_2020.pdf",
+        "DISEÑO DE MUESTRA ECE_v3_BOLIVIA act.pdf"
+      ]
+    },
+    "G": {
+      "label": "interviewer guides and manuals",
+      "files": [],
+      "missing_note": "No document of type G (interviewer guides and manuals) was found in the collected corpus for bolivia. Indicators routed to G are reported as source_missing, not as not_evidenced."
+    }
+  },
+  "estimated_tokens": {
+    "C": 17094,
+    "M": 50870,
+    "G": 0,
+    "C+M": 67964
+  },
+  "excluded": {
+    "CUESTIONARIO V8_a partir del primer trimestre de 2022.pdf": "earlier wave, superseded by CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf (content similarity 0.915)",
+    "Cuestionario v6_BOL_a partir del tercer trimestre de 2020.pdf": "earlier wave, superseded by CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf (same lineage, later wave similarity 1.000)",
+    "Cuestionario v5_ a partir del segundo trimestre de 2020.pdf": "earlier wave, superseded by CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf (same lineage, later wave similarity 0.779)",
+    "Cuestionario v4_ BOL_cierre de las últimas semanas de marzo 2020 COVID.pdf": "earlier wave, superseded by CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf (same lineage, later wave similarity 0.699)",
+    "Cuestionario v3_BOL enero 2020 hasta el 22 de abril.pdf": "earlier wave, superseded by CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf (same lineage, later wave similarity 0.702)",
+    "Cuestionario v2_BOL durante la gestión 2019.pdf": "earlier wave, superseded by CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf (same lineage, later wave similarity 0.711)",
+    "Cuestionario v1_BOL_ 2015 a 2018.pdf": "earlier wave, superseded by CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf (same lineage, later wave similarity 0.704)",
+    "Fichas Técnicas de indicadores.pdf": "bulletin, tabulation or press material"
+  },
+  "unclassified": {},
+  "non_textual": {
+    ".csv": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "QC29 Per quale tra questi motivi lavora part time (a tempo parziale):\n • Studia o segue corsi di formazione 1|_|(passare a QC31)\n • Malattia, problemi di salute personali 2|_|(passare a\n QC31)\n • Si prende cura dei figli e/o di altri familiari non autosufficienti 3|_|",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC29, page 8"
+        },
+        {
+          "text": "QF07 Qual è il motivo principale per cui “NOME” non ha cercato un lavoro nelle 4 settimane che vanno “DAL… AL…”?\n\n • Ritiene di non riuscire a trovare lavoro 1|_|\n • Ha già un lavoro che inizierà in futuro (compresi gli stagionali) 2|_| (passare a QF39)\n • Studia o segue corsi di formazione 3|_| (passare a QF10)\n • Malattia, problemi di salute personali 4|_| (passare a QF10)\n • Si prende cura dei figli e/o di altri familiari non autosufficienti 5|_| (passare a QF09)",
+          "document": "2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QF07, page 14"
+        }
+      ],
+      "reasoning": "The survey instrument contains questions where taking care of children or other dependent family members is recorded as a reason for working part-time (e.g., QC29) or as a reason for not seeking work (e.g., QF07). However, as explicitly noted in the indicator definition, care given as a reason for not working or for working fewer hours does not satisfy the requirement. The questionnaire does not contain any question asking whether a person supervises or remains available to care for household members while performing other activities or without care being their main activity.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

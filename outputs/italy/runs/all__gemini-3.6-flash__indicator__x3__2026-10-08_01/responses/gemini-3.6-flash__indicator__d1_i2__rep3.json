@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i2",
+      "quotes": [
+        {
+          "text": "QSF11. Sesso del componente RICODIFICATA NELLA VARIABILE SESSO • Maschio 1 • Femmina 2",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Page 2, Scheda generale (SG), QSF11"
+        }
+      ],
+      "reasoning": "The questionnaire contains a single item on sex (QSF11: 'Sesso del componente'), which provides binary options ('Maschio' / 'Femmina'). The instrument does not collect a gender identity variable nor does it mention gender identities beyond the male/female binary.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

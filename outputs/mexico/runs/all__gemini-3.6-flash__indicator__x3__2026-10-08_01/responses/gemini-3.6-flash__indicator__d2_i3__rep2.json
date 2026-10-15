@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "ATENCIÓN: Si la respuesta en la pregunta 3 se refiere a: Quehaceres domésticos de su hogar Corrige la secuencia en batería 1 y haz la pregunta 2",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section III. CONTEXTO LABORAL, Question 3, p. 5"
+        },
+        {
+          "text": "2e. ¿... es (Lee las opciones y circula la indicada por el informante) 1 una persona temporalmente ausente de su actividad u oficio? → Pasa a 2k 2 pensionado o jubilado de su empleo? 3 estudiante? 4 una persona que se dedica a los quehaceres de su hogar? 5 una persona con alguna limitación física o mental que le impide trabajar por el resto de su vida? → Pasa a 2h 6 Otra condición Especifica 9 NS",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section II. NO OCUPADOS, Question 2e, p. 4"
+        },
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a (Lee las opciones, circula las indicadas, pregunta y anota el tiempo) ... 2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos) ... 7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX. OTRAS ACTIVIDADES, Question 9, p. 12"
+        }
+      ],
+      "reasoning": "The definition of the activity category (work/occupation) in the instrument does not include unpaid domestic and care work. In Section III (Question 3), if a respondent's reported tasks correspond to household domestic duties ('Quehaceres domésticos de su hogar'), the interviewer is explicitly instructed to correct Section I and route to Question 2 in Section II ('NO OCUPADOS'). Furthermore, Question 2e lists dedicated household work ('una persona que se dedica a los quehaceres de su hogar') under non-occupied/inactivity categories. Unpaid domestic work and care are collected separately in Section IX ('OTRAS ACTIVIDADES') outside the occupational module.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "e.22 ¿Cuál es su relación de parentesco con la persona referente del hogar (integrante del hogar N° 1)?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.22"
+        },
+        {
+          "text": "Hermano/a........................................................................ 9\nCuñado/a.......................................................................... 10\nNieto/a.............................................................................. 11\nOtro pariente. ................................................................... 12\nOtro no pariente. .............................................................. 13",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.22"
+        },
+        {
+          "text": "e.23 ¿La madre vive en este hogar?\nE31\nSí................................................................................................................... 1\n    ¿Quién es?\n    E31_1\n    Anote el N° de persona..........................................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.23"
+        },
+        {
+          "text": "e.24 ¿El padre vive en este hogar?\nE32\nSí................................................................................................................... 1\n    ¿Quién es?\n    E32_1\n    Anote el N° de persona..........................................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.24"
+        },
+        {
+          "text": "e.25 ¿Tiene cónyuge o pareja en este hogar?\nE33\nSí...................................................................................... 1\n    ¿Quién es?\n    E34\n    Anote el N° de persona............................",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.25"
+        },
+        {
+          "text": "Casamiento civil con pareja del mismo sexo.................... 5\nUnión concubinaria reconocida mediante sentencia judicial con pareja del mismo sexo................................... 7\nUnión libre con pareja del mismo sexo. ........................... 3",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "e.26"
+        },
+        {
+          "text": "c.14 Todas las personas que habitan esta vivienda, ¿dependen de un mismo fondo de alimentación? Es decir, ¿conforman un hogar?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "c.14"
+        },
+        {
+          "text": "d.16 ¿Este hogar paga (en dinero o de otra forma) a personas para que limpien la vivienda, cuiden niños o ancianos o realicen alguna otra tarea doméstica?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "d.16"
+        },
+        {
+          "text": "d.17 Sin mediar pago alguno, este hogar, ¿recibe ayuda de otros familiares o conocidos que no integran el hogar para limpiar la vivienda, cuidar niños o ancianos o para realizar alguna otra tarea doméstica?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "d.17"
+        }
+      ],
+      "reasoning": "The survey uses pointer variables linking individuals directly to their mother (e.23), father (e.24), and spouse/partner (e.25) by person number, thereby recording relationships member-to-member rather than strictly relative to the reference person. Extended ties beyond spouse and parent-child (such as grandchildren, siblings, non-relatives, and same-sex partners) are explicitly captured in e.22 and e.26. The criterion for separating multiple households within a dwelling is stated in c.14 as depending on a common food budget ('mismo fondo de alimentación'). The presence of pointer variables for mother, father, and partner across all members allows family sub-units/nuclei within the household to be identified. However, caregiving relationships (mapping who provides care to whom, specifically identifying caregiver-receiver dyads inside or across households) are not recorded; questions d.16 and d.17 only ask at the aggregate household level about receiving or paying for care/domestic work.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": true,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

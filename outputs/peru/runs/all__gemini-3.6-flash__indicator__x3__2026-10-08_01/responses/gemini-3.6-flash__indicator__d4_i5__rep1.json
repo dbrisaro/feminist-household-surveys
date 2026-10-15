@@ -1,0 +1,52 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR?",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203"
+        },
+        {
+          "text": "Nieto/a ................ 5",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203"
+        },
+        {
+          "text": "Hermano(a) ..... 11",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203"
+        },
+        {
+          "text": "Otros No Parientes .......... 10",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203"
+        },
+        {
+          "text": "Si HOGAR es la persona o grupo de personas que se alimentan de una misma olla y atienden en común otras necesidades básicas.",
+          "document": "2024/CED-01-100-2024.pdf",
+          "location": "Carátula, Pregunta 10"
+        },
+        {
+          "text": "(203-A) N° DE NÚCLEO FAMILIAR",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203-A"
+        },
+        {
+          "text": "(203-B) RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL NÚCLEO FAMILIAR",
+          "document": "2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203-B"
+        }
+      ],
+      "reasoning": "member_to_member_relationships is false because relationship is collected only relative to the head of the household (P203) and the head of the nuclear family (P203-B), without pointer variables or a member-to-member grid. extended_ties is true because Q203 explicitly lists extended family members and non-kin such as grandchildren, siblings, and non-relatives. multiple_household_criteria is true because Question 10 defines household separation criteria based on eating from the same pot and sharing basic needs. sub_units is true because Questions 203-A and 203-B explicitly identify family nuclei within the household. caregiving_relationships is false because no questions or variables exist to identify who provides care for whom inside or across households.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

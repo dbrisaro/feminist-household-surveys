@@ -1,0 +1,62 @@
+{
+  "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+  "note": "final run 2026-10-08, option B",
+  "planned_utc": "20261008T124732Z",
+  "provider": "google",
+  "country": "paraguay",
+  "settings": {
+    "model": [
+      "gemini-3.6-flash"
+    ],
+    "mode": [
+      "indicator"
+    ],
+    "effort": null,
+    "effort_note": "--effort medium accepted but not sent: the google API takes no equivalent parameter",
+    "repeat": 3,
+    "only": null,
+    "budget_usd": 1.8,
+    "api_key_var": "GEMINI_API_KEY_PAID",
+    "executed": true,
+    "max_tokens": {
+      "indicator": 4000
+    },
+    "thinking": null
+  },
+  "framework": {
+    "source_file": "Prompting/gender_survey_framework.html",
+    "n_indicators": 16
+  },
+  "corpus": {
+    "n_documents": 1,
+    "documents": [
+      {
+        "source_code": "C",
+        "doc": "2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+        "text_file": "data/processed/text/paraguay/2026__T1__95dc7-Cuestionario_EPHC_ 1er Trim 2026.txt",
+        "chars": 324019,
+        "sha256": "b4022a06396ef8a6d069cb1dec49d46cc5cd378060f2d24d4e8e741838e20d0b",
+        "part": 1,
+        "n_parts": 1
+      }
+    ]
+  },
+  "plan": {
+    "n_calls": 48,
+    "n_source_missing": 1,
+    "projected_input_usd": 1.258,
+    "projected_worst_case_usd": 4.138
+  },
+  "cost": {
+    "spent_usd": 1.0273,
+    "notional_usd_on_paid_key": null,
+    "billing": "paid",
+    "requests_used": null,
+    "requests_per_day_limit": null,
+    "budget_usd": 1.8,
+    "n_calls_planned": 48,
+    "started_utc": "20261008T124732Z",
+    "finished_utc": "20261008T125834Z"
+  },
+  "command": "scripts/llm/run_eval_gemini.py --country paraguay --model gemini-3.6-flash --mode indicator --repeat 3 --billing paid --api-key-var GEMINI_API_KEY_PAID --max-output-tokens 16000 --budget-usd 1.80 --note final run 2026-10-08, option B --go"
+}

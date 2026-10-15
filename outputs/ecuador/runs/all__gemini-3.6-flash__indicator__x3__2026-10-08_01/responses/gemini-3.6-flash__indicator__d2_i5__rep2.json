@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "¿Realizó (…) la semana pasada alguna actividad dentro o fuera de su casa para ayudar al mantenimiento del hogar, tal como:\nAtender negocio propio?............ 1\nFabricar algún producto?........... 2\nHacer algo en casa por un\ningreso?..................................... 3\nBrindar algún servicio?............... 4\nAyudar en algún negocio\nfamiliar?...................................... 5\nAyudar en el trabajo de algún\nfamiliar?...................................... 6\nComo aprendiz remunerado en\ndinero o en especie?.................. 7\nLabores agrícolas o cuidado de\nanimales?................................... 8\nEstudiante que realizó algún\ntrabajo?...................................... 9\nTrabajar para otra familia?......... 10\nOtra actividad por un ingreso? 11\nNo realizó ninguna actividad? 12",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 21"
+        },
+        {
+          "text": "- Tiene a cargo el cuidado de algún miembro de su hogar?.......................... 1",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 29a"
+        },
+        {
+          "text": "Ama de casa?................... 4",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 36"
+        }
+      ],
+      "reasoning": "The survey instrument does not contain any question asking whether a person supervises or remains available to care for other household members (such as children) while doing other activities or without care being their main activity. Care responsibilities appear in Pregunta 29a as a reason for not being available or desiring to work additional hours (\"Tiene a cargo el cuidado de algún miembro de su hogar?\") and in Pregunta 36 as an inactive status category (\"Ama de casa?\"), but the indicator explicitly specifies that care given as a reason for not working or for not working more hours does not count. Therefore, supervisory or passive care is not mentioned in the questionnaire.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "JEFE DEL HOGAR\nEs aquella persona que es reconocida como tal por los demás miembros del hogar, por razones de dependencia, afinidad, edad, autoridad, respeto, etc. Sí una persona vive sola (Hogar unipersonal), es él, el Jefe del Hogar. La edad mínima para ser considerado jefe es de 12 años. El hogar de la vivienda seleccionada debe tener un solo Jefe de hogar.",
+          "document": "202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "V. CARTOGRAFÍA, p. 10"
+        },
+        {
+          "text": "Jefe del Hogar. - Es aquella persona que siendo residente habitual es reconocida como jefe por los demás miembros del hogar, ya sea por una mayor responsabilidad en las decisiones, por prestigio, ancianidad y razones económicas, o tradiciones sociales y culturales.",
+          "document": "202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+          "location": "VI.2. MARCO CONCEPTUAL, p. 32"
+        }
+      ],
+      "reasoning": "The interviewer manual defines the head of household in two sections. On page 10, it defines the head of household as the person recognized as such by the other members of the household due to dependence, affinity, age, authority, respect, etc., specifying a minimum age of 12 years, that single-person households are their own head, and that each household must have only one head. On page 32, it defines the head of household as the usual resident recognized as head by other members due to greater decision-making responsibility, prestige, seniority, economic reasons, or social and cultural traditions.",
+      "extracted_text": "JEFE DEL HOGAR\nEs aquella persona que es reconocida como tal por los demás miembros del hogar, por razones de dependencia, afinidad, edad, autoridad, respeto, etc. Sí una persona vive sola (Hogar unipersonal), es él, el Jefe del Hogar. La edad mínima para ser considerado jefe es de 12 años. El hogar de la vivienda seleccionada debe tener un solo Jefe de hogar.\n\nJefe del Hogar. - Es aquella persona que siendo residente habitual es reconocida como jefe por los demás miembros del hogar, ya sea por una mayor responsabilidad en las decisiones, por prestigio, ancianidad y razones económicas, o tradiciones sociales y culturales."
+    }
+  ]
+}

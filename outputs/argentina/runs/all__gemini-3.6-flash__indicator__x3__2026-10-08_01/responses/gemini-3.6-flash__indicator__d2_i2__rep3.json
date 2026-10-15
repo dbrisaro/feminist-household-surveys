@@ -1,0 +1,25 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "VII. ORGANIZACIÓN DEL HOGAR, p. 6"
+        },
+        {
+          "text": "2. ¿Qué otras personas ayudan en las tareas de la casa?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "VII. ORGANIZACIÓN DEL HOGAR, p. 6"
+        }
+      ],
+      "reasoning": "Regarding responsibility: The instrument asks who carries out most of the household tasks ('¿Quién realiza la mayor parte de las tareas de la casa?'). However, the indicator rule explicitly states that a question about who carries out the tasks does not count, even if it asks who does most of them. No direct question asks who is in charge of, plans, organizes, or is responsible for domestic or care work. Thus, responsibility is false.\n\nRegarding performance: Question 1 of Section VII in the Household Questionnaire explicitly asks which household member carries out most of the household chores ('¿Quién realiza la mayor parte de las tareas de la casa?'). This directly satisfies the requirement for performance. Thus, performance is true.\n\nRegarding magnitude: The questionnaire records only the names/component numbers of those performing or helping with household tasks, but does not collect any data on time spent (hours/minutes) or frequency of unpaid domestic or care work. Hours recorded in the individual questionnaire pertain strictly to paid work/employment. Thus, magnitude is false.",
+      "elements": {
+        "magnitude": false,
+        "performance": true,
+        "responsibility": false
+      }
+    }
+  ]
+}

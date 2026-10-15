@@ -1,0 +1,10 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [],
+      "reasoning": "The conceptual definition of household headship would be documented in the interviewer manual (Manual del Encuestador, document type [G]), which was not supplied in this run. The supplied methodological notes (M_202605_Metodologia_ENEMDU.pdf) reference 'jefes de hogar' in operational and section summaries (e.g., pages 35, 39, and 53) but do not provide a conceptual definition of household headship. Because the document type where this definition is documented was not supplied in this run, the quotes and extracted_text fields are left empty.",
+      "extracted_text": ""
+    }
+  ]
+}

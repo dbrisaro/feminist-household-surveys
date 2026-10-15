@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "- Hogar.- Es el conjunto de personas, sean o no parientes (padres, hijos solteros, hijos casados, hermanos, tíos etc.), que ocupan en su totalidad o en parte una vivienda, comparten las comidas principales y atienden en común otras necesidades vitales. Se incluye también en este grupo a las personas a quienes el Jefe considera que son miembros del hogar, por razones de afecto (ahijados, compadres, padrinos, etc.). Por excepción, se considera hogar al constituido por una sola persona.",
+          "document": "2024/FichaTecnica.pdf",
+          "location": "XIII. DEFINICIONES BÁSICAS"
+        },
+        {
+          "text": "a. Jefe del Hogar",
+          "document": "2024/FichaTecnica.pdf",
+          "location": "IX. INFORMANTES"
+        }
+      ],
+      "reasoning": "The supplied technical documentation was examined for a conceptual definition of household headship (jefe/a del hogar). Section XIII ('DEFINICIONES BÁSICAS') defines 'Hogar' and refers to 'el Jefe' in passing when defining household members, and Section IX ('INFORMANTES') lists 'Jefe del Hogar' as a respondent type. However, neither section nor any other part of the supplied documents provides a conceptual definition of household headship or specifies the criteria used to identify the head of household. Therefore, the supplied text does not contain the requested conceptual definition.",
+      "extracted_text": ""
+    }
+  ]
+}

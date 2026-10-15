@@ -1,0 +1,2 @@
+country,model,mode,api_calls,fresh_input_tokens,cache_write_tokens,cache_read_tokens,output_tokens,cost_usd,wallclock_s,total_input_tokens,pct_input_from_cache,cost_usd_no_cache,cache_saving_usd,cache_saving_pct,cost_notional,projected_13_countries_usd
+mexico,gemini-3.6-flash,indicator,63,1413606,0,2670993,168071,1.8908,965.38,4084599,0.654,3.6937,1.8029,0.488,False,24.58

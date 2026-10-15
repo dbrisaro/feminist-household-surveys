@@ -1,0 +1,40 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "Sin mediar pago alguno, este hogar, ¿recibe ayuda de otros familiares o conocidos que no integran el hogar para limpiar la vivienda, cuidar niños o ancianos o para realizar alguna otra tarea doméstica?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section D, question d.17, page 3"
+        },
+        {
+          "text": "Sin considerar los quehaceres del hogar, ¿trabajó algún día en la semana comprendida entre el {+NOM_DIA1_SEMREF+} 1 y el {+NOM_DIA7_SEMREF+} 7 de {+NOM_MES_SEMREF+}?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section F.1, question f.1, page 8"
+        },
+        {
+          "text": "Por atender a hijos/as enfermos/as o cuidarles",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section F.1, question f.6, page 9"
+        },
+        {
+          "text": "No tiene tiempo por su trabajo doméstico, el cuidado de niños/as u otras personas dependientes",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section F.5, question f.71, page 13"
+        },
+        {
+          "text": "… quien realiza los quehaceres del hogar?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "Section F.7, question f.82, page 13"
+        }
+      ],
+      "reasoning": "The survey instruments examined (both implantation and follow-up questionnaires) do not collect information on unpaid domestic and care work performed by household members across the specified elements:\n\n1. Responsibility: The instrument contains no questions asking who is in charge of, plans, or is responsible for domestic or care tasks in the household. Thus, responsibility is false.\n\n2. Performance: While question f.82 includes 'quien realiza los quehaceres del hogar?' as a category of activity status/inactivity, and questions f.6, f.58, f.63, and f.71 capture care duties as reasons for not working or searching for work, the prompt definition explicitly states that activity status categories and reasons for not working/seeking work do not count as performance questions. Question d.17 asks about receiving unpaid help from persons outside the household, not about household members performing tasks. Therefore, performance is false.\n\n3. Magnitude: The instrument does not measure the time or frequency spent on unpaid domestic or care work by household members (question f.1 explicitly excludes household chores from recorded work hours). Therefore, magnitude is false.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

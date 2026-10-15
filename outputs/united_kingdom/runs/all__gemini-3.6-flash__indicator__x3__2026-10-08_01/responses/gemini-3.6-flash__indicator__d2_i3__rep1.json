@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "Did you do any paid work in the 7 days ending Sunday the [date], either as an employee or as self-employed?",
+          "document": "volume2octtodec2025.pdf",
+          "location": "WRKING, page 41"
+        },
+        {
+          "text": "Did you do any unpaid work in that week (ending Sunday the [date] for any business that you own?",
+          "document": "volume2octtodec2025.pdf",
+          "location": "OWNBUS, page 41"
+        },
+        {
+          "text": "...or (any unpaid work for a business) that a relative owns?",
+          "document": "volume2octtodec2025.pdf",
+          "location": "RELBUS, page 41"
+        },
+        {
+          "text": "3 Looking after the family/home",
+          "document": "volume2octtodec2025.pdf",
+          "location": "NOLWM, page 119"
+        },
+        {
+          "text": "1 Were you caring for children below school age,\n 2 Were you caring for other children,,\n 3 Were you caring for a dependent adult relative,",
+          "document": "volume2octtodec2025.pdf",
+          "location": "NOLWF, page 120"
+        }
+      ],
+      "reasoning": "The survey defines work/employment in questions WRKING, OWNBUS, and RELBUS as paid work or unpaid work performed for a business owned by the respondent or a relative. Unpaid domestic and care work is not included within the definition or category of work. Instead, unpaid family care and domestic duties are mentioned in questions NOLWM and NOLWF as reasons for not looking for work (treated as categories of inactivity/non-employment).",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

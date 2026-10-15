@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "8d. ¿Cuánto cobró por ese mes por todos esos conceptos? (sin retroactivos) TOTAL pesos",
+          "document": "EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 8, Q8d"
+        },
+        {
+          "text": "VI. INGRESOS NO LABORALES Para finalizar, en el mes de ___________________, ¿cuánto cobró por ....? (indagar sólo los ítems 2.1 a 5.3, 8 a 12, 18 y 19a marcados con SÍ en Bloque estrategias del hogar) ¿Quién lo cobra? N° Nombre",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VI"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte de las tareas de la casa? 2. ¿Qué otras personas ayudan en las tareas de la casa?",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII, Q1-Q2"
+        },
+        {
+          "text": "7. ¿Este hogar es... ... propietario de la vivienda y el terreno? ... propietario de la vivienda solamente? ... inquilino/ arrendatario de la vivienda?",
+          "document": "EPHContinua_CuestHogar.pdf",
+          "location": "Bloque II, Q7"
+        }
+      ],
+      "reasoning": "The survey captures economic maintenance at the member level: individual labor income is collected in the Individual Questionnaire (e.g. Q8d), while non-labor income (pensions, social plans, transfers, alimony) is assigned to specific household members by component number in Block VI of the Household Questionnaire. Therefore, economic_maintenance is true. For labor burden, while paid work hours are recorded, unpaid domestic or care work is addressed only by identifying who performs most tasks and who helps in Block VII of the Household Questionnaire, without recording the number of hours spent. Therefore, labor_burden is false. For property and asset control, dwelling tenure is recorded at the household level in Block II, Q7, rather than assigned to individual members. Therefore, property_asset_control is false. Finally, there are no questions assessing household decision-making across any sphere. Therefore, decision_making is false.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

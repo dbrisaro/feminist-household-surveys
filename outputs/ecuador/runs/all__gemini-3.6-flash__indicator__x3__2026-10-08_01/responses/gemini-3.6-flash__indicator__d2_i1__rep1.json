@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "SECCIÓN 2: CARACTERÍSTICAS OCUPACIONALES - PARA PERSONAS DE 5 AÑOS Y MÁS",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, p. 4"
+        },
+        {
+          "text": "¿Realizó (…) la semana pasada alguna actividad dentro o fuera de su casa para ayudar al mantenimiento del hogar, tal como:",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 21, p. 4"
+        },
+        {
+          "text": "Ama de casa?................... 4",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 36, p. 8"
+        }
+      ],
+      "reasoning": "The supplied questionnaire contains specific questions and response options that reference unpaid domestic tasks or caregiving within general occupational sections (e.g., question 21 on activities to help maintain the household, or question 36 with option 'Ama de casa'). However, it does not include a separate module dedicated to domestic or care work containing more than two questions. Therefore, the proposition is false. As a separate module for domestic or care work is not mentioned in the text, the exclusion type is 'not_mentioned'.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "¿CUÁL ES LA RELACIÓN DE PARENTESCO CON EL JEFE(A) DEL HOGAR? Jefe/Jefa ............ 1 Esposa(o) /compañero(a) .... 2 Hijo(a)/hijastro(a) 3 Yerno/Nuera ....... 4 Nieto/a ................ 5 Padres/Suegros . 6 Hermano(a) ..... 11 Otros parientes .. 7 Trabaj. Hogar ..... 8 Pensionista......... 9 Otros No Parientes .......... 10",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 203"
+        },
+        {
+          "text": "SEXO Hombre Mujer",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 207"
+        },
+        {
+          "text": "¿CUÁL ES SU ESTADO CIVIL O CONYUGAL? Conviviente .......1 Casado(a) .........2 Viudo(a) ............3 Divorciado(a).....4 Separado(a) ......5 Soltero(a) ..........6",
+          "document": "[C] 2024/CED-01-200-2024.pdf",
+          "location": "Capítulo 200, Pregunta 209"
+        },
+        {
+          "text": "12. NOMBRES Y APELLIDOS DEL JEFE(A) DEL HOGAR",
+          "document": "[C] 2024/CED-01-100-2024.pdf",
+          "location": "Página 1, Pregunta 12"
+        },
+        {
+          "text": "501. LA SEMANA PASADA, DEL……...........… AL……..…., ¿TUVO UD. ALGÚN TRABAJO?",
+          "document": "[C] 2024/CED-01A-500 ENAHO 2024.pdf",
+          "location": "Capítulo 500, Pregunta 501"
+        }
+      ],
+      "reasoning": "The survey documents establish the terms used to address respondents and to record relationships within the household. Respondents are addressed directly using 'UD.' or referred to as 'persona' or 'miembro del hogar'. The reference person in the household is designated as 'JEFE(A) DEL HOGAR'. Relationship options relative to the head of household are categorized as 'Jefe/Jefa', 'Esposa(o) /compañero(a)', 'Hijo(a)/hijastro(a)', 'Yerno/Nuera', 'Nieto/a', 'Padres/Suegros', 'Hermano(a)', 'Otros parientes', 'Trabaj. Hogar', 'Pensionista', and 'Otros No Parientes'. The sex variable in Question 207 offers binary choices 'Hombre' and 'Mujer'.",
+      "extracted_text": "Terms for respondents: 'UD.', 'persona', 'miembro del hogar'. Head of household reference: 'JEFE(A) DEL HOGAR'. Relationship categories to head of household: 'Jefe/Jefa', 'Esposa(o) /compañero(a)', 'Hijo(a)/hijastro(a)', 'Yerno/Nuera', 'Nieto/a', 'Padres/Suegros', 'Hermano(a)', 'Otros parientes', 'Trabaj. Hogar', 'Pensionista', 'Otros No Parientes'. Sex categories: 'Hombre', 'Mujer'. Marital status categories: 'Conviviente', 'Casado(a)', 'Viudo(a)', 'Divorciado(a)', 'Separado(a)', 'Soltero(a)'."
+    }
+  ]
+}

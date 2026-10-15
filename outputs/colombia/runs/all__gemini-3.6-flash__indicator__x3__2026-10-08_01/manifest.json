@@ -1,0 +1,98 @@
+{
+  "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+  "note": "final run 2026-10-08, option B",
+  "planned_utc": "20261008T215724Z",
+  "provider": "google",
+  "country": "colombia",
+  "settings": {
+    "model": [
+      "gemini-3.6-flash"
+    ],
+    "mode": [
+      "indicator"
+    ],
+    "effort": null,
+    "effort_note": "--effort medium accepted but not sent: the google API takes no equivalent parameter",
+    "repeat": 3,
+    "only": null,
+    "budget_usd": 4.8,
+    "api_key_var": "GEMINI_API_KEY_PAID",
+    "executed": true,
+    "max_tokens": {
+      "indicator": 4000
+    },
+    "thinking": null
+  },
+  "framework": {
+    "source_file": "Prompting/gender_survey_framework.html",
+    "n_indicators": 17
+  },
+  "corpus": {
+    "n_documents": 5,
+    "documents": [
+      {
+        "source_code": "C",
+        "doc": "C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+        "text_file": "data/processed/text/colombia/C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.txt",
+        "chars": 839915,
+        "sha256": "37d82c4c60d14aae4902210e49cdb4ff8bd8c16cab71e8258bfdc7531ecd3e1c",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "G",
+        "doc": "G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.pdf",
+        "text_file": "data/processed/text/colombia/G_Manual_de_recolección_y_conceptos_y_básicos_-_GEIH.txt",
+        "chars": 753548,
+        "sha256": "4e5bcd60a816581efa07dfaece3b430f8cd4a1470d7e07ff75a96eb7e55d12bd",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "DSO-GEIH-MET-001-V11.pdf",
+        "text_file": "data/processed/text/colombia/DSO-GEIH-MET-001-V11.txt",
+        "chars": 222999,
+        "sha256": "1aac4c33d5de225a1318defc6a22afa70fa5989da99e7a517608779e35266c35",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "DSO-GEIH-FME-001-V11.pdf",
+        "text_file": "data/processed/text/colombia/DSO-GEIH-FME-001-V11.txt",
+        "chars": 69771,
+        "sha256": "aabbb1594019753cd19e5a15197f3a500b3357ebff1d72da340e7243e03f91e1",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "Nueva_medicion_informalidad.pdf",
+        "text_file": "data/processed/text/colombia/Nueva_medicion_informalidad.txt",
+        "chars": 299898,
+        "sha256": "d75bfc2dca4771ea4198065fd95b84ddd06d51e97cda07aa70a1feb6a69461df",
+        "part": 1,
+        "n_parts": 1
+      }
+    ]
+  },
+  "plan": {
+    "n_calls": 69,
+    "n_source_missing": 0,
+    "projected_input_usd": 6.1911,
+    "projected_worst_case_usd": 10.3311
+  },
+  "cost": {
+    "spent_usd": 3.7559,
+    "notional_usd_on_paid_key": null,
+    "billing": "paid",
+    "requests_used": null,
+    "requests_per_day_limit": null,
+    "budget_usd": 4.8,
+    "n_calls_planned": 69,
+    "started_utc": "20261008T215724Z",
+    "finished_utc": "20261008T230308Z"
+  },
+  "command": "scripts/llm/run_eval_gemini.py --country colombia --model gemini-3.6-flash --mode indicator --repeat 3 --billing paid --api-key-var GEMINI_API_KEY_PAID --max-output-tokens 16000 --budget-usd 4.80 --note final run 2026-10-08, option B --go"
+}

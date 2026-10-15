@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "Desde 2021 se utiliza como definición de hogar en todas las encuestas de la población el criterio de residencia y el de compartir un presupuesto común entre sus miembros. En el caso de que en una misma vivienda familiar haya más de un hogar se encuestan todos ellos.",
+          "document": "[M] resumetepa21.pdf",
+          "location": "6 Ámbito poblacional, p. 6"
+        },
+        {
+          "text": "A partir de 2021, la EFT utilizará la definición común para todas las encuestas europeas dirigidas a la población. De esta forma, el hogar se determina no solo por la residencia común sino también por compartir gastos generales y presupuesto.",
+          "document": "[M] epa_cambios2021.pdf",
+          "location": "Definición de hogar, p. 1"
+        }
+      ],
+      "reasoning": "The provided methodological documentation defines a household ('hogar') based on shared residence and a shared budget, but it does not contain any conceptual definition of household headship or a household head (such as 'jefe de hogar', 'cabeza de familia', or 'sustentador principal'). An examination of the sections defining household units in [M] resumetepa21.pdf and [M] epa_cambios2021.pdf confirms that household headship is not defined or mentioned anywhere in the supplied text.",
+      "extracted_text": ""
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "¿Cuántas horas trabajó (…) la semana pasada o la última semana que trabajó?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 24, p. 5"
+        },
+        {
+          "text": "¿Cuántas horas trabaja (…) habitualmente a la semana en su: OCUPACIÓN PRINCIPAL? OCUPACIÓN SECUNDARIA? OTRAS OCUPACIONES?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Sección 2, Pregunta 51, p. 12"
+        }
+      ],
+      "reasoning": "The survey instrument records hours worked in paid employment (main, secondary, and other occupations) in Pregunta 24 and Pregunta 51. It does not contain questions or a module capturing how respondents allocate or spend time across daily activities such as unpaid domestic labor, caregiving, or leisure. Because questions capturing only hours of paid work do not qualify under the indicator criteria, the instrument does not possess this capacity, and time spent on other daily activities is not mentioned.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, p. 84"
+        },
+        {
+          "text": "¿La semana pasada… realizó sin que le pagaran alguna de las siguientes actividades: Cocinar, lavar los platos, poner la mesa en:",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, Pregunta 1, p. 84"
+        },
+        {
+          "text": "Además de la ocupación principal, ¿... tenía la semana pasada otro trabajo o negocio?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo I, Pregunta 68, p. 64"
+        }
+      ],
+      "reasoning": "The survey instrument contains Chapter K ('OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)'), which collects information on unpaid domestic and care activities (cooking, cleaning, laundry, child care, care for sick/elderly/disabled household members, and homework help) individually for each household member. For each activity, it records whether the person performed it, how many days, and how many hours per day. This module is distinct from Chapter I, which covers main employment and secondary employment ('Además de la ocupación principal, ¿... tenía la semana pasada otro trabajo o negocio?'). Thus, main work, secondary work, and unpaid domestic work are captured separately for each individual.",
+      "value": true
+    }
+  ]
+}

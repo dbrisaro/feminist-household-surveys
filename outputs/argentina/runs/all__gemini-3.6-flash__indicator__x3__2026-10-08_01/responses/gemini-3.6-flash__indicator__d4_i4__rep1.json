@@ -1,0 +1,41 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "8d. ¿Cuánto cobró por ese mes por todos esos conceptos?",
+          "document": "[C] EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 8, 8d"
+        },
+        {
+          "text": "VI. INGRESOS NO LABORALES\n        Para finalizar, en el mes de ___________________, ¿cuánto cobró por ....?\n        (indagar sólo los ítems 2.1 a 5.3, 8 a 12, 18 y 19a marcados con SÍ en Bloque estrategias del hogar)\n                             N°           Nombre                N°           Nombre                 N°           Nombre                 N°           Nombre                 No asignable a una\n              ¿Quién lo                                                                                                                                                     persona en particular\n               cobra?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VI. INGRESOS NO LABORALES"
+        },
+        {
+          "text": "Total de horas",
+          "document": "[C] EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 3, 3e"
+        },
+        {
+          "text": "1. ¿Quién realiza la mayor parte\n     de las tareas de la casa?\n\n  2. ¿Qué otras personas ayudan\n     en las tareas de la casa?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VII. ORGANIZACIÓN DEL HOGAR, P. 1-2"
+        },
+        {
+          "text": "7. ¿Este hogar es...\n\n  ... propietario de la vivienda y el terreno?\n\n  ... propietario de la vivienda solamente?\n\n  ... inquilino/ arrendatario de la vivienda?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque II. CARACTERÍSTICAS HABITACIONALES DEL HOGAR, P. 7"
+        }
+      ],
+      "reasoning": "Economic maintenance is captured separately at the individual member level across labor income (Cuestionario Individual, Section 8) and non-labor income (Cuestionario de Hogar, Bloque VI, which records component number and name for each income source).\nLabor burden is not fully captured: while paid work hours are recorded at the individual level (Cuestionario Individual, Section 3e), unpaid domestic work is only captured categorically by identifying who does most tasks or helps (Cuestionario de Hogar, Bloque VII, P. 1-2) without recording hours spent on unpaid domestic or care work.\nProperty and asset control (dwelling tenure) is recorded at the household level as a collective unit property (Cuestionario de Hogar, Bloque II, P. 7) rather than at the individual member level.\nDecision-making spheres (such as daily consumption, child-rearing, or major financial choices) are not included anywhere in the instruments.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

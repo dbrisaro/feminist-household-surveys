@@ -1,0 +1,17 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "VII. ORGANIZACIÓN DEL HOGAR\n  1. ¿Quién realiza la mayor parte de las tareas de la casa?\n  2. ¿Qué otras personas ayudan en las tareas de la casa?\n  3. ¿Hay en el hogar alguna persona con discapacidad?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "VII. ORGANIZACIÓN DEL HOGAR, p. 6"
+        }
+      ],
+      "reasoning": "The supplied survey documentation consists of the Vivienda, Hogar, and Individual questionnaires. It does not include a separate module dedicated to domestic or care work. Although Block VII ('ORGANIZACIÓN DEL HOGAR') in the Household Questionnaire (EPHContinua_CuestHogar.pdf) contains two questions regarding household tasks, this is an integrated block within the standard household questionnaire rather than a separate module.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

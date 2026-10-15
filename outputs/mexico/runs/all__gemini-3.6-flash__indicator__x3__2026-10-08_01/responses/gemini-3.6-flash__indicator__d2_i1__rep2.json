@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "IX. OTRAS ACTIVIDADES 9. Durante la semana pasada, ¿cuánto tiempo dedicó... a (Lee las opciones, circula las indicadas, pregunta y anota el tiempo) 1 estudiar o tomar cursos de capacitación? (incluye el tiempo dedicado a realizar trabajos escolares) 2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos) 3 realizar compras, llevar cuentas o realizar trámites para el hogar o encargarse de la seguridad? (como guardar el automóvil) 4 llevar a algún miembro del hogar a la escuela, cita médica u otra actividad? 5 construir o ampliar su vivienda? 6 reparar o dar mantenimiento a su vivienda, muebles, aparatos electrodomésticos o vehículos? 7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer) 8 prestar servicios gratuitos a su comunidad?(conseguir despensas, cuidar personas en un hospital)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "IX. OTRAS ACTIVIDADES, P9, p. 12"
+        },
+        {
+          "text": "2e. ¿... es (Lee las opciones y circula la indicada por el informante) 1 una persona temporalmente ausente de su actividad u oficio? → Pasa a 2k 2 pensionado o jubilado de su empleo? 3 estudiante? 4 una persona que se dedica a los quehaceres de su hogar? 5 una persona con alguna limitación física o mental que le impide trabajar por el resto de su vida? → Pasa a 2h 6 Otra condición",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "II. NO OCUPADOS, P2e, p. 4"
+        }
+      ],
+      "reasoning": "The survey does not include a separate domestic or care work module distinct from the main questionnaire. Unpaid domestic and care work activities are addressed within the main 'Cuestionario de Ocupación y Empleo (Básico)' under Section IX 'OTRAS ACTIVIDADES' (Question 9), which consists of a single question with 8 sub-items on time use, and under Section II 'NO OCUPADOS' (Question 2e), where domestic chores are listed as a non-occupational/inactivity status.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

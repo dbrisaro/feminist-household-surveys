@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "Este formulario sirve para elaborar un listado de viviendas, jefes de hogar, población y establecimientos económicos en los sectores dispersos a nivel de localidad.",
+          "document": "[M] M_202605_Metodologia_ENEMDU.pdf",
+          "location": "p. 35"
+        },
+        {
+          "text": "Consiste en realizar entrevistas directas con el jefe de hogar o informante calificado, miembros del hogar con la finalidad de levantar información referente a la Encuesta Nacional de Empleo, Desempleo y Subempleo.",
+          "document": "[M] M_202605_Metodologia_ENEMDU.pdf",
+          "location": "p. 39"
+        },
+        {
+          "text": "Esta sección está dirigida al jefe del hogar o su cónyuge, contiene preguntas que investigan el Índice de confianza al consumidor, sobre cómo percibe el encuestado la situación económica del hogar, el consumo del hogar en alimentación, así como la percepción acerca de la situación económica del país.",
+          "document": "[M] M_202605_Metodologia_ENEMDU.pdf",
+          "location": "p. 53"
+        }
+      ],
+      "reasoning": "The supplied methodological text repeatedly uses the non-neutral category 'jefe de hogar' / 'jefe del hogar' rather than a neutral anchor term (neutral_anchor_term: false). No explicit rule or criteria for selecting or defining the head of household / reference person is stated in the provided text (explicit_selection_rule: false; rule_not_sex_age_authority: false). However, the documentation specifies that interviews can be conducted directly with an 'informante calificado' (qualified informant) or household members, establishing that any knowledgeable adult may respond (respondent_separate_or_any_adult: true).",
+      "elements": {
+        "explicit_selection_rule": false,
+        "neutral_anchor_term": false,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

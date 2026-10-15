@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "2e. ¿... es\n(Lee las opciones y circula la indicada por el informante)\n1 una persona temporalmente ausente de su actividad u oficio? → Pasa a 2k\n2 pensionado o jubilado de su empleo?\n3 estudiante?\n4 una persona que se dedica a los quehaceres de su hogar?\n5 una persona con alguna limitación física o mental que le impide trabajar por el resto de su vida? → Pasa a 2h\n6 Otra condición",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section II, Question 2e, page 4"
+        },
+        {
+          "text": "IX. OTRAS ACTIVIDADES\n9. Durante la semana pasada, ¿cuánto tiempo dedicó... a\n(Lee las opciones, circula las indicadas, pregunta y anota el tiempo)\n1 estudiar o tomar cursos de capacitación? (incluye el tiempo dedicado a realizar trabajos escolares)\n2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)\n3 realizar compras, llevar cuentas o realizar trámites para el hogar o encargarse de la seguridad? (como guardar el automóvil)\n4 llevar a algún miembro del hogar a la escuela, cita médica u otra actividad?\n5 construir o ampliar su vivienda?\n6 reparar o dar mantenimiento a su vivienda, muebles, aparatos electrodomésticos o vehículos?\n7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)\n8 prestar servicios gratuitos a su comunidad?(conseguir despensas, cuidar personas en un hospital)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Section IX, Question 9, page 12"
+        }
+      ],
+      "reasoning": "The instrument does not include a separate domestic or care work module containing more than two questions. In the supplied documents, domestic and care work are mentioned in Question 2e as a category of inactivity ('4 una persona que se dedica a los quehaceres de su hogar?') and in Section IX ('IX. OTRAS ACTIVIDADES'), which comprises a single question (Question 9) with sub-items measuring time spent on unpaid care and domestic activities alongside other non-occupational activities. Therefore, the proposition is false and domestic/care work is treated under other categories within the main questionnaire.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

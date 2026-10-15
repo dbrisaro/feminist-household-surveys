@@ -1,0 +1,62 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "Code relationship of [Name] to [Name]",
+          "document": "volume2octtodec2025.pdf",
+          "location": "Page 12, R"
+        },
+        {
+          "text": "In the household matrix approach, information is obtained on the relationship between each pair of household members, and a matrix of relationships is produced from which the number and composition of families and households can be derived automatically.",
+          "document": "lfsugvoltcm77238281.pdf",
+          "location": "Section 4, Page 9"
+        },
+        {
+          "text": "1 Spouse\n 2 Cohabiting partner\n 3 Son/daughter (incl. adopted)\n 4 Step-son/daughter\n 5 Foster child\n 6 Son-in-law/daughter-in-law\n 7 Parent/guardian\n 8 Step-parent\n 10 Foster parent\n 11 Parent-in-law\n 12 Brother/sister (incl. adopted)\n 13 Step-brother/sister\n 14 Foster brother/sister\n 15 Brother/sister-in-law\n 16 Grand-child\n 17 Grand-parent\n 18 Other relative\n 19 Other non-relative\n 20 Civil Partner",
+          "document": "volume2octtodec2025.pdf",
+          "location": "Page 12, R"
+        },
+        {
+          "text": "An extended family includes all people within a household who are related in some way: partners; parents; children; grandparents; grandchildren; brothers and sisters; relatives by marriage; guardians; and other relatives.",
+          "document": "lfsugvoltcm77238281.pdf",
+          "location": "Section 2, Page 2"
+        },
+        {
+          "text": "A household is defined as a single person, or a group of people living at the same address who have the address as their only or main residence and either share one main meal a day or share the living accommodation (or both).",
+          "document": "lfsugvoltcm77238281.pdf",
+          "location": "Section 2, Page 2"
+        },
+        {
+          "text": "A LFS family unit comprises either a single person, or a married or cohabiting couple on their own, or with their never-married children who have no children of their own, or lone parents with such children.",
+          "document": "lfsugvoltcm77238281.pdf",
+          "location": "Section 2, Page 2"
+        },
+        {
+          "text": "In most cases the household and the family unit are the same, but it is not uncommon for a household to contain more than one family unit.",
+          "document": "lfsugvoltcm77238281.pdf",
+          "location": "Section 3, Page 4"
+        },
+        {
+          "text": "1 Were you caring for children below school age,\n 2 Were you caring for other children,,\n 3 Were you caring for a dependent adult relative,\n 4 or some other reason?",
+          "document": "volume2octtodec2025.pdf",
+          "location": "Page 120, NOLWF"
+        },
+        {
+          "text": "1 Looking after children or an adult in need of care\n 2 Some other personal or family reason?",
+          "document": "volume2octtodec2025.pdf",
+          "location": "Page 61, REDYRS"
+        }
+      ],
+      "reasoning": "The supplied documentation establishes the following for each element:\n- member_to_member_relationships: The questionnaire (question R) and methodological notes confirm that relationships are collected member-to-member between each pair of household members via a household matrix (\"Code relationship of [Name] to [Name]\").\n- extended_ties: Question R lists explicit categories including cohabiting partner, civil partner, step/foster relationships, parents-in-law, siblings, grandchildren, grandparents, other relatives, and non-relatives.\n- multiple_household_criteria: The technical manual explicitly defines household criteria based on living at the same address as main residence and sharing one main meal a day or living accommodation (or both).\n- sub_units: The technical manual defines LFS family units and establishes that households can contain secondary families or sub-units (\"not uncommon for a household to contain more than one family unit\").\n- caregiving_relationships: While questions such as NOLWF and REDYRS record whether caring for children or adults is a reason for not seeking work or leaving a job, the instrument does not record dyadic caregiving relationships identifying who specifically provides care to whom.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": true,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

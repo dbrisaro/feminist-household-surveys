@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "¿Realizó (…) la semana pasada alguna actividad dentro o fuera de su casa para ayudar al mantenimiento del hogar, tal como: Atender negocio propio?............ 1 Fabricar algún producto?........... 2 Hacer algo en casa por un ingreso?..................................... 3 Brindar algún servicio?............... 4 Ayudar en algún negocio familiar?...................................... 5 Ayudar en el trabajo de algún familiar?...................................... 6 Como aprendiz remunerado en dinero o en especie?.................. 7 Labores agrícolas o cuidado de animales?................................... 8 Estudiante que realizó algún trabajo?...................................... 9 Trabajar para otra familia?......... 10 Otra actividad por un ingreso? 11 No realizó ninguna actividad? 12",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 4, Sección 2, Pregunta 21"
+        },
+        {
+          "text": "¿ (…) es: Rentista?........................... 1 Jubilado o pensionado?.... 2 Estudiante?....................... 3 Ama de casa?................... 4 Incapacitado?.................... 5 Otro, cuál? (Especifique)…… 6",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 8, Sección 2, Pregunta 36"
+        },
+        {
+          "text": "¿La semana pasada que no tenía trabajo USTED, que actividades realizó: ... Ayudó o se dedicó a otras labores del hogar o la familia?..................................................................… 4",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "Page 18, Sección 4, Pregunta 2"
+        }
+      ],
+      "reasoning": "The survey instrument does not include unpaid domestic and care work within the definition of work or economic activity. Question 21 defines activities that count as work, restricting them to paid work, profit generation, or unpaid assistance to a family business/farm. Unpaid domestic work and care responsibilities are categorized as non-work or inactivity, such as 'Ama de casa' in Question 36 or 'Ayudó o se dedicó a otras labores del hogar o la familia' performed while without work in Section 4, Question 2.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

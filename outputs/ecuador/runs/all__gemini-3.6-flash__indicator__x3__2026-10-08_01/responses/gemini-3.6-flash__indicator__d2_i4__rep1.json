@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "Por ayudar en quehaceres del hogar.          8",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 1, Pregunta 9, p. 2"
+        },
+        {
+          "text": "- Tiene a cargo el cuidado de algún miembro de su hogar?.......................... 1",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 29a, p. 6"
+        },
+        {
+          "text": "Ama de casa?................... 4",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 36, p. 8"
+        },
+        {
+          "text": "Trabajador del hogar No Remunerado?...…………………..                                                                 7",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 42, p. 10"
+        },
+        {
+          "text": "Ayudó o se dedicó a otras labores del hogar o la familia?..................................................................… 4",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 4, Pregunta 2, p. 18"
+        }
+      ],
+      "reasoning": "The survey instrument does not record unpaid domestic and care work for each person through specific dedicated questions (such as time spent) separately from main and secondary work. Domestic and care work is only mentioned as a reason for not attending school (P9, code 8), a reason for not working additional hours (P29a, code 1), a status category of inactivity (P36, code 4 \"Ama de casa\"), an occupational category (P42, code 7 \"Trabajador del hogar No Remunerado\"), and an activity performed while unemployed (Section 4, P2, code 4).",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

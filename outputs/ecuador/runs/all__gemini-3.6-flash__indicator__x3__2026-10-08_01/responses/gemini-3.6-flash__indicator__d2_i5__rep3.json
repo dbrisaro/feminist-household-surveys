@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "- Tiene a cargo el cuidado de algún miembro de su hogar?.......................... 1",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2: CARACTERÍSTICAS OCUPACIONALES - PARA PERSONAS DE 5 AÑOS Y MÁS, Pregunta 29a"
+        },
+        {
+          "text": "Ama de casa?................... 4",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2: BÚSQUEDA DE TRABAJO - PARA PERSONAS DE 5 AÑOS Y MÁS, Pregunta 36"
+        }
+      ],
+      "reasoning": "The instrument does not contain any question asking whether a person supervises or remains available to care for household members while performing other activities. Care duties are mentioned in Question 29a as a reason for not being available or desiring to work additional hours ('Tiene a cargo el cuidado de algún miembro de su hogar?'), and as an inactivity category in Question 36 ('Ama de casa'). Under the indicator criteria, care given as a reason for not working more hours does not count.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

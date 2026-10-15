@@ -1,0 +1,36 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "QSF11. Sesso del componente RICODIFICATA NELLA VARIABILE SESSO • Maschio 1 • Femmina 2",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        },
+        {
+          "text": "QSF16. Relazione di parentela RICODIFICATA NELLA VARIABILE RUOLOFAM",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Scheda generale (SG), p. 2"
+        },
+        {
+          "text": "QB02 Sempre nella settimana che va “DA LUNEDI’ … A DOMENICA…”, “NOME” ha lavorato almeno un’ora, senza essere pagata/o, presso la ditta di un familiare?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Sezione B, QB02, p. 4"
+        },
+        {
+          "text": "QC29 Per quale tra questi motivi lavora part time (a tempo parziale): • Studia o segue corsi di formazione 1|_|(passare a QC31) • Malattia, problemi di salute personali 2|_|(passare a QC31) • Si prende cura dei figli e/o di altri familiari non autosufficienti 3|_| • Altri motivi familiari (ad esempio si occupa della casa, è in attesa di un figlio, vuole più tempo per la famiglia) 4|_|(passare a QC31)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Sezione C, QC29, p. 8"
+        },
+        {
+          "text": "QJ01.Passiamo ora a parlare di come [NOME] si percepisce, al di là di quello che ha dichiarato fino ad ora. In generale “NOME” si considera occupata/o, disoccupata/o, ritirata/o dal lavoro, inabile al lavoro, studentessa/e o casalinga/o?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "Sezione J, QJ01, p. 20"
+        }
+      ],
+      "reasoning": "The questionnaire refers to respondents as 'componente' or by placeholder '“NOME”', using binary options for sex ('Maschio', 'Femmina') under QSF11, and slash-separated binary gender forms in question wordings (e.g., 'pagata/o', 'venuta/o', 'autonoma/o', 'occupata/o', 'disoccupata/o', 'ritirata/o', 'studentessa/e', 'casalinga/o'). Relationships within the household are referred to using terms such as 'Relazione di parentela', 'ditta di un familiare', 'coadiuvante nell’azienda di un familiare', 'figli e/o di altri familiari non autosufficienti', and 'parenti o familiari'.",
+      "extracted_text": "QSF11. Sesso del componente: Maschio, Femmina; QSF16. Relazione di parentela; Respondents: “NOME”, componente, pagata/o, venuta/o, autonoma/o, occupata/o, disoccupata/o, ritirata/o, studentessa/e, casalinga/o; Relationships: ditta di un familiare, coadiuvante nell'azienda di un familiare, figli e/o di altri familiari non autosufficienti, parenti o familiari."
+    }
+  ]
+}

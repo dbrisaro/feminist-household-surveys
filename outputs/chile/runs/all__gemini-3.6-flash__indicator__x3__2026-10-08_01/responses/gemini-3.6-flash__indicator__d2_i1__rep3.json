@@ -1,0 +1,22 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "3 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN J, j7"
+        },
+        {
+          "text": "5 Cuidado de personas dependientes",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN H, h16"
+        }
+      ],
+      "reasoning": "The supplied instrument [C] cuestionario-ene-2020.pdf does not include a separate domestic or care work module. Unpaid care work is only mentioned as a reason for inactivity or for not working additional hours (e.g., j7 option 3 and h16 option 5), treating care responsibilities as a reason for not seeking work or for working fewer hours rather than measuring unpaid domestic and care work directly.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

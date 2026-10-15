@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "Jefe/a Cónyuge/Pareja Hijo/a/Hijastro/a Yerno/Nuera Nieto/a Madre/Padre Suegro/a Hermano/a Otros Familiares No Familiares",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, Col 03"
+        },
+        {
+          "text": "1... unido/a? 2... casado/a? 3... separado/a o divorciado/a? 4... viudo/a? 5... soltero/a?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, Col 07"
+        },
+        {
+          "text": "12 … cuotas de alimentos o ayuda en dinero de personas que no viven en el hogar?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque V, ítem 12"
+        },
+        {
+          "text": "1. varón 2. mujer",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, Col 04"
+        },
+        {
+          "text": "VI. INGRESOS NO LABORALES Para finalizar, en el mes de ___________________, ¿cuánto cobró por ....?",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque VI"
+        },
+        {
+          "text": "8d. ¿Cuánto cobró por ese mes por todos esos conceptos?",
+          "document": "[C] EPHContinua_CuestIndividual.pdf",
+          "location": "Bloque 8, Pregunta 8d"
+        },
+        {
+          "text": "Hogar: Persona o grupo de personas, parientes o no, que habitan bajo el mismo techo y comparten los gastos de alimentación y/o otros gastos esenciales para vivir.",
+          "document": "[C] EPHContinua_CuestVivienda.pdf",
+          "location": "Bloque III, p. 2"
+        }
+      ],
+      "reasoning": "The survey design allows evaluating elements of female-headed and women-maintained households to varying degrees. For de_jure_vs_de_facto: marital status (Col 07) combined with household relationship/presence of partner (Col 03) and remittance/alimony receipts from non-residents (Bloque V ítem 12) allows distinguishing de jure female heads (unpartnered by marital status) from de facto female heads (married/partnered women whose partners are absent from the household roster or who depend on external financial support). For unpartnered_mother_child_units: relationship to head (Col 03) only records relationship relative to the designated head of household ('Jefe/a'), meaning mother-child sub-units within extended or multi-family households cannot be systematically identified when the mother is not the head. For women_maintained_by_provider: individual labor income (Cuestionario Individual) and disaggregated non-labor income by individual member (Cuestionario Hogar Bloque VI) together with sex (Col 04) allow identifying whether a woman is the primary economic provider/income contributor of the household regardless of who is reported as head. For mother_child_unit_activity: consumption and living arrangements are defined strictly at the aggregate household level ('comparten los gastos de alimentación y/o otros gastos esenciales'), with no mechanism to attribute consumption, production, or care activities to a sub-household mother-child hearth-hold unit.",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": false,
+        "women_maintained_by_provider": true
+      }
+    }
+  ]
+}

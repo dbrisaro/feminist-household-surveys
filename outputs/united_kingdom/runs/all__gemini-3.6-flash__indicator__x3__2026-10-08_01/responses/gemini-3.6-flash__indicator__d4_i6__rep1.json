@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i6",
+      "quotes": [
+        {
+          "text": "XMARSTA\nAre you…\n   1       single, that is never married\n   2       married and living with your husband/wife\n   3       a civil partner in a legally-recognised Civil Partnership\n   4       married and separated from your husband/wife\n   5       Divorced\n   6       or widowed",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "p. 11"
+        },
+        {
+          "text": "MARCHK\nIs [Name’s] husband/wife/civil partner a member of the household?\n   1       Yes\n   2       No",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "p. 11"
+        },
+        {
+          "text": "R\nI would now like to ask how all the people in your household are related to each other.\nCode relationship of [Name] to [Name]\nTreat relatives of Civil Partners as though the Civil Partners were married. Also, treat relatives of cohabiting members of the household as though the cohabiting couple were married, unless the couple are a same sex couple but not in a Civil Partnership.\n    1      Spouse\n    2      Cohabiting partner\n    3      Son/daughter (incl. adopted)\n    4      Step-son/daughter\n    5      Foster child\n    6      Son-in-law/daughter-in-law\n    7      Parent/guardian",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "p. 12"
+        },
+        {
+          "text": "HRPID\nRecord if [Name] is person in whose name this accommodation is owned or rented\n    1       Yes\n    2       No",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "p. 12"
+        },
+        {
+          "text": "HIHNUM\nYou told me that [NumHhldrs] people jointly own or rent the accommodation. Which of you/them has the highest income (from earnings, benefits, pensions and any other sources)?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "p. 231"
+        },
+        {
+          "text": "NOLWF\nMay I just check, was the main reason that you did not look for work because...\n    1       Were you caring for children below school age,\n    2       Were you caring for other children,,\n    3       Were you caring for a dependent adult relative,\n    4       or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "p. 120"
+        }
+      ],
+      "reasoning": "1. `de_jure_vs_de_facto`: The instrument asks for marital status in `XMARSTA` (single, married, separated, divorced, widowed) and explicitly checks in `MARCHK` whether a married respondent's spouse/partner is a member of the household. Combining marital status with spouse presence/absence allows distinguishing de jure female-headed households (e.g. single, widowed, divorced) from de facto female-headed households (e.g. married with absent partner).\n2. `unpartnered_mother_child_units`: The relationship matrix (`R`) records relationships between every pair of individuals in the household (including parent, child, spouse, cohabiting partner). This allows identifying unpartnered mother–child units even within larger multi-person households.\n3. `women_maintained_by_provider`: The survey designates a Household Reference Person (`HRPID`, `HIHNUM`) based on accommodation ownership/renting and highest income among joint householders. It does not identify women-maintained households/units through the main economic provider across all household members regardless of reference person designation.\n4. `mother_child_unit_activity`: While individual reasons for non-work or part-time work include care responsibilities (`NOLWF`), the instrument does not link consumption, production, or care activity to the specific mother–child sub-household unit (\"hearth-hold\").",
+      "elements": {
+        "de_jure_vs_de_facto": true,
+        "mother_child_unit_activity": false,
+        "unpartnered_mother_child_units": true,
+        "women_maintained_by_provider": false
+      }
+    }
+  ]
+}

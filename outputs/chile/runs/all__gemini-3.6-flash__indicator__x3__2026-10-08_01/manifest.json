@@ -1,0 +1,80 @@
+{
+  "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+  "note": "final run 2026-10-08, option B",
+  "planned_utc": "20261008T153948Z",
+  "provider": "google",
+  "country": "chile",
+  "settings": {
+    "model": [
+      "gemini-3.6-flash"
+    ],
+    "mode": [
+      "indicator"
+    ],
+    "effort": null,
+    "effort_note": "--effort medium accepted but not sent: the google API takes no equivalent parameter",
+    "repeat": 3,
+    "only": null,
+    "budget_usd": 2.3,
+    "api_key_var": "GEMINI_API_KEY_PAID",
+    "executed": true,
+    "max_tokens": {
+      "indicator": 4000
+    },
+    "thinking": null
+  },
+  "framework": {
+    "source_file": "Prompting/gender_survey_framework.html",
+    "n_indicators": 17
+  },
+  "corpus": {
+    "n_documents": 3,
+    "documents": [
+      {
+        "source_code": "C",
+        "doc": "cuestionario-ene-2020.pdf",
+        "text_file": "data/processed/text/chile/cuestionario-ene-2020.txt",
+        "chars": 117518,
+        "sha256": "623da46dbba8b9076026808dca00ff1a831a7dfe5d7e131004e22d0f8827c0d2",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "glosario-ene.pdf",
+        "text_file": "data/processed/text/chile/glosario-ene.txt",
+        "chars": 35402,
+        "sha256": "9e9f91777e4ded104b2b3859e938d2f92a23cd65698ef0e6b59dbf2cad19afa5",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "metodologia-ene-2020.pdf",
+        "text_file": "data/processed/text/chile/metodologia-ene-2020.txt",
+        "chars": 545100,
+        "sha256": "678b07d0ddfeddb7380f30bcdc25bdaed9de2d79c985947fcb9f347cc7e28578",
+        "part": 1,
+        "n_parts": 1
+      }
+    ]
+  },
+  "plan": {
+    "n_calls": 57,
+    "n_source_missing": 0,
+    "projected_input_usd": 1.9458,
+    "projected_worst_case_usd": 5.3658
+  },
+  "cost": {
+    "spent_usd": 1.358,
+    "notional_usd_on_paid_key": null,
+    "billing": "paid",
+    "requests_used": null,
+    "requests_per_day_limit": null,
+    "budget_usd": 2.3,
+    "n_calls_planned": 57,
+    "started_utc": "20261008T153948Z",
+    "finished_utc": "20261008T155901Z"
+  },
+  "command": "scripts/llm/run_eval_gemini.py --country chile --model gemini-3.6-flash --mode indicator --repeat 3 --billing paid --api-key-var GEMINI_API_KEY_PAID --max-output-tokens 16000 --budget-usd 2.30 --note final run 2026-10-08, option B --go"
+}

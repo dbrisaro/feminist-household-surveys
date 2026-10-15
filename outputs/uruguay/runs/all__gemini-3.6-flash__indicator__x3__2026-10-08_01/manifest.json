@@ -1,0 +1,80 @@
+{
+  "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+  "note": "final run 2026-10-08, option B",
+  "planned_utc": "20261008T151929Z",
+  "provider": "google",
+  "country": "uruguay",
+  "settings": {
+    "model": [
+      "gemini-3.6-flash"
+    ],
+    "mode": [
+      "indicator"
+    ],
+    "effort": null,
+    "effort_note": "--effort medium accepted but not sent: the google API takes no equivalent parameter",
+    "repeat": 3,
+    "only": null,
+    "budget_usd": 2.2,
+    "api_key_var": "GEMINI_API_KEY_PAID",
+    "executed": true,
+    "max_tokens": {
+      "indicator": 4000
+    },
+    "thinking": null
+  },
+  "framework": {
+    "source_file": "Prompting/gender_survey_framework.html",
+    "n_indicators": 17
+  },
+  "corpus": {
+    "n_documents": 3,
+    "documents": [
+      {
+        "source_code": "C",
+        "doc": "C_Cuestionario_seguimiento_2024.pdf",
+        "text_file": "data/processed/text/uruguay/C_Cuestionario_seguimiento_2024.txt",
+        "chars": 87417,
+        "sha256": "70385f239651bebded9b25d395a29e0d958c98755563d90d1a6ba113a98f8f08",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "C",
+        "doc": "C_Cuestionario_implantación_2024.pdf",
+        "text_file": "data/processed/text/uruguay/C_Cuestionario_implantación_2024.txt",
+        "chars": 281508,
+        "sha256": "fe27823f30d46b5a93b5eadb1dc2e2d2ac3e148771664f3e47fa4a2ee6c9d85b",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "Metodologia_ECH_2021.pdf",
+        "text_file": "data/processed/text/uruguay/Metodologia_ECH_2021.txt",
+        "chars": 144729,
+        "sha256": "60fa0652a0a9c1fdf5a0d710728f23f7ae0d9a39a5e1eda51213e0507f577b4d",
+        "part": 1,
+        "n_parts": 1
+      }
+    ]
+  },
+  "plan": {
+    "n_calls": 51,
+    "n_source_missing": 0,
+    "projected_input_usd": 1.8386,
+    "projected_worst_case_usd": 4.8986
+  },
+  "cost": {
+    "spent_usd": 1.2316,
+    "notional_usd_on_paid_key": null,
+    "billing": "paid",
+    "requests_used": null,
+    "requests_per_day_limit": null,
+    "budget_usd": 2.2,
+    "n_calls_planned": 51,
+    "started_utc": "20261008T151929Z",
+    "finished_utc": "20261008T153419Z"
+  },
+  "command": "scripts/llm/run_eval_gemini.py --country uruguay --model gemini-3.6-flash --mode indicator --repeat 3 --billing paid --api-key-var GEMINI_API_KEY_PAID --max-output-tokens 16000 --budget-usd 2.20 --note final run 2026-10-08, option B --go"
+}

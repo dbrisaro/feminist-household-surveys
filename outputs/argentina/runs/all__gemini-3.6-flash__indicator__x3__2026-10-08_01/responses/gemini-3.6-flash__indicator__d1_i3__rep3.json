@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "SEXO (Anote en cada caso) 1. varón 2. mujer",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, p. 2, columna 04"
+        }
+      ],
+      "reasoning": "In [C] EPHContinua_CuestHogar.pdf, Bloque IV, page 2, column 04, the questionnaire provides the prompt '(Anote en cada caso)' under the column header 'SEXO' with response categories '1. varón' and '2. mujer'. The supplied questionnaire documents do not contain any definitions of sex or gender or additional instructions to the interviewer for recording sex or gender. Interviewer manuals or methodological guidelines (document type G) were not supplied in this run.",
+      "extracted_text": "(Anote en cada caso)"
+    }
+  ]
+}

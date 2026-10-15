@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "¿Cuál es el nombre de los integrantes de este hogar empezando por el jefe o la jefa? AL FINAL DE LA LISTA INCLUYE A LOS HUÉSPEDES, TRABAJADORES DOMÉSTICOS Y A SUS FAMILIARES",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 5"
+        },
+        {
+          "text": "¿Qué es ... del jefe(a) de este hogar?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 7"
+        },
+        {
+          "text": "... es 1 hombre 2 mujer",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 8"
+        },
+        {
+          "text": "¿Actualmente... 1 vive con su pareja en unión libre? 2 está separado(a)? 3 está divorciado(a)? 4 está viudo(a)? 5 está casado(a)? 6 está soltero(a)?",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_sociodemográ.pdf",
+          "location": "Section VI, Question 19"
+        }
+      ],
+      "reasoning": "The sociodemographic questionnaire contains explicit terms to address members of the household, household heads, and marital or relationship statuses. These terms include 'integrantes de este hogar', 'jefe o la jefa', 'jefe(a)', 'huéspedes', 'trabajadores domésticos y a sus familiares', 'hombre', 'mujer', 'pareja', 'separado(a)', 'divorciado(a)', 'viudo(a)', 'casado(a)', and 'soltero(a)'.",
+      "extracted_text": "integrantes de este hogar, jefe o la jefa, jefe(a), huéspedes, trabajadores domésticos y a sus familiares, hombre, mujer, pareja, separado(a), divorciado(a), viudo(a), casado(a), soltero(a)"
+    }
+  ]
+}

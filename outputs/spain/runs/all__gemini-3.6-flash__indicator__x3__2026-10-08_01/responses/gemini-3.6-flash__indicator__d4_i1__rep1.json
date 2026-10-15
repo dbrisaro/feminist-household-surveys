@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "Desde 2021 se utiliza como definición de hogar en todas las encuestas de la población el criterio de residencia y el de compartir un presupuesto común entre sus miembros. En el caso de que en una misma vivienda familiar haya más de un hogar se encuestan todos ellos.",
+          "document": "[M] resumetepa21.pdf",
+          "location": "6 Ámbito poblacional, p. 6"
+        },
+        {
+          "text": "Así pues, a partir de 2021, en una misma vivienda podremos encontrar en la EPA más de un hogar. No obstante, el diseño de la encuesta sigue basándose en la selección de viviendas, encuestándose a todas las personas de un mismo lugar de residencia, si bien la información se estructura según los hogares detectados y se calculan las relaciones de parentesco por hogar.",
+          "document": "[M] epa_cambios2021.pdf",
+          "location": "Definición de hogar, p. 1"
+        }
+      ],
+      "reasoning": "The supplied methodological documentation defines the household unit and notes that intra-household kinship relationships are calculated, but it contains no conceptual definition of household headship or head of household.",
+      "extracted_text": ""
+    }
+  ]
+}

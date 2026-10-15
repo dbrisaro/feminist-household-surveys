@@ -1,0 +1,10 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [],
+      "reasoning": "The method for identifying the household head is documented in interviewer manuals or methodological guidelines, which were not supplied in this run. The supplied questionnaire documents (2024/CED-01-100-2024.pdf and 2024/CED-01-200-2024.pdf) record the name of the head of household in Question 12 and relationship to head in Question 203, but do not state the rule or procedure used to select or identify the household head.",
+      "selected": ""
+    }
+  ]
+}

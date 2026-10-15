@@ -1,0 +1,56 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "SECCIÓN 3: INGRESOS - PARA PERSONAS DE 5 AÑOS Y MÁS",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3, page 15"
+        },
+        {
+          "text": "En el mes de ABRIL, en su ocupación como (…) ¿cuánto dinero líquido recibió por concepto de sueldo o salario y otros ingresos?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3, Question 66, page 15"
+        },
+        {
+          "text": "¿Recibió en el mes ABRIL, ingresos por concepto de pensión por: jubilación, orfandad, viudez, invalidez, enfermedad, divorcio, cesantía, etc.?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3, Question 72, page 16"
+        },
+        {
+          "text": "¿Recibió en el mes de ABRIL, dinero o especies enviado por parte de familiares o amigos que vivan en el exterior?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3, Question 74, page 16"
+        },
+        {
+          "text": "¿Cuántas horas trabajó (…) la semana pasada o la última semana que trabajó?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Question 24, page 5"
+        },
+        {
+          "text": "14.. La vivienda que ocupa este Hogar es:",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 5, Question 14, page 19"
+        },
+        {
+          "text": "15.1. ¿Tiene este hogar: 1. Vehículos? 2. Motos…..?",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 5, Question 15.1, page 20"
+        },
+        {
+          "text": "1.- Con relación al mes anterior, ¿la situación económica de su hogar es:",
+          "document": "C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 6, Question 1, page 20"
+        }
+      ],
+      "reasoning": "For economic_maintenance: The instrument captures income by source (wages, self-employment earnings, pensions, capital income, remittances, social assistance) at the individual member level in Section 3 for all persons aged 5 and above.\nFor labor_burden: While paid work hours are recorded at the individual level (Questions 24 and 51), the instrument does not measure hours spent on unpaid domestic or care work.\nFor property_asset_control: Dwelling tenure (Question 14) and vehicle ownership (Question 15.1) are captured at the aggregate household level ('este HOGAR'), not recorded by individual member.\nFor decision_making: The instrument contains no questions regarding intra-household decision-making agency across any sphere.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

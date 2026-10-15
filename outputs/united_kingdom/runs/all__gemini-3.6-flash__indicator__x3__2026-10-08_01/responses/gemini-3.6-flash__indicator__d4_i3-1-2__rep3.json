@@ -1,0 +1,51 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i3",
+      "quotes": [
+        {
+          "text": "HRPID Record if [Name] is person in whose name this accommodation is owned or rented",
+          "document": "volume2octtodec2025.pdf",
+          "location": "page 12"
+        },
+        {
+          "text": "RESPNO Enter PerNo of person providing information about this respondent",
+          "document": "volume2octtodec2025.pdf",
+          "location": "page 14"
+        },
+        {
+          "text": "HIHNUM You told me that [NumHhldrs] people jointly own or rent the accommodation. Which of you/them has the highest income (from earnings, benefits, pensions and any other sources)?",
+          "document": "volume2octtodec2025.pdf",
+          "location": "page 231"
+        },
+        {
+          "text": "JNTELDA Enter person number of the eldest (joint householder) from those listed below",
+          "document": "volume2octtodec2025.pdf",
+          "location": "page 231"
+        },
+        {
+          "text": "HRPCHECK Interviewer check – The Household Reference Person (HRP) has been computed as [name]",
+          "document": "volume2octtodec2025.pdf",
+          "location": "page 231"
+        },
+        {
+          "text": "From spring 2001 the LFS is switching from using Head of Household (HOH) to Household Reference Person (HRP) in line with all other ONS household surveys.",
+          "document": "lfsugvoltcm77238281.pdf",
+          "location": "Section 4, page 9"
+        },
+        {
+          "text": "The HRP will take into account accommodation ownership / rental, income and age in order to identify the HRP",
+          "document": "lfsugvoltcm77238281.pdf",
+          "location": "Section 4, page 9"
+        }
+      ],
+      "reasoning": "1. neutral_anchor_term: True. The survey instrument and documentation identify the anchor person using the term 'Household Reference Person' (HRP), which is a neutral term.\n2. explicit_selection_rule: True. The instrument explicitly states the selection rule for determining the HRP, starting with accommodation ownership/rental (HRPID), followed by highest income (HIHNUM), and age (JNTELDA) if income is equal.\n3. rule_not_sex_age_authority: False. The explicit criteria used to choose the reference person include highest income ('highest income') and seniority ('eldest'), which are explicitly defined as breadwinner status and seniority criteria in the indicator specification.\n4. respondent_separate_or_any_adult: True. The instrument records who provides the information for each respondent separately via variable RESPNO ('Enter PerNo of person providing information about this respondent').",
+      "elements": {
+        "explicit_selection_rule": true,
+        "neutral_anchor_term": true,
+        "respondent_separate_or_any_adult": true,
+        "rule_not_sex_age_authority": false
+      }
+    }
+  ]
+}

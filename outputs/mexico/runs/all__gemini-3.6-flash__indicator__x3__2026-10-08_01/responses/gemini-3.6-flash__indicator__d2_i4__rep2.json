@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "Solo para personas de 12 y más años de edad",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "Página 1"
+        },
+        {
+          "text": "9. Durante la semana pasada, ¿cuánto tiempo dedicó... a",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "IX. OTRAS ACTIVIDADES, Pregunta 9, p. 12"
+        },
+        {
+          "text": "2 cuidar o atender sin pago, de manera exclusiva, a niños, ancianos, enfermos o discapacitados? (bañarlos, cambiarlos)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "IX. OTRAS ACTIVIDADES, Pregunta 9, opción 2, p. 12"
+        },
+        {
+          "text": "7 realizar los quehaceres de su hogar? (lavar, planchar, preparar y servir alimentos, barrer)",
+          "document": "[C] C_Encuesta_Nacional_de_Ocupación_y_Empleo_ENOE_Cuestionario_de_Ocupación.pdf",
+          "location": "IX. OTRAS ACTIVIDADES, Pregunta 9, opción 7, p. 12"
+        }
+      ],
+      "reasoning": "The individual Occupation and Employment Questionnaire (administered for each person aged 12 and above) contains Question 9 in Section IX (\"OTRAS ACTIVIDADES\"), which records the specific time (hours and minutes) each individual devoted during the previous week to domestic work (\"realizar los quehaceres de su hogar\") and care activities (\"cuidar o atender sin pago...\"). This measurement is asked separately from the main work questions (Sections III–VI) and secondary work questions (Section VII), allowing main work, secondary work, and domestic work to be told apart for each person.",
+      "value": true
+    }
+  ]
+}

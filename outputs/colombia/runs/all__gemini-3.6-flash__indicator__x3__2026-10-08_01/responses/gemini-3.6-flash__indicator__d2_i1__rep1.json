@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i1",
+      "quotes": [
+        {
+          "text": "K. OTRAS FORMAS DE TRABAJO (TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS)",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, p. 84"
+        },
+        {
+          "text": "Cocinar, lavar los platos, poner la mesa en: a. Su hogar? b. Hogares de personas familiares? c. Hogares de personas no familiares?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 1, p. 84"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar? b. Hogares de personas familiares? c. Hogares de personas no familiares?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 4, p. 86"
+        },
+        {
+          "text": "Cuidar personas enfermas, en condición de discapacidad o adultos mayores en: a. Su hogar? b. Hogares de personas familiares? c. Hogares de personas no familiares?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, pregunta 5, p. 86"
+        }
+      ],
+      "reasoning": "The Gran Encuesta Integrada de Hogares (GEIH) questionnaire includes Chapter K ('K. OTRAS FORMAS DE TRABAJO [TRABAJO SIN REMUNERACIÓN EN PRODUCCIÓN DE SERVICIOS]'), which functions as a dedicated module on unpaid domestic and care work, separate from the core labor force questionnaire module (Chapters H, I, and J). Chapter K contains six distinct questions (questions 1 through 6) measuring unpaid domestic activities (cooking/washing dishes, laundry/ironing, house cleaning) and caregiving activities (childcare for children under 5, care for sick/disabled/elderly, and assistance with schoolwork), capturing both frequency in days and daily hours spent.",
+      "value": true
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "5 Cuidado de personas dependientes",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Section H, h16, p. 14"
+        },
+        {
+          "text": "3 Por responsabilidades familiares permanentes (cuidado de niños o personas dependientes)",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Section J, j7, p. 16"
+        },
+        {
+          "text": "2 Cuidado de niños o de adultos enfermos o incapacitados",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "Section J, j24, p. 17"
+        }
+      ],
+      "reasoning": "The survey instrument does not contain any questions asking whether a person supervises or remains available to care for household members while doing other activities. Care activities appear only as response options for why a person worked fewer hours (h16 option 5), why a person did not seek work (j7 option 3), or why a person left their previous job (j24 option 2). As specified by the indicator rules, care mentioned as a reason for not working or for not working more hours does not count. Therefore, supervisory or secondary care work is not mentioned in the questionnaire.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

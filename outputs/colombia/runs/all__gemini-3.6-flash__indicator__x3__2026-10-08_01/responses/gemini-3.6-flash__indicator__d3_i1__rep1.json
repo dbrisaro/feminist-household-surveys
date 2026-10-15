@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i1",
+      "quotes": [
+        {
+          "text": "54 ¿Cuántas horas trabajó durante la semana pasada en este trabajo?",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo I, Pregunta 54, p. 56"
+        },
+        {
+          "text": "1 ¿La semana pasada… realizó sin que le pagaran alguna de las siguientes actividades: Cocinar, lavar los platos, poner la mesa en: a. Su hogar? Sí 1 Días Horas día",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, Pregunta 1, p. 84"
+        },
+        {
+          "text": "4 Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar? Sí 1 Días Horas día",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, Pregunta 4, p. 86"
+        }
+      ],
+      "reasoning": "The instrument records hours spent on paid employment in Chapter I (Question 54) as well as days per week and hours per day devoted to various unpaid domestic and care work activities in Chapter K (Questions 1-6). Consequently, it captures time allocation across more than one kind of activity.",
+      "value": true
+    }
+  ]
+}

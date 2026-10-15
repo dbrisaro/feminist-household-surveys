@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "QC29 Per quale tra questi motivi lavora part time (a tempo parziale): • Studia o segue corsi di formazione 1|_|(passare a QC31) • Malattia, problemi di salute personali 2|_|(passare a QC31) • Si prende cura dei figli e/o di altri familiari non autosufficienti 3|_| • Altri motivi familiari (ad esempio si occupa della casa, è in attesa di un figlio, vuole più tempo per la famiglia) 4|_|(passare a QC31)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC29"
+        },
+        {
+          "text": "QF07 Qual è il motivo principale per cui “NOME” non ha cercato un lavoro nelle 4 settimane che vanno “DAL… AL…”? • Ritiene di non riuscire a trovare lavoro 1|_| • Ha già un lavoro che inizierà in futuro (compresi gli stagionali) 2|_| (passare a QF39) • Studia o segue corsi di formazione 3|_| (passare a QF10) • Malattia, problemi di salute personali 4|_| (passare a QF10) • Si prende cura dei figli e/o di altri familiari non autosufficienti 5|_| (passare a QF09) • Altri motivi familiari (ad esempio fa la casalinga/o, in attesa di un figlio, vuole più tempo per la famiglia) 6|_| (passare a QF10)",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QF07"
+        },
+        {
+          "text": "QJ01.Passiamo ora a parlare di come [NOME] si percepisce, al di là di quello che ha dichiarato fino ad ora. In generale “NOME” si considera occupata/o, disoccupata/o, ritirata/o dal lavoro, inabile al lavoro, studentessa/e o casalinga/o?",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QJ01"
+        }
+      ],
+      "reasoning": "The instrument does not contain questions regarding responsibility for, performance of, or magnitude of unpaid domestic and care work. Regarding responsibility, there are no questions asking who is in charge of, plans, or organises domestic or care work. Regarding performance, references to care duties or household work appear only as response options for reasons for working part-time (e.g. QC29), reasons for not seeking work (e.g. QF07), or categories of self-perceived inactivity status such as 'casalinga/o' (QJ01), all of which are explicitly excluded by the definition. Regarding magnitude, the survey does not record any measurement of time or frequency spent on unpaid domestic or care work.",
+      "elements": {
+        "magnitude": false,
+        "performance": false,
+        "responsibility": false
+      }
+    }
+  ]
+}

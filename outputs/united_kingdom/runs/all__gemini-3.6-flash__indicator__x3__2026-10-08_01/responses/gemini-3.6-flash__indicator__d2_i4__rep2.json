@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i4",
+      "quotes": [
+        {
+          "text": "1 ...looking after children?\n   2 looking after an incapacitated adult?\n   3 or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "YPTCIA, page 52"
+        },
+        {
+          "text": "3 Looking after the family/home",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "NOLOWA, page 119"
+        },
+        {
+          "text": "1 Were you caring for children below school age,\n    2 Were you caring for other children,,\n    3 Were you caring for a dependent adult relative,\n    4 or some other reason?",
+          "document": "[C] volume2octtodec2025.pdf",
+          "location": "NOLWF, page 120"
+        }
+      ],
+      "reasoning": "The survey instrument does not collect data on unpaid domestic or care work performed by each individual through questions dedicated to measuring domestic work or time devoted to it. Domestic and care activities are mentioned in the questionnaire only as reasons for working part-time (e.g., YPTCIA) or reasons for not looking for work / being inactive (e.g., NOLOWA, NOLWF). Therefore, domestic work is treated as a category of inactivity or a reason for not working/working part-time rather than recorded as work or time spent in its own right.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

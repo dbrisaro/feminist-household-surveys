@@ -1,0 +1,30 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i2",
+      "quotes": [
+        {
+          "text": "¿La semana pasada… realizó sin que le pagaran alguna de las siguientes actividades: Cocinar, lavar los platos, poner la mesa en: a. Su hogar? Sí 1 Días Horas día No 2",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, p. 84"
+        },
+        {
+          "text": "Cuidar niñas o niños menores de 5 años que no estén enfermos ni en condición de discapacidad en: a. Su hogar? Sí 1 Días Horas día No 2",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, p. 86"
+        },
+        {
+          "text": "Cuidar personas enfermas, en condición de discapacidad o adultos mayores en: a. Su hogar? Sí 1 Días Horas día No 2",
+          "document": "[C] C_Cuestionario_Gran_Encuesta_Integrada_de_Hogares_-_GEIH.pdf",
+          "location": "Capítulo K, p. 86"
+        }
+      ],
+      "reasoning": "Responsibility: The instrument does not contain any questions asking who is in charge of, plans, organizes, or is responsible for domestic or care work. The questions in Chapter K only ask whether individual household members performed specific tasks. Therefore, responsibility is false. Performance: Chapter K (questions K1-K6, pp. 84-87) explicitly asks whether individuals carried out unpaid domestic and care tasks, such as cooking, washing clothes, cleaning, caring for children under 5, and caring for sick, disabled, or elderly persons. Therefore, performance is true. Magnitude: For each unpaid domestic or care activity performed, the questionnaire records time and frequency by asking for 'Días' (days) and 'Horas día' (hours per day). Therefore, magnitude is true.",
+      "elements": {
+        "magnitude": true,
+        "performance": true,
+        "responsibility": false
+      }
+    }
+  ]
+}

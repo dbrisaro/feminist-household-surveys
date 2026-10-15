@@ -1,0 +1,47 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "5. De las personas relacionadas anteriormente, \u0025alguna de ellas es su (Codificar 00 si no tiene o no reside en la vivienda) - conyuge o pareja? En tal caso, d\u0026iacute;game su nombre: NCONY - padre? En tal caso, d\u0026iacute;game su nombre: NPADRE - madre? En tal caso , d\u0026iacute;game su nombre: NMADRE",
+          "document": "epacues21.pdf",
+          "location": "Secci\u0026oacute;n A, Pregunta 5"
+        },
+        {
+          "text": "\u0026iquest;Cu\u0026aacute;l es su relaci\u0026oacute;n con la persona de referencia? RELPP\n1. Persona de referencia (p.r.)\n2. C\u0026oacute;nyuge o pareja de la p.r.\n3. Hijo/a, hijastro/a (de la p.r. o de su pareja)\n4. Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a)\n5. Padre, madre de la p.r. o de su pareja (padrastro/madrastra)\n6. Nieto/a, de la p.r. o de su pareja (incluye nietastros/as de ambos)\n7. Suegro/a de la p.r. o pareja del mismo\n8. Abuelo/a de la p.r. (o pareja del mismo) (abuelastro/a de la p.r.)\n9. Hermano/a, hermanastro/a de la p.r.\n10. Otro pariente de la p.r. (o pareja del mismo)\n11. Persona del servicio dom\u0026eacute;stico\n12. Sin parentesco con la p.r.",
+          "document": "epacues21.pdf",
+          "location": "Secci\u0026oacute;n HOGAR, RELPP"
+        },
+        {
+          "text": "HG1. Si INFORM1=1 \u0026iquest;Todas las personas de la vivienda forman un mismo hogar, en el sentido de que comparten presupuesto de manutenci\u0026oacute;n con usted, independientemente de los gastos fijos de vivienda, como la luz, el agua, la comunidad, etc.? Se considera que comparten presupuesto a aquellos que se benefician del presupuesto del hogar aunque no contribuyan a \u0026eacute;l",
+          "document": "epacues21.pdf",
+          "location": "PANTALLA HG1"
+        },
+        {
+          "text": "Desde 2021 se utiliza como definici\u0026oacute;n de hogar en todas las encuestas de la poblaci\u0026oacute;n el criterio de residencia y el de compartir un presupuesto com\u0026uacute;n entre sus miembros. En el caso de que en una misma vivienda familiar haya m\u0026aacute;s de un hogar se encuestan todos ellos.",
+          "document": "resumetepa21.pdf",
+          "location": "Secci\u0026oacute;n 6 \u0026Aacute;mbito poblacional, p. 6"
+        },
+        {
+          "text": "- Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "Secci\u0026oacute;n C, Pregunta 26 (PARCO2)"
+        },
+        {
+          "text": "- Quiere cuidar personalmente de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "Secci\u0026oacute;n C, Pregunta 27 (PCONC1)"
+        }
+      ],
+      "reasoning": "1. member_to_member_relationships: True. Question 5 explicitly collects pointer variables for spouse/partner (NCONY), father (NPADRE), and mother (NMADRE) for each household member, establishing member-to-member pointers beyond relationship to head.\n2. extended_ties: True. Variable RELPP explicitly records ties including grandparents, grandchildren, siblings, in-laws, step-relations, domestic staff, and unrelated persons, while Question 5 records unmarried partners (\"conyuge o pareja\").\n3. multiple_household_criteria: True. HG1 and method documents explicitly specify the criterion of sharing a common budget to distinguish and separate multiple households within a single dwelling.\n4. sub_units: True. Because father, mother, and spouse pointer variables (NPADRE, NMADRE, NCONY) are collected for every household member, secondary family nuclei/sub-units within the household can be identified.\n5. caregiving_relationships: False. While the questionnaire records care obligations as reasons for working part-time, absences, or inactivity (e.g., PARCO2, PCONC1), it does not record specific caregiving relationships identifying who provides care for whom inside or across households.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": true,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}

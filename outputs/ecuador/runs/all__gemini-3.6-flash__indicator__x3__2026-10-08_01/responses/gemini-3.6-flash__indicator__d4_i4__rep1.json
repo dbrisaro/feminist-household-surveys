@@ -1,0 +1,46 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i4",
+      "quotes": [
+        {
+          "text": "En el mes de ABRIL, en su ocupación como (…) ¿cuánto dinero líquido recibió por concepto de sueldo o salario y otros ingresos?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3, p. 15"
+        },
+        {
+          "text": "¿Recibió en el mes de ABRIL, dinero o especies enviado por parte de familiares o amigos que vivan en el exterior?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 3, p. 16"
+        },
+        {
+          "text": "¿Cuántas horas trabajó (…) la semana pasada o la última semana que trabajó?",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 2, Pregunta 24, p. 5"
+        },
+        {
+          "text": "14. La vivienda que ocupa este Hogar es:",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 5, Pregunta 14, p. 19"
+        },
+        {
+          "text": "15.1. ¿Tiene este hogar:",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 5, Pregunta 15.1, p. 20"
+        },
+        {
+          "text": "1.- Con relación al mes anterior, ¿la situación económica de su hogar es:",
+          "document": "[C] C_202605_Formulario_ENEMDU.pdf",
+          "location": "SECCIÓN 6, p. 20"
+        }
+      ],
+      "reasoning": "The survey questionnaire captures economic maintenance separately at the individual member level (COD PER) across paid employment, self-employment, capital, pensions, domestic transfers, international remittances, and social benefits in Section 3. However, it does not capture hours spent on unpaid domestic or care work (Section 2 captures hours worked in paid activities, but contains no time-use or hours questions for unpaid domestic/care activities). Property and asset control (dwelling tenure and vehicles) are recorded at the overall household level (\"este Hogar\") in Section 5 rather than disaggregated by individual owner/member. Finally, the questionnaire does not include any decision-making questions regarding who makes decisions in spheres such as child-rearing, daily consumption, or major financial choices.",
+      "elements": {
+        "decision_making": false,
+        "economic_maintenance": true,
+        "labor_burden": false,
+        "property_asset_control": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "source_file": "framework/gender_survey_framework.html",
+  "dimension": "Structural androcentrism of the design",
+  "scaffold": {
+    "role": "You are a critical feminist economic analyst. Your expertise is the evaluation of household survey instruments for their capacity to support feminist economic research.\n\nFor this task, use the following operational definition. Feminist economic research treats gender as an analytical variable requiring disaggregation sufficient to identify structural asymmetries, requiring the capacity to identify intersecting inequalities, and requiring the recognition of unpaid and care work as an economic variable. Do not expand, reinterpret, or supplement this definition using external knowledge.\n\nTwo clarifications apply to this definition:\n\nDisaggregation. Sufficiency is a property of the survey design, not a judgement you make in the abstract. Report what the text establishes: which variables are collected, at what level of geographic or population detail results are declared representative, and any precision limits, sample sizes, or coefficients of variation the text states. Where the text states the domains for which estimates are valid, use those domains as the threshold. Where the text does not state them, record that the text does not state them.\n\nIntersecting inequalities. Do not classify an instrument as supporting the identification of intersecting inequalities merely because it collects multiple demographic characteristics. The text must indicate that these characteristics can be jointly analysed, or must otherwise establish that capability.\n\nYou are skeptical, precise, and evidence based. You do not infer good practice from the absence of bad practice. You never credit an instrument for a capability the provided text does not substantiate.",
+    "inputs": "Inputs. For this task you will be given documentation for a single survey. The documents supplied in this run are listed below, each preceded by a header that names its source type and file name. Only these document types are present. No other documentation for this survey is available to you.\n\nDocuments supplied:\n{documents}\n\nTreat the enclosed text as the only evidence. Do not use general knowledge about the survey, the institution, the country, or standard survey practice.\n\nWhere a section of the instrument has been supplied, treat it as complete. The absence of an item within a supplied section is direct evidence that the instrument does not contain that item. The questionnaire is the instrument itself, not a description of it.\n\nWhere the content addressed by an indicator would be documented in a document type that was not supplied in this run, state that in the reasoning field and leave the output fields empty.",
+    "constraints": "Evidence. Every statement you make must be supported by a verbatim quote from the supplied documents. Do not paraphrase in place of quoting. For each quote, state which document it comes from and where in that document it appears. Every assessment must include at least one quote. When the answer is negative, quote the passages you examined and set aside, or the section where the item would be expected, and explain in the reasoning why they do not meet the indicator. The only exception is an indicator whose evidence would be in a document, or a part of a document, that was not supplied in this run. In that case, say so in the reasoning and leave the quotes field empty.\n\nRecording, not judging. Record what the instrument does. Do not assess whether the choices it makes are appropriate, adequate, complete or exhaustive. That assessment is made outside this task. This applies to the response categories offered for sex or gender, the definition of household and of household head, the definition of work or economic activity, and the wording used to refer to respondents and their relationships. Quote these in full.\n\nAbsence. Do not treat the absence of a bad practice as the presence of good design. Do not credit an instrument for a capability the text does not substantiate.\n\nLanguage. Quote in the original language of the source. Write your analysis in English.\n\nScope. Address only the indicators listed in this task. Do not comment on other aspects of the instrument. Complete each indicator fully before starting the next one, and do not carry reasoning from one indicator to another. Each indicator is evaluated on its own evidence.",
+    "method": "Method. For each indicator listed in this task, in order:\n\na) Identify the indicator type: criterion, criterion_list, categorical or record.\nb) Search the supplied documents for passages that bear on the indicator.\nc) Quote the relevant passages verbatim, in the original language, with the document name and a location (question number, section heading or page marker). If the answer is negative, quote the passages you examined and set aside, or the section where the item would be expected, unless the exception stated under Evidence applies.\nd) Write the reasoning field: state what the quoted passages establish, and whether the conclusion is read directly from the text or follows from it.\ne) Produce the output for that indicator type:\n   criterion: state whether the proposition is true or false. If false, state whether the text explicitly excludes the item, mentions it but places it in a different category, or does not mention it at all.\n   criterion_list: state true or false for each element of the list, independently.\n   categorical: select one option from the list supplied. If none applies, leave the selection empty.\n   record: transcribe the content requested, verbatim.\nf) Do not assign an overall label, a score, or a verdict of adequacy. Labels are assigned outside this task.\n\nComplete steps a to f for one indicator before starting the next."
+  },
+  "source_codes": {
+    "C": "questionnaire / data collection instrument",
+    "M": "methodological notes and technical reports",
+    "G": "interviewer guides and manuals"
+  },
+  "subdimensions": [
+    {
+      "subdimension_id": "d1",
+      "tag": "Subdimension 1",
+      "title": "Gender-diverse disaggregation",
+      "variable": "Treatment of gender identities beyond the man/woman binary",
+      "indicators": [
+        {
+          "indicator_id": "d1_i1",
+          "source_code": "C",
+          "type": "criterion",
+          "text": "The instrument collects a sex variable."
+        },
+        {
+          "indicator_id": "d1_i2",
+          "source_code": "C",
+          "type": "criterion",
+          "text": "The instrument collects a gender identity variable."
+        },
+        {
+          "indicator_id": "d1_i3",
+          "source_code": "C+G",
+          "type": "record",
+          "text": "Instructions given to the interviewer for recording sex or gender, including any definition of sex or gender provided to the interviewer and any instruction included in the questionnaire. If no instruction is given, record that."
+        },
+        {
+          "indicator_id": "d1_i4",
+          "source_code": "C",
+          "type": "record",
+          "text": "Terms used to refer to respondents and to relationships within the household, as they appear in the wording of the questions and their response categories in the questionnaire, not in derived or recoded variables."
+        }
+      ]
+    },
+    {
+      "subdimension_id": "d2",
+      "tag": "Subdimension 2",
+      "title": "Care / unpaid care work coverage",
+      "variable": "Measurement of unpaid domestic and care work within the category of work",
+      "indicators": [
+        {
+          "indicator_id": "d2_i1",
+          "source_code": "C",
+          "type": "criterion",
+          "text": "The instrument includes a domestic or care work module, separate from the main questionnaire and containing more than two questions."
+        },
+        {
+          "indicator_id": "d2_i2",
+          "source_code": "C",
+          "type": "criterion_list",
+          "text": "Does the instrument ask about the responsibility for, the performance of and the magnitude of unpaid domestic and care work?",
+          "elements": [
+            "responsibility",
+            "performance",
+            "magnitude"
+          ],
+          "statements": [
+            "The instrument explicitly asks who is in charge of domestic or care work, that is, who anticipates what the household or its members need, plans or organises the tasks, decides how they are done or makes sure they are done. A direct question about who is responsible for these tasks also counts. A question about who carries out the tasks does not count, even if it asks who does most of them, and neither does a category of inactivity or a reason for not working.",
+            "The instrument explicitly asks whether a person carries out domestic or care tasks, or which person does so, including who usually does them or who does most of them, whether asked of each member or once for the whole household. A question that classifies the person's activity status, or that asks what the person did instead of working or seeking work, does not count, even if it asks directly whether the person does household chores. A category of inactivity or a reason for not working does not count either. Whether the instrument treats this work as economic activity does not matter for this statement.",
+            "The instrument records how much domestic or care work is done, as time or frequency, for one or more members. Hours of paid work do not count."
+          ]
+        },
+        {
+          "indicator_id": "d2_i3",
+          "source_code": "C",
+          "type": "criterion",
+          "text": "The definition of the activity category includes unpaid domestic and care work. Do not infer that unpaid domestic and care work is included merely from the presence of related questions or categories. Count it as included only where the text indicates that such work is measured, classified or analytically incorporated as economic activity."
+        },
+        {
+          "indicator_id": "d2_i4",
+          "source_code": "C",
+          "type": "criterion",
+          "text": "The instrument records domestic work for each person through its own questions, separately from the questions on main and secondary work, so that main work, secondary work and domestic work can be told apart for the same person. Recording only the time each person devotes to domestic work is enough. It does not matter whether domestic work is excluded from the questions on employment, as long as it is recorded separately for each person elsewhere in the instrument. Mentioning domestic work only as a category of inactivity or a reason for not working does not count, and neither does a single question asked once for the whole household."
+        },
+        {
+          "indicator_id": "d2_i5",
+          "source_code": "C",
+          "type": "criterion",
+          "text": "The instrument explicitly asks whether a person supervises or remains available to care for other household members, such as children, while doing other activities or without care being their main activity. Questions on availability for paid work do not count, and neither does care given as a reason for not working or for not working more hours."
+        }
+      ]
+    },
+    {
+      "subdimension_id": "d3",
+      "tag": "Subdimension 3",
+      "title": "Time use management",
+      "variable": "Capacity of the survey to capture the organisation of time across paid work, unpaid work, education and leisure",
+      "indicators": [
+        {
+          "indicator_id": "d3_i1",
+          "source_code": "C",
+          "type": "criterion",
+          "text": "The instrument asks how respondents allocate or spend their time across daily activities, recording the time devoted to more than one kind of activity. Questions that only record hours of paid work do not count."
+        },
+        {
+          "indicator_id": "d3_i2",
+          "source_code": "C",
+          "type": "criterion_list",
+          "text": "The statements refer to questions that record how respondents allocate their time across daily activities. If the instrument only records hours of paid work, with no time recorded for any other daily activity, all four statements are false.",
+          "elements": [
+            "paid work",
+            "unpaid work",
+            "leisure",
+            "self-care"
+          ],
+          "statements": [
+            "The instrument records the time a person devotes to paid work.",
+            "The instrument records the time a person devotes to unpaid domestic or care work.",
+            "The instrument records the time a person devotes to leisure.",
+            "The instrument records the time a person devotes to self-care, such as sleeping, eating or personal care."
+          ]
+        }
+      ]
+    },
+    {
+      "subdimension_id": "d4",
+      "tag": "Subdimension 4",
+      "title": "Household composition and headship",
+      "variable": "Reproduction of intra-household gender hierarchies",
+      "indicators": [
+        {
+          "indicator_id": "d4_i1",
+          "source_code": "M+G",
+          "type": "record",
+          "text": "Conceptual definition of household headship."
+        },
+        {
+          "indicator_id": "d4_i2",
+          "source_code": "C+G",
+          "type": "categorical",
+          "text": "Method for identifying the household head. \"Self-declared by the household\" means the head is the person the household members recognise as head. \"Designated by the respondent\" means the person answering names the head, with no reference to recognition by the other members. \"Assigned by an explicit criterion\" means the instrument sets a rule, such as being the main earner, the oldest member or the owner of the dwelling, and the criterion must be quoted. If the instrument does not establish a method, leave the selection empty.",
+          "options": [
+            "self-declared by the household",
+            "designated by the respondent",
+            "assigned by an explicit criterion"
+          ]
+        },
+        {
+          "indicator_id": "d4_i3",
+          "source_code": "C+M+G",
+          "type": "criterion_list",
+          "text": "In the instrument and its documentation, how is the person who anchors the household record identified, and who answers household-level questions?",
+          "elements": [
+            "neutral_anchor_term",
+            "explicit_selection_rule",
+            "rule_not_sex_age_authority",
+            "respondent_separate_or_any_adult"
+          ],
+          "statements": [
+            "The instrument does not use \"head of household\" as the category for identifying the anchor person, or it uses a neutral term (householder, reference person).",
+            "A rule for selecting the reference person or respondent is stated explicitly.",
+            "The instrument or its documentation states the criterion used to choose the reference person, and that criterion is not sex, seniority (choosing the oldest member) or presumed authority or breadwinner status, for example \"the man\", \"the eldest\" or \"the main earner\". A minimum age for answering the survey, or for answering on one's own behalf, is not a criterion for choosing the reference person and does not make this statement false.",
+            "The respondent to household-level questions is recorded separately from the reference person, or any knowledgeable adult may answer."
+          ]
+        },
+        {
+          "indicator_id": "d4_i4",
+          "source_code": "C",
+          "type": "criterion_list",
+          "text": "Does the instrument capture, separately and at member level, the following dimensions that \"headship\" usually collapses into one?",
+          "elements": [
+            "economic_maintenance",
+            "labor_burden",
+            "property_asset_control",
+            "decision_making"
+          ],
+          "statements": [
+            "Economic maintenance: income or support by member across all sources (wages, informal work, pensions, remittances).",
+            "Labor burden: hours in paid work and in unpaid domestic or care work by member.",
+            "Property and asset control: dwelling tenure, land, or asset ownership recorded by member, not imputed to the head.",
+            "Decision-making: questions on who decides, by sphere (child-rearing, daily consumption, major financial choices)."
+          ]
+        },
+        {
+          "indicator_id": "d4_i5",
+          "source_code": "C+M",
+          "type": "criterion_list",
+          "text": "How does the instrument record relationships between household members, and how does it delimit households and sub-units?",
+          "elements": [
+            "member_to_member_relationships",
+            "extended_ties",
+            "multiple_household_criteria",
+            "sub_units",
+            "caregiving_relationships"
+          ],
+          "statements": [
+            "Relationships are recorded member-to-member (triangular grid, or pointer variables such as mother's ID, father's ID, partner's ID), not only relative to the head.",
+            "Ties beyond spouse and parent–child can be identified (grandparent–grandchild, siblings, non-kin, same-sex partners).",
+            "Criteria for separating multiple households within one dwelling are stated.",
+            "Sub-units within a larger household (secondary families or nuclei) can be identified.",
+            "Caregiving relationships (who cares for whom, inside or across households) can be identified."
+          ]
+        },
+        {
+          "indicator_id": "d4_i6",
+          "source_code": "C",
+          "type": "criterion_list",
+          "text": "Can the instrument's variables distinguish types of female-headed and women-maintained households instead of treating them as one category?",
+          "elements": [
+            "de_jure_vs_de_facto",
+            "unpartnered_mother_child_units",
+            "women_maintained_by_provider",
+            "mother_child_unit_activity"
+          ],
+          "statements": [
+            "De jure vs de facto can be distinguished (marital status combined with partner presence or absence, migration, or remittance information).",
+            "Unpartnered mother–child units can be identified, including inside larger households.",
+            "Women-maintained households or units can be identified through the main provider, regardless of who is designated reference person.",
+            "The mother–child unit can be linked to its own consumption, production, or care activity (the observable proxy for the \"hearth-hold\")."
+          ]
+        }
+      ]
+    }
+  ]
+}

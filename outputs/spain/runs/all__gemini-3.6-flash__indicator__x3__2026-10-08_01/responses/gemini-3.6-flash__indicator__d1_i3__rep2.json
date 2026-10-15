@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i3",
+      "quotes": [
+        {
+          "text": "Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad",
+          "document": "[C] epacues21.pdf",
+          "location": "PANTALLA nº6"
+        }
+      ],
+      "reasoning": "The questionnaire includes the prompt 'Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad' on PANTALLA nº6, with 'SEXO' recorded using response options 'h/m'. No definitions of sex or gender are provided, and no specific instructions to the interviewer for recording sex or gender are given in the supplied document.",
+      "extracted_text": "Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "RELACIÓN DE PARENTESCO (Anote en el orden siguiente) Jefe/a Cónyuge/Pareja Hijo/a/Hijastro/a Yerno/Nuera Nieto/a Madre/Padre Suegro/a Hermano/a Otros Familiares No Familiares",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, Col. 03"
+        },
+        {
+          "text": "SEXO (Anote en cada caso) 1. varón 2. mujer",
+          "document": "[C] EPHContinua_CuestHogar.pdf",
+          "location": "Bloque IV, Col. 04"
+        },
+        {
+          "text": "3 ¿Quién es el jefe o jefa del hogar?",
+          "document": "[C] EPHContinua_CuestVivienda.pdf",
+          "location": "Bloque V, Pregunta 3"
+        }
+      ],
+      "reasoning": "The terms used in the questionnaire to refer to respondents and their household relationships are directly recorded in Bloque IV of the Household Questionnaire (EPHContinua_CuestHogar.pdf) and Bloque V of the Housing Questionnaire (EPHContinua_CuestVivienda.pdf). Column 03 of Bloque IV specifies relationships to the household head as: Jefe/a, Cónyuge/Pareja, Hijo/a/Hijastro/a, Yerno/Nuera, Nieto/a, Madre/Padre, Suegro/a, Hermano/a, Otros Familiares, No Familiares. Column 04 lists the options for sex as: 1. varón, 2. mujer. In addition, Bloque V, question 3 refers to 'el jefe o jefa del hogar'.",
+      "extracted_text": "RELACIÓN DE PARENTESCO: Jefe/a, Cónyuge/Pareja, Hijo/a/Hijastro/a, Yerno/Nuera, Nieto/a, Madre/Padre, Suegro/a, Hermano/a, Otros Familiares, No Familiares; SEXO: 1. varón, 2. mujer; Referencias al jefe: el jefe o jefa del hogar"
+    }
+  ]
+}

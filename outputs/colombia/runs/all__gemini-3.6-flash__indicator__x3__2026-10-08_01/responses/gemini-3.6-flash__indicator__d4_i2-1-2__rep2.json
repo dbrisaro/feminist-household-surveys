@@ -1,0 +1,10 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i2",
+      "quotes": [],
+      "reasoning": "The method and conceptual definition for identifying the household head (whether self-declared by the household, designated by the respondent, or assigned by explicit criteria) would be specified in an interviewer manual or methodological manual, which was not supplied in this run. The provided questionnaire document [C] includes relationship to household head in Chapter E, question 5 (\"¿Cuál es el parentesco de ... con el jefe o jefa del hogar?\") and notes an age threshold (\"No acepte como jefe(a) de hogar a persona menor de 15 años\"), but does not state the procedure or criteria by which the household head is identified.",
+      "selected": ""
+    }
+  ]
+}

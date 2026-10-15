@@ -1,0 +1,31 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d1_i4",
+      "quotes": [
+        {
+          "text": "Por favor, rellene y/o confirme su/s fecha/s de nacimiento, edad, sexo y nacionalidad",
+          "document": "[C] epacues21.pdf",
+          "location": "PANTALLA nº6, page 4"
+        },
+        {
+          "text": "SEXO h/m",
+          "document": "[C] epacues21.pdf",
+          "location": "PANTALLA nº6, page 4"
+        },
+        {
+          "text": "¿Cuál es su relación con la persona de referencia? RELPP\n1. Persona de referencia (p.r.)\n2. Cónyuge o pareja de la p.r.\n3. Hijo/a, hijastro/a (de la p.r. o de su pareja)\n4. Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a)\n5. Padre, madre de la p.r. o de su pareja (incluye padrastro/madrastra)\n6. Nieto/a, de la p.r. o pareja de los mismos (incluye nietastros/as de ambos)\n7. Abuelo/a de la p.r. (o pareja del mismo) (abuelastro/a de la p.r.)\n8. Suegro/a de la p.r. o pareja del mismo\n9. Hermano/a, hermanastro/a de la p.r.\n10. Otro pariente de la p.r. (o pareja del mismo)\n11. Persona del servicio doméstico\n12. Sin parentesco con la p.r.",
+          "document": "[C] epacues21.pdf",
+          "location": "RELPP, page 6"
+        },
+        {
+          "text": "5. De las personas relacionadas anteriormente, ¿alguna de ellas es su\n(Codificar 00 si no tiene o no reside en la vivienda)\n - conyuge o pareja? En tal caso, dígame su nombre: _______________________ NCONY\n - padre? En tal caso, dígame su nombre: _________________________________ NPADRE\n - madre? En tal caso , dígame su nombre: _________________________________ NMADRE",
+          "document": "[C] epacues21.pdf",
+          "location": "Sección A, Q5, page 7"
+        }
+      ],
+      "reasoning": "The survey instrument collects sex using a binary response category ('h/m' for hombre/mujer in Pantalla nº6). Household relationships are captured relative to a reference person (RELPP) using terms: 'Persona de referencia (p.r.)', 'Cónyuge o pareja de la p.r.', 'Hijo/a, hijastro/a (de la p.r. o de su pareja)', 'Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a)', 'Padre, madre de la p.r. o de su pareja (incluye padrastro/madrastra)', 'Nieto/a, de la p.r. o pareja de los mismos (incluye nietastros/as de ambos)', 'Abuelo/a de la p.r. (o pareja del mismo) (abuelastro/a de la p.r.)', 'Suegro/a de la p.r. o pareja del mismo', 'Hermano/a, hermanastro/a de la p.r.', 'Otro pariente de la p.r. (o pareja del mismo)', 'Persona del servicio doméstico', and 'Sin parentesco con la p.r.'. Furthermore, Section A Q5 captures household relationships directly using the terms 'conyuge o pareja', 'padre', and 'madre'.",
+      "extracted_text": "SEXO: h/m\nRELPP:\n1. Persona de referencia (p.r.)\n2. Cónyuge o pareja de la p.r.\n3. Hijo/a, hijastro/a (de la p.r. o de su pareja)\n4. Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a)\n5. Padre, madre de la p.r. o de su pareja (incluye padrastro/madrastra)\n6. Nieto/a, de la p.r. o pareja de los mismos (incluye nietastros/as de ambos)\n7. Abuelo/a de la p.r. (o pareja del mismo) (abuelastro/a de la p.r.)\n8. Suegro/a de la p.r. o pareja del mismo\n9. Hermano/a, hermanastro/a de la p.r.\n10. Otro pariente de la p.r. (o pareja del mismo)\n11. Persona del servicio doméstico\n12. Sin parentesco con la p.r.\nNCONY: conyuge o pareja\nNPADRE: padre\nNMADRE: madre"
+    }
+  ]
+}

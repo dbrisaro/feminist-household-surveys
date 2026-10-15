@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "Sin considerar los quehaceres del hogar, ¿trabajó algún día en la semana comprendida entre el [+NOM_DIA1_SEMREF+] 1 y el [+NOM_DIA7_SEMREF+] 7 de [+NOM_MES_SEMREF+]?",
+          "document": "[C] C_Cuestionario_seguimiento_2024.pdf",
+          "location": "f.1"
+        },
+        {
+          "text": "Sin considerar los quehaceres del hogar, ¿trabajó algún día en la semana comprendida entre el {+NOM_DIA1_SEMREF+} 1 y el {+NOM_DIA7_SEMREF+} 7 de {+NOM_MES_SEMREF+}?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.1"
+        },
+        {
+          "text": "… quien realiza los quehaceres del hogar?",
+          "document": "[C] C_Cuestionario_implantación_2024.pdf",
+          "location": "f.82"
+        }
+      ],
+      "reasoning": "The survey instrument explicitly excludes unpaid domestic work ('quehaceres del hogar') from the definition of work in question f.1 ('Sin considerar los quehaceres del hogar, ¿trabajó algún día...'). In addition, performing household chores is listed as an inactive or other activity status under module F.7 (f.82, 'quien realiza los quehaceres del hogar'). Therefore, unpaid domestic and care work is not included within the labor activity category.",
+      "value": false,
+      "exclusion_type": "explicit"
+    }
+  ]
+}

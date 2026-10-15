@@ -1,0 +1,37 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "5. ¿Qué parentesco tiene con la jefa o jefe del hogar? 1. JEFA O JEFE DEL HOGAR 2. ESPOSA/O O CONVIVIENTE O CONCUBINA(O) 3. HIJA O HIJO 4, HIJASTRA O HIJASTRO 5. NUERA O YERNO 6, NIETA O NIETO 7. HERMANA O HERMANO 8. CUÑADA O CUÑADO 9. MADRE O PADRE 10. SUEGRA O SUEGRO 11. ABUELA O ABUELO 12. OTRO PARIENTE 13. OTRO QUE NO ES PARIENTE 14. TRABAJADOR(A) DEL HOGAR CAMA ADENTRO Y SUS FAMILIARES",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE A, Pregunta 5, p. 2"
+        },
+        {
+          "text": "1. ¿Cuál es el nombre y apellido de cada una de las personas que residen en este hogar o los que estan ausentes por razones de trabajo, estudio u otros? (...) TOMAR EN CUENTA A LAS PERSONAS QUE AL MOMENTO DE LA ENTREVISTA SE ENCUENTRAN TEMPORALMENTE AUSENTES POR UN PERIODO MENOR A TRES MESES, POR TRABAJO, ESTUDIO, SALUD, VACACIONES U OTROS. TAMBIEN TOMAR EN CUENTA A LAS PERSONAS QUE SI SU RESIDENCIA ES MENOR A TRES MESES ESTAN DISPUESTAS A FIJAR SU RESIDENCIA HABITUAL EN ESA VIVIENDA.",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE A, Pregunta 1, p. 1"
+        },
+        {
+          "text": "14.¿Por qué razón no asiste actualmente? (...) 6. POR REALIZAR LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 1, PARTE B, Pregunta 14, p. 3"
+        },
+        {
+          "text": "6. Por qué no buscó trabajo? (...) 11. LABORES DE CASA/CUIDADO DE MIEMBROS DEL HOGAR",
+          "document": "[C] CUESTIONARIO V9_bol_partir del cuarto trimestre de 2024.pdf",
+          "location": "SECCIÓN 2, PARTE A, Pregunta 6, p. 4"
+        }
+      ],
+      "reasoning": "The elements are evaluated as follows based on the provided text:\n- member_to_member_relationships: False. Question 5 only records relationship relative to the household head (\"¿Qué parentesco tiene con la jefa o jefe del hogar?\"). There are no pointer variables (such as mother's ID, father's ID, spouse's ID) or triangular matrix to record direct member-to-member ties.\n- extended_ties: True. Question 5 offers explicit categories for extended family and non-kin relative to the head, including grandchildren (\"NIETA O NIETO\"), siblings (\"HERMANA O HERMANO\"), in-laws (\"CUÑADA O CUÑADO\", \"SUEGRA O SUEGRO\", \"NUERA O YERNO\"), grandparents (\"ABUELA O ABUELO\"), other relatives (\"OTRO PARIENTE\"), and non-relatives (\"OTRO QUE NO ES PARIENTE\").\n- multiple_household_criteria: False. The text establishes listing criteria based on residence and temporary absence, but does not provide criteria for separating multiple households sharing a single dwelling (such as separate food budget or cooking arrangements).\n- sub_units: False. Because relationships are captured solely in reference to the household head without pointer variables or family nucleus identifiers, secondary sub-units/family nuclei within the household cannot be identified.\n- caregiving_relationships: False. The instrument records caregiving responsibilities only as a categorical reason for school non-attendance or for not seeking/working additional hours, but does not capture caregiving relationships (who provides care to whom).",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": false,
+        "multiple_household_criteria": false,
+        "sub_units": false
+      }
+    }
+  ]
+}

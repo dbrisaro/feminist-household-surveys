@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i3",
+      "quotes": [
+        {
+          "text": "Durante los últimos 7 días ¿ha realizado algún trabajo ya sea como empleado, por cuenta propia, empleador (patrón) o como familiar no remunerado?",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte A, Q2"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar .........................3",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte A, Q5, Opción 3"
+        },
+        {
+          "text": "Se dedica exclusivamente a las labores del hogar ................................................................ 6",
+          "document": "[C] 2026/T1/95dc7-Cuestionario_EPHC_ 1er Trim 2026.pdf",
+          "location": "Sección 6, Parte A, Q8, Opción 6"
+        }
+      ],
+      "reasoning": "The survey defines economic activity/work as work performed as an employee, self-employed worker, employer, or unpaid family worker (Sección 6, Parte A, Q2). Unpaid domestic and care work is not included within this activity category. Instead, household tasks ('labores del hogar') are listed as response options for reasons for not being available to work (Q5) or not seeking work (Q8), placing them in the non-economic / inactivity category.",
+      "value": false,
+      "exclusion_type": "treated_as_other"
+    }
+  ]
+}

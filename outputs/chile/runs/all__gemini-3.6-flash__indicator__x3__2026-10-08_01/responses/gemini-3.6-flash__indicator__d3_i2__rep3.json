@@ -1,0 +1,21 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d3_i2",
+      "quotes": [
+        {
+          "text": "h3 Habitualmente, ¿cuántas horas y días trabaja a la semana? h3a Actividad principal Horas diarias Días Total horas",
+          "document": "[C] cuestionario-ene-2020.pdf",
+          "location": "SECCIÓN H, p. 13"
+        }
+      ],
+      "reasoning": "Section H of the survey records hours dedicated to paid employment (e.g., in question h3a). However, the questionnaire does not collect time allocation data for unpaid domestic or care work, leisure, or self-care. Per the indicator instructions, if the instrument only records hours of paid work with no time recorded for any other daily activity, all four statements are false.",
+      "elements": {
+        "leisure": false,
+        "paid work": false,
+        "self-care": false,
+        "unpaid work": false
+      }
+    }
+  ]
+}

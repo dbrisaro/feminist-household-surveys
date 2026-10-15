@@ -1,0 +1,27 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d2_i5",
+      "quotes": [
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QC29, p. 8"
+        },
+        {
+          "text": "• Si prende cura dei figli e/o di altri familiari non autosufficienti",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QF07, p. 14"
+        },
+        {
+          "text": "• Casalinga/o",
+          "document": "[C] 2025/METADATI/ISTAT_MFR_RCFL_Long3_Questionario_2025_Terzo_trimestre.pdf",
+          "location": "QJ01, p. 20"
+        }
+      ],
+      "reasoning": "The instrument mentions family care responsibilities only as a reason for working part-time (QC29) or for not seeking work (QF07), and mentions 'Casalinga/o' as a self-perceived status category (QJ01). Per the operational instructions, care given as a reason for not working or for not working more hours does not count. The questionnaire does not contain any question asking whether a person supervises or remains available to care for household members while engaged in other activities.",
+      "value": false,
+      "exclusion_type": "not_mentioned"
+    }
+  ]
+}

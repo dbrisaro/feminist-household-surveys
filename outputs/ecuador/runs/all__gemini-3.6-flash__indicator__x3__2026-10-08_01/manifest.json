@@ -1,0 +1,107 @@
+{
+  "run": "all__gemini-3.6-flash__indicator__x3__2026-10-08_01",
+  "note": "final run 2026-10-08, option B",
+  "planned_utc": "20261008T180908Z",
+  "provider": "google",
+  "country": "ecuador",
+  "settings": {
+    "model": [
+      "gemini-3.6-flash"
+    ],
+    "mode": [
+      "indicator"
+    ],
+    "effort": null,
+    "effort_note": "--effort medium accepted but not sent: the google API takes no equivalent parameter",
+    "repeat": 3,
+    "only": null,
+    "budget_usd": 2.6,
+    "api_key_var": "GEMINI_API_KEY_PAID",
+    "executed": true,
+    "max_tokens": {
+      "indicator": 4000
+    },
+    "thinking": null
+  },
+  "framework": {
+    "source_file": "Prompting/gender_survey_framework.html",
+    "n_indicators": 17
+  },
+  "corpus": {
+    "n_documents": 6,
+    "documents": [
+      {
+        "source_code": "C",
+        "doc": "C_202605_Formulario_ENEMDU.pdf",
+        "text_file": "data/processed/text/ecuador/C_202605_Formulario_ENEMDU.txt",
+        "chars": 215996,
+        "sha256": "2b3211bb9329df023e2fc57f2f7cbfe0138384ed759d4b952d51e038e0fefeab",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "G",
+        "doc": "202603_Manual_del_encuestador_ENEMDU_Marzo_2026.pdf",
+        "text_file": "data/processed/text/ecuador/202603_Manual_del_encuestador_ENEMDU_Marzo_2026.txt",
+        "chars": 588744,
+        "sha256": "21d3c86429c11282a773151e48d8d81f689b58cd6afd47d3399955fd08fd4775",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "3.%20REM-Empleo_condact.pdf",
+        "text_file": "data/processed/text/ecuador/3.%20REM-Empleo_condact.txt",
+        "chars": 129870,
+        "sha256": "471d09015d333b260995ba684e74d1b99a9385bfddad7d24db07b739fc9f69b1",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "M_4_REM-Actualizacion_metodologica_empleo_informal.pdf",
+        "text_file": "data/processed/text/ecuador/M_4_REM-Actualizacion_metodologica_empleo_informal.txt",
+        "chars": 43523,
+        "sha256": "52a87c8bd75841ddc2d1b74e355a00e882397d030b9626d8734a20c6372a4e72",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "M_202605_Metodologia_ENEMDU.pdf",
+        "text_file": "data/processed/text/ecuador/M_202605_Metodologia_ENEMDU.txt",
+        "chars": 115749,
+        "sha256": "92513221e3719510a4d18419b30e1e554c60ecb7dd2fb0a20d57cdf9851d9c04",
+        "part": 1,
+        "n_parts": 1
+      },
+      {
+        "source_code": "M",
+        "doc": "M_2026_I_trimestre_Metodologia_de_disenio_muestral.pdf",
+        "text_file": "data/processed/text/ecuador/M_2026_I_trimestre_Metodologia_de_disenio_muestral.txt",
+        "chars": 94434,
+        "sha256": "0eeef22703c6506e3151dfa9ca0db380d2464ba49c2fe314387de243aea5a232",
+        "part": 1,
+        "n_parts": 1
+      }
+    ]
+  },
+  "plan": {
+    "n_calls": 57,
+    "n_source_missing": 0,
+    "projected_input_usd": 2.4681,
+    "projected_worst_case_usd": 5.8881
+  },
+  "cost": {
+    "spent_usd": 1.618,
+    "notional_usd_on_paid_key": null,
+    "billing": "paid",
+    "requests_used": null,
+    "requests_per_day_limit": null,
+    "budget_usd": 2.6,
+    "n_calls_planned": 57,
+    "started_utc": "20261008T180908Z",
+    "finished_utc": "20261008T183412Z"
+  },
+  "command": "scripts/llm/run_eval_gemini.py --country ecuador --model gemini-3.6-flash --mode indicator --repeat 3 --billing paid --api-key-var GEMINI_API_KEY_PAID --max-output-tokens 16000 --budget-usd 2.60 --note final run 2026-10-08, option B --go"
+}

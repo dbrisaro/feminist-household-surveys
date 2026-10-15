@@ -1,0 +1,2545 @@
+country,period,unit_variable,unit,heads,female_heads
+peru,2024,UBIGEO (distrito),010101,147,66
+peru,2024,UBIGEO (distrito),010104,8,4
+peru,2024,UBIGEO (distrito),010106,8,2
+peru,2024,UBIGEO (distrito),010109,14,2
+peru,2024,UBIGEO (distrito),010110,25,8
+peru,2024,UBIGEO (distrito),010113,8,3
+peru,2024,UBIGEO (distrito),010114,16,6
+peru,2024,UBIGEO (distrito),010115,8,3
+peru,2024,UBIGEO (distrito),010117,6,3
+peru,2024,UBIGEO (distrito),010120,7,0
+peru,2024,UBIGEO (distrito),010201,77,25
+peru,2024,UBIGEO (distrito),010202,38,8
+peru,2024,UBIGEO (distrito),010203,11,5
+peru,2024,UBIGEO (distrito),010205,62,14
+peru,2024,UBIGEO (distrito),010206,14,2
+peru,2024,UBIGEO (distrito),010301,15,3
+peru,2024,UBIGEO (distrito),010306,22,3
+peru,2024,UBIGEO (distrito),010307,21,12
+peru,2024,UBIGEO (distrito),010311,8,2
+peru,2024,UBIGEO (distrito),010312,11,4
+peru,2024,UBIGEO (distrito),010401,62,13
+peru,2024,UBIGEO (distrito),010402,15,1
+peru,2024,UBIGEO (distrito),010403,43,7
+peru,2024,UBIGEO (distrito),010501,8,2
+peru,2024,UBIGEO (distrito),010502,18,2
+peru,2024,UBIGEO (distrito),010503,8,0
+peru,2024,UBIGEO (distrito),010504,14,3
+peru,2024,UBIGEO (distrito),010506,15,0
+peru,2024,UBIGEO (distrito),010507,7,1
+peru,2024,UBIGEO (distrito),010509,20,9
+peru,2024,UBIGEO (distrito),010512,14,1
+peru,2024,UBIGEO (distrito),010514,8,3
+peru,2024,UBIGEO (distrito),010515,8,3
+peru,2024,UBIGEO (distrito),010520,8,4
+peru,2024,UBIGEO (distrito),010521,21,6
+peru,2024,UBIGEO (distrito),010522,16,4
+peru,2024,UBIGEO (distrito),010523,8,1
+peru,2024,UBIGEO (distrito),010601,22,8
+peru,2024,UBIGEO (distrito),010602,8,3
+peru,2024,UBIGEO (distrito),010604,13,4
+peru,2024,UBIGEO (distrito),010605,16,2
+peru,2024,UBIGEO (distrito),010607,16,6
+peru,2024,UBIGEO (distrito),010608,8,2
+peru,2024,UBIGEO (distrito),010609,24,3
+peru,2024,UBIGEO (distrito),010611,7,2
+peru,2024,UBIGEO (distrito),010612,8,1
+peru,2024,UBIGEO (distrito),010701,135,52
+peru,2024,UBIGEO (distrito),010702,69,22
+peru,2024,UBIGEO (distrito),010703,21,6
+peru,2024,UBIGEO (distrito),010704,16,5
+peru,2024,UBIGEO (distrito),010705,32,4
+peru,2024,UBIGEO (distrito),010706,18,2
+peru,2024,UBIGEO (distrito),010707,11,0
+peru,2024,UBIGEO (distrito),020101,72,25
+peru,2024,UBIGEO (distrito),020102,8,2
+peru,2024,UBIGEO (distrito),020105,99,42
+peru,2024,UBIGEO (distrito),020108,15,3
+peru,2024,UBIGEO (distrito),020110,8,2
+peru,2024,UBIGEO (distrito),020111,8,1
+peru,2024,UBIGEO (distrito),020112,15,2
+peru,2024,UBIGEO (distrito),020202,16,4
+peru,2024,UBIGEO (distrito),020205,8,2
+peru,2024,UBIGEO (distrito),020302,16,4
+peru,2024,UBIGEO (distrito),020305,8,2
+peru,2024,UBIGEO (distrito),020402,16,7
+peru,2024,UBIGEO (distrito),020504,8,2
+peru,2024,UBIGEO (distrito),020508,6,2
+peru,2024,UBIGEO (distrito),020509,7,4
+peru,2024,UBIGEO (distrito),020511,7,1
+peru,2024,UBIGEO (distrito),020601,28,12
+peru,2024,UBIGEO (distrito),020604,8,3
+peru,2024,UBIGEO (distrito),020605,8,3
+peru,2024,UBIGEO (distrito),020606,7,3
+peru,2024,UBIGEO (distrito),020701,14,3
+peru,2024,UBIGEO (distrito),020702,16,9
+peru,2024,UBIGEO (distrito),020703,7,2
+peru,2024,UBIGEO (distrito),020801,56,23
+peru,2024,UBIGEO (distrito),020802,6,3
+peru,2024,UBIGEO (distrito),020804,16,3
+peru,2024,UBIGEO (distrito),020901,8,1
+peru,2024,UBIGEO (distrito),021001,5,2
+peru,2024,UBIGEO (distrito),021003,8,3
+peru,2024,UBIGEO (distrito),021004,13,6
+peru,2024,UBIGEO (distrito),021005,8,1
+peru,2024,UBIGEO (distrito),021007,16,3
+peru,2024,UBIGEO (distrito),021008,8,0
+peru,2024,UBIGEO (distrito),021014,8,4
+peru,2024,UBIGEO (distrito),021101,32,12
+peru,2024,UBIGEO (distrito),021103,8,3
+peru,2024,UBIGEO (distrito),021104,8,1
+peru,2024,UBIGEO (distrito),021105,6,1
+peru,2024,UBIGEO (distrito),021201,42,19
+peru,2024,UBIGEO (distrito),021203,6,2
+peru,2024,UBIGEO (distrito),021205,8,1
+peru,2024,UBIGEO (distrito),021206,8,2
+peru,2024,UBIGEO (distrito),021301,8,1
+peru,2024,UBIGEO (distrito),021302,8,3
+peru,2024,UBIGEO (distrito),021307,8,1
+peru,2024,UBIGEO (distrito),021308,8,2
+peru,2024,UBIGEO (distrito),021402,8,3
+peru,2024,UBIGEO (distrito),021406,8,2
+peru,2024,UBIGEO (distrito),021407,8,2
+peru,2024,UBIGEO (distrito),021501,8,3
+peru,2024,UBIGEO (distrito),021502,7,0
+peru,2024,UBIGEO (distrito),021503,13,3
+peru,2024,UBIGEO (distrito),021509,6,3
+peru,2024,UBIGEO (distrito),021601,16,6
+peru,2024,UBIGEO (distrito),021603,7,2
+peru,2024,UBIGEO (distrito),021604,6,2
+peru,2024,UBIGEO (distrito),021701,5,2
+peru,2024,UBIGEO (distrito),021707,5,2
+peru,2024,UBIGEO (distrito),021709,8,1
+peru,2024,UBIGEO (distrito),021801,195,79
+peru,2024,UBIGEO (distrito),021802,6,0
+peru,2024,UBIGEO (distrito),021803,12,5
+peru,2024,UBIGEO (distrito),021805,22,4
+peru,2024,UBIGEO (distrito),021806,11,4
+peru,2024,UBIGEO (distrito),021807,6,2
+peru,2024,UBIGEO (distrito),021808,20,10
+peru,2024,UBIGEO (distrito),021809,182,85
+peru,2024,UBIGEO (distrito),021901,10,5
+peru,2024,UBIGEO (distrito),021906,8,2
+peru,2024,UBIGEO (distrito),021908,7,1
+peru,2024,UBIGEO (distrito),021909,16,4
+peru,2024,UBIGEO (distrito),022001,26,7
+peru,2024,UBIGEO (distrito),022002,15,3
+peru,2024,UBIGEO (distrito),022003,6,2
+peru,2024,UBIGEO (distrito),022005,23,5
+peru,2024,UBIGEO (distrito),022006,8,1
+peru,2024,UBIGEO (distrito),022008,8,2
+peru,2024,UBIGEO (distrito),030101,121,50
+peru,2024,UBIGEO (distrito),030102,8,3
+peru,2024,UBIGEO (distrito),030103,8,1
+peru,2024,UBIGEO (distrito),030104,32,9
+peru,2024,UBIGEO (distrito),030105,8,1
+peru,2024,UBIGEO (distrito),030107,8,2
+peru,2024,UBIGEO (distrito),030108,16,5
+peru,2024,UBIGEO (distrito),030109,26,13
+peru,2024,UBIGEO (distrito),030201,68,30
+peru,2024,UBIGEO (distrito),030202,15,2
+peru,2024,UBIGEO (distrito),030203,5,1
+peru,2024,UBIGEO (distrito),030204,28,8
+peru,2024,UBIGEO (distrito),030205,14,3
+peru,2024,UBIGEO (distrito),030206,8,3
+peru,2024,UBIGEO (distrito),030207,8,2
+peru,2024,UBIGEO (distrito),030208,8,1
+peru,2024,UBIGEO (distrito),030209,24,6
+peru,2024,UBIGEO (distrito),030210,8,2
+peru,2024,UBIGEO (distrito),030211,8,2
+peru,2024,UBIGEO (distrito),030212,8,1
+peru,2024,UBIGEO (distrito),030213,34,11
+peru,2024,UBIGEO (distrito),030215,19,5
+peru,2024,UBIGEO (distrito),030216,34,12
+peru,2024,UBIGEO (distrito),030218,8,2
+peru,2024,UBIGEO (distrito),030220,5,1
+peru,2024,UBIGEO (distrito),030301,14,7
+peru,2024,UBIGEO (distrito),030302,8,1
+peru,2024,UBIGEO (distrito),030303,8,2
+peru,2024,UBIGEO (distrito),030304,8,2
+peru,2024,UBIGEO (distrito),030306,8,3
+peru,2024,UBIGEO (distrito),030401,20,12
+peru,2024,UBIGEO (distrito),030402,8,3
+peru,2024,UBIGEO (distrito),030404,8,0
+peru,2024,UBIGEO (distrito),030406,8,2
+peru,2024,UBIGEO (distrito),030410,8,3
+peru,2024,UBIGEO (distrito),030411,8,2
+peru,2024,UBIGEO (distrito),030414,5,2
+peru,2024,UBIGEO (distrito),030415,15,2
+peru,2024,UBIGEO (distrito),030416,8,4
+peru,2024,UBIGEO (distrito),030501,19,5
+peru,2024,UBIGEO (distrito),030502,16,7
+peru,2024,UBIGEO (distrito),030503,16,4
+peru,2024,UBIGEO (distrito),030504,16,4
+peru,2024,UBIGEO (distrito),030505,6,2
+peru,2024,UBIGEO (distrito),030506,25,7
+peru,2024,UBIGEO (distrito),030601,8,2
+peru,2024,UBIGEO (distrito),030602,25,10
+peru,2024,UBIGEO (distrito),030603,7,2
+peru,2024,UBIGEO (distrito),030604,22,5
+peru,2024,UBIGEO (distrito),030605,14,4
+peru,2024,UBIGEO (distrito),030606,8,3
+peru,2024,UBIGEO (distrito),030608,8,4
+peru,2024,UBIGEO (distrito),030609,16,2
+peru,2024,UBIGEO (distrito),030702,8,3
+peru,2024,UBIGEO (distrito),030703,8,0
+peru,2024,UBIGEO (distrito),030707,6,2
+peru,2024,UBIGEO (distrito),030708,8,3
+peru,2024,UBIGEO (distrito),030712,7,3
+peru,2024,UBIGEO (distrito),030713,7,0
+peru,2024,UBIGEO (distrito),040101,39,18
+peru,2024,UBIGEO (distrito),040102,70,30
+peru,2024,UBIGEO (distrito),040103,66,21
+peru,2024,UBIGEO (distrito),040104,193,78
+peru,2024,UBIGEO (distrito),040105,6,2
+peru,2024,UBIGEO (distrito),040106,8,1
+peru,2024,UBIGEO (distrito),040107,28,8
+peru,2024,UBIGEO (distrito),040108,59,23
+peru,2024,UBIGEO (distrito),040109,58,32
+peru,2024,UBIGEO (distrito),040110,47,19
+peru,2024,UBIGEO (distrito),040111,17,7
+peru,2024,UBIGEO (distrito),040112,81,46
+peru,2024,UBIGEO (distrito),040115,10,4
+peru,2024,UBIGEO (distrito),040116,6,3
+peru,2024,UBIGEO (distrito),040117,19,9
+peru,2024,UBIGEO (distrito),040119,3,2
+peru,2024,UBIGEO (distrito),040121,6,3
+peru,2024,UBIGEO (distrito),040122,55,20
+peru,2024,UBIGEO (distrito),040123,13,5
+peru,2024,UBIGEO (distrito),040124,12,3
+peru,2024,UBIGEO (distrito),040125,16,7
+peru,2024,UBIGEO (distrito),040126,26,7
+peru,2024,UBIGEO (distrito),040127,8,1
+peru,2024,UBIGEO (distrito),040128,100,44
+peru,2024,UBIGEO (distrito),040129,59,20
+peru,2024,UBIGEO (distrito),040201,11,3
+peru,2024,UBIGEO (distrito),040202,12,3
+peru,2024,UBIGEO (distrito),040203,8,4
+peru,2024,UBIGEO (distrito),040204,6,1
+peru,2024,UBIGEO (distrito),040206,14,5
+peru,2024,UBIGEO (distrito),040207,6,4
+peru,2024,UBIGEO (distrito),040208,15,5
+peru,2024,UBIGEO (distrito),040301,6,3
+peru,2024,UBIGEO (distrito),040302,8,1
+peru,2024,UBIGEO (distrito),040303,11,5
+peru,2024,UBIGEO (distrito),040305,11,3
+peru,2024,UBIGEO (distrito),040306,7,2
+peru,2024,UBIGEO (distrito),040307,11,4
+peru,2024,UBIGEO (distrito),040309,8,1
+peru,2024,UBIGEO (distrito),040311,8,5
+peru,2024,UBIGEO (distrito),040312,14,3
+peru,2024,UBIGEO (distrito),040401,18,6
+peru,2024,UBIGEO (distrito),040404,8,2
+peru,2024,UBIGEO (distrito),040406,8,1
+peru,2024,UBIGEO (distrito),040407,7,4
+peru,2024,UBIGEO (distrito),040408,8,5
+peru,2024,UBIGEO (distrito),040409,10,4
+peru,2024,UBIGEO (distrito),040413,8,4
+peru,2024,UBIGEO (distrito),040501,7,5
+peru,2024,UBIGEO (distrito),040504,4,1
+peru,2024,UBIGEO (distrito),040508,8,0
+peru,2024,UBIGEO (distrito),040509,8,2
+peru,2024,UBIGEO (distrito),040511,16,5
+peru,2024,UBIGEO (distrito),040513,4,3
+peru,2024,UBIGEO (distrito),040517,8,3
+peru,2024,UBIGEO (distrito),040519,8,1
+peru,2024,UBIGEO (distrito),040520,104,48
+peru,2024,UBIGEO (distrito),040603,8,1
+peru,2024,UBIGEO (distrito),040608,14,7
+peru,2024,UBIGEO (distrito),040701,22,13
+peru,2024,UBIGEO (distrito),040702,6,4
+peru,2024,UBIGEO (distrito),040703,9,4
+peru,2024,UBIGEO (distrito),040705,8,4
+peru,2024,UBIGEO (distrito),040706,6,4
+peru,2024,UBIGEO (distrito),040801,14,6
+peru,2024,UBIGEO (distrito),040802,8,4
+peru,2024,UBIGEO (distrito),040807,8,2
+peru,2024,UBIGEO (distrito),040809,8,0
+peru,2024,UBIGEO (distrito),050101,134,57
+peru,2024,UBIGEO (distrito),050102,16,4
+peru,2024,UBIGEO (distrito),050103,23,8
+peru,2024,UBIGEO (distrito),050104,49,25
+peru,2024,UBIGEO (distrito),050105,14,5
+peru,2024,UBIGEO (distrito),050106,6,1
+peru,2024,UBIGEO (distrito),050107,8,4
+peru,2024,UBIGEO (distrito),050108,14,6
+peru,2024,UBIGEO (distrito),050110,49,22
+peru,2024,UBIGEO (distrito),050111,6,1
+peru,2024,UBIGEO (distrito),050114,36,14
+peru,2024,UBIGEO (distrito),050115,16,10
+peru,2024,UBIGEO (distrito),050116,38,15
+peru,2024,UBIGEO (distrito),050201,14,6
+peru,2024,UBIGEO (distrito),050202,22,6
+peru,2024,UBIGEO (distrito),050203,16,6
+peru,2024,UBIGEO (distrito),050205,14,2
+peru,2024,UBIGEO (distrito),050206,8,4
+peru,2024,UBIGEO (distrito),050301,18,6
+peru,2024,UBIGEO (distrito),050303,8,4
+peru,2024,UBIGEO (distrito),050304,8,3
+peru,2024,UBIGEO (distrito),050401,56,34
+peru,2024,UBIGEO (distrito),050402,8,4
+peru,2024,UBIGEO (distrito),050403,24,7
+peru,2024,UBIGEO (distrito),050405,8,4
+peru,2024,UBIGEO (distrito),050406,8,2
+peru,2024,UBIGEO (distrito),050407,13,2
+peru,2024,UBIGEO (distrito),050408,13,6
+peru,2024,UBIGEO (distrito),050409,8,2
+peru,2024,UBIGEO (distrito),050410,8,0
+peru,2024,UBIGEO (distrito),050501,27,4
+peru,2024,UBIGEO (distrito),050502,18,3
+peru,2024,UBIGEO (distrito),050503,16,5
+peru,2024,UBIGEO (distrito),050505,8,2
+peru,2024,UBIGEO (distrito),050507,19,7
+peru,2024,UBIGEO (distrito),050508,17,4
+peru,2024,UBIGEO (distrito),050509,13,6
+peru,2024,UBIGEO (distrito),050510,16,5
+peru,2024,UBIGEO (distrito),050601,32,12
+peru,2024,UBIGEO (distrito),050603,6,4
+peru,2024,UBIGEO (distrito),050605,8,3
+peru,2024,UBIGEO (distrito),050606,16,6
+peru,2024,UBIGEO (distrito),050610,8,3
+peru,2024,UBIGEO (distrito),050612,16,4
+peru,2024,UBIGEO (distrito),050613,8,2
+peru,2024,UBIGEO (distrito),050615,8,5
+peru,2024,UBIGEO (distrito),050616,6,1
+peru,2024,UBIGEO (distrito),050619,11,1
+peru,2024,UBIGEO (distrito),050701,26,10
+peru,2024,UBIGEO (distrito),050702,16,9
+peru,2024,UBIGEO (distrito),050705,5,1
+peru,2024,UBIGEO (distrito),050801,11,5
+peru,2024,UBIGEO (distrito),050803,8,3
+peru,2024,UBIGEO (distrito),050804,5,1
+peru,2024,UBIGEO (distrito),050805,8,7
+peru,2024,UBIGEO (distrito),050806,8,5
+peru,2024,UBIGEO (distrito),050903,7,1
+peru,2024,UBIGEO (distrito),050906,8,2
+peru,2024,UBIGEO (distrito),050908,8,2
+peru,2024,UBIGEO (distrito),051001,8,4
+peru,2024,UBIGEO (distrito),051002,15,8
+peru,2024,UBIGEO (distrito),051004,16,2
+peru,2024,UBIGEO (distrito),051005,13,4
+peru,2024,UBIGEO (distrito),051006,8,3
+peru,2024,UBIGEO (distrito),051012,16,4
+peru,2024,UBIGEO (distrito),051101,12,3
+peru,2024,UBIGEO (distrito),051105,14,5
+peru,2024,UBIGEO (distrito),051106,16,6
+peru,2024,UBIGEO (distrito),051108,16,5
+peru,2024,UBIGEO (distrito),060101,183,69
+peru,2024,UBIGEO (distrito),060102,14,2
+peru,2024,UBIGEO (distrito),060103,7,2
+peru,2024,UBIGEO (distrito),060104,8,1
+peru,2024,UBIGEO (distrito),060105,16,2
+peru,2024,UBIGEO (distrito),060106,20,5
+peru,2024,UBIGEO (distrito),060107,16,5
+peru,2024,UBIGEO (distrito),060108,58,16
+peru,2024,UBIGEO (distrito),060109,16,7
+peru,2024,UBIGEO (distrito),060111,8,2
+peru,2024,UBIGEO (distrito),060201,29,10
+peru,2024,UBIGEO (distrito),060202,16,7
+peru,2024,UBIGEO (distrito),060203,29,9
+peru,2024,UBIGEO (distrito),060301,31,9
+peru,2024,UBIGEO (distrito),060302,8,3
+peru,2024,UBIGEO (distrito),060303,8,1
+peru,2024,UBIGEO (distrito),060304,16,2
+peru,2024,UBIGEO (distrito),060307,7,0
+peru,2024,UBIGEO (distrito),060308,8,1
+peru,2024,UBIGEO (distrito),060309,14,2
+peru,2024,UBIGEO (distrito),060310,8,4
+peru,2024,UBIGEO (distrito),060311,8,3
+peru,2024,UBIGEO (distrito),060401,58,21
+peru,2024,UBIGEO (distrito),060402,8,0
+peru,2024,UBIGEO (distrito),060407,8,4
+peru,2024,UBIGEO (distrito),060408,8,1
+peru,2024,UBIGEO (distrito),060409,8,0
+peru,2024,UBIGEO (distrito),060410,20,9
+peru,2024,UBIGEO (distrito),060411,14,2
+peru,2024,UBIGEO (distrito),060413,8,1
+peru,2024,UBIGEO (distrito),060415,8,4
+peru,2024,UBIGEO (distrito),060417,15,5
+peru,2024,UBIGEO (distrito),060418,8,0
+peru,2024,UBIGEO (distrito),060419,16,4
+peru,2024,UBIGEO (distrito),060504,8,2
+peru,2024,UBIGEO (distrito),060505,15,4
+peru,2024,UBIGEO (distrito),060507,8,0
+peru,2024,UBIGEO (distrito),060508,6,2
+peru,2024,UBIGEO (distrito),060601,56,21
+peru,2024,UBIGEO (distrito),060602,8,4
+peru,2024,UBIGEO (distrito),060604,14,1
+peru,2024,UBIGEO (distrito),060606,8,1
+peru,2024,UBIGEO (distrito),060607,15,3
+peru,2024,UBIGEO (distrito),060610,7,1
+peru,2024,UBIGEO (distrito),060614,14,4
+peru,2024,UBIGEO (distrito),060701,99,40
+peru,2024,UBIGEO (distrito),060703,14,6
+peru,2024,UBIGEO (distrito),060801,93,32
+peru,2024,UBIGEO (distrito),060802,20,4
+peru,2024,UBIGEO (distrito),060803,7,0
+peru,2024,UBIGEO (distrito),060805,8,1
+peru,2024,UBIGEO (distrito),060807,7,2
+peru,2024,UBIGEO (distrito),060808,14,8
+peru,2024,UBIGEO (distrito),060810,15,5
+peru,2024,UBIGEO (distrito),060812,8,1
+peru,2024,UBIGEO (distrito),060901,35,7
+peru,2024,UBIGEO (distrito),060902,16,3
+peru,2024,UBIGEO (distrito),060903,12,1
+peru,2024,UBIGEO (distrito),060904,28,6
+peru,2024,UBIGEO (distrito),060905,8,0
+peru,2024,UBIGEO (distrito),060906,7,1
+peru,2024,UBIGEO (distrito),060907,16,9
+peru,2024,UBIGEO (distrito),061001,26,6
+peru,2024,UBIGEO (distrito),061004,8,3
+peru,2024,UBIGEO (distrito),061006,8,0
+peru,2024,UBIGEO (distrito),061007,15,4
+peru,2024,UBIGEO (distrito),061101,13,5
+peru,2024,UBIGEO (distrito),061103,15,6
+peru,2024,UBIGEO (distrito),061105,8,3
+peru,2024,UBIGEO (distrito),061110,8,3
+peru,2024,UBIGEO (distrito),061111,8,1
+peru,2024,UBIGEO (distrito),061113,8,2
+peru,2024,UBIGEO (distrito),061201,29,14
+peru,2024,UBIGEO (distrito),061301,20,7
+peru,2024,UBIGEO (distrito),061305,6,1
+peru,2024,UBIGEO (distrito),061307,8,1
+peru,2024,UBIGEO (distrito),061309,8,0
+peru,2024,UBIGEO (distrito),061310,8,0
+peru,2024,UBIGEO (distrito),070101,423,172
+peru,2024,UBIGEO (distrito),070102,95,47
+peru,2024,UBIGEO (distrito),070103,37,23
+peru,2024,UBIGEO (distrito),070104,68,24
+peru,2024,UBIGEO (distrito),070106,356,169
+peru,2024,UBIGEO (distrito),070107,48,19
+peru,2024,UBIGEO (distrito),080101,78,28
+peru,2024,UBIGEO (distrito),080104,35,16
+peru,2024,UBIGEO (distrito),080105,91,47
+peru,2024,UBIGEO (distrito),080106,71,34
+peru,2024,UBIGEO (distrito),080108,43,12
+peru,2024,UBIGEO (distrito),080201,17,5
+peru,2024,UBIGEO (distrito),080202,8,3
+peru,2024,UBIGEO (distrito),080205,4,1
+peru,2024,UBIGEO (distrito),080206,8,5
+peru,2024,UBIGEO (distrito),080301,21,3
+peru,2024,UBIGEO (distrito),080302,8,2
+peru,2024,UBIGEO (distrito),080305,12,3
+peru,2024,UBIGEO (distrito),080306,8,3
+peru,2024,UBIGEO (distrito),080307,8,1
+peru,2024,UBIGEO (distrito),080308,8,3
+peru,2024,UBIGEO (distrito),080401,16,6
+peru,2024,UBIGEO (distrito),080403,11,5
+peru,2024,UBIGEO (distrito),080404,8,3
+peru,2024,UBIGEO (distrito),080405,8,2
+peru,2024,UBIGEO (distrito),080407,8,1
+peru,2024,UBIGEO (distrito),080408,14,5
+peru,2024,UBIGEO (distrito),080501,12,2
+peru,2024,UBIGEO (distrito),080502,8,2
+peru,2024,UBIGEO (distrito),080503,8,3
+peru,2024,UBIGEO (distrito),080505,24,8
+peru,2024,UBIGEO (distrito),080601,54,19
+peru,2024,UBIGEO (distrito),080602,8,5
+peru,2024,UBIGEO (distrito),080604,18,8
+peru,2024,UBIGEO (distrito),080608,19,9
+peru,2024,UBIGEO (distrito),080701,35,5
+peru,2024,UBIGEO (distrito),080702,14,3
+peru,2024,UBIGEO (distrito),080703,14,5
+peru,2024,UBIGEO (distrito),080705,12,1
+peru,2024,UBIGEO (distrito),080706,8,4
+peru,2024,UBIGEO (distrito),080708,6,1
+peru,2024,UBIGEO (distrito),080801,40,12
+peru,2024,UBIGEO (distrito),080802,7,4
+peru,2024,UBIGEO (distrito),080803,16,4
+peru,2024,UBIGEO (distrito),080805,12,3
+peru,2024,UBIGEO (distrito),080806,15,2
+peru,2024,UBIGEO (distrito),080807,5,0
+peru,2024,UBIGEO (distrito),080901,40,15
+peru,2024,UBIGEO (distrito),080902,36,5
+peru,2024,UBIGEO (distrito),080903,8,3
+peru,2024,UBIGEO (distrito),080905,8,2
+peru,2024,UBIGEO (distrito),080906,16,6
+peru,2024,UBIGEO (distrito),080907,6,3
+peru,2024,UBIGEO (distrito),080908,8,2
+peru,2024,UBIGEO (distrito),080909,12,1
+peru,2024,UBIGEO (distrito),080910,18,6
+peru,2024,UBIGEO (distrito),080912,8,1
+peru,2024,UBIGEO (distrito),080913,8,1
+peru,2024,UBIGEO (distrito),081001,8,1
+peru,2024,UBIGEO (distrito),081002,8,1
+peru,2024,UBIGEO (distrito),081005,7,3
+peru,2024,UBIGEO (distrito),081006,8,2
+peru,2024,UBIGEO (distrito),081008,7,3
+peru,2024,UBIGEO (distrito),081101,21,7
+peru,2024,UBIGEO (distrito),081103,8,2
+peru,2024,UBIGEO (distrito),081104,7,5
+peru,2024,UBIGEO (distrito),081105,7,1
+peru,2024,UBIGEO (distrito),081106,8,0
+peru,2024,UBIGEO (distrito),081201,20,5
+peru,2024,UBIGEO (distrito),081202,6,2
+peru,2024,UBIGEO (distrito),081205,16,3
+peru,2024,UBIGEO (distrito),081208,5,1
+peru,2024,UBIGEO (distrito),081209,8,3
+peru,2024,UBIGEO (distrito),081210,13,6
+peru,2024,UBIGEO (distrito),081211,6,1
+peru,2024,UBIGEO (distrito),081212,16,6
+peru,2024,UBIGEO (distrito),081301,19,6
+peru,2024,UBIGEO (distrito),081302,14,1
+peru,2024,UBIGEO (distrito),081303,8,0
+peru,2024,UBIGEO (distrito),081305,8,5
+peru,2024,UBIGEO (distrito),081306,14,4
+peru,2024,UBIGEO (distrito),090101,108,50
+peru,2024,UBIGEO (distrito),090102,8,3
+peru,2024,UBIGEO (distrito),090103,60,21
+peru,2024,UBIGEO (distrito),090105,8,4
+peru,2024,UBIGEO (distrito),090107,6,4
+peru,2024,UBIGEO (distrito),090110,8,2
+peru,2024,UBIGEO (distrito),090112,8,2
+peru,2024,UBIGEO (distrito),090113,8,1
+peru,2024,UBIGEO (distrito),090116,6,2
+peru,2024,UBIGEO (distrito),090117,37,11
+peru,2024,UBIGEO (distrito),090118,40,14
+peru,2024,UBIGEO (distrito),090119,13,1
+peru,2024,UBIGEO (distrito),090201,26,9
+peru,2024,UBIGEO (distrito),090202,16,4
+peru,2024,UBIGEO (distrito),090203,31,4
+peru,2024,UBIGEO (distrito),090204,16,8
+peru,2024,UBIGEO (distrito),090206,21,7
+peru,2024,UBIGEO (distrito),090207,7,3
+peru,2024,UBIGEO (distrito),090208,8,2
+peru,2024,UBIGEO (distrito),090301,52,19
+peru,2024,UBIGEO (distrito),090302,8,3
+peru,2024,UBIGEO (distrito),090303,16,3
+peru,2024,UBIGEO (distrito),090306,24,9
+peru,2024,UBIGEO (distrito),090308,8,3
+peru,2024,UBIGEO (distrito),090310,7,3
+peru,2024,UBIGEO (distrito),090312,23,7
+peru,2024,UBIGEO (distrito),090401,22,10
+peru,2024,UBIGEO (distrito),090402,15,5
+peru,2024,UBIGEO (distrito),090407,7,1
+peru,2024,UBIGEO (distrito),090409,8,1
+peru,2024,UBIGEO (distrito),090412,8,3
+peru,2024,UBIGEO (distrito),090501,22,8
+peru,2024,UBIGEO (distrito),090502,23,7
+peru,2024,UBIGEO (distrito),090503,8,2
+peru,2024,UBIGEO (distrito),090504,8,2
+peru,2024,UBIGEO (distrito),090506,8,3
+peru,2024,UBIGEO (distrito),090507,8,2
+peru,2024,UBIGEO (distrito),090509,15,7
+peru,2024,UBIGEO (distrito),090510,6,1
+peru,2024,UBIGEO (distrito),090601,8,1
+peru,2024,UBIGEO (distrito),090602,8,3
+peru,2024,UBIGEO (distrito),090603,6,1
+peru,2024,UBIGEO (distrito),090604,7,3
+peru,2024,UBIGEO (distrito),090606,16,6
+peru,2024,UBIGEO (distrito),090607,6,4
+peru,2024,UBIGEO (distrito),090609,8,2
+peru,2024,UBIGEO (distrito),090613,12,4
+peru,2024,UBIGEO (distrito),090701,31,11
+peru,2024,UBIGEO (distrito),090702,7,1
+peru,2024,UBIGEO (distrito),090703,8,2
+peru,2024,UBIGEO (distrito),090704,14,6
+peru,2024,UBIGEO (distrito),090705,23,9
+peru,2024,UBIGEO (distrito),090706,28,9
+peru,2024,UBIGEO (distrito),090707,8,2
+peru,2024,UBIGEO (distrito),090710,8,1
+peru,2024,UBIGEO (distrito),090711,27,7
+peru,2024,UBIGEO (distrito),090714,16,6
+peru,2024,UBIGEO (distrito),090715,8,3
+peru,2024,UBIGEO (distrito),090717,16,4
+peru,2024,UBIGEO (distrito),090718,8,1
+peru,2024,UBIGEO (distrito),090719,16,3
+peru,2024,UBIGEO (distrito),090720,8,1
+peru,2024,UBIGEO (distrito),090721,6,0
+peru,2024,UBIGEO (distrito),090723,8,1
+peru,2024,UBIGEO (distrito),100101,131,57
+peru,2024,UBIGEO (distrito),100102,112,56
+peru,2024,UBIGEO (distrito),100103,22,5
+peru,2024,UBIGEO (distrito),100104,36,13
+peru,2024,UBIGEO (distrito),100105,16,5
+peru,2024,UBIGEO (distrito),100106,8,1
+peru,2024,UBIGEO (distrito),100107,24,7
+peru,2024,UBIGEO (distrito),100109,28,10
+peru,2024,UBIGEO (distrito),100111,61,23
+peru,2024,UBIGEO (distrito),100112,8,1
+peru,2024,UBIGEO (distrito),100113,13,2
+peru,2024,UBIGEO (distrito),100201,42,14
+peru,2024,UBIGEO (distrito),100202,15,7
+peru,2024,UBIGEO (distrito),100203,6,0
+peru,2024,UBIGEO (distrito),100205,16,3
+peru,2024,UBIGEO (distrito),100207,14,1
+peru,2024,UBIGEO (distrito),100208,17,5
+peru,2024,UBIGEO (distrito),100311,15,5
+peru,2024,UBIGEO (distrito),100313,14,5
+peru,2024,UBIGEO (distrito),100317,11,4
+peru,2024,UBIGEO (distrito),100323,24,9
+peru,2024,UBIGEO (distrito),100401,14,4
+peru,2024,UBIGEO (distrito),100404,15,4
+peru,2024,UBIGEO (distrito),100501,28,11
+peru,2024,UBIGEO (distrito),100503,8,5
+peru,2024,UBIGEO (distrito),100504,16,3
+peru,2024,UBIGEO (distrito),100507,22,5
+peru,2024,UBIGEO (distrito),100509,15,4
+peru,2024,UBIGEO (distrito),100510,6,0
+peru,2024,UBIGEO (distrito),100511,8,5
+peru,2024,UBIGEO (distrito),100601,66,23
+peru,2024,UBIGEO (distrito),100602,14,6
+peru,2024,UBIGEO (distrito),100604,30,9
+peru,2024,UBIGEO (distrito),100605,28,8
+peru,2024,UBIGEO (distrito),100606,12,6
+peru,2024,UBIGEO (distrito),100607,16,4
+peru,2024,UBIGEO (distrito),100608,17,5
+peru,2024,UBIGEO (distrito),100609,16,2
+peru,2024,UBIGEO (distrito),100701,11,5
+peru,2024,UBIGEO (distrito),100702,14,2
+peru,2024,UBIGEO (distrito),100703,8,4
+peru,2024,UBIGEO (distrito),100704,6,4
+peru,2024,UBIGEO (distrito),100705,6,2
+peru,2024,UBIGEO (distrito),100801,27,10
+peru,2024,UBIGEO (distrito),100802,6,1
+peru,2024,UBIGEO (distrito),100803,13,5
+peru,2024,UBIGEO (distrito),100804,31,11
+peru,2024,UBIGEO (distrito),100901,27,6
+peru,2024,UBIGEO (distrito),100902,22,7
+peru,2024,UBIGEO (distrito),100903,8,3
+peru,2024,UBIGEO (distrito),101001,9,1
+peru,2024,UBIGEO (distrito),101002,7,2
+peru,2024,UBIGEO (distrito),101005,14,6
+peru,2024,UBIGEO (distrito),101007,16,3
+peru,2024,UBIGEO (distrito),101101,8,3
+peru,2024,UBIGEO (distrito),101104,8,1
+peru,2024,UBIGEO (distrito),101105,8,2
+peru,2024,UBIGEO (distrito),101106,16,6
+peru,2024,UBIGEO (distrito),101107,7,2
+peru,2024,UBIGEO (distrito),101108,8,2
+peru,2024,UBIGEO (distrito),110101,336,159
+peru,2024,UBIGEO (distrito),110102,85,30
+peru,2024,UBIGEO (distrito),110103,35,12
+peru,2024,UBIGEO (distrito),110104,26,12
+peru,2024,UBIGEO (distrito),110105,10,2
+peru,2024,UBIGEO (distrito),110106,104,49
+peru,2024,UBIGEO (distrito),110107,12,3
+peru,2024,UBIGEO (distrito),110108,38,14
+peru,2024,UBIGEO (distrito),110109,6,1
+peru,2024,UBIGEO (distrito),110110,17,11
+peru,2024,UBIGEO (distrito),110111,44,16
+peru,2024,UBIGEO (distrito),110112,42,23
+peru,2024,UBIGEO (distrito),110113,6,4
+peru,2024,UBIGEO (distrito),110114,13,7
+peru,2024,UBIGEO (distrito),110201,78,26
+peru,2024,UBIGEO (distrito),110202,20,5
+peru,2024,UBIGEO (distrito),110203,8,2
+peru,2024,UBIGEO (distrito),110204,26,5
+peru,2024,UBIGEO (distrito),110205,26,7
+peru,2024,UBIGEO (distrito),110206,38,13
+peru,2024,UBIGEO (distrito),110207,85,41
+peru,2024,UBIGEO (distrito),110209,8,3
+peru,2024,UBIGEO (distrito),110210,41,18
+peru,2024,UBIGEO (distrito),110211,5,2
+peru,2024,UBIGEO (distrito),110301,36,14
+peru,2024,UBIGEO (distrito),110302,8,0
+peru,2024,UBIGEO (distrito),110303,14,7
+peru,2024,UBIGEO (distrito),110304,21,9
+peru,2024,UBIGEO (distrito),110305,56,34
+peru,2024,UBIGEO (distrito),110401,12,6
+peru,2024,UBIGEO (distrito),110402,8,5
+peru,2024,UBIGEO (distrito),110403,15,3
+peru,2024,UBIGEO (distrito),110501,99,41
+peru,2024,UBIGEO (distrito),110503,22,4
+peru,2024,UBIGEO (distrito),110504,21,9
+peru,2024,UBIGEO (distrito),110505,6,1
+peru,2024,UBIGEO (distrito),110506,17,8
+peru,2024,UBIGEO (distrito),110507,40,20
+peru,2024,UBIGEO (distrito),110508,16,9
+peru,2024,UBIGEO (distrito),120101,142,52
+peru,2024,UBIGEO (distrito),120105,7,1
+peru,2024,UBIGEO (distrito),120107,84,34
+peru,2024,UBIGEO (distrito),120114,171,83
+peru,2024,UBIGEO (distrito),120116,8,4
+peru,2024,UBIGEO (distrito),120117,11,6
+peru,2024,UBIGEO (distrito),120119,24,9
+peru,2024,UBIGEO (distrito),120120,8,1
+peru,2024,UBIGEO (distrito),120121,6,2
+peru,2024,UBIGEO (distrito),120122,8,3
+peru,2024,UBIGEO (distrito),120124,6,2
+peru,2024,UBIGEO (distrito),120125,12,8
+peru,2024,UBIGEO (distrito),120126,5,2
+peru,2024,UBIGEO (distrito),120128,6,2
+peru,2024,UBIGEO (distrito),120129,18,7
+peru,2024,UBIGEO (distrito),120130,10,6
+peru,2024,UBIGEO (distrito),120133,30,13
+peru,2024,UBIGEO (distrito),120134,12,4
+peru,2024,UBIGEO (distrito),120135,8,2
+peru,2024,UBIGEO (distrito),120201,4,0
+peru,2024,UBIGEO (distrito),120204,7,1
+peru,2024,UBIGEO (distrito),120205,8,1
+peru,2024,UBIGEO (distrito),120206,8,0
+peru,2024,UBIGEO (distrito),120208,8,4
+peru,2024,UBIGEO (distrito),120210,14,6
+peru,2024,UBIGEO (distrito),120212,6,3
+peru,2024,UBIGEO (distrito),120213,12,5
+peru,2024,UBIGEO (distrito),120215,6,3
+peru,2024,UBIGEO (distrito),120301,32,12
+peru,2024,UBIGEO (distrito),120302,64,22
+peru,2024,UBIGEO (distrito),120303,43,15
+peru,2024,UBIGEO (distrito),120304,16,3
+peru,2024,UBIGEO (distrito),120305,36,16
+peru,2024,UBIGEO (distrito),120401,21,10
+peru,2024,UBIGEO (distrito),120402,12,4
+peru,2024,UBIGEO (distrito),120403,8,3
+peru,2024,UBIGEO (distrito),120405,7,0
+peru,2024,UBIGEO (distrito),120408,7,3
+peru,2024,UBIGEO (distrito),120409,7,2
+peru,2024,UBIGEO (distrito),120411,7,2
+peru,2024,UBIGEO (distrito),120412,8,3
+peru,2024,UBIGEO (distrito),120419,6,2
+peru,2024,UBIGEO (distrito),120422,8,0
+peru,2024,UBIGEO (distrito),120423,8,1
+peru,2024,UBIGEO (distrito),120424,7,5
+peru,2024,UBIGEO (distrito),120426,8,3
+peru,2024,UBIGEO (distrito),120427,8,2
+peru,2024,UBIGEO (distrito),120428,6,2
+peru,2024,UBIGEO (distrito),120430,6,1
+peru,2024,UBIGEO (distrito),120431,8,4
+peru,2024,UBIGEO (distrito),120434,20,7
+peru,2024,UBIGEO (distrito),120501,17,7
+peru,2024,UBIGEO (distrito),120502,11,9
+peru,2024,UBIGEO (distrito),120503,8,3
+peru,2024,UBIGEO (distrito),120504,7,1
+peru,2024,UBIGEO (distrito),120601,31,10
+peru,2024,UBIGEO (distrito),120602,6,1
+peru,2024,UBIGEO (distrito),120603,16,4
+peru,2024,UBIGEO (distrito),120604,28,7
+peru,2024,UBIGEO (distrito),120605,8,1
+peru,2024,UBIGEO (distrito),120606,59,19
+peru,2024,UBIGEO (distrito),120607,27,6
+peru,2024,UBIGEO (distrito),120608,38,4
+peru,2024,UBIGEO (distrito),120609,6,1
+peru,2024,UBIGEO (distrito),120701,53,20
+peru,2024,UBIGEO (distrito),120702,14,2
+peru,2024,UBIGEO (distrito),120704,14,3
+peru,2024,UBIGEO (distrito),120706,8,1
+peru,2024,UBIGEO (distrito),120707,8,2
+peru,2024,UBIGEO (distrito),120708,19,3
+peru,2024,UBIGEO (distrito),120709,8,1
+peru,2024,UBIGEO (distrito),120801,18,4
+peru,2024,UBIGEO (distrito),120802,8,3
+peru,2024,UBIGEO (distrito),120805,6,0
+peru,2024,UBIGEO (distrito),120806,8,2
+peru,2024,UBIGEO (distrito),120808,12,5
+peru,2024,UBIGEO (distrito),120810,6,1
+peru,2024,UBIGEO (distrito),120901,19,8
+peru,2024,UBIGEO (distrito),120902,13,7
+peru,2024,UBIGEO (distrito),120903,8,3
+peru,2024,UBIGEO (distrito),120904,8,5
+peru,2024,UBIGEO (distrito),120905,6,3
+peru,2024,UBIGEO (distrito),120908,6,0
+peru,2024,UBIGEO (distrito),130101,237,90
+peru,2024,UBIGEO (distrito),130102,160,71
+peru,2024,UBIGEO (distrito),130103,22,12
+peru,2024,UBIGEO (distrito),130104,52,22
+peru,2024,UBIGEO (distrito),130105,141,67
+peru,2024,UBIGEO (distrito),130106,31,10
+peru,2024,UBIGEO (distrito),130107,44,13
+peru,2024,UBIGEO (distrito),130109,11,4
+peru,2024,UBIGEO (distrito),130110,8,4
+peru,2024,UBIGEO (distrito),130111,51,18
+peru,2024,UBIGEO (distrito),130202,9,2
+peru,2024,UBIGEO (distrito),130203,7,5
+peru,2024,UBIGEO (distrito),130205,34,16
+peru,2024,UBIGEO (distrito),130206,15,6
+peru,2024,UBIGEO (distrito),130207,17,5
+peru,2024,UBIGEO (distrito),130208,22,10
+peru,2024,UBIGEO (distrito),130303,8,2
+peru,2024,UBIGEO (distrito),130305,8,3
+peru,2024,UBIGEO (distrito),130401,50,17
+peru,2024,UBIGEO (distrito),130402,16,8
+peru,2024,UBIGEO (distrito),130403,5,2
+peru,2024,UBIGEO (distrito),130501,12,5
+peru,2024,UBIGEO (distrito),130502,7,4
+peru,2024,UBIGEO (distrito),130503,11,3
+peru,2024,UBIGEO (distrito),130504,8,1
+peru,2024,UBIGEO (distrito),130601,19,5
+peru,2024,UBIGEO (distrito),130602,15,4
+peru,2024,UBIGEO (distrito),130605,8,1
+peru,2024,UBIGEO (distrito),130608,8,2
+peru,2024,UBIGEO (distrito),130611,8,5
+peru,2024,UBIGEO (distrito),130613,7,0
+peru,2024,UBIGEO (distrito),130614,38,11
+peru,2024,UBIGEO (distrito),130701,12,6
+peru,2024,UBIGEO (distrito),130702,47,19
+peru,2024,UBIGEO (distrito),130703,6,2
+peru,2024,UBIGEO (distrito),130704,27,9
+peru,2024,UBIGEO (distrito),130705,12,3
+peru,2024,UBIGEO (distrito),130801,8,3
+peru,2024,UBIGEO (distrito),130802,16,3
+peru,2024,UBIGEO (distrito),130803,6,1
+peru,2024,UBIGEO (distrito),130808,14,4
+peru,2024,UBIGEO (distrito),130809,14,6
+peru,2024,UBIGEO (distrito),130811,5,2
+peru,2024,UBIGEO (distrito),130901,48,22
+peru,2024,UBIGEO (distrito),130902,15,5
+peru,2024,UBIGEO (distrito),130903,8,1
+peru,2024,UBIGEO (distrito),130904,7,1
+peru,2024,UBIGEO (distrito),130905,8,0
+peru,2024,UBIGEO (distrito),130906,7,4
+peru,2024,UBIGEO (distrito),130907,7,4
+peru,2024,UBIGEO (distrito),130908,8,1
+peru,2024,UBIGEO (distrito),131001,34,14
+peru,2024,UBIGEO (distrito),131006,4,1
+peru,2024,UBIGEO (distrito),131007,8,2
+peru,2024,UBIGEO (distrito),131101,4,1
+peru,2024,UBIGEO (distrito),131103,8,2
+peru,2024,UBIGEO (distrito),131104,8,4
+peru,2024,UBIGEO (distrito),131201,42,14
+peru,2024,UBIGEO (distrito),131202,31,14
+peru,2024,UBIGEO (distrito),131203,6,2
+peru,2024,UBIGEO (distrito),140101,268,113
+peru,2024,UBIGEO (distrito),140102,29,6
+peru,2024,UBIGEO (distrito),140103,19,7
+peru,2024,UBIGEO (distrito),140104,4,2
+peru,2024,UBIGEO (distrito),140105,142,51
+peru,2024,UBIGEO (distrito),140106,100,41
+peru,2024,UBIGEO (distrito),140107,17,6
+peru,2024,UBIGEO (distrito),140108,29,9
+peru,2024,UBIGEO (distrito),140110,6,4
+peru,2024,UBIGEO (distrito),140111,7,5
+peru,2024,UBIGEO (distrito),140112,59,20
+peru,2024,UBIGEO (distrito),140113,28,12
+peru,2024,UBIGEO (distrito),140114,12,4
+peru,2024,UBIGEO (distrito),140115,12,3
+peru,2024,UBIGEO (distrito),140116,23,9
+peru,2024,UBIGEO (distrito),140117,24,5
+peru,2024,UBIGEO (distrito),140118,35,11
+peru,2024,UBIGEO (distrito),140119,13,4
+peru,2024,UBIGEO (distrito),140120,28,12
+peru,2024,UBIGEO (distrito),140201,29,12
+peru,2024,UBIGEO (distrito),140202,16,3
+peru,2024,UBIGEO (distrito),140203,24,8
+peru,2024,UBIGEO (distrito),140204,6,0
+peru,2024,UBIGEO (distrito),140205,22,7
+peru,2024,UBIGEO (distrito),140206,5,2
+peru,2024,UBIGEO (distrito),140301,72,28
+peru,2024,UBIGEO (distrito),140303,12,4
+peru,2024,UBIGEO (distrito),140304,14,3
+peru,2024,UBIGEO (distrito),140305,37,8
+peru,2024,UBIGEO (distrito),140306,50,21
+peru,2024,UBIGEO (distrito),140307,31,10
+peru,2024,UBIGEO (distrito),140308,77,22
+peru,2024,UBIGEO (distrito),140309,5,1
+peru,2024,UBIGEO (distrito),140310,22,6
+peru,2024,UBIGEO (distrito),140311,11,1
+peru,2024,UBIGEO (distrito),140312,14,2
+peru,2024,UBIGEO (distrito),150101,109,41
+peru,2024,UBIGEO (distrito),150102,28,12
+peru,2024,UBIGEO (distrito),150103,196,85
+peru,2024,UBIGEO (distrito),150104,15,4
+peru,2024,UBIGEO (distrito),150105,36,11
+peru,2024,UBIGEO (distrito),150106,118,52
+peru,2024,UBIGEO (distrito),150107,27,8
+peru,2024,UBIGEO (distrito),150108,103,36
+peru,2024,UBIGEO (distrito),150109,17,6
+peru,2024,UBIGEO (distrito),150110,173,80
+peru,2024,UBIGEO (distrito),150111,65,24
+peru,2024,UBIGEO (distrito),150112,67,27
+peru,2024,UBIGEO (distrito),150113,41,13
+peru,2024,UBIGEO (distrito),150114,45,11
+peru,2024,UBIGEO (distrito),150115,78,37
+peru,2024,UBIGEO (distrito),150116,26,17
+peru,2024,UBIGEO (distrito),150117,126,49
+peru,2024,UBIGEO (distrito),150118,99,37
+peru,2024,UBIGEO (distrito),150119,32,14
+peru,2024,UBIGEO (distrito),150120,25,11
+peru,2024,UBIGEO (distrito),150121,44,21
+peru,2024,UBIGEO (distrito),150122,61,30
+peru,2024,UBIGEO (distrito),150123,47,19
+peru,2024,UBIGEO (distrito),150125,110,43
+peru,2024,UBIGEO (distrito),150126,6,0
+peru,2024,UBIGEO (distrito),150128,64,28
+peru,2024,UBIGEO (distrito),150129,4,1
+peru,2024,UBIGEO (distrito),150130,37,14
+peru,2024,UBIGEO (distrito),150131,36,17
+peru,2024,UBIGEO (distrito),150132,335,148
+peru,2024,UBIGEO (distrito),150133,93,39
+peru,2024,UBIGEO (distrito),150134,25,9
+peru,2024,UBIGEO (distrito),150135,229,84
+peru,2024,UBIGEO (distrito),150136,52,26
+peru,2024,UBIGEO (distrito),150137,68,21
+peru,2024,UBIGEO (distrito),150138,3,0
+peru,2024,UBIGEO (distrito),150139,20,8
+peru,2024,UBIGEO (distrito),150140,140,45
+peru,2024,UBIGEO (distrito),150141,35,17
+peru,2024,UBIGEO (distrito),150142,105,36
+peru,2024,UBIGEO (distrito),150143,123,46
+peru,2024,UBIGEO (distrito),150201,73,28
+peru,2024,UBIGEO (distrito),150202,25,9
+peru,2024,UBIGEO (distrito),150203,31,15
+peru,2024,UBIGEO (distrito),150204,45,17
+peru,2024,UBIGEO (distrito),150205,12,8
+peru,2024,UBIGEO (distrito),150301,16,5
+peru,2024,UBIGEO (distrito),150302,8,3
+peru,2024,UBIGEO (distrito),150304,6,2
+peru,2024,UBIGEO (distrito),150401,6,1
+peru,2024,UBIGEO (distrito),150403,12,2
+peru,2024,UBIGEO (distrito),150404,7,2
+peru,2024,UBIGEO (distrito),150407,7,3
+peru,2024,UBIGEO (distrito),150501,103,40
+peru,2024,UBIGEO (distrito),150502,12,5
+peru,2024,UBIGEO (distrito),150503,6,3
+peru,2024,UBIGEO (distrito),150504,6,3
+peru,2024,UBIGEO (distrito),150505,25,8
+peru,2024,UBIGEO (distrito),150507,79,40
+peru,2024,UBIGEO (distrito),150508,5,3
+peru,2024,UBIGEO (distrito),150509,48,21
+peru,2024,UBIGEO (distrito),150510,40,17
+peru,2024,UBIGEO (distrito),150511,23,11
+peru,2024,UBIGEO (distrito),150512,25,8
+peru,2024,UBIGEO (distrito),150513,12,5
+peru,2024,UBIGEO (distrito),150514,19,10
+peru,2024,UBIGEO (distrito),150515,6,1
+peru,2024,UBIGEO (distrito),150601,112,41
+peru,2024,UBIGEO (distrito),150602,8,5
+peru,2024,UBIGEO (distrito),150603,8,2
+peru,2024,UBIGEO (distrito),150604,33,14
+peru,2024,UBIGEO (distrito),150605,72,34
+peru,2024,UBIGEO (distrito),150606,8,0
+peru,2024,UBIGEO (distrito),150607,6,1
+peru,2024,UBIGEO (distrito),150701,6,3
+peru,2024,UBIGEO (distrito),150702,8,4
+peru,2024,UBIGEO (distrito),150705,6,2
+peru,2024,UBIGEO (distrito),150706,7,1
+peru,2024,UBIGEO (distrito),150707,8,3
+peru,2024,UBIGEO (distrito),150711,7,3
+peru,2024,UBIGEO (distrito),150713,8,0
+peru,2024,UBIGEO (distrito),150714,6,2
+peru,2024,UBIGEO (distrito),150715,8,1
+peru,2024,UBIGEO (distrito),150718,8,4
+peru,2024,UBIGEO (distrito),150723,16,4
+peru,2024,UBIGEO (distrito),150724,8,2
+peru,2024,UBIGEO (distrito),150727,15,5
+peru,2024,UBIGEO (distrito),150728,15,8
+peru,2024,UBIGEO (distrito),150729,8,4
+peru,2024,UBIGEO (distrito),150801,100,46
+peru,2024,UBIGEO (distrito),150802,7,2
+peru,2024,UBIGEO (distrito),150803,7,4
+peru,2024,UBIGEO (distrito),150804,6,2
+peru,2024,UBIGEO (distrito),150805,37,16
+peru,2024,UBIGEO (distrito),150806,42,12
+peru,2024,UBIGEO (distrito),150807,8,2
+peru,2024,UBIGEO (distrito),150810,54,28
+peru,2024,UBIGEO (distrito),150811,26,7
+peru,2024,UBIGEO (distrito),150812,48,18
+peru,2024,UBIGEO (distrito),150901,22,9
+peru,2024,UBIGEO (distrito),150902,8,2
+peru,2024,UBIGEO (distrito),150906,8,3
+peru,2024,UBIGEO (distrito),151001,7,5
+peru,2024,UBIGEO (distrito),151003,7,1
+peru,2024,UBIGEO (distrito),151007,7,2
+peru,2024,UBIGEO (distrito),151008,8,4
+peru,2024,UBIGEO (distrito),151012,6,0
+peru,2024,UBIGEO (distrito),151020,6,3
+peru,2024,UBIGEO (distrito),151023,7,1
+peru,2024,UBIGEO (distrito),151030,6,2
+peru,2024,UBIGEO (distrito),151031,8,1
+peru,2024,UBIGEO (distrito),151032,8,4
+peru,2024,UBIGEO (distrito),160101,182,76
+peru,2024,UBIGEO (distrito),160102,8,1
+peru,2024,UBIGEO (distrito),160103,18,2
+peru,2024,UBIGEO (distrito),160104,19,3
+peru,2024,UBIGEO (distrito),160105,21,4
+peru,2024,UBIGEO (distrito),160106,32,5
+peru,2024,UBIGEO (distrito),160107,15,1
+peru,2024,UBIGEO (distrito),160108,118,37
+peru,2024,UBIGEO (distrito),160110,8,2
+peru,2024,UBIGEO (distrito),160112,97,34
+peru,2024,UBIGEO (distrito),160113,192,68
+peru,2024,UBIGEO (distrito),160201,140,37
+peru,2024,UBIGEO (distrito),160202,23,2
+peru,2024,UBIGEO (distrito),160206,20,0
+peru,2024,UBIGEO (distrito),160210,8,0
+peru,2024,UBIGEO (distrito),160211,5,1
+peru,2024,UBIGEO (distrito),160301,50,11
+peru,2024,UBIGEO (distrito),160303,24,1
+peru,2024,UBIGEO (distrito),160304,8,2
+peru,2024,UBIGEO (distrito),160305,22,1
+peru,2024,UBIGEO (distrito),160401,27,6
+peru,2024,UBIGEO (distrito),160402,15,0
+peru,2024,UBIGEO (distrito),160403,25,2
+peru,2024,UBIGEO (distrito),160404,22,2
+peru,2024,UBIGEO (distrito),160501,36,14
+peru,2024,UBIGEO (distrito),160502,7,1
+peru,2024,UBIGEO (distrito),160504,13,0
+peru,2024,UBIGEO (distrito),160505,7,1
+peru,2024,UBIGEO (distrito),160507,8,0
+peru,2024,UBIGEO (distrito),160509,8,1
+peru,2024,UBIGEO (distrito),160510,6,0
+peru,2024,UBIGEO (distrito),160601,29,1
+peru,2024,UBIGEO (distrito),160602,8,2
+peru,2024,UBIGEO (distrito),160604,5,1
+peru,2024,UBIGEO (distrito),160605,27,4
+peru,2024,UBIGEO (distrito),160606,9,3
+peru,2024,UBIGEO (distrito),160701,15,5
+peru,2024,UBIGEO (distrito),160702,7,2
+peru,2024,UBIGEO (distrito),160703,14,2
+peru,2024,UBIGEO (distrito),160704,16,2
+peru,2024,UBIGEO (distrito),160706,21,4
+peru,2024,UBIGEO (distrito),160801,8,3
+peru,2024,UBIGEO (distrito),160802,8,1
+peru,2024,UBIGEO (distrito),160803,8,3
+peru,2024,UBIGEO (distrito),170101,305,136
+peru,2024,UBIGEO (distrito),170102,53,23
+peru,2024,UBIGEO (distrito),170103,49,18
+peru,2024,UBIGEO (distrito),170104,29,14
+peru,2024,UBIGEO (distrito),170201,16,5
+peru,2024,UBIGEO (distrito),170202,8,2
+peru,2024,UBIGEO (distrito),170203,34,14
+peru,2024,UBIGEO (distrito),170204,48,17
+peru,2024,UBIGEO (distrito),170301,8,3
+peru,2024,UBIGEO (distrito),170302,31,8
+peru,2024,UBIGEO (distrito),170303,22,11
+peru,2024,UBIGEO (distrito),180101,316,144
+peru,2024,UBIGEO (distrito),180102,23,12
+peru,2024,UBIGEO (distrito),180103,7,1
+peru,2024,UBIGEO (distrito),180104,42,14
+peru,2024,UBIGEO (distrito),180105,32,8
+peru,2024,UBIGEO (distrito),180106,49,13
+peru,2024,UBIGEO (distrito),180201,24,5
+peru,2024,UBIGEO (distrito),180202,7,0
+peru,2024,UBIGEO (distrito),180203,8,4
+peru,2024,UBIGEO (distrito),180204,42,14
+peru,2024,UBIGEO (distrito),180207,14,6
+peru,2024,UBIGEO (distrito),180208,24,9
+peru,2024,UBIGEO (distrito),180210,31,12
+peru,2024,UBIGEO (distrito),180211,14,6
+peru,2024,UBIGEO (distrito),180301,289,120
+peru,2024,UBIGEO (distrito),180302,15,5
+peru,2024,UBIGEO (distrito),180303,26,9
+peru,2024,UBIGEO (distrito),190101,90,33
+peru,2024,UBIGEO (distrito),190102,28,4
+peru,2024,UBIGEO (distrito),190103,32,12
+peru,2024,UBIGEO (distrito),190104,20,5
+peru,2024,UBIGEO (distrito),190105,13,3
+peru,2024,UBIGEO (distrito),190106,16,5
+peru,2024,UBIGEO (distrito),190107,59,14
+peru,2024,UBIGEO (distrito),190108,16,4
+peru,2024,UBIGEO (distrito),190109,44,14
+peru,2024,UBIGEO (distrito),190110,8,0
+peru,2024,UBIGEO (distrito),190111,22,9
+peru,2024,UBIGEO (distrito),190112,12,7
+peru,2024,UBIGEO (distrito),190113,94,31
+peru,2024,UBIGEO (distrito),190201,57,14
+peru,2024,UBIGEO (distrito),190202,8,5
+peru,2024,UBIGEO (distrito),190204,20,3
+peru,2024,UBIGEO (distrito),190206,24,6
+peru,2024,UBIGEO (distrito),190207,12,4
+peru,2024,UBIGEO (distrito),190208,13,3
+peru,2024,UBIGEO (distrito),190301,42,18
+peru,2024,UBIGEO (distrito),190302,15,7
+peru,2024,UBIGEO (distrito),190303,14,2
+peru,2024,UBIGEO (distrito),190304,26,8
+peru,2024,UBIGEO (distrito),190305,15,2
+peru,2024,UBIGEO (distrito),190306,60,14
+peru,2024,UBIGEO (distrito),190307,48,18
+peru,2024,UBIGEO (distrito),190308,57,12
+peru,2024,UBIGEO (distrito),200101,127,51
+peru,2024,UBIGEO (distrito),200104,132,48
+peru,2024,UBIGEO (distrito),200105,60,15
+peru,2024,UBIGEO (distrito),200107,24,9
+peru,2024,UBIGEO (distrito),200108,6,1
+peru,2024,UBIGEO (distrito),200109,29,9
+peru,2024,UBIGEO (distrito),200110,29,8
+peru,2024,UBIGEO (distrito),200111,24,7
+peru,2024,UBIGEO (distrito),200114,92,16
+peru,2024,UBIGEO (distrito),200115,127,49
+peru,2024,UBIGEO (distrito),200201,30,8
+peru,2024,UBIGEO (distrito),200202,22,5
+peru,2024,UBIGEO (distrito),200206,22,4
+peru,2024,UBIGEO (distrito),200207,8,1
+peru,2024,UBIGEO (distrito),200208,16,6
+peru,2024,UBIGEO (distrito),200209,9,4
+peru,2024,UBIGEO (distrito),200210,8,0
+peru,2024,UBIGEO (distrito),200301,29,8
+peru,2024,UBIGEO (distrito),200302,16,5
+peru,2024,UBIGEO (distrito),200303,16,5
+peru,2024,UBIGEO (distrito),200304,38,14
+peru,2024,UBIGEO (distrito),200306,13,5
+peru,2024,UBIGEO (distrito),200308,8,3
+peru,2024,UBIGEO (distrito),200401,64,20
+peru,2024,UBIGEO (distrito),200402,6,2
+peru,2024,UBIGEO (distrito),200403,15,5
+peru,2024,UBIGEO (distrito),200404,13,3
+peru,2024,UBIGEO (distrito),200405,12,4
+peru,2024,UBIGEO (distrito),200406,8,0
+peru,2024,UBIGEO (distrito),200407,6,1
+peru,2024,UBIGEO (distrito),200408,16,5
+peru,2024,UBIGEO (distrito),200409,8,2
+peru,2024,UBIGEO (distrito),200410,15,2
+peru,2024,UBIGEO (distrito),200501,86,24
+peru,2024,UBIGEO (distrito),200504,11,4
+peru,2024,UBIGEO (distrito),200505,6,1
+peru,2024,UBIGEO (distrito),200506,6,1
+peru,2024,UBIGEO (distrito),200507,6,1
+peru,2024,UBIGEO (distrito),200601,130,42
+peru,2024,UBIGEO (distrito),200602,31,13
+peru,2024,UBIGEO (distrito),200603,18,4
+peru,2024,UBIGEO (distrito),200604,8,2
+peru,2024,UBIGEO (distrito),200605,24,9
+peru,2024,UBIGEO (distrito),200606,12,4
+peru,2024,UBIGEO (distrito),200607,33,5
+peru,2024,UBIGEO (distrito),200608,6,3
+peru,2024,UBIGEO (distrito),200701,66,29
+peru,2024,UBIGEO (distrito),200702,6,0
+peru,2024,UBIGEO (distrito),200703,8,3
+peru,2024,UBIGEO (distrito),200705,16,6
+peru,2024,UBIGEO (distrito),200706,5,2
+peru,2024,UBIGEO (distrito),200801,47,11
+peru,2024,UBIGEO (distrito),200802,6,1
+peru,2024,UBIGEO (distrito),200803,11,5
+peru,2024,UBIGEO (distrito),200805,21,10
+peru,2024,UBIGEO (distrito),210101,145,62
+peru,2024,UBIGEO (distrito),210102,25,12
+peru,2024,UBIGEO (distrito),210103,8,3
+peru,2024,UBIGEO (distrito),210104,8,6
+peru,2024,UBIGEO (distrito),210105,16,7
+peru,2024,UBIGEO (distrito),210106,16,8
+peru,2024,UBIGEO (distrito),210109,12,5
+peru,2024,UBIGEO (distrito),210111,8,6
+peru,2024,UBIGEO (distrito),210112,8,5
+peru,2024,UBIGEO (distrito),210115,6,2
+peru,2024,UBIGEO (distrito),210201,25,10
+peru,2024,UBIGEO (distrito),210203,16,5
+peru,2024,UBIGEO (distrito),210204,20,9
+peru,2024,UBIGEO (distrito),210206,8,3
+peru,2024,UBIGEO (distrito),210208,7,3
+peru,2024,UBIGEO (distrito),210209,5,1
+peru,2024,UBIGEO (distrito),210210,8,3
+peru,2024,UBIGEO (distrito),210212,8,5
+peru,2024,UBIGEO (distrito),210214,6,2
+peru,2024,UBIGEO (distrito),210301,21,5
+peru,2024,UBIGEO (distrito),210304,2,1
+peru,2024,UBIGEO (distrito),210305,6,1
+peru,2024,UBIGEO (distrito),210306,6,3
+peru,2024,UBIGEO (distrito),210307,14,5
+peru,2024,UBIGEO (distrito),210308,8,1
+peru,2024,UBIGEO (distrito),210310,6,2
+peru,2024,UBIGEO (distrito),210401,21,8
+peru,2024,UBIGEO (distrito),210402,4,4
+peru,2024,UBIGEO (distrito),210403,11,2
+peru,2024,UBIGEO (distrito),210404,8,1
+peru,2024,UBIGEO (distrito),210405,7,5
+peru,2024,UBIGEO (distrito),210406,28,13
+peru,2024,UBIGEO (distrito),210407,13,3
+peru,2024,UBIGEO (distrito),210501,46,20
+peru,2024,UBIGEO (distrito),210503,21,6
+peru,2024,UBIGEO (distrito),210505,6,1
+peru,2024,UBIGEO (distrito),210601,25,12
+peru,2024,UBIGEO (distrito),210603,8,2
+peru,2024,UBIGEO (distrito),210604,8,5
+peru,2024,UBIGEO (distrito),210607,24,8
+peru,2024,UBIGEO (distrito),210608,15,6
+peru,2024,UBIGEO (distrito),210701,14,7
+peru,2024,UBIGEO (distrito),210702,8,2
+peru,2024,UBIGEO (distrito),210707,8,4
+peru,2024,UBIGEO (distrito),210708,7,2
+peru,2024,UBIGEO (distrito),210709,8,3
+peru,2024,UBIGEO (distrito),210801,24,7
+peru,2024,UBIGEO (distrito),210805,8,7
+peru,2024,UBIGEO (distrito),210806,5,0
+peru,2024,UBIGEO (distrito),210807,16,6
+peru,2024,UBIGEO (distrito),210808,12,7
+peru,2024,UBIGEO (distrito),210809,8,3
+peru,2024,UBIGEO (distrito),210901,15,12
+peru,2024,UBIGEO (distrito),210903,8,4
+peru,2024,UBIGEO (distrito),210904,8,4
+peru,2024,UBIGEO (distrito),211001,15,6
+peru,2024,UBIGEO (distrito),211002,20,11
+peru,2024,UBIGEO (distrito),211003,8,4
+peru,2024,UBIGEO (distrito),211101,134,60
+peru,2024,UBIGEO (distrito),211103,4,2
+peru,2024,UBIGEO (distrito),211104,7,2
+peru,2024,UBIGEO (distrito),211105,44,16
+peru,2024,UBIGEO (distrito),211201,8,3
+peru,2024,UBIGEO (distrito),211203,8,4
+peru,2024,UBIGEO (distrito),211204,5,1
+peru,2024,UBIGEO (distrito),211208,8,4
+peru,2024,UBIGEO (distrito),211209,8,2
+peru,2024,UBIGEO (distrito),211210,6,4
+peru,2024,UBIGEO (distrito),211301,21,8
+peru,2024,UBIGEO (distrito),211303,8,3
+peru,2024,UBIGEO (distrito),211307,7,6
+peru,2024,UBIGEO (distrito),220101,184,54
+peru,2024,UBIGEO (distrito),220102,11,3
+peru,2024,UBIGEO (distrito),220103,8,2
+peru,2024,UBIGEO (distrito),220104,34,7
+peru,2024,UBIGEO (distrito),220105,26,7
+peru,2024,UBIGEO (distrito),220201,24,4
+peru,2024,UBIGEO (distrito),220202,24,0
+peru,2024,UBIGEO (distrito),220203,21,1
+peru,2024,UBIGEO (distrito),220205,16,4
+peru,2024,UBIGEO (distrito),220206,6,3
+peru,2024,UBIGEO (distrito),220301,27,2
+peru,2024,UBIGEO (distrito),220303,14,1
+peru,2024,UBIGEO (distrito),220304,14,5
+peru,2024,UBIGEO (distrito),220305,8,1
+peru,2024,UBIGEO (distrito),220401,14,3
+peru,2024,UBIGEO (distrito),220404,20,3
+peru,2024,UBIGEO (distrito),220405,15,1
+peru,2024,UBIGEO (distrito),220501,18,6
+peru,2024,UBIGEO (distrito),220502,19,5
+peru,2024,UBIGEO (distrito),220503,8,0
+peru,2024,UBIGEO (distrito),220504,14,2
+peru,2024,UBIGEO (distrito),220505,16,3
+peru,2024,UBIGEO (distrito),220506,8,2
+peru,2024,UBIGEO (distrito),220510,26,4
+peru,2024,UBIGEO (distrito),220601,36,8
+peru,2024,UBIGEO (distrito),220602,22,8
+peru,2024,UBIGEO (distrito),220603,13,6
+peru,2024,UBIGEO (distrito),220605,8,1
+peru,2024,UBIGEO (distrito),220701,18,6
+peru,2024,UBIGEO (distrito),220702,8,1
+peru,2024,UBIGEO (distrito),220703,7,2
+peru,2024,UBIGEO (distrito),220707,13,4
+peru,2024,UBIGEO (distrito),220708,14,1
+peru,2024,UBIGEO (distrito),220710,8,2
+peru,2024,UBIGEO (distrito),220801,40,17
+peru,2024,UBIGEO (distrito),220802,14,2
+peru,2024,UBIGEO (distrito),220803,19,2
+peru,2024,UBIGEO (distrito),220804,61,19
+peru,2024,UBIGEO (distrito),220805,14,4
+peru,2024,UBIGEO (distrito),220806,7,5
+peru,2024,UBIGEO (distrito),220807,6,1
+peru,2024,UBIGEO (distrito),220809,6,1
+peru,2024,UBIGEO (distrito),220901,145,71
+peru,2024,UBIGEO (distrito),220904,14,2
+peru,2024,UBIGEO (distrito),220907,13,5
+peru,2024,UBIGEO (distrito),220908,6,1
+peru,2024,UBIGEO (distrito),220909,90,39
+peru,2024,UBIGEO (distrito),220910,76,23
+peru,2024,UBIGEO (distrito),220911,8,1
+peru,2024,UBIGEO (distrito),220912,8,2
+peru,2024,UBIGEO (distrito),220913,6,2
+peru,2024,UBIGEO (distrito),221001,35,11
+peru,2024,UBIGEO (distrito),221002,11,3
+peru,2024,UBIGEO (distrito),221003,29,7
+peru,2024,UBIGEO (distrito),221005,17,4
+peru,2024,UBIGEO (distrito),230101,280,118
+peru,2024,UBIGEO (distrito),230102,75,32
+peru,2024,UBIGEO (distrito),230103,7,2
+peru,2024,UBIGEO (distrito),230104,93,48
+peru,2024,UBIGEO (distrito),230105,16,5
+peru,2024,UBIGEO (distrito),230106,14,5
+peru,2024,UBIGEO (distrito),230107,8,3
+peru,2024,UBIGEO (distrito),230108,68,27
+peru,2024,UBIGEO (distrito),230109,94,31
+peru,2024,UBIGEO (distrito),230110,385,170
+peru,2024,UBIGEO (distrito),230111,57,19
+peru,2024,UBIGEO (distrito),230201,6,2
+peru,2024,UBIGEO (distrito),230203,16,7
+peru,2024,UBIGEO (distrito),230206,8,0
+peru,2024,UBIGEO (distrito),230301,17,7
+peru,2024,UBIGEO (distrito),230302,57,12
+peru,2024,UBIGEO (distrito),230303,14,3
+peru,2024,UBIGEO (distrito),230401,26,13
+peru,2024,UBIGEO (distrito),230402,7,2
+peru,2024,UBIGEO (distrito),230403,8,6
+peru,2024,UBIGEO (distrito),230406,7,2
+peru,2024,UBIGEO (distrito),230408,8,5
+peru,2024,UBIGEO (distrito),240101,341,121
+peru,2024,UBIGEO (distrito),240102,70,19
+peru,2024,UBIGEO (distrito),240103,38,10
+peru,2024,UBIGEO (distrito),240104,42,13
+peru,2024,UBIGEO (distrito),240105,47,12
+peru,2024,UBIGEO (distrito),240106,13,4
+peru,2024,UBIGEO (distrito),240201,54,15
+peru,2024,UBIGEO (distrito),240202,22,6
+peru,2024,UBIGEO (distrito),240203,23,5
+peru,2024,UBIGEO (distrito),240301,97,32
+peru,2024,UBIGEO (distrito),240302,65,22
+peru,2024,UBIGEO (distrito),240303,6,1
+peru,2024,UBIGEO (distrito),240304,24,1
+peru,2024,UBIGEO (distrito),250101,295,120
+peru,2024,UBIGEO (distrito),250102,57,15
+peru,2024,UBIGEO (distrito),250103,30,5
+peru,2024,UBIGEO (distrito),250104,32,9
+peru,2024,UBIGEO (distrito),250105,189,74
+peru,2024,UBIGEO (distrito),250106,13,1
+peru,2024,UBIGEO (distrito),250107,152,63
+peru,2024,UBIGEO (distrito),250201,94,28
+peru,2024,UBIGEO (distrito),250202,18,6
+peru,2024,UBIGEO (distrito),250203,15,2
+peru,2024,UBIGEO (distrito),250204,6,2
+peru,2024,UBIGEO (distrito),250301,103,41
+peru,2024,UBIGEO (distrito),250302,42,12
+peru,2024,UBIGEO (distrito),250303,27,8
+peru,2024,UBIGEO (distrito),250304,17,6
+peru,2024,UBIGEO (distrito),250305,14,8
+peru,2024,UBIGEO (distrito),250401,15,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-1-205,20,13
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-101,20,12
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-111,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-114,77,40
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-125,21,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-132,17,12
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-133,78,47
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-137,20,10
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-139,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-149,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-168,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-207,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-21,76,45
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-210,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-217,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-219,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-225,70,42
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-226,29,19
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-232,11,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-234,11,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-235,67,37
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-236,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-238,19,14
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-239,27,20
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-268,18,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-316,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-319,38,24
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-320,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-40,22,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-41,3,1
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-419,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-42,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-428,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-43,71,47
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-5,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-519,72,46
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-52,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-538,20,14
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-55,9,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-58,11,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-59,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-6,19,14
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-60,65,30
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-64,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-65,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-73,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-76,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-77,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-10-78,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-1,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-107,25,20
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-114,7,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-12,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-129,69,33
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-134,53,40
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-135,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-15,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-16,73,53
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-17,17,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-206,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-211,19,14
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-229,20,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-233,9,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-234,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-237,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-238,19,15
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-28,11,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-286,20,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-287,60,38
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-289,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-31,53,35
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-59,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-61,12,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-79,64,35
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-90,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-91,8,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-11-92,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-1,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-106,61,44
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-107,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-11,14,10
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-127,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-128,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-13,60,39
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-14,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-18,11,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-206,17,13
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-207,19,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-216,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-227,64,41
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-23,29,23
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-235,7,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-236,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-24,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-33,68,42
+uruguay,2022,dpto + secc + segm (segmento censal),1-12-8,70,43
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-139,12,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-14,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-152,71,45
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-17,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-18,20,14
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-213,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-232,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-236,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-24,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-240,75,41
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-242,11,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-252,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-26,68,33
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-27,11,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-30,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-332,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-48,73,42
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-49,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-5,19,14
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-51,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-13-6,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-14-107,22,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-14-111,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-14-122,37,23
+uruguay,2022,dpto + secc + segm (segmento censal),1-14-17,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-14-212,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-14-221,70,43
+uruguay,2022,dpto + secc + segm (segmento censal),1-14-26,8,2
+uruguay,2022,dpto + secc + segm (segmento censal),1-15-104,61,42
+uruguay,2022,dpto + secc + segm (segmento censal),1-15-111,19,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-15-13,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-15-203,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-15-206,77,47
+uruguay,2022,dpto + secc + segm (segmento censal),1-15-208,4,2
+uruguay,2022,dpto + secc + segm (segmento censal),1-15-209,4,0
+uruguay,2022,dpto + secc + segm (segmento censal),1-15-214,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-15-305,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-15-306,25,19
+uruguay,2022,dpto + secc + segm (segmento censal),1-15-312,60,34
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-125,74,42
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-17,78,43
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-19,11,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-210,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-225,7,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-227,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-339,29,16
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-4,11,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-41,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-43,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-5,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-7,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-8,56,33
+uruguay,2022,dpto + secc + segm (segmento censal),1-16-9,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-1,36,19
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-10,61,39
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-102,59,34
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-103,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-109,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-113,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-118,7,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-12,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-128,16,13
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-130,55,39
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-139,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-203,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-208,22,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-213,11,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-215,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-228,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-229,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-239,20,10
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-240,44,26
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-27,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-303,6,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-31,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-319,38,24
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-32,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-330,6,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-430,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-5,13,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-17-633,9,2
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-10,19,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-104,11,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-105,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-106,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-107,14,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-108,2,0
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-111,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-112,11,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-113,13,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-114,82,53
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-119,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-120,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-121,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-122,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-126,37,20
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-127,51,34
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-128,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-129,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-130,8,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-201,11,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-202,13,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-203,3,1
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-205,13,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-206,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-207,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-208,65,35
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-211,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-212,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-213,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-214,60,33
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-215,29,16
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-221,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-222,77,39
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-225,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-228,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-229,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-306,54,29
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-31,61,37
+uruguay,2022,dpto + secc + segm (segmento censal),1-18-315,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-10,54,32
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-101,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-105,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-106,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-107,20,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-111,9,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-112,33,21
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-201,17,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-204,13,10
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-205,46,28
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-206,38,21
+uruguay,2022,dpto + secc + segm (segmento censal),1-19-212,8,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-2-102,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-2-202,16,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-1,61,39
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-10,20,15
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-117,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-121,58,40
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-125,16,10
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-132,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-2,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-20,7,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-217,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-221,20,13
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-231,53,28
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-232,12,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-27,17,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-3,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-33,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-35,29,15
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-36,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-41,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-47,68,37
+uruguay,2022,dpto + secc + segm (segmento censal),1-20-9,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-10,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-106,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-128,24,12
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-129,38,24
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-132,72,38
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-146,18,12
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-18,19,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-20,19,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-204,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-206,3,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-208,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-21,4,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-222,11,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-232,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-24,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-304,70,39
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-33,74,36
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-35,27,16
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-39,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-40,67,39
+uruguay,2022,dpto + secc + segm (segmento censal),1-21-43,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-101,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-104,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-11,78,51
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-118,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-12,7,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-123,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-125,16,13
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-203,67,43
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-219,15,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-22,18,12
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-230,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-234,80,44
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-24,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-26,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-22-6,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-23-101,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-23-105,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-23-109,17,14
+uruguay,2022,dpto + secc + segm (segmento censal),1-23-110,16,10
+uruguay,2022,dpto + secc + segm (segmento censal),1-23-201,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-23-207,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-23-212,18,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-101,63,37
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-106,66,42
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-107,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-109,11,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-113,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-115,12,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-119,19,12
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-121,78,43
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-124,21,12
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-126,20,15
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-201,55,36
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-202,15,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-206,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-210,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-211,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-212,64,40
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-217,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-218,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-222,64,40
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-225,63,35
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-226,28,12
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-27,20,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-3,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-318,9,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-4,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-24-5,7,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-3-202,28,15
+uruguay,2022,dpto + secc + segm (segmento censal),1-4-103,19,12
+uruguay,2022,dpto + secc + segm (segmento censal),1-4-104,38,25
+uruguay,2022,dpto + secc + segm (segmento censal),1-4-203,65,40
+uruguay,2022,dpto + secc + segm (segmento censal),1-5-102,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-5-103,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-5-201,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-5-202,43,26
+uruguay,2022,dpto + secc + segm (segmento censal),1-5-205,27,14
+uruguay,2022,dpto + secc + segm (segmento censal),1-6-102,22,17
+uruguay,2022,dpto + secc + segm (segmento censal),1-6-104,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-6-204,13,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-6-304,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-7-10,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-7-102,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-7-104,64,33
+uruguay,2022,dpto + secc + segm (segmento censal),1-7-106,4,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-7-202,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-7-206,18,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-7-303,7,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-8-1,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-8-10,61,29
+uruguay,2022,dpto + secc + segm (segmento censal),1-8-105,8,1
+uruguay,2022,dpto + secc + segm (segmento censal),1-8-12,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-8-211,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-8-3,30,13
+uruguay,2022,dpto + secc + segm (segmento censal),1-8-314,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-1,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-117,15,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-13,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-14,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-15,18,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-18,49,34
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-2,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-217,79,58
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-25,78,50
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-26,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-3,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-30,4,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-33,7,2
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-47,6,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-5,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-9-7,20,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-125,69,47
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-151,9,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-166,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-204,15,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-205,14,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-208,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-21,16,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-210,27,16
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-22,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-225,35,25
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-26,77,50
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-27,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-47,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-48,15,6
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-50,17,11
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-52,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-54,69,40
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-56,7,4
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-70,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),1-99-99,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-105,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-106,7,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-117,4,2
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-120,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-13,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-140,2,2
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-143,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-15,70,45
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-205,14,9
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-211,31,11
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-217,13,8
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-23,37,18
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-232,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-237,18,12
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-239,56,28
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-240,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-243,11,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-247,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-249,7,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-25,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-250,6,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-26,21,16
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-317,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-329,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-332,57,30
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-333,3,0
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-339,19,8
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-343,43,13
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-38,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-433,9,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-44,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-45,44,15
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-48,21,17
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-505,6,2
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-530,20,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-59,26,20
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-60,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-62,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-65,20,11
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-66,23,9
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-71,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-72,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-77,68,34
+uruguay,2022,dpto + secc + segm (segmento censal),10-1-78,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-1,10,10
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-105,44,25
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-107,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-108,7,6
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-109,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-13,9,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-2,11,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-205,52,29
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-206,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-209,13,6
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-3,9,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-2-308,13,8
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-103,41,20
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-110,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-113,18,7
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-12,12,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-15,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-18,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-19,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-2,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-203,11,9
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-205,4,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-210,13,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-213,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-22,53,28
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-26,6,1
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-30,42,13
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-309,14,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-321,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),10-3-6,6,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-4-4,15,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-5-11,4,0
+uruguay,2022,dpto + secc + segm (segmento censal),10-5-12,3,1
+uruguay,2022,dpto + secc + segm (segmento censal),10-5-2,6,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-5-203,4,2
+uruguay,2022,dpto + secc + segm (segmento censal),10-5-207,7,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-5-303,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-5-6,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-6-1,2,1
+uruguay,2022,dpto + secc + segm (segmento censal),10-6-103,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-6-11,20,11
+uruguay,2022,dpto + secc + segm (segmento censal),10-6-204,9,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-6-309,15,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-6-709,37,10
+uruguay,2022,dpto + secc + segm (segmento censal),10-7-1,7,7
+uruguay,2022,dpto + secc + segm (segmento censal),10-7-3,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),10-7-505,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),10-8-1,4,3
+uruguay,2022,dpto + secc + segm (segmento censal),10-8-14,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),10-8-3,5,5
+uruguay,2022,dpto + secc + segm (segmento censal),10-8-4,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-8-7,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),10-8-9,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),11-1-11,19,8
+uruguay,2022,dpto + secc + segm (segmento censal),11-1-122,20,11
+uruguay,2022,dpto + secc + segm (segmento censal),11-1-124,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),11-1-13,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),11-1-222,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),11-1-225,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),11-1-226,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),11-1-29,60,36
+uruguay,2022,dpto + secc + segm (segmento censal),11-1-322,20,11
+uruguay,2022,dpto + secc + segm (segmento censal),11-1-33,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),11-1-7,68,43
+uruguay,2022,dpto + secc + segm (segmento censal),11-10-104,6,1
+uruguay,2022,dpto + secc + segm (segmento censal),11-10-3,9,2
+uruguay,2022,dpto + secc + segm (segmento censal),11-10-5,3,0
+uruguay,2022,dpto + secc + segm (segmento censal),11-10-6,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),11-11-1,20,12
+uruguay,2022,dpto + secc + segm (segmento censal),11-11-105,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),11-11-202,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),11-11-204,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),11-11-3,15,3
+uruguay,2022,dpto + secc + segm (segmento censal),11-11-302,1,1
+uruguay,2022,dpto + secc + segm (segmento censal),11-11-7,17,10
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-10,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-119,19,9
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-124,51,30
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-127,19,9
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-130,6,4
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-18,59,35
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-219,16,8
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-227,18,11
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-25,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-28,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-3,6,2
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-330,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-4,53,30
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-430,8,2
+uruguay,2022,dpto + secc + segm (segmento censal),11-12-8,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),11-2-111,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),11-2-5,1,0
+uruguay,2022,dpto + secc + segm (segmento censal),11-2-8,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),11-3-104,24,12
+uruguay,2022,dpto + secc + segm (segmento censal),11-4-2,4,4
+uruguay,2022,dpto + secc + segm (segmento censal),11-5-101,31,16
+uruguay,2022,dpto + secc + segm (segmento censal),11-5-103,4,2
+uruguay,2022,dpto + secc + segm (segmento censal),11-5-104,20,12
+uruguay,2022,dpto + secc + segm (segmento censal),11-5-203,21,13
+uruguay,2022,dpto + secc + segm (segmento censal),11-5-204,34,19
+uruguay,2022,dpto + secc + segm (segmento censal),11-5-301,4,4
+uruguay,2022,dpto + secc + segm (segmento censal),11-5-6,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),11-6-1,9,4
+uruguay,2022,dpto + secc + segm (segmento censal),11-6-3,7,1
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-11,18,12
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-12,46,23
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-13,4,3
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-14,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-16,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-2,16,6
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-20,80,38
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-22,10,0
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-25,12,7
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-28,30,17
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-3,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),12-1-5,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),12-10-2,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),12-12-2,4,1
+uruguay,2022,dpto + secc + segm (segmento censal),12-2-301,20,14
+uruguay,2022,dpto + secc + segm (segmento censal),12-2-303,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),12-3-1,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),12-4-103,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),12-4-105,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),12-4-203,28,15
+uruguay,2022,dpto + secc + segm (segmento censal),12-4-205,26,18
+uruguay,2022,dpto + secc + segm (segmento censal),12-4-6,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),12-4-7,14,5
+uruguay,2022,dpto + secc + segm (segmento censal),12-4-8,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),12-4-9,3,1
+uruguay,2022,dpto + secc + segm (segmento censal),12-5-1,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),12-5-103,16,6
+uruguay,2022,dpto + secc + segm (segmento censal),12-5-4,2,0
+uruguay,2022,dpto + secc + segm (segmento censal),12-5-5,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),12-6-1,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),12-6-2,6,5
+uruguay,2022,dpto + secc + segm (segmento censal),12-8-1,26,8
+uruguay,2022,dpto + secc + segm (segmento censal),12-9-2,38,16
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-101,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-102,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-111,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-113,60,32
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-14,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-17,53,20
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-18,19,8
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-207,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-21,11,4
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-210,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-211,62,30
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-215,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-216,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-5,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),13-1-8,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),13-3-10,7,4
+uruguay,2022,dpto + secc + segm (segmento censal),13-3-101,17,8
+uruguay,2022,dpto + secc + segm (segmento censal),13-3-102,44,14
+uruguay,2022,dpto + secc + segm (segmento censal),13-3-108,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),13-3-202,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),13-3-203,17,8
+uruguay,2022,dpto + secc + segm (segmento censal),13-3-303,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),13-4-1,3,1
+uruguay,2022,dpto + secc + segm (segmento censal),13-5-2,51,21
+uruguay,2022,dpto + secc + segm (segmento censal),13-5-204,4,4
+uruguay,2022,dpto + secc + segm (segmento censal),13-6-202,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),13-6-4,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),13-6-6,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),13-7-103,6,2
+uruguay,2022,dpto + secc + segm (segmento censal),13-7-105,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),13-7-4,19,6
+uruguay,2022,dpto + secc + segm (segmento censal),13-8-1,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),13-8-102,20,7
+uruguay,2022,dpto + secc + segm (segmento censal),13-8-202,16,6
+uruguay,2022,dpto + secc + segm (segmento censal),13-8-304,7,0
+uruguay,2022,dpto + secc + segm (segmento censal),13-9-10,81,34
+uruguay,2022,dpto + secc + segm (segmento censal),13-9-101,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),13-9-107,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),13-9-108,11,5
+uruguay,2022,dpto + secc + segm (segmento censal),13-9-11,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),13-9-12,9,4
+uruguay,2022,dpto + secc + segm (segmento censal),13-9-205,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),13-9-208,11,5
+uruguay,2022,dpto + secc + segm (segmento censal),13-9-308,9,3
+uruguay,2022,dpto + secc + segm (segmento censal),13-9-9,3,1
+uruguay,2022,dpto + secc + segm (segmento censal),14-1-101,34,12
+uruguay,2022,dpto + secc + segm (segmento censal),14-1-112,31,18
+uruguay,2022,dpto + secc + segm (segmento censal),14-1-113,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),14-1-119,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),14-1-212,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),14-1-213,84,52
+uruguay,2022,dpto + secc + segm (segmento censal),14-1-216,4,2
+uruguay,2022,dpto + secc + segm (segmento censal),14-1-4,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),14-1-5,20,11
+uruguay,2022,dpto + secc + segm (segmento censal),14-1-7,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),14-10-1,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),14-10-102,7,2
+uruguay,2022,dpto + secc + segm (segmento censal),14-10-106,14,8
+uruguay,2022,dpto + secc + segm (segmento censal),14-10-202,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),14-10-209,37,17
+uruguay,2022,dpto + secc + segm (segmento censal),14-10-210,24,6
+uruguay,2022,dpto + secc + segm (segmento censal),14-10-306,6,4
+uruguay,2022,dpto + secc + segm (segmento censal),14-3-106,19,9
+uruguay,2022,dpto + secc + segm (segmento censal),14-3-109,4,1
+uruguay,2022,dpto + secc + segm (segmento censal),14-3-2,22,13
+uruguay,2022,dpto + secc + segm (segmento censal),14-3-209,18,13
+uruguay,2022,dpto + secc + segm (segmento censal),14-3-3,34,15
+uruguay,2022,dpto + secc + segm (segmento censal),14-3-305,4,2
+uruguay,2022,dpto + secc + segm (segmento censal),14-4-105,4,2
+uruguay,2022,dpto + secc + segm (segmento censal),14-4-107,12,6
+uruguay,2022,dpto + secc + segm (segmento censal),14-4-207,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),14-4-308,24,9
+uruguay,2022,dpto + secc + segm (segmento censal),14-4-4,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),14-5-103,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),14-5-108,22,11
+uruguay,2022,dpto + secc + segm (segmento censal),14-5-13,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),14-5-14,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),14-5-15,64,36
+uruguay,2022,dpto + secc + segm (segmento censal),14-5-16,9,3
+uruguay,2022,dpto + secc + segm (segmento censal),14-5-203,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),14-5-212,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),14-5-312,6,2
+uruguay,2022,dpto + secc + segm (segmento censal),14-5-7,44,19
+uruguay,2022,dpto + secc + segm (segmento censal),14-6-1,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),14-6-103,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),14-6-107,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),14-6-2,2,0
+uruguay,2022,dpto + secc + segm (segmento censal),14-6-6,1,1
+uruguay,2022,dpto + secc + segm (segmento censal),14-7-3,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),14-9-2,27,18
+uruguay,2022,dpto + secc + segm (segmento censal),14-9-3,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-110,12,7
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-13,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-139,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-15,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-19,68,33
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-2,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-21,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-210,2,1
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-30,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-32,6,5
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-33,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-5,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-7,49,34
+uruguay,2022,dpto + secc + segm (segmento censal),15-1-9,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),15-10-102,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),15-11-202,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-14,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-20,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-21,39,26
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-22,19,10
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-232,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-24,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-25,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-29,8,7
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-3,2,2
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-31,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-34,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-36,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-4,47,30
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-5,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-6,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),15-2-8,6,2
+uruguay,2022,dpto + secc + segm (segmento censal),15-3-1,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),15-3-104,9,4
+uruguay,2022,dpto + secc + segm (segmento censal),15-3-105,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),15-3-107,69,40
+uruguay,2022,dpto + secc + segm (segmento censal),15-3-11,9,1
+uruguay,2022,dpto + secc + segm (segmento censal),15-3-205,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),15-3-207,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),15-3-6,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),15-5-205,19,11
+uruguay,2022,dpto + secc + segm (segmento censal),15-6-102,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),15-6-105,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),15-6-4,7,6
+uruguay,2022,dpto + secc + segm (segmento censal),15-7-206,15,7
+uruguay,2022,dpto + secc + segm (segmento censal),15-7-303,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),15-8-202,29,15
+uruguay,2022,dpto + secc + segm (segmento censal),15-8-301,40,20
+uruguay,2022,dpto + secc + segm (segmento censal),15-8-302,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-121,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-16,46,25
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-17,31,12
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-19,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-20,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-221,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-28,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-30,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-32,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-5,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-6,31,16
+uruguay,2022,dpto + secc + segm (segmento censal),16-1-7,47,19
+uruguay,2022,dpto + secc + segm (segmento censal),16-2-103,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),16-2-104,48,16
+uruguay,2022,dpto + secc + segm (segmento censal),16-2-109,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),16-2-201,19,7
+uruguay,2022,dpto + secc + segm (segmento censal),16-3-101,10,0
+uruguay,2022,dpto + secc + segm (segmento censal),16-3-5,25,6
+uruguay,2022,dpto + secc + segm (segmento censal),16-5-501,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-1,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-102,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-115,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-117,20,10
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-120,36,13
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-206,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-207,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-217,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-218,77,40
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-22,100,61
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-24,20,2
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-306,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-311,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-314,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),16-6-4,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),16-7-104,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-11,7,2
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-12,20,8
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-14,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-140,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-21,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-236,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-24,77,38
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-25,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-27,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-28,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-32,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-35,30,12
+uruguay,2022,dpto + secc + segm (segmento censal),17-1-37,43,21
+uruguay,2022,dpto + secc + segm (segmento censal),17-11-102,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),17-11-302,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),17-12-101,3,1
+uruguay,2022,dpto + secc + segm (segmento censal),17-12-3,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),17-12-4,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),17-13-103,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),17-13-104,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),17-13-201,70,49
+uruguay,2022,dpto + secc + segm (segmento censal),17-13-5,15,8
+uruguay,2022,dpto + secc + segm (segmento censal),17-2-302,12,4
+uruguay,2022,dpto + secc + segm (segmento censal),17-3-112,7,1
+uruguay,2022,dpto + secc + segm (segmento censal),17-3-13,6,1
+uruguay,2022,dpto + secc + segm (segmento censal),17-3-2,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),17-3-201,14,7
+uruguay,2022,dpto + secc + segm (segmento censal),17-3-203,69,36
+uruguay,2022,dpto + secc + segm (segmento censal),17-3-204,3,0
+uruguay,2022,dpto + secc + segm (segmento censal),17-3-7,17,10
+uruguay,2022,dpto + secc + segm (segmento censal),17-3-9,7,2
+uruguay,2022,dpto + secc + segm (segmento censal),17-4-1,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),17-5-101,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),17-5-2,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-121,6,1
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-13,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-17,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-2,2,2
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-20,66,32
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-215,63,35
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-221,20,9
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-226,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-23,16,8
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-24,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-25,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-427,4,2
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-6,40,23
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-7,26,14
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-8,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),18-1-9,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),18-10-10,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),18-10-101,14,5
+uruguay,2022,dpto + secc + segm (segmento censal),18-10-113,11,4
+uruguay,2022,dpto + secc + segm (segmento censal),18-10-12,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),18-10-5,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),18-10-7,52,22
+uruguay,2022,dpto + secc + segm (segmento censal),18-10-8,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),18-11-1,2,1
+uruguay,2022,dpto + secc + segm (segmento censal),18-11-5,7,4
+uruguay,2022,dpto + secc + segm (segmento censal),18-12-103,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),18-12-203,9,4
+uruguay,2022,dpto + secc + segm (segmento censal),18-13-102,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),18-14-101,2,1
+uruguay,2022,dpto + secc + segm (segmento censal),18-14-102,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),18-14-201,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),18-2-6,10,1
+uruguay,2022,dpto + secc + segm (segmento censal),18-2-7,19,4
+uruguay,2022,dpto + secc + segm (segmento censal),18-2-9,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),18-6-1,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),18-6-504,4,1
+uruguay,2022,dpto + secc + segm (segmento censal),18-7-101,44,21
+uruguay,2022,dpto + secc + segm (segmento censal),18-7-201,50,27
+uruguay,2022,dpto + secc + segm (segmento censal),18-8-1,10,0
+uruguay,2022,dpto + secc + segm (segmento censal),19-1-10,50,28
+uruguay,2022,dpto + secc + segm (segmento censal),19-1-11,6,5
+uruguay,2022,dpto + secc + segm (segmento censal),19-1-116,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),19-1-120,50,24
+uruguay,2022,dpto + secc + segm (segmento censal),19-1-121,51,27
+uruguay,2022,dpto + secc + segm (segmento censal),19-1-124,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),19-1-221,2,2
+uruguay,2022,dpto + secc + segm (segmento censal),19-1-321,12,7
+uruguay,2022,dpto + secc + segm (segmento censal),19-1-421,25,15
+uruguay,2022,dpto + secc + segm (segmento censal),19-1-7,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),19-1-9,28,13
+uruguay,2022,dpto + secc + segm (segmento censal),19-2-102,6,1
+uruguay,2022,dpto + secc + segm (segmento censal),19-3-104,29,15
+uruguay,2022,dpto + secc + segm (segmento censal),19-3-2,25,10
+uruguay,2022,dpto + secc + segm (segmento censal),19-3-404,10,1
+uruguay,2022,dpto + secc + segm (segmento censal),19-3-504,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),19-4-102,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),19-4-3,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),19-5-5,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),19-6-1,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),19-6-3,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),19-6-5,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),19-6-6,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),19-7-4,10,1
+uruguay,2022,dpto + secc + segm (segmento censal),19-8-2,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),19-8-201,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),19-8-5,4,1
+uruguay,2022,dpto + secc + segm (segmento censal),19-9-101,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),19-9-102,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),19-9-104,10,1
+uruguay,2022,dpto + secc + segm (segmento censal),19-9-201,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),2-1-121,52,32
+uruguay,2022,dpto + secc + segm (segmento censal),2-1-127,50,18
+uruguay,2022,dpto + secc + segm (segmento censal),2-1-128,7,5
+uruguay,2022,dpto + secc + segm (segmento censal),2-1-18,12,6
+uruguay,2022,dpto + secc + segm (segmento censal),2-1-219,11,4
+uruguay,2022,dpto + secc + segm (segmento censal),2-1-228,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),2-1-26,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),2-1-3,57,38
+uruguay,2022,dpto + secc + segm (segmento censal),2-1-4,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),2-1-6,12,7
+uruguay,2022,dpto + secc + segm (segmento censal),2-1-8,9,3
+uruguay,2022,dpto + secc + segm (segmento censal),2-3-101,7,2
+uruguay,2022,dpto + secc + segm (segmento censal),2-3-2,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),2-4-2,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),2-7-104,36,20
+uruguay,2022,dpto + secc + segm (segmento censal),2-7-13,39,27
+uruguay,2022,dpto + secc + segm (segmento censal),2-7-204,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),2-7-205,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),2-7-206,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),2-7-305,9,9
+uruguay,2022,dpto + secc + segm (segmento censal),2-7-309,4,2
+uruguay,2022,dpto + secc + segm (segmento censal),2-7-8,83,59
+uruguay,2022,dpto + secc + segm (segmento censal),2-8-2,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),2-8-9,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-1-102,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-1-201,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-1-203,72,42
+uruguay,2022,dpto + secc + segm (segmento censal),3-1-214,11,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-1-22,20,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-1-23,15,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-1-6,19,12
+uruguay,2022,dpto + secc + segm (segmento censal),3-1-8,1,0
+uruguay,2022,dpto + secc + segm (segmento censal),3-10-10,10,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-10-13,6,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-10-206,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-10-4,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-11-1,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-12-1,11,9
+uruguay,2022,dpto + secc + segm (segmento censal),3-12-4,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-12-5,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-12-6,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-12-8,17,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-13-10,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-13-106,13,8
+uruguay,2022,dpto + secc + segm (segmento censal),3-13-7,6,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-14-104,36,15
+uruguay,2022,dpto + secc + segm (segmento censal),3-14-209,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-14-5,1,0
+uruguay,2022,dpto + secc + segm (segmento censal),3-14-8,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),3-15-2,2,2
+uruguay,2022,dpto + secc + segm (segmento censal),3-15-5,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-1,63,27
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-108,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-113,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-114,7,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-115,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-123,61,32
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-2,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-207,64,28
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-208,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-215,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-308,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),3-16-6,7,2
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-146,11,8
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-150,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-168,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-170,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-171,29,13
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-176,4,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-182,21,13
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-24,19,11
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-270,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-276,9,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-282,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-344,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-51,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-52,31,16
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-53,39,20
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-648,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-17-845,2,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-2-119,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-2-12,70,49
+uruguay,2022,dpto + secc + segm (segmento censal),3-2-16,8,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-2-2,2,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-2-21,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-2-210,31,24
+uruguay,2022,dpto + secc + segm (segmento censal),3-2-6,19,15
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-111,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-115,62,38
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-13,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-2,20,16
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-211,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-215,11,8
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-3,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-312,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-81,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-87,20,12
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-95,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),3-27-97,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-3-1,67,42
+uruguay,2022,dpto + secc + segm (segmento censal),3-3-111,11,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-3-2,12,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-3-4,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-3-6,6,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-117,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-118,70,43
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-125,70,37
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-126,21,14
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-127,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-129,18,10
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-132,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-135,2,2
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-136,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-141,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-143,12,8
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-184,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-185,7,2
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-190,62,35
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-191,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-192,3,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-193,7,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-218,9,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-220,9,2
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-226,3,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-228,70,36
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-233,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-235,14,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-241,9,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-243,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-283,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-285,7,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-31,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-317,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-336,66,36
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-338,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-340,16,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-343,67,37
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-386,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-388,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-390,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-391,20,8
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-417,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-419,40,30
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-429,73,49
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-440,11,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-441,14,10
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-443,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-474,18,12
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-517,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-526,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-542,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-642,3,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-37-774,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-1,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-10,81,54
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-131,8,7
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-138,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-14,66,41
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-145,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-159,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-18,13,9
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-19,18,14
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-23,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-234,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-238,1,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-24,39,25
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-245,58,44
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-259,6,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-26,23,14
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-29,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-33,9,8
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-342,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-37,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-39,73,37
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-51,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-53,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-56,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-58,5,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-8,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),3-4-9,11,8
+uruguay,2022,dpto + secc + segm (segmento censal),3-5-11,7,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-5-116,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-5-14,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-5-17,18,9
+uruguay,2022,dpto + secc + segm (segmento censal),3-5-212,59,39
+uruguay,2022,dpto + secc + segm (segmento censal),3-5-216,27,17
+uruguay,2022,dpto + secc + segm (segmento censal),3-5-3,2,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-5-5,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),3-5-6,21,14
+uruguay,2022,dpto + secc + segm (segmento censal),3-6-10,11,9
+uruguay,2022,dpto + secc + segm (segmento censal),3-6-108,8,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-6-123,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),3-6-13,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-6-16,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-6-20,6,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-6-223,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-6-7,71,41
+uruguay,2022,dpto + secc + segm (segmento censal),3-8-120,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-8-121,30,13
+uruguay,2022,dpto + secc + segm (segmento censal),3-8-122,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-8-123,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),3-8-222,2,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-8-52,11,2
+uruguay,2022,dpto + secc + segm (segmento censal),3-8-53,20,5
+uruguay,2022,dpto + secc + segm (segmento censal),3-8-55,13,4
+uruguay,2022,dpto + secc + segm (segmento censal),3-8-7,19,12
+uruguay,2022,dpto + secc + segm (segmento censal),3-9-105,70,30
+uruguay,2022,dpto + secc + segm (segmento censal),3-9-205,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),3-9-7,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-1,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-10,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-11,16,14
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-12,35,25
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-129,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-130,11,7
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-132,65,46
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-134,2,2
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-137,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-14,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-16,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-2,10,10
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-215,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-22,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-23,6,4
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-232,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-234,14,9
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-25,55,39
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-27,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-28,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-432,33,26
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-8,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),4-1-9,9,8
+uruguay,2022,dpto + secc + segm (segmento censal),4-11-1,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),4-2-101,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),4-2-5,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),4-3-102,13,6
+uruguay,2022,dpto + secc + segm (segmento censal),4-3-106,8,7
+uruguay,2022,dpto + secc + segm (segmento censal),4-3-201,25,18
+uruguay,2022,dpto + secc + segm (segmento censal),4-3-207,13,10
+uruguay,2022,dpto + secc + segm (segmento censal),4-3-210,2,1
+uruguay,2022,dpto + secc + segm (segmento censal),4-3-307,55,37
+uruguay,2022,dpto + secc + segm (segmento censal),4-3-410,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),4-3-9,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),4-5-102,13,10
+uruguay,2022,dpto + secc + segm (segmento censal),4-5-205,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),4-6-103,41,26
+uruguay,2022,dpto + secc + segm (segmento censal),4-6-203,18,13
+uruguay,2022,dpto + secc + segm (segmento censal),4-7-5,18,10
+uruguay,2022,dpto + secc + segm (segmento censal),4-7-6,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),4-7-8,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),4-8-3,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),4-9-3,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),4-9-7,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),5-1-106,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),5-1-107,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),5-1-109,63,39
+uruguay,2022,dpto + secc + segm (segmento censal),5-1-208,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),5-1-209,16,8
+uruguay,2022,dpto + secc + segm (segmento censal),5-1-309,76,40
+uruguay,2022,dpto + secc + segm (segmento censal),5-1-4,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),5-1-5,20,12
+uruguay,2022,dpto + secc + segm (segmento censal),5-10-104,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),5-10-2,19,13
+uruguay,2022,dpto + secc + segm (segmento censal),5-10-206,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),5-10-208,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),5-10-3,1,1
+uruguay,2022,dpto + secc + segm (segmento censal),5-11-101,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),5-11-201,71,23
+uruguay,2022,dpto + secc + segm (segmento censal),5-12-102,4,3
+uruguay,2022,dpto + secc + segm (segmento censal),5-13-204,10,10
+uruguay,2022,dpto + secc + segm (segmento censal),5-13-5,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),5-14-101,7,6
+uruguay,2022,dpto + secc + segm (segmento censal),5-14-106,41,25
+uruguay,2022,dpto + secc + segm (segmento censal),5-14-107,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),5-14-203,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),5-14-206,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),5-14-208,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),5-14-4,3,3
+uruguay,2022,dpto + secc + segm (segmento censal),5-14-5,8,7
+uruguay,2022,dpto + secc + segm (segmento censal),5-2-2,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),5-2-4,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),5-3-113,15,1
+uruguay,2022,dpto + secc + segm (segmento censal),5-3-2,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),5-3-207,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),5-3-210,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),5-3-4,45,29
+uruguay,2022,dpto + secc + segm (segmento censal),5-3-5,15,9
+uruguay,2022,dpto + secc + segm (segmento censal),5-3-6,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),5-4-101,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),5-4-103,8,1
+uruguay,2022,dpto + secc + segm (segmento censal),5-4-6,15,1
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-1,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-111,9,8
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-112,10,1
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-113,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-115,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-16,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-210,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-211,4,3
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-213,46,24
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-3,8,2
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-4,9,3
+uruguay,2022,dpto + secc + segm (segmento censal),5-6-8,53,27
+uruguay,2022,dpto + secc + segm (segmento censal),5-8-101,11,8
+uruguay,2022,dpto + secc + segm (segmento censal),5-8-203,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),5-8-302,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),5-8-306,2,1
+uruguay,2022,dpto + secc + segm (segmento censal),5-8-401,6,5
+uruguay,2022,dpto + secc + segm (segmento censal),6-1-10,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),6-1-126,20,14
+uruguay,2022,dpto + secc + segm (segmento censal),6-1-18,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),6-1-19,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),6-1-226,68,43
+uruguay,2022,dpto + secc + segm (segmento censal),6-1-230,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),6-1-29,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),6-1-4,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),6-1-6,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),6-1-7,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),6-1-9,66,38
+uruguay,2022,dpto + secc + segm (segmento censal),6-10-4,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),6-10-7,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),6-10-8,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),6-10-9,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),6-11-2,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),6-2-108,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),6-4-11,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),6-4-2,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),6-4-3,40,25
+uruguay,2022,dpto + secc + segm (segmento censal),6-4-4,30,17
+uruguay,2022,dpto + secc + segm (segmento censal),6-6-3,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),6-6-4,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),6-7-101,10,10
+uruguay,2022,dpto + secc + segm (segmento censal),6-7-4,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),6-7-8,5,4
+uruguay,2022,dpto + secc + segm (segmento censal),6-7-9,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),6-8-101,15,8
+uruguay,2022,dpto + secc + segm (segmento censal),6-9-12,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),6-9-13,10,8
+uruguay,2022,dpto + secc + segm (segmento censal),6-9-14,29,17
+uruguay,2022,dpto + secc + segm (segmento censal),6-9-15,48,34
+uruguay,2022,dpto + secc + segm (segmento censal),6-9-17,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),6-9-4,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),6-9-8,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-1,11,2
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-11,9,6
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-12,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-121,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-14,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-17,78,40
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-2,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-221,37,19
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-225,30,14
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-27,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-6,9,3
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-8,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),7-1-9,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),7-4-201,45,34
+uruguay,2022,dpto + secc + segm (segmento censal),7-4-203,10,1
+uruguay,2022,dpto + secc + segm (segmento censal),7-5-101,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),7-5-2,10,0
+uruguay,2022,dpto + secc + segm (segmento censal),7-6-1,5,0
+uruguay,2022,dpto + secc + segm (segmento censal),8-1-13,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),8-1-15,10,9
+uruguay,2022,dpto + secc + segm (segmento censal),8-1-24,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),8-1-26,100,68
+uruguay,2022,dpto + secc + segm (segmento censal),8-1-28,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),8-1-4,20,11
+uruguay,2022,dpto + secc + segm (segmento censal),8-1-5,70,42
+uruguay,2022,dpto + secc + segm (segmento censal),8-1-8,10,6
+uruguay,2022,dpto + secc + segm (segmento censal),8-10-2,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),8-10-208,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),8-10-3,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),8-10-5,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),8-10-6,84,53
+uruguay,2022,dpto + secc + segm (segmento censal),8-12-2,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),8-12-201,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),8-12-3,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),8-12-6,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),8-12-7,20,12
+uruguay,2022,dpto + secc + segm (segmento censal),8-13-206,20,5
+uruguay,2022,dpto + secc + segm (segmento censal),8-2-15,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),8-2-17,6,3
+uruguay,2022,dpto + secc + segm (segmento censal),8-2-2,20,12
+uruguay,2022,dpto + secc + segm (segmento censal),8-2-3,39,24
+uruguay,2022,dpto + secc + segm (segmento censal),8-2-4,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),8-4-1,10,5
+uruguay,2022,dpto + secc + segm (segmento censal),8-5-203,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),8-5-4,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),8-7-101,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),8-7-304,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-1,1,0
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-11,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-119,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-120,11,9
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-121,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-122,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-126,7,5
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-14,8,5
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-16,20,10
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-215,63,42
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-221,2,1
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-25,60,36
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-27,4,2
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-5,10,7
+uruguay,2022,dpto + secc + segm (segmento censal),9-1-6,9,5
+uruguay,2022,dpto + secc + segm (segmento censal),9-10-101,10,3
+uruguay,2022,dpto + secc + segm (segmento censal),9-10-102,10,4
+uruguay,2022,dpto + secc + segm (segmento censal),9-10-201,13,7
+uruguay,2022,dpto + secc + segm (segmento censal),9-10-3,86,42
+uruguay,2022,dpto + secc + segm (segmento censal),9-11-101,18,9
+uruguay,2022,dpto + secc + segm (segmento censal),9-11-201,13,7
+uruguay,2022,dpto + secc + segm (segmento censal),9-11-4,5,3
+uruguay,2022,dpto + secc + segm (segmento censal),9-12-101,3,1
+uruguay,2022,dpto + secc + segm (segmento censal),9-12-301,7,5
+uruguay,2022,dpto + secc + segm (segmento censal),9-13-103,3,0
+uruguay,2022,dpto + secc + segm (segmento censal),9-13-203,8,6
+uruguay,2022,dpto + secc + segm (segmento censal),9-2-1,8,7
+uruguay,2022,dpto + secc + segm (segmento censal),9-2-2,9,9
+uruguay,2022,dpto + secc + segm (segmento censal),9-2-203,7,4
+uruguay,2022,dpto + secc + segm (segmento censal),9-2-204,8,2
+uruguay,2022,dpto + secc + segm (segmento censal),9-5-101,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),9-5-201,7,3
+uruguay,2022,dpto + secc + segm (segmento censal),9-6-1,5,2
+uruguay,2022,dpto + secc + segm (segmento censal),9-6-3,10,2
+uruguay,2022,dpto + secc + segm (segmento censal),9-6-4,6,1
+uruguay,2022,dpto + secc + segm (segmento censal),9-7-1,8,4
+uruguay,2022,dpto + secc + segm (segmento censal),9-7-2,5,1
+uruguay,2022,dpto + secc + segm (segmento censal),9-8-205,4,2
+uruguay,2022,dpto + secc + segm (segmento censal),9-8-3,3,1
+uruguay,2022,dpto + secc + segm (segmento censal),9-9-1,9,7
+uruguay,2022,dpto + secc + segm (segmento censal),9-9-2,24,16

@@ -1,0 +1,16 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i1",
+      "quotes": [
+        {
+          "text": "This is because the HOH is defined to be the male in a couple or where more than one person has equal claim to be HOH and they are of opposite sex.",
+          "document": "lfsugvoltcm77238281.pdf",
+          "location": "SECTION 4 - HOUSEHOLD MATRIX IMPROVEMENTS, HOUSEHOLD REFERENCE PERSON, page 9"
+        }
+      ],
+      "reasoning": "The provided methodological report lfsugvoltcm77238281.pdf explicitly states the conceptual definition used for the Head of Household (HOH) on page 9, establishing that the HOH is defined as the male in a couple or where more than one person has an equal claim to be HOH and they are of opposite sex.",
+      "extracted_text": "the HOH is defined to be the male in a couple or where more than one person has equal claim to be HOH and they are of opposite sex."
+    }
+  ]
+}

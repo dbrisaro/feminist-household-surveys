@@ -1,0 +1,42 @@
+{
+  "assessments": [
+    {
+      "indicator_id": "d4_i5",
+      "quotes": [
+        {
+          "text": "5. De las personas relacionadas anteriormente, ¿alguna de ellas es su (Codificar 00 si no tiene o no reside en la vivienda) - conyuge o pareja? En tal caso, dígame su nombre: _______________________ NCONY - padre? En tal caso, dígame su nombre: _________________________________ NPADRE - madre? En tal caso , dígame su nombre: _________________________________ NMADRE",
+          "document": "epacues21.pdf",
+          "location": "Section A, Question 5, p. 8"
+        },
+        {
+          "text": "¿Cuál es su relación con la persona de referencia? RELPP 1. Persona de referencia (p.r.) 2. Cónyuge o pareja de la p.r. 3. Hijo/a, hijastro/a (de la p.r. o de su pareja) 4. Yerno, nuera de la p.r. o de su pareja (o pareja del hijo/a, hijastro/a) 5. Padre, madre de la p.r. o de su pareja (padrastro/madrastra) 6. Nieto/a, de la p.r. o de su pareja (incluye nietastros/as de ambos) 7. Abuelo/a de la p.r. o de su pareja (o pareja del mismo) 8. Suegro/a de la p.r. o pareja del mismo (abuelastro/a de la p.r.) 9. Hermano/a, hermanastro/a de la p.r. 10. Otro pariente de la p.r. (o pareja del mismo) 11. Persona del servicio doméstico 12. Sin parentesco con la p.r.",
+          "document": "epacues21.pdf",
+          "location": "Section HG, RELPP, p. 7"
+        },
+        {
+          "text": "HG1. Si INFORM1=1 ¿Todas las personas de la vivienda forman un mismo hogar, en el sentido de que comparten presupuesto de manutención con usted, independientemente de los gastos fijos de vivienda, como la luz, el agua, la comunidad, etc.?",
+          "document": "epacues21.pdf",
+          "location": "Section HG, Question HG1, p. 7"
+        },
+        {
+          "text": "Desde 2021 se utiliza como definición de hogar en todas las encuestas de la población el criterio de residencia y el de compartir un presupuesto común entre sus miembros. En el caso de que en una misma vivienda familiar haya más de un hogar se encuestan todos ellos.",
+          "document": "resumetepa21.pdf",
+          "location": "Section 6, p. 6"
+        },
+        {
+          "text": "- Responsabilidades de cuidado de hijos u otros familiares",
+          "document": "epacues21.pdf",
+          "location": "Section C, Question PARCO2, p. 12"
+        }
+      ],
+      "reasoning": "The survey records member-to-member relationships using explicit pointer variables for spouse/partner (NCONY), father (NPADRE), and mother (NMADRE) for each household member in Question 5, satisfying member_to_member_relationships. Extended ties beyond spouse and parent-child (such as grandparents, grandchildren, in-laws, siblings, domestic service, and non-kin) are captured in RELPP, satisfying extended_ties. Criteria for separating multiple households residing in a single dwelling based on sharing a common maintenance budget are explicitly defined in questions HG1–HG4 and methodology notes, satisfying multiple_household_criteria. Sub-units (secondary family nuclei) within a larger household can be identified through the combination of pointer variables (mother, father, partner IDs) for all household members, satisfying sub_units. However, while reasons for part-time work or inactivity include care responsibilities for children or other relatives, the instrument does not record specific caregiving relationships identifying who cares for whom within or across households, so caregiving_relationships is false.",
+      "elements": {
+        "caregiving_relationships": false,
+        "extended_ties": true,
+        "member_to_member_relationships": true,
+        "multiple_household_criteria": true,
+        "sub_units": true
+      }
+    }
+  ]
+}
