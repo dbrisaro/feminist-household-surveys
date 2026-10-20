@@ -24,7 +24,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 sys.path.insert(0, str(ROOT / "scripts" / "llm"))
 from final_run_comparable_sample import local, sav  # noqa: E402
-from final_run_figures import (AXIS, GRID, INK, INK_2, MUTED, PAPER_REGION, PNG_DPI,  # noqa: E402
+from final_run_figures import (AXIS, GRID, INK, INK_2, MUTED, PNG_DPI,  # noqa: E402
                                TEXT, cap, load, region)
 
 RAW = ROOT / "data" / "raw"
@@ -47,6 +47,9 @@ UNIT_NAME = {  # (es, en)
 NOTES: dict = {}
 CASES = 60  # INE Chile's publication threshold in sample cases, from its documentation, drawn in every panel
 WHITE = "#ffffff"
+# Figure 1 colours: saturated, with a lightness gap that survives greyscale (blended at DOT_ALPHA on white, L* 55 vs 73).
+FIG1_REGION = {"latam": "#9e3418", "europe": "#3aaa58"}
+DOT_ALPHA = 0.7
 
 
 def heads(c, year=False):
@@ -169,20 +172,21 @@ def fig_heads_panels(D, T, lang, fh, out):
     fig, axes = plt.subplots(len(cs), 1, figsize=(8.6, 0.62 * len(cs) + 0.9), sharex=True, facecolor=WHITE)
     for ax, c in zip(axes, cs):
         v = fh[c][0]["female_heads"].to_numpy()
-        col = PAPER_REGION[region(c)]
+        col = FIG1_REGION[region(c)]
         ax.set_facecolor(WHITE)
         pos = v[v > 0]
-        ax.scatter(pos, rng.uniform(-0.3, 0.3, len(pos)), s=8, color=col, alpha=0.45, linewidth=0, zorder=3)
+        ax.scatter(pos, rng.uniform(-0.3, 0.3, len(pos)), s=8, color=col, alpha=DOT_ALPHA, linewidth=0, zorder=3)
         q1, med, q3 = np.percentile(v, [25, 50, 75])
         ax.add_patch(plt.Rectangle((q1, -0.38), q3 - q1, 0.76, facecolor="none", edgecolor=INK, linewidth=1, zorder=4))
         ax.plot([med, med], [-0.38, 0.38], color=INK, linewidth=1.8, zorder=5)
         ax.axvline(CASES, color=INK_2, linewidth=1, linestyle=(0, (2, 2)), zorder=2)
         zero = int((v == 0).sum())
-        note = f"{num(len(v))} {L['units']}" + (f" · {num(zero)} {L['zero']}" if zero else "")
+        # Two lines, so the label column is narrower and the plot area wider.
+        note = f"{num(len(v))} {L['units']}" + (f"\n{num(zero)} {L['zero']}" if zero else "")
         ax.text(1.01, 0, note, transform=ax.get_yaxis_transform(), va="center", ha="left", fontsize=7, color=MUTED)
         ax.set_ylim(-0.5, 0.5)
         ax.set_yticks([0])
-        ax.set_yticklabels([f"{T['country'][c]} ({UNIT_NAME[c][k]})"], fontsize=8, color=INK_2)
+        ax.set_yticklabels([f"{T['country'][c]}\n({UNIT_NAME[c][k]})"], fontsize=8, color=INK_2)
         ax.tick_params(axis="y", length=0)
         ax.tick_params(axis="x", which="both", labelsize=7.5, length=0)
         ax.xaxis.grid(True, color=GRID, linewidth=0.8, which="major")
@@ -196,7 +200,7 @@ def fig_heads_panels(D, T, lang, fh, out):
     ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: num(x)))
     ax.set_xlabel(cap(L["fh_axis"]), fontsize=8.5)
     fig.subplots_adjust(hspace=0.25)
-    h = [Patch(facecolor=PAPER_REGION[r], label=T["region"][r]) for r in ("latam", "europe")]
+    h = [Patch(facecolor=FIG1_REGION[r], alpha=DOT_ALPHA, label=T["region"][r]) for r in ("latam", "europe")]
     h += [Patch(facecolor="none", edgecolor=INK, linewidth=1, label=cap(L["iqr"])),
           Line2D([], [], color=INK, linewidth=1.8, label=cap(L["median"])),
           Line2D([], [], color=INK_2, linewidth=1, linestyle=(0, (2, 2)), label=L["cases60"])]
