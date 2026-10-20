@@ -159,10 +159,12 @@ COUNTRIES: dict[str, dict] = {
             "C": "the Mikrozensus Fragebogen is served from erhebungsportal."
                  "estatistik.de, which is JS-rendered.",
             "G": "not published.",
-            "microdata": "MZ microdata 2016–2024 is released only through the "
-                         "FDZ Safe Centre or Remote Execution, which require "
-                         "German institutional affiliation. No SUF or Campus "
-                         "File exists for these years.",
+            "microdata": "MZ microdata 2016–2023 is released as a Scientific "
+                         "Use File only to scientific institutions based in "
+                         "the EU, under contract and for a fee; other eligible "
+                         "institutions get guest workstations or controlled "
+                         "remote processing only. No Public Use or Campus File "
+                         "exists for these years.",
         },
     },
 
