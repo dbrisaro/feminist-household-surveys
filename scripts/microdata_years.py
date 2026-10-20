@@ -28,9 +28,9 @@ Two counting traps, both live here:
     file. YEAR_RE requires a delimiter after the four digits, so `20250822`
     cannot match while `_2016_` can.
   * Eurostat PUFs are the harmonised EU LFS, not the national instrument, so
-    they are recorded under a separate key. Germany has no national microdata at
-    all (FDZ Safe Centre only) and would otherwise look covered for 2013 on the
-    strength of a different survey.
+    they are recorded under a separate key. Germany holds no national microdata
+    (the Mikrozensus SUF goes only to EU-based institutions) and would otherwise
+    look covered for 2013 on the strength of a different survey.
 """
 
 from __future__ import annotations
